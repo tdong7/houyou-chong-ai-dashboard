@@ -215,6 +215,53 @@ function getFullChartUrl(stock) {
   return `https://www.tradingview.com/symbols/${stock.exchange}-${stock.symbol}/?timeframe=1M&tvwidgetsymbol=${widgetSymbol}`;
 }
 
+function createMetric(label, value, tone = "") {
+  return `
+    <div class="metric ${tone}">
+      <dt>${label}</dt>
+      <dd>${value}</dd>
+    </div>
+  `;
+}
+
+function renderStockInsights(stock) {
+  return `
+    <section class="insights" aria-label="${stock.symbol} fundamentals snapshot">
+      <div class="insight-section">
+        <h3>Upcoming earnings</h3>
+        <dl class="metric-grid compact">
+          ${createMetric("Next report date", "Open Full chart")}
+          ${createMetric("Report period", "Latest quarter")}
+          ${createMetric("EPS estimate", "TradingView")}
+          ${createMetric("Revenue estimate", "TradingView")}
+        </dl>
+      </div>
+      <div class="insight-section">
+        <h3>Key stats</h3>
+        <dl class="metric-grid">
+          ${createMetric("Market capitalization", "Full chart")}
+          ${createMetric("Dividend yield (indicated)", "Full chart")}
+          ${createMetric("Price to earnings Ratio (TTM)", "Full chart")}
+          ${createMetric("Basic EPS (TTM)", "Full chart")}
+          ${createMetric("YTD momentum", formatPercent(stock.ytd), "positive")}
+          ${createMetric("Shares float", "Full chart")}
+          ${createMetric("Beta (1Y)", "Full chart")}
+          ${createMetric("AI signal", stock.theme)}
+        </dl>
+      </div>
+      <div class="insight-section">
+        <h3>Employees</h3>
+        <dl class="metric-grid compact">
+          ${createMetric("Employees (FY)", "Full chart")}
+          ${createMetric("Change (1Y)", "Full chart")}
+          ${createMetric("Revenue / Employee (1Y)", "Full chart")}
+          ${createMetric("Net income / Employee (1Y)", "Full chart")}
+        </dl>
+      </div>
+    </section>
+  `;
+}
+
 function createTradingViewWidget(container, stock) {
   container.innerHTML = "";
   const chartPanel = document.createElement("div");
@@ -229,7 +276,10 @@ function createTradingViewWidget(container, stock) {
       <span>News</span>
       <span>Technicals</span>
     </div>
-    <a href="${getFullChartUrl(stock)}" target="_blank" rel="noopener noreferrer">Full chart</a>
+    <div class="chart-actions">
+      <span>Hover for price + %</span>
+      <a href="${getFullChartUrl(stock)}" target="_blank" rel="noopener noreferrer">Full chart</a>
+    </div>
   `;
 
   const chartBox = document.createElement("div");
@@ -284,6 +334,7 @@ function createTradingViewWidget(container, stock) {
 
   chartBox.append(widget, copyright, script);
   chartPanel.append(chartTop, chartBox);
+  chartPanel.insertAdjacentHTML("beforeend", renderStockInsights(stock));
   container.append(chartPanel);
 }
 
