@@ -27,6 +27,25 @@ const sortSelect = document.querySelector("#sort-select");
 const themeButtons = document.querySelectorAll("[data-theme]");
 
 let activeTheme = "all";
+const activeRanges = new Map();
+
+const exchangeOverrides = {
+  AEVA: "NYSE",
+  MYO: "NYSEAMERICAN",
+  OUST: "NYSE",
+  SMR: "NYSE",
+};
+
+const timeRanges = [
+  { key: "1D", label: "1D", name: "1 day", points: 34, axis: ["09:30", "12:00", "16:00"], tradingView: "1D" },
+  { key: "5D", label: "5D", name: "5 days", points: 44, axis: ["Mon", "Wed", "Fri"], tradingView: "5D" },
+  { key: "1M", label: "1M", name: "1 month", points: 58, axis: ["May", "Mid", "Jun"], tradingView: "1M" },
+  { key: "6M", label: "6M", name: "6 months", points: 64, axis: ["Jan", "Mar", "Jun"], tradingView: "6M" },
+  { key: "YTD", label: "YTD", name: "Year to date", points: 72, axis: ["Jan", "Mar", "Jun"], tradingView: "YTD" },
+  { key: "1Y", label: "1Y", name: "1 year", points: 78, axis: ["Jul", "Jan", "Jun"], tradingView: "1Y" },
+  { key: "5Y", label: "5Y", name: "5 years", points: 88, axis: ["2022", "2024", "2026"], tradingView: "5Y" },
+  { key: "ALL", label: "ALL", name: "All time", points: 96, axis: ["IPO", "2024", "Now"], tradingView: "ALL" },
+];
 
 const timeFormatter = new Intl.DateTimeFormat(undefined, {
   year: "numeric",
@@ -48,6 +67,10 @@ function formatPercent(value) {
   return `${value.toLocaleString(undefined, { maximumFractionDigits: 1 })}%`;
 }
 
+function formatSignedPercent(value) {
+  return `${value >= 0 ? "+" : ""}${formatPercent(value)}`;
+}
+
 function formatPrice(value) {
   return `$${value.toLocaleString(undefined, { minimumFractionDigits: 2, maximumFractionDigits: 2 })}`;
 }
@@ -66,22 +89,64 @@ function seededNoise(seed) {
   };
 }
 
-function makeSeries(stock) {
-  const random = seededNoise(stock.symbol.split("").reduce((sum, char) => sum + char.charCodeAt(0), 0) * 97);
-  const count = 58;
-  const slope = Math.min(stock.ytd / 460, 6.8);
-  let current = 24 + random() * 12;
+function getRange(key) {
+  return timeRanges.find((range) => range.key === key) || timeRanges[2];
+}
+
+function getStockRangeKey(stock) {
+  return activeRanges.get(stock.symbol) || "1M";
+}
+
+function rangeChange(stock, key) {
+  const rankDrift = (21 - stock.rank) / 22;
+  const dailyPulse = ((stock.symbol.charCodeAt(0) + stock.rank) % 7) - 3;
+  const values = {
+    "1D": stock.m1 * 0.08 + dailyPulse * 0.34,
+    "5D": stock.m1 * 0.26 + dailyPulse * 0.72,
+    "1M": stock.m1,
+    "6M": Math.max(stock.m3 * 1.42, stock.ytd * 0.34),
+    YTD: stock.ytd,
+    "1Y": stock.ytd * 1.18 + stock.m3 * 0.36,
+    "5Y": stock.ytd * 2.04 + stock.score * 2.6 + rankDrift * 70,
+    ALL: stock.ytd * 2.74 + stock.score * 5.5 + rankDrift * 120,
+  };
+
+  return values[key] ?? stock.m1;
+}
+
+function tradingviewSymbolUrl(stock, key) {
+  const exchange = exchangeOverrides[stock.symbol] || "NASDAQ";
+  const range = getRange(key);
+  const symbolPath = `${exchange}-${stock.symbol}`;
+  const widgetSymbol = encodeURIComponent(`${exchange}:${stock.symbol}`);
+  return `https://www.tradingview.com/symbols/${symbolPath}/?timeframe=${range.tradingView}&tvwidgetsymbol=${widgetSymbol}`;
+}
+
+function makeSeries(stock, key) {
+  const range = getRange(key);
+  const seed = `${stock.symbol}${range.key}`.split("").reduce((sum, char) => sum + char.charCodeAt(0), 0) * 97;
+  const random = seededNoise(seed);
+  const count = range.points;
+  const change = rangeChange(stock, range.key);
+  const start = 100;
+  const end = Math.max(5, start * (1 + change / 100));
   const values = [];
 
   for (let index = 0; index < count; index += 1) {
-    const wave = Math.sin(index / 4.3) * 1.5 + Math.cos(index / 7.2) * 1.1;
-    const shock = (random() - 0.42) * (3.1 + slope * 0.28);
-    current += slope * 0.18 + wave * 0.12 + shock;
+    const progress = index / (count - 1);
+    const trend = start + (end - start) * progress;
+    const volatility = Math.max(2.2, Math.min(18, Math.abs(change) / 20));
+    const wave = Math.sin(index / 3.7) * volatility + Math.cos(index / 6.5) * volatility * 0.55;
+    const shock = (random() - 0.48) * volatility * 1.8;
+    const eventLift = index === Math.floor(count * 0.36) || index === Math.floor(count * 0.72) ? random() * volatility * 2.6 : 0;
 
-    if (index === 18 || index === 35) current -= random() * 4.5;
-    if (index === 26 || index === 48) current += random() * 4.8;
-
-    values.push(Math.max(3, current));
+    if (index === 0) {
+      values.push(start);
+    } else if (index === count - 1) {
+      values.push(end);
+    } else {
+      values.push(Math.max(4, trend + wave + shock + eventLift));
+    }
   }
 
   return values;
@@ -91,11 +156,12 @@ function linePath(points) {
   return points.map((point, index) => `${index === 0 ? "M" : "L"}${point.x.toFixed(2)},${point.y.toFixed(2)}`).join(" ");
 }
 
-function renderSparkline(stock) {
+function renderSparkline(stock, key) {
+  const rangeMeta = getRange(key);
   const width = 280;
   const height = 90;
   const pad = { top: 8, right: 34, bottom: 18, left: 8 };
-  const values = makeSeries(stock);
+  const values = makeSeries(stock, rangeMeta.key);
   const min = Math.min(...values);
   const max = Math.max(...values);
   const range = max - min || 1;
@@ -112,9 +178,9 @@ function renderSparkline(stock) {
 
   return `
     <div class="sparkline" data-series='${JSON.stringify(points.map(({ price, change }) => [price, change]))}'>
-      <svg viewBox="0 0 ${width} ${height}" role="img" aria-label="${stock.symbol} one month price sparkline">
+      <svg viewBox="0 0 ${width} ${height}" role="img" aria-label="${stock.symbol} ${rangeMeta.name} price sparkline">
         <defs>
-          <linearGradient id="fill-${stock.symbol}" x1="0" x2="0" y1="0" y2="1">
+          <linearGradient id="fill-${stock.symbol}-${rangeMeta.key}" x1="0" x2="0" y1="0" y2="1">
             <stop offset="0%" stop-color="#24f29a" stop-opacity="0.34" />
             <stop offset="100%" stop-color="#24f29a" stop-opacity="0.02" />
           </linearGradient>
@@ -126,15 +192,15 @@ function renderSparkline(stock) {
           <line x1="70" y1="8" x2="70" y2="72" />
           <line x1="150" y1="8" x2="150" y2="72" />
         </g>
-        <path d="${areaPath}" fill="url(#fill-${stock.symbol})" />
+        <path d="${areaPath}" fill="url(#fill-${stock.symbol}-${rangeMeta.key})" />
         <path class="spark-line" d="${path}" />
         <circle class="last-dot" cx="${latest.x.toFixed(2)}" cy="${latest.y.toFixed(2)}" r="2.2" />
         <g class="axis">
-          <text x="258" y="20">${Math.round(stock.price * 1.18)}</text>
+          <text x="258" y="20">${Math.round(stock.price * (max / values.at(-1)))}</text>
           <text x="258" y="70">0</text>
-          <text x="18" y="84">Jan</text>
-          <text x="116" y="84">Mar</text>
-          <text x="216" y="84">May</text>
+          <text x="18" y="84">${rangeMeta.axis[0]}</text>
+          <text x="116" y="84">${rangeMeta.axis[1]}</text>
+          <text x="216" y="84">${rangeMeta.axis[2]}</text>
         </g>
       </svg>
       <div class="spark-tooltip" aria-hidden="true"></div>
@@ -177,22 +243,45 @@ function renderStocks() {
   });
 
   grid.innerHTML = sortStocks(filtered)
-    .map(
-      (stock) => `
-        <article class="stock-card">
+    .map((stock) => {
+      const rangeKey = getStockRangeKey(stock);
+      const currentChange = rangeChange(stock, rangeKey);
+      const rangeButtons = timeRanges
+        .map(
+          (range) => `
+            <button
+              type="button"
+              class="${range.key === rangeKey ? "active" : ""}"
+              data-symbol="${stock.symbol}"
+              data-range="${range.key}"
+              aria-pressed="${range.key === rangeKey}"
+              title="${range.name}"
+            >${range.label}</button>
+          `
+        )
+        .join("");
+
+      return `
+        <article class="stock-card" data-symbol="${stock.symbol}">
           <div class="card-head">
             <div>
               <span class="rank">#${stock.rank}</span>
               <h2>${stock.symbol}</h2>
               <p>${stock.company}</p>
             </div>
-            <span class="theme ${themeClass(stock.theme)}">${stock.theme}</span>
+            <div class="card-badges">
+              <span class="theme ${themeClass(stock.theme)}">${stock.theme}</span>
+              <a class="full-chart-link" href="${tradingviewSymbolUrl(stock, rangeKey)}" target="_blank" rel="noopener noreferrer">Full chart</a>
+            </div>
           </div>
           <div class="quote-row">
             <span>${formatPrice(stock.price)}</span>
-            <strong>+${formatPercent(stock.ytd)}</strong>
+            <strong class="${currentChange >= 0 ? "positive" : "negative"}">${formatSignedPercent(currentChange)}</strong>
           </div>
-          ${renderSparkline(stock)}
+          ${renderSparkline(stock, rangeKey)}
+          <div class="range-strip" role="group" aria-label="${stock.symbol} chart range">
+            ${rangeButtons}
+          </div>
           <dl class="stats-row">
             <div><dt>1M</dt><dd>+${formatPercent(stock.m1)}</dd></div>
             <div><dt>3M</dt><dd>+${formatPercent(stock.m3)}</dd></div>
@@ -200,8 +289,8 @@ function renderStocks() {
             <div><dt>Mom. Score</dt><dd>${stock.score}</dd></div>
           </dl>
         </article>
-      `
-    )
+      `;
+    })
     .join("");
 
   wireSparklineTooltips();
@@ -217,6 +306,9 @@ function wireSparklineTooltips() {
       const ratio = Math.min(1, Math.max(0, (event.clientX - rect.left) / rect.width));
       const index = Math.round(ratio * (series.length - 1));
       const [price, change] = series[index];
+      document.querySelectorAll(".spark-tooltip.visible").forEach((visibleTooltip) => {
+        if (visibleTooltip !== tooltip) visibleTooltip.classList.remove("visible");
+      });
       tooltip.textContent = `${formatPrice(price)} · ${change >= 0 ? "+" : ""}${formatPercent(change)}`;
       tooltip.style.left = `${ratio * 100}%`;
       tooltip.classList.add("visible");
@@ -238,6 +330,13 @@ themeButtons.forEach((button) => {
 
 search.addEventListener("input", renderStocks);
 sortSelect.addEventListener("change", renderStocks);
+grid.addEventListener("click", (event) => {
+  const rangeButton = event.target.closest("[data-range]");
+  if (!rangeButton) return;
+
+  activeRanges.set(rangeButton.dataset.symbol, rangeButton.dataset.range);
+  renderStocks();
+});
 
 renderSummary();
 renderTime();
