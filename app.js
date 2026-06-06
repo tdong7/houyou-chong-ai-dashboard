@@ -199,11 +199,23 @@ function formatPercent(value) {
   return `${value.toLocaleString(undefined, { maximumFractionDigits: 2 })}%`;
 }
 
-function renderSummary() {
+function getMedianYtd() {
   const sortedYtd = stocks.map((stock) => stock.ytd).sort((a, b) => a - b);
-  const median = (sortedYtd[9] + sortedYtd[10]) / 2;
+  return (sortedYtd[9] + sortedYtd[10]) / 2;
+}
+
+function formatPointDelta(value) {
+  const sign = value >= 0 ? "+" : "";
+  return `${sign}${value.toLocaleString(undefined, { maximumFractionDigits: 2 })} pts`;
+}
+
+function getThemePeerCount(theme) {
+  return stocks.filter((stock) => stock.theme === theme).length;
+}
+
+function renderSummary() {
   document.querySelector("#highest-ytd").textContent = `${stocks[0].symbol} ${formatPercent(stocks[0].ytd)}`;
-  document.querySelector("#median-ytd").textContent = formatPercent(median);
+  document.querySelector("#median-ytd").textContent = formatPercent(getMedianYtd());
 }
 
 function renderSourceTime() {
@@ -225,37 +237,23 @@ function createMetric(label, value, tone = "") {
 }
 
 function renderStockInsights(stock) {
+  const medianYtd = getMedianYtd();
+  const themePeers = getThemePeerCount(stock.theme);
+  const rankPercentile = Math.ceil((stock.rank / stocks.length) * 100);
+
   return `
-    <section class="insights" aria-label="${stock.symbol} fundamentals snapshot">
-      <div class="insight-section">
-        <h3>Upcoming earnings</h3>
-        <dl class="metric-grid compact">
-          ${createMetric("Next report date", "Open Full chart")}
-          ${createMetric("Report period", "Latest quarter")}
-          ${createMetric("EPS estimate", "TradingView")}
-          ${createMetric("Revenue estimate", "TradingView")}
-        </dl>
-      </div>
+    <section class="insights" aria-label="${stock.symbol} key stats">
       <div class="insight-section">
         <h3>Key stats</h3>
         <dl class="metric-grid">
-          ${createMetric("Market capitalization", "Full chart")}
-          ${createMetric("Dividend yield (indicated)", "Full chart")}
-          ${createMetric("Price to earnings Ratio (TTM)", "Full chart")}
-          ${createMetric("Basic EPS (TTM)", "Full chart")}
           ${createMetric("YTD momentum", formatPercent(stock.ytd), "positive")}
-          ${createMetric("Shares float", "Full chart")}
-          ${createMetric("Beta (1Y)", "Full chart")}
-          ${createMetric("AI signal", stock.theme)}
-        </dl>
-      </div>
-      <div class="insight-section">
-        <h3>Employees</h3>
-        <dl class="metric-grid compact">
-          ${createMetric("Employees (FY)", "Full chart")}
-          ${createMetric("Change (1Y)", "Full chart")}
-          ${createMetric("Revenue / Employee (1Y)", "Full chart")}
-          ${createMetric("Net income / Employee (1Y)", "Full chart")}
+          ${createMetric("Momentum rank", `#${stock.rank} / ${stocks.length}`)}
+          ${createMetric("Rank percentile", `Top ${rankPercentile}%`)}
+          ${createMetric("Above +100%", formatPointDelta(stock.ytd - 100), "positive")}
+          ${createMetric("Vs median", formatPointDelta(stock.ytd - medianYtd), stock.ytd >= medianYtd ? "positive" : "negative")}
+          ${createMetric("Theme peers", `${themePeers} / ${stocks.length}`)}
+          ${createMetric("Chart window", "1 month")}
+          ${createMetric("Hover readout", "Price + %")}
         </dl>
       </div>
     </section>
