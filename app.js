@@ -211,7 +211,8 @@ function renderSourceTime() {
 }
 
 function getFullChartUrl(stock) {
-  return `https://www.tradingview.com/symbols/${stock.exchange}-${stock.symbol}/?timeframe=1M`;
+  const widgetSymbol = encodeURIComponent(`${stock.exchange}:${stock.symbol}`);
+  return `https://www.tradingview.com/symbols/${stock.exchange}-${stock.symbol}/?timeframe=1M&tvwidgetsymbol=${widgetSymbol}`;
 }
 
 function createTradingViewWidget(container, stock) {
@@ -227,20 +228,30 @@ function createTradingViewWidget(container, stock) {
   copyright.innerHTML = `<a href="${getFullChartUrl(stock)}" rel="noopener nofollow" target="_blank">${stock.symbol} full chart</a>`;
 
   const script = document.createElement("script");
-  script.src = "https://s3.tradingview.com/external-embedding/embed-widget-mini-symbol-overview.js";
+  script.src = "https://s3.tradingview.com/external-embedding/embed-widget-advanced-chart.js";
   script.async = true;
   script.textContent = JSON.stringify({
+    allow_symbol_change: false,
+    calendar: false,
+    details: false,
+    hide_side_toolbar: true,
+    hide_top_toolbar: true,
+    hide_legend: false,
+    hotlist: false,
+    interval: "D",
     symbol: `${stock.exchange}:${stock.symbol}`,
     width: "100%",
-    height: 240,
+    height: 280,
     locale: "en",
-    dateRange: "1M",
+    range: "1M",
+    save_image: false,
+    support_host: "https://www.tradingview.com",
+    theme: "dark",
     colorTheme: "dark",
     isTransparent: true,
     autosize: true,
-    largeChartUrl: getFullChartUrl(stock),
-    chartOnly: false,
-    noTimeScale: false,
+    timezone: "exchange",
+    withdateranges: false,
   });
 
   chartBox.append(widget, copyright, script);
