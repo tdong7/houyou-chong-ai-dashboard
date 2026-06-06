@@ -184,10 +184,7 @@ const stocks = [
 const grid = document.querySelector("#stock-grid");
 const search = document.querySelector("#stock-search");
 const themeButtons = document.querySelectorAll("[data-theme]");
-const mainChart = document.querySelector("#main-chart");
-const watchlist = document.querySelector("#watchlist-items");
 let activeTheme = "all";
-let selectedSymbol = stocks[0].symbol;
 const timeFormatter = new Intl.DateTimeFormat(undefined, {
   year: "numeric",
   month: "short",
@@ -213,7 +210,7 @@ function renderSourceTime() {
   document.querySelector("#source-time").textContent = timeFormatter.format(new Date());
 }
 
-function createTradingViewWidget(container, stock, height = 620) {
+function createTradingViewWidget(container, stock) {
   container.innerHTML = "";
   const chartBox = document.createElement("div");
   chartBox.className = "chart-box tradingview-widget-container";
@@ -239,7 +236,7 @@ function createTradingViewWidget(container, stock, height = 620) {
     interval: "D",
     symbol: `${stock.exchange}:${stock.symbol}`,
     width: "100%",
-    height,
+    height: 360,
     locale: "en",
     range: "12M",
     save_image: false,
@@ -257,47 +254,6 @@ function createTradingViewWidget(container, stock, height = 620) {
   container.append(chartBox);
 }
 
-function getSelectedStock() {
-  return stocks.find((stock) => stock.symbol === selectedSymbol) || stocks[0];
-}
-
-function selectStock(symbol) {
-  selectedSymbol = symbol;
-  renderTerminal();
-  renderWatchlist();
-  renderStocks();
-}
-
-function renderTerminal() {
-  const stock = getSelectedStock();
-  document.querySelector("#active-symbol").textContent = stock.symbol;
-  document.querySelector("#active-exchange").textContent = stock.exchange;
-  document.querySelector("#active-theme").textContent = stock.theme;
-  document.querySelector("#active-company").textContent = stock.company;
-  document.querySelector("#active-ytd").textContent = formatPercent(stock.ytd);
-  document.querySelector("#selected-summary").textContent = `${stock.symbol} ${formatPercent(stock.ytd)}`;
-  document.querySelector("#active-description").textContent = stock.info;
-  createTradingViewWidget(mainChart, stock, 620);
-}
-
-function renderWatchlist() {
-  watchlist.innerHTML = stocks
-    .map(
-      (stock) => `
-        <button class="watch-row ${stock.symbol === selectedSymbol ? "active" : ""}" type="button" data-symbol="${stock.symbol}">
-          <span class="watch-symbol">${stock.symbol}</span>
-          <span class="watch-company">${stock.company}</span>
-          <strong>${formatPercent(stock.ytd)}</strong>
-        </button>
-      `
-    )
-    .join("");
-
-  watchlist.querySelectorAll("[data-symbol]").forEach((button) => {
-    button.addEventListener("click", () => selectStock(button.dataset.symbol));
-  });
-}
-
 function renderStocks() {
   const query = search.value.trim().toLowerCase();
   const filtered = stocks.filter((stock) => {
@@ -309,29 +265,42 @@ function renderStocks() {
   grid.innerHTML = filtered
     .map(
       (stock) => `
-        <article class="stock-card ${stock.symbol === selectedSymbol ? "selected" : ""}" data-symbol="${stock.symbol}">
-          <div class="stock-rank">#${stock.rank}</div>
-          <div class="stock-identity">
-            <button type="button" class="symbol-button" data-symbol="${stock.symbol}">${stock.symbol}</button>
-            <p>${stock.company}</p>
+        <article class="stock-card" data-symbol="${stock.symbol}">
+          <div class="card-topline">
+            <span class="rank">#${stock.rank}</span>
+            <span class="theme">${stock.theme}</span>
           </div>
-          <span class="theme">${stock.theme}</span>
-          <span class="exchange">${stock.exchange}</span>
-          <strong class="gain">${formatPercent(stock.ytd)}</strong>
+          <div class="stock-heading">
+            <div>
+              <h2>${stock.symbol}</h2>
+              <p>${stock.company}</p>
+            </div>
+            <strong class="gain">${formatPercent(stock.ytd)}</strong>
+          </div>
+          <div class="chart-shell" aria-label="${stock.symbol} live stock chart"></div>
+          <dl class="facts">
+            <div>
+              <dt>YTD</dt>
+              <dd>${formatPercent(stock.ytd)}</dd>
+            </div>
+            <div>
+              <dt>Market</dt>
+              <dd>${stock.exchange}</dd>
+            </div>
+            <div>
+              <dt>Signal</dt>
+              <dd>${stock.theme}</dd>
+            </div>
+          </dl>
+          <p class="description">${stock.info}</p>
         </article>
       `
     )
     .join("");
 
-  grid.querySelectorAll(".stock-card").forEach((row) => {
-    row.addEventListener("click", () => selectStock(row.dataset.symbol));
-  });
-
-  grid.querySelectorAll(".symbol-button").forEach((button) => {
-    button.addEventListener("click", (event) => {
-      event.stopPropagation();
-      selectStock(button.dataset.symbol);
-    });
+  document.querySelectorAll(".chart-shell").forEach((container) => {
+    const stock = stocks.find((item) => item.symbol === container.closest(".stock-card").dataset.symbol);
+    createTradingViewWidget(container, stock);
   });
 }
 
@@ -348,6 +317,4 @@ search.addEventListener("input", renderStocks);
 renderSummary();
 renderSourceTime();
 setInterval(renderSourceTime, 1000);
-renderTerminal();
-renderWatchlist();
 renderStocks();
