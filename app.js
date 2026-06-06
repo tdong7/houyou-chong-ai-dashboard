@@ -217,6 +217,21 @@ function getFullChartUrl(stock) {
 
 function createTradingViewWidget(container, stock) {
   container.innerHTML = "";
+  const chartPanel = document.createElement("div");
+  chartPanel.className = "chart-panel";
+
+  const chartTop = document.createElement("div");
+  chartTop.className = "chart-top";
+  chartTop.innerHTML = `
+    <div class="chart-tabs" aria-label="${stock.symbol} chart sections">
+      <span class="active">Overview</span>
+      <span>Financials</span>
+      <span>News</span>
+      <span>Technicals</span>
+    </div>
+    <a href="${getFullChartUrl(stock)}" target="_blank" rel="noopener noreferrer">Full chart</a>
+  `;
+
   const chartBox = document.createElement("div");
   chartBox.className = "chart-box tradingview-widget-container";
 
@@ -228,34 +243,49 @@ function createTradingViewWidget(container, stock) {
   copyright.innerHTML = `<a href="${getFullChartUrl(stock)}" rel="noopener nofollow" target="_blank">${stock.symbol} full chart</a>`;
 
   const script = document.createElement("script");
-  script.src = "https://s3.tradingview.com/external-embedding/embed-widget-advanced-chart.js";
+  script.src = "https://s3.tradingview.com/external-embedding/embed-widget-symbol-overview.js";
   script.async = true;
   script.textContent = JSON.stringify({
-    allow_symbol_change: false,
-    calendar: false,
-    details: false,
-    hide_side_toolbar: true,
-    hide_top_toolbar: true,
-    hide_legend: false,
-    hotlist: false,
-    interval: "D",
-    symbol: `${stock.exchange}:${stock.symbol}`,
-    width: "100%",
-    height: 280,
+    lineWidth: 2,
+    lineType: 0,
+    chartType: "area",
+    fontColor: "rgb(74, 78, 89)",
+    gridLineColor: "rgba(46, 46, 46, 0.06)",
+    volumeUpColor: "rgba(34, 171, 148, 0.45)",
+    volumeDownColor: "rgba(247, 82, 95, 0.45)",
+    backgroundColor: "#ffffff",
+    widgetFontColor: "#111111",
+    upColor: "#22ab94",
+    downColor: "#f7525f",
+    borderUpColor: "#22ab94",
+    borderDownColor: "#f7525f",
+    wickUpColor: "#22ab94",
+    wickDownColor: "#f7525f",
+    colorTheme: "light",
+    isTransparent: false,
     locale: "en",
-    range: "1M",
-    save_image: false,
-    support_host: "https://www.tradingview.com",
-    theme: "dark",
-    colorTheme: "dark",
-    isTransparent: true,
+    chartOnly: false,
+    scalePosition: "right",
+    scaleMode: "Normal",
+    fontFamily: "-apple-system, BlinkMacSystemFont, Trebuchet MS, Roboto, Ubuntu, sans-serif",
+    valuesTracking: "1",
+    changeMode: "price-and-percent",
+    symbols: [[stock.symbol, `${stock.exchange}:${stock.symbol}|30`]],
+    dateRanges: ["1d|1", "5d|5", "1m|30", "6m|120", "ytd|1D", "12m|1D", "60m|1W", "all|1M"],
+    fontSize: "12",
+    headerFontSize: "medium",
+    width: "100%",
+    height: "100%",
     autosize: true,
-    timezone: "exchange",
-    withdateranges: false,
+    noTimeScale: false,
+    hideDateRanges: false,
+    hideMarketStatus: false,
+    hideSymbolLogo: true,
   });
 
   chartBox.append(widget, copyright, script);
-  container.append(chartBox);
+  chartPanel.append(chartTop, chartBox);
+  container.append(chartPanel);
 }
 
 function renderStocks() {
@@ -281,7 +311,6 @@ function renderStocks() {
             </div>
             <div class="card-actions">
               <strong class="gain">${formatPercent(stock.ytd)}</strong>
-              <a class="full-chart-link" href="${getFullChartUrl(stock)}" target="_blank" rel="noopener noreferrer">Full chart</a>
             </div>
           </div>
           <div class="chart-shell" aria-label="${stock.symbol} live stock chart"></div>
