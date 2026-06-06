@@ -185,6 +185,15 @@ const grid = document.querySelector("#stock-grid");
 const search = document.querySelector("#stock-search");
 const themeButtons = document.querySelectorAll("[data-theme]");
 let activeTheme = "all";
+const timeFormatter = new Intl.DateTimeFormat(undefined, {
+  year: "numeric",
+  month: "short",
+  day: "2-digit",
+  hour: "2-digit",
+  minute: "2-digit",
+  second: "2-digit",
+  timeZoneName: "short",
+});
 
 function formatPercent(value) {
   return `${value.toLocaleString(undefined, { maximumFractionDigits: 2 })}%`;
@@ -197,6 +206,10 @@ function renderSummary() {
   document.querySelector("#median-ytd").textContent = formatPercent(median);
 }
 
+function renderSourceTime() {
+  document.querySelector("#source-time").textContent = timeFormatter.format(new Date());
+}
+
 function createTradingViewWidget(container, stock) {
   container.innerHTML = "";
   const widget = document.createElement("div");
@@ -206,18 +219,31 @@ function createTradingViewWidget(container, stock) {
   copyright.innerHTML = `<a href="https://www.tradingview.com/symbols/${stock.exchange}-${stock.symbol}/" rel="noopener nofollow" target="_blank">${stock.symbol} live chart</a>`;
 
   const script = document.createElement("script");
-  script.src = "https://s3.tradingview.com/external-embedding/embed-widget-mini-symbol-overview.js";
+  script.src = "https://s3.tradingview.com/external-embedding/embed-widget-advanced-chart.js";
   script.async = true;
   script.textContent = JSON.stringify({
+    allow_symbol_change: false,
+    calendar: false,
+    details: true,
+    hide_side_toolbar: false,
+    hide_top_toolbar: false,
+    hide_legend: false,
+    hotlist: false,
+    interval: "D",
     symbol: `${stock.exchange}:${stock.symbol}`,
     width: "100%",
-    height: 220,
+    height: 360,
     locale: "en",
-    dateRange: "12M",
+    range: "12M",
+    save_image: false,
+    studies: ["Volume@tv-basicstudies"],
+    support_host: "https://www.tradingview.com",
+    theme: "dark",
     colorTheme: "dark",
     isTransparent: true,
     autosize: true,
-    largeChartUrl: "",
+    timezone: "exchange",
+    withdateranges: true,
   });
 
   container.append(widget, copyright, script);
@@ -284,4 +310,6 @@ themeButtons.forEach((button) => {
 search.addEventListener("input", renderStocks);
 
 renderSummary();
+renderSourceTime();
+setInterval(renderSourceTime, 1000);
 renderStocks();

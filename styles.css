@@ -276,14 +276,16 @@ button:hover {
 }
 
 .chart-shell {
-  min-height: 220px;
+  height: 360px;
+  min-height: 360px;
   border-top: 1px solid var(--line);
   border-bottom: 1px solid var(--line);
   background: rgba(0, 0, 0, 0.22);
 }
 
 .tradingview-widget-container__widget {
-  min-height: 220px;
+  height: 360px;
+  min-height: 360px;
 }
 
 .tradingview-widget-copyright {
@@ -379,5 +381,11 @@ dd {
 
   .facts {
     flex-direction: column;
+  }
+
+  .chart-shell,
+  .tradingview-widget-container__widget {
+    height: 320px;
+    min-height: 320px;
   }
 }
