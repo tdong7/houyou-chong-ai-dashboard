@@ -65,7 +65,7 @@ const stocks = [
   {
     rank: 8,
     symbol: "MYO",
-    exchange: "NYSEAMERICAN",
+    exchange: "AMEX",
     company: "Myomo",
     ytd: 202.23,
     theme: "Robotics",
@@ -210,6 +210,10 @@ function renderSourceTime() {
   document.querySelector("#source-time").textContent = timeFormatter.format(new Date());
 }
 
+function getFullChartUrl(stock) {
+  return `https://www.tradingview.com/symbols/${stock.exchange}-${stock.symbol}/?timeframe=1M`;
+}
+
 function createTradingViewWidget(container, stock) {
   container.innerHTML = "";
   const chartBox = document.createElement("div");
@@ -220,34 +224,23 @@ function createTradingViewWidget(container, stock) {
 
   const copyright = document.createElement("div");
   copyright.className = "tradingview-widget-copyright";
-  copyright.innerHTML = `<a href="https://www.tradingview.com/symbols/${stock.exchange}-${stock.symbol}/" rel="noopener nofollow" target="_blank">${stock.symbol} live chart</a>`;
+  copyright.innerHTML = `<a href="${getFullChartUrl(stock)}" rel="noopener nofollow" target="_blank">${stock.symbol} full chart</a>`;
 
   const script = document.createElement("script");
-  script.src = "https://s3.tradingview.com/external-embedding/embed-widget-advanced-chart.js";
+  script.src = "https://s3.tradingview.com/external-embedding/embed-widget-mini-symbol-overview.js";
   script.async = true;
   script.textContent = JSON.stringify({
-    allow_symbol_change: false,
-    calendar: false,
-    details: true,
-    hide_side_toolbar: false,
-    hide_top_toolbar: false,
-    hide_legend: false,
-    hotlist: false,
-    interval: "D",
     symbol: `${stock.exchange}:${stock.symbol}`,
     width: "100%",
-    height: 360,
+    height: 240,
     locale: "en",
-    range: "1M",
-    save_image: false,
-    studies: ["Volume@tv-basicstudies"],
-    support_host: "https://www.tradingview.com",
-    theme: "dark",
+    dateRange: "1M",
     colorTheme: "dark",
     isTransparent: true,
     autosize: true,
-    timezone: "exchange",
-    withdateranges: true,
+    largeChartUrl: getFullChartUrl(stock),
+    chartOnly: false,
+    noTimeScale: false,
   });
 
   chartBox.append(widget, copyright, script);
@@ -275,7 +268,10 @@ function renderStocks() {
               <h2>${stock.symbol}</h2>
               <p>${stock.company}</p>
             </div>
-            <strong class="gain">${formatPercent(stock.ytd)}</strong>
+            <div class="card-actions">
+              <strong class="gain">${formatPercent(stock.ytd)}</strong>
+              <a class="full-chart-link" href="${getFullChartUrl(stock)}" target="_blank" rel="noopener noreferrer">Full chart</a>
+            </div>
           </div>
           <div class="chart-shell" aria-label="${stock.symbol} live stock chart"></div>
           <dl class="facts">

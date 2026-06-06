@@ -275,6 +275,33 @@ button:hover {
   letter-spacing: 0;
 }
 
+.card-actions {
+  display: grid;
+  justify-items: end;
+  gap: 8px;
+  flex: 0 0 auto;
+}
+
+.full-chart-link {
+  min-height: 30px;
+  padding: 6px 10px;
+  border: 1px solid rgba(54, 217, 255, 0.3);
+  border-radius: 8px;
+  color: #b9f4ff;
+  background: rgba(54, 217, 255, 0.08);
+  font-size: 0.78rem;
+  font-weight: 800;
+  line-height: 1.2;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.full-chart-link:hover {
+  border-color: rgba(40, 242, 168, 0.5);
+  color: var(--text);
+  background: rgba(40, 242, 168, 0.12);
+}
+
 .chart-shell {
   padding: 0 16px 16px;
   background: transparent;
@@ -282,18 +309,18 @@ button:hover {
 
 .chart-box {
   position: relative;
-  height: 360px;
-  min-height: 360px;
+  height: 240px;
+  min-height: 240px;
   overflow: hidden;
   border: 1px solid rgba(174, 255, 221, 0.2);
   border-radius: 8px;
-  background: rgba(0, 0, 0, 0.34);
+  background: rgba(2, 9, 8, 0.58);
 }
 
 .tradingview-widget-container__widget {
   width: 100%;
-  height: 360px;
-  min-height: 360px;
+  height: 240px;
+  min-height: 240px;
 }
 
 .chart-box iframe {
@@ -394,13 +421,18 @@ dd {
     flex-direction: column;
   }
 
+  .card-actions {
+    width: 100%;
+    justify-items: start;
+  }
+
   .facts {
     flex-direction: column;
   }
 
   .chart-box,
   .tradingview-widget-container__widget {
-    height: 320px;
-    min-height: 320px;
+    height: 220px;
+    min-height: 220px;
   }
 }
