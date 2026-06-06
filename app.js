@@ -212,8 +212,12 @@ function renderSourceTime() {
 
 function createTradingViewWidget(container, stock) {
   container.innerHTML = "";
+  const chartBox = document.createElement("div");
+  chartBox.className = "chart-box tradingview-widget-container";
+
   const widget = document.createElement("div");
   widget.className = "tradingview-widget-container__widget";
+
   const copyright = document.createElement("div");
   copyright.className = "tradingview-widget-copyright";
   copyright.innerHTML = `<a href="https://www.tradingview.com/symbols/${stock.exchange}-${stock.symbol}/" rel="noopener nofollow" target="_blank">${stock.symbol} live chart</a>`;
@@ -246,7 +250,8 @@ function createTradingViewWidget(container, stock) {
     withdateranges: true,
   });
 
-  container.append(widget, copyright, script);
+  chartBox.append(widget, copyright, script);
+  container.append(chartBox);
 }
 
 function renderStocks() {
