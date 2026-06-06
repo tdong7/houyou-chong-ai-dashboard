@@ -8,17 +8,14 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <header class="hero">
-      <img src="assets/ai-market-hero.png" alt="" class="hero-image" />
-      <div class="hero-overlay"></div>
-      <div class="hero-content">
-        <p class="kicker">AI Stock Momentum Dashboard</p>
-        <h1>猴油冲冲冲</h1>
-        <div class="hero-meta">
-          <span>Top 20 AI-linked U.S. names</span>
-          <span>YTD gain &gt; 100%</span>
-          <span>Live charts via TradingView</span>
-        </div>
+    <header class="topbar">
+      <div class="brand">
+        <strong>猴油冲冲冲</strong>
+        <span>AI Stock Momentum</span>
+      </div>
+      <div class="topbar-time">
+        <span>Live</span>
+        <strong id="source-time">--</strong>
       </div>
     </header>
 
@@ -37,9 +34,38 @@
           <strong>AI compute, quantum, optical, robotics</strong>
         </div>
         <div>
-          <span class="summary-label">Source Date</span>
-          <strong id="source-time">--</strong>
+          <span class="summary-label">Selected</span>
+          <strong id="selected-summary">--</strong>
         </div>
+      </section>
+
+      <section class="terminal" aria-label="Interactive stock terminal">
+        <div class="terminal-main">
+          <div class="symbol-header">
+            <div>
+              <div class="symbol-line">
+                <h1 id="active-symbol">BNAI</h1>
+                <span id="active-exchange">NASDAQ</span>
+                <span id="active-theme">AI platform</span>
+              </div>
+              <p id="active-company">Brand Engagement Network</p>
+            </div>
+            <div class="active-performance">
+              <span>YTD gain</span>
+              <strong id="active-ytd">--</strong>
+            </div>
+          </div>
+          <div class="chart-shell main-chart" id="main-chart" aria-label="Selected stock interactive chart"></div>
+          <div class="active-description" id="active-description"></div>
+        </div>
+
+        <aside class="watchlist" aria-label="AI stock watchlist">
+          <div class="watchlist-head">
+            <strong>Watchlist</strong>
+            <span>YTD %</span>
+          </div>
+          <div id="watchlist-items"></div>
+        </aside>
       </section>
 
       <section class="controls" aria-label="Filters">
