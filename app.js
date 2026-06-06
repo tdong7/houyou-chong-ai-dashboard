@@ -238,7 +238,7 @@ function createTradingViewWidget(container, stock) {
     width: "100%",
     height: 360,
     locale: "en",
-    range: "12M",
+    range: "1M",
     save_image: false,
     studies: ["Volume@tv-basicstudies"],
     support_host: "https://www.tradingview.com",
