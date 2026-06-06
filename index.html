@@ -4,75 +4,109 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>猴油冲冲冲</title>
-    <link rel="preconnect" href="https://s3.tradingview.com" />
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <header class="hero">
-      <img src="assets/ai-market-hero.png" alt="" class="hero-image" />
-      <div class="hero-overlay"></div>
-      <div class="hero-content">
-        <p class="kicker">AI Stock Momentum Dashboard</p>
-        <h1>猴油冲冲冲</h1>
-        <div class="hero-meta">
-          <span>Top 20 AI-linked U.S. names</span>
-          <span>YTD gain &gt; 100%</span>
-          <span>Live charts via TradingView</span>
+    <header class="app-header">
+      <div class="brand-lockup">
+        <div class="brand-mark" aria-hidden="true">猴</div>
+        <div>
+          <h1>猴油冲冲冲</h1>
+          <p>AI Stock Momentum Dashboard</p>
+        </div>
+      </div>
+
+      <div class="headline-copy">
+        <span>Top 20 AI-linked U.S. names</span>
+        <strong>YTD gain &gt; 100%</strong>
+      </div>
+
+      <div class="header-actions">
+        <button type="button">USD</button>
+        <button type="button">Share</button>
+        <div class="updated">
+          <span>Updated</span>
+          <strong id="source-time">--</strong>
         </div>
       </div>
     </header>
 
     <main>
-      <section class="summary-band" aria-label="Dashboard summary">
-        <div>
-          <span class="summary-label">Highest YTD</span>
-          <strong id="highest-ytd">--</strong>
-        </div>
-        <div>
-          <span class="summary-label">Median Gain</span>
-          <strong id="median-ytd">--</strong>
-        </div>
-        <div>
-          <span class="summary-label">Themes</span>
-          <strong>AI compute, quantum, optical, robotics</strong>
-        </div>
-        <div>
-          <span class="summary-label">Source Date</span>
-          <strong id="source-time">--</strong>
-        </div>
+      <section class="summary-grid" aria-label="Dashboard summary">
+        <article>
+          <span class="summary-icon">1</span>
+          <div>
+            <p>Highest YTD Gain</p>
+            <strong id="highest-ytd">--</strong>
+            <small id="highest-name">--</small>
+          </div>
+        </article>
+        <article>
+          <span class="summary-icon">2</span>
+          <div>
+            <p>Median YTD Gain</p>
+            <strong id="median-ytd">--</strong>
+            <small>Top 20 median</small>
+          </div>
+        </article>
+        <article>
+          <span class="summary-icon">3</span>
+          <div>
+            <p>Themes Represented</p>
+            <strong id="theme-count">--</strong>
+            <small>AI platform, compute, quantum, optical, robotics</small>
+          </div>
+        </article>
+        <article>
+          <span class="summary-icon">4</span>
+          <div>
+            <p>Source Date</p>
+            <strong id="source-date">--</strong>
+            <small id="source-detail">Realtime local time</small>
+          </div>
+        </article>
       </section>
 
       <section class="controls" aria-label="Filters">
-        <div class="search-wrap">
-          <label for="stock-search">Search</label>
-          <input id="stock-search" type="search" placeholder="Ticker, company, theme" />
-        </div>
+        <label class="search-box" for="stock-search">
+          <span>Search</span>
+          <input id="stock-search" type="search" placeholder="Search ticker or company..." />
+        </label>
         <div class="segmented" role="group" aria-label="Theme filter">
           <button type="button" class="active" data-theme="all">All</button>
-          <button type="button" data-theme="AI platform">AI platform</button>
+          <button type="button" data-theme="AI platform">AI Platform</button>
           <button type="button" data-theme="Compute">Compute</button>
           <button type="button" data-theme="Quantum">Quantum</button>
+          <button type="button" data-theme="Optical">Optical</button>
           <button type="button" data-theme="Robotics">Robotics</button>
         </div>
+        <select id="sort-select" aria-label="Sort stocks">
+          <option value="ytd-desc">Sort by: YTD Gain (High to Low)</option>
+          <option value="rank-asc">Sort by: Rank</option>
+          <option value="symbol-asc">Sort by: Ticker</option>
+        </select>
       </section>
 
       <section class="stock-grid" id="stock-grid" aria-label="Top AI-related stocks"></section>
 
-      <section class="notes">
-        <h2>Notes</h2>
-        <p>
-          YTD gain ranking is based on StockTitan's 2026 YTD gainers page captured on
-          June 6, 2026. The AI linkage is an editorial screen for companies tied to AI
-          software, AI infrastructure, semiconductors, optical networking, quantum
-          computing, autonomous systems, robotics, or data-center power.
-        </p>
-        <p>
-          Clean TradingView overview charts and live market panels may take a moment to
-          load. Hover over a plot to inspect tracked price and percentage values, then use
-          the compact key stats below each chart for rank, YTD momentum, peer count, and
-          screen context. This is a visualization project, not investment advice.
-        </p>
-      </section>
+      <footer class="notes">
+        <section>
+          <h2>Notes &amp; Methodology</h2>
+          <p>Universe: U.S.-listed stocks with material AI exposure across five key themes.</p>
+          <p>Filter: Year-to-date total return above 100%. Sparkline values are compact dashboard visualizations from the ranking dataset.</p>
+        </section>
+        <section>
+          <h2>Theme Definitions</h2>
+          <p><span class="dot blue"></span>AI Platform: software, data, and platforms enabling AI applications</p>
+          <p><span class="dot green"></span>Compute: chips, servers, storage, power, and infrastructure</p>
+          <p><span class="dot violet"></span>Quantum: quantum compute and related systems</p>
+          <p><span class="dot orange"></span>Optical/Robotics: sensors, photonics, robots, and autonomous systems</p>
+        </section>
+        <section>
+          <p>This dashboard is for informational purposes only and does not constitute investment advice.</p>
+          <p>Source: StockTitan, TradingView reference style, company materials.</p>
+        </section>
+      </footer>
     </main>
 
     <script src="app.js"></script>
