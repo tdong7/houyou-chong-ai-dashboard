@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>猴油冲冲冲</title>
+    <link rel="preconnect" href="https://s3.tradingview.com" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="hero">
+      <img src="assets/ai-market-hero.png" alt="" class="hero-image" />
+      <div class="hero-overlay"></div>
+      <div class="hero-content">
+        <p class="kicker">AI Stock Momentum Dashboard</p>
+        <h1>猴油冲冲冲</h1>
+        <div class="hero-meta">
+          <span>Top 20 AI-linked U.S. names</span>
+          <span>YTD gain &gt; 100%</span>
+          <span>Live charts via TradingView</span>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="summary-band" aria-label="Dashboard summary">
+        <div>
+          <span class="summary-label">Highest YTD</span>
+          <strong id="highest-ytd">--</strong>
+        </div>
+        <div>
+          <span class="summary-label">Median Gain</span>
+          <strong id="median-ytd">--</strong>
+        </div>
+        <div>
+          <span class="summary-label">Themes</span>
+          <strong>AI compute, quantum, optical, robotics</strong>
+        </div>
+        <div>
+          <span class="summary-label">Source Date</span>
+          <strong>June 6, 2026</strong>
+        </div>
+      </section>
+
+      <section class="controls" aria-label="Filters">
+        <div class="search-wrap">
+          <label for="stock-search">Search</label>
+          <input id="stock-search" type="search" placeholder="Ticker, company, theme" />
+        </div>
+        <div class="segmented" role="group" aria-label="Theme filter">
+          <button type="button" class="active" data-theme="all">All</button>
+          <button type="button" data-theme="AI platform">AI platform</button>
+          <button type="button" data-theme="Compute">Compute</button>
+          <button type="button" data-theme="Quantum">Quantum</button>
+          <button type="button" data-theme="Robotics">Robotics</button>
+        </div>
+      </section>
+
+      <section class="stock-grid" id="stock-grid" aria-label="Top AI-related stocks"></section>
+
+      <section class="notes">
+        <h2>Notes</h2>
+        <p>
+          YTD gain ranking is based on StockTitan's 2026 YTD gainers page captured on
+          June 6, 2026. The AI linkage is an editorial screen for companies tied to AI
+          software, AI infrastructure, semiconductors, optical networking, quantum
+          computing, autonomous systems, robotics, or data-center power.
+        </p>
+        <p>
+          Charts and live market panels are provided by TradingView embeds and may take a
+          moment to load. This is a visualization project, not investment advice.
+        </p>
+      </section>
+    </main>
+
+    <script src="app.js"></script>
+  </body>
+</html>
