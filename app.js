@@ -102,8 +102,7 @@ function tradingviewSymbolUrl(stock, key) {
   return `https://www.tradingview.com/symbols/${symbolPath}/?timeframe=${range.tradingView}&tvwidgetsymbol=${widgetSymbol}`;
 }
 
-function hydrateTradingViewCharts() {
-  document.querySelectorAll(".tv-live-chart").forEach((container) => {
+function renderTradingViewWidget(container) {
     const range = getRange(container.dataset.range);
     const fullChartUrl = container.dataset.fullChartUrl;
     const widgetShell = document.createElement("div");
@@ -135,7 +134,33 @@ function hydrateTradingViewCharts() {
 
     widgetShell.append(widgetMount, script);
     container.replaceChildren(widgetShell);
+}
+
+function hydrateTradingViewCharts(root = document) {
+  root.querySelectorAll(".tv-live-chart").forEach(renderTradingViewWidget);
+}
+
+function updateStockRange(symbol, rangeKey) {
+  const stock = stocks.find((item) => item.symbol === symbol);
+  const card = grid.querySelector(`.stock-card[data-symbol="${symbol}"]`);
+  if (!stock || !card) return;
+
+  activeRanges.set(symbol, rangeKey);
+
+  const fullChartUrl = tradingviewSymbolUrl(stock, rangeKey);
+  const chart = card.querySelector(".tv-live-chart");
+  const fullChartLink = card.querySelector(".full-chart-link");
+
+  card.querySelectorAll("[data-range]").forEach((button) => {
+    const isActive = button.dataset.range === rangeKey;
+    button.classList.toggle("active", isActive);
+    button.setAttribute("aria-pressed", String(isActive));
   });
+
+  fullChartLink.href = fullChartUrl;
+  chart.dataset.range = rangeKey;
+  chart.dataset.fullChartUrl = fullChartUrl;
+  renderTradingViewWidget(chart);
 }
 
 function renderSummary() {
@@ -204,10 +229,6 @@ function renderStocks() {
               <a class="full-chart-link" href="${fullChartUrl}" target="_blank" rel="noopener noreferrer">Full chart</a>
             </div>
           </div>
-          <div class="momentum-row">
-            <span>YTD gain</span>
-            <strong>+${formatPercent(stock.ytd)}</strong>
-          </div>
           <div
             class="tv-live-chart"
             data-tv-symbol="${tradingviewSymbol(stock)}"
@@ -219,12 +240,6 @@ function renderStocks() {
           <div class="range-strip" role="group" aria-label="${stock.symbol} chart range">
             ${rangeButtons}
           </div>
-          <dl class="stats-row">
-            <div><dt>1M</dt><dd>+${formatPercent(stock.m1)}</dd></div>
-            <div><dt>3M</dt><dd>+${formatPercent(stock.m3)}</dd></div>
-            <div><dt>Mkt Cap</dt><dd>$${stock.cap}</dd></div>
-            <div><dt>Mom. Score</dt><dd>${stock.score}</dd></div>
-          </dl>
         </article>
       `;
     })
@@ -247,8 +262,7 @@ grid.addEventListener("click", (event) => {
   const rangeButton = event.target.closest("[data-range]");
   if (!rangeButton) return;
 
-  activeRanges.set(rangeButton.dataset.symbol, rangeButton.dataset.range);
-  renderStocks();
+  updateStockRange(rangeButton.dataset.symbol, rangeButton.dataset.range);
 });
 
 renderSummary();

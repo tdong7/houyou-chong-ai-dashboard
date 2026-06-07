@@ -16,3 +16,6 @@ assert.match(appSource, /target="_blank"/, "Full chart links should open Trading
 assert.match(appSource, /embed-widget-mini-symbol-overview\.js/, "Cards should use TradingView live Mini Chart widgets");
 assert.match(appSource, /hydrateTradingViewCharts/, "Missing TradingView chart hydration");
 assert.match(appSource, /dateRange/, "TradingView widgets should receive the selected date range");
+assert.match(appSource, /updateStockRange/, "Range clicks should update one stock card at a time");
+assert.doesNotMatch(appSource, /class="momentum-row"/, "Per-card YTD gain row should be removed");
+assert.doesNotMatch(appSource, /class="stats-row"/, "Custom 1M/3M stats row should be removed");
