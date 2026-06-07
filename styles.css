@@ -317,7 +317,7 @@ main {
 
 .stock-grid {
   display: grid;
-  grid-template-columns: 1fr;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 18px;
 }
 
@@ -408,6 +408,22 @@ main {
 .theme.robotics {
   background: rgba(255, 149, 84, 0.2);
   color: #ffd0b3;
+}
+
+.card-ytd {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 22px;
+  max-width: 108px;
+  padding: 0 8px;
+  border: 1px solid rgba(37, 241, 149, 0.28);
+  border-radius: 4px;
+  background: rgba(37, 241, 149, 0.12);
+  color: var(--green);
+  font-size: 10px;
+  font-weight: 850;
+  white-space: nowrap;
 }
 
 .full-chart-link {
