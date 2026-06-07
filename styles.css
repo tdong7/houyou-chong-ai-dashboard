@@ -317,14 +317,14 @@ main {
 
 .stock-grid {
   display: grid;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
-  gap: 14px;
+  grid-template-columns: 1fr;
+  gap: 18px;
 }
 
 .stock-card {
   min-width: 0;
   overflow: hidden;
-  padding: 10px 12px 0;
+  padding: 12px;
 }
 
 .card-head {
@@ -431,67 +431,128 @@ main {
   color: white;
 }
 
-.tv-live-chart {
-  position: relative;
-  height: 164px;
-  margin: 9px -6px 6px;
-  overflow: hidden;
-  border: 1px solid rgba(92, 137, 158, 0.2);
-  border-radius: 6px;
-  background: rgba(4, 14, 23, 0.64);
+.stock-tabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-top: 12px;
+  overflow: visible;
+  border-bottom: 4px solid #f1f1f1;
+  background: #fff;
+  border-radius: 7px 7px 0 0;
 }
 
-.tv-live-chart > span {
+.stock-tabs button {
+  position: relative;
+  flex: 0 0 auto;
+  height: 46px;
+  padding: 0 0 3px;
+  border: 0;
+  background: transparent;
+  color: #151515;
+  font-size: 15px;
+  font-weight: 800;
+  white-space: nowrap;
+}
+
+.stock-tabs button.active::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -4px;
+  height: 4px;
+  border-radius: 4px;
+  background: #1f1f1f;
+}
+
+.stock-panel-host {
+  overflow: hidden;
+  border-radius: 0 0 7px 7px;
+  background: #fff;
+}
+
+.stock-tab-panel {
+  position: relative;
+  height: 530px;
+  overflow: hidden;
+  background: #fff;
+}
+
+.stock-tab-panel.financials-panel,
+.stock-tab-panel.news-panel,
+.stock-tab-panel.technicals-panel {
+  height: 460px;
+}
+
+.stock-tab-panel > span {
   position: absolute;
   inset: 0;
   display: grid;
   place-items: center;
-  color: var(--muted);
-  font-size: 11px;
+  color: #777;
+  font-size: 13px;
   font-weight: 800;
 }
 
-.tv-live-chart .tradingview-widget-container,
-.tv-live-chart .tradingview-widget-container__widget {
+.stock-tab-panel .tradingview-widget-container,
+.stock-tab-panel .tradingview-widget-container__widget {
   width: 100%;
   height: 100%;
 }
 
-.tv-live-chart iframe {
+.stock-tab-panel iframe {
   display: block;
   width: 100% !important;
   height: 100% !important;
 }
 
-.range-strip {
+.source-tab {
+  height: auto;
+  min-height: 220px;
+  padding: 30px;
+}
+
+.source-panel {
   display: grid;
-  grid-template-columns: repeat(8, minmax(0, 1fr));
-  gap: 3px;
-  margin: 2px -3px 10px;
+  gap: 14px;
+  color: #111;
 }
 
-.range-strip button {
-  min-width: 0;
-  height: 22px;
-  padding: 0 2px;
-  border: 1px solid transparent;
-  border-radius: 4px;
-  background: transparent;
-  color: #a9bdc8;
-  font-size: 9px;
-  font-weight: 900;
+.source-panel h3 {
+  margin: 0;
+  font-size: 24px;
 }
 
-.range-strip button:hover {
-  border-color: rgba(31, 214, 229, 0.34);
-  background: rgba(31, 214, 229, 0.08);
-  color: var(--text);
+.source-panel p {
+  max-width: 720px;
+  color: #555;
+  font-size: 14px;
+  line-height: 1.5;
+  white-space: normal;
 }
 
-.range-strip button.active {
-  border-color: rgba(58, 162, 255, 0.55);
-  background: rgba(58, 162, 255, 0.24);
-  color: white;
+.source-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.source-links a {
+  display: inline-flex;
+  align-items: center;
+  min-height: 38px;
+  padding: 0 14px;
+  border: 1px solid #d9dfe4;
+  border-radius: 6px;
+  color: #111;
+  font-size: 13px;
+  font-weight: 800;
+}
+
+.source-links a:hover {
+  border-color: #4a9b87;
+  color: #2e7d6f;
 }
 
 .notes {
@@ -552,8 +613,7 @@ main {
     flex-wrap: wrap;
   }
 
-  .summary-grid,
-  .stock-grid {
+  .summary-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
@@ -577,6 +637,20 @@ main {
   .stock-grid,
   .notes {
     grid-template-columns: 1fr;
+  }
+
+  .stock-tabs {
+    gap: 14px;
+    padding: 0 6px;
+  }
+
+  .stock-tabs button {
+    height: 42px;
+    font-size: 13px;
+  }
+
+  .stock-tab-panel {
+    height: 420px;
   }
 
   .summary-grid article {

@@ -27,7 +27,7 @@ const sortSelect = document.querySelector("#sort-select");
 const themeButtons = document.querySelectorAll("[data-theme]");
 
 let activeTheme = "all";
-const activeRanges = new Map();
+const activeTabs = new Map();
 
 const exchangeOverrides = {
   AEVA: "NYSE",
@@ -37,14 +37,29 @@ const exchangeOverrides = {
 };
 
 const timeRanges = [
-  { key: "1D", label: "1D", name: "1 day", tradingView: "1D", miniRange: "1D" },
-  { key: "5D", label: "5D", name: "5 days", tradingView: "5D", miniRange: "5D" },
-  { key: "1M", label: "1M", name: "1 month", tradingView: "1M", miniRange: "1M" },
-  { key: "6M", label: "6M", name: "6 months", tradingView: "6M", miniRange: "6M" },
-  { key: "YTD", label: "YTD", name: "Year to date", tradingView: "YTD", miniRange: "YTD" },
-  { key: "1Y", label: "1Y", name: "1 year", tradingView: "1Y", miniRange: "12M" },
-  { key: "5Y", label: "5Y", name: "5 years", tradingView: "5Y", miniRange: "60M" },
-  { key: "ALL", label: "ALL", name: "All time", tradingView: "ALL", miniRange: "ALL" },
+  { key: "1D", label: "1D", name: "1 day", overviewRange: "1d|1" },
+  { key: "5D", label: "5D", name: "5 days", overviewRange: "5d|5" },
+  { key: "1M", label: "1M", name: "1 month", overviewRange: "1m|30" },
+  { key: "6M", label: "6M", name: "6 months", overviewRange: "6m|120" },
+  { key: "YTD", label: "YTD", name: "Year to date", overviewRange: "ytd|1D" },
+  { key: "1Y", label: "1Y", name: "1 year", overviewRange: "12m|1D" },
+  { key: "5Y", label: "5Y", name: "5 years", overviewRange: "60m|1W" },
+  { key: "10Y", label: "10Y", name: "10 years", overviewRange: "120m|1W" },
+  { key: "ALL", label: "ALL", name: "All time", overviewRange: "all|1M" },
+];
+
+const stockTabs = [
+  { key: "overview", label: "Overview", kind: "widget", script: "embed-widget-symbol-overview.js" },
+  { key: "financials", label: "Financials", kind: "widget", script: "embed-widget-financials.js" },
+  { key: "news", label: "News", kind: "widget", script: "embed-widget-timeline.js" },
+  { key: "documents", label: "Documents", kind: "source" },
+  { key: "community", label: "Community", kind: "source" },
+  { key: "technicals", label: "Technicals", kind: "widget", script: "embed-widget-technical-analysis.js" },
+  { key: "forecasts", label: "Forecasts", kind: "source" },
+  { key: "seasonals", label: "Seasonals", kind: "source" },
+  { key: "options", label: "Options", kind: "source" },
+  { key: "bonds", label: "Bonds", kind: "source" },
+  { key: "etfs", label: "ETFs", kind: "source" },
 ];
 
 const timeFormatter = new Intl.DateTimeFormat(undefined, {
@@ -67,26 +82,14 @@ function formatPercent(value) {
   return `${value.toLocaleString(undefined, { maximumFractionDigits: 1 })}%`;
 }
 
-function escapeAttribute(value) {
-  return String(value)
-    .replace(/&/g, "&amp;")
-    .replace(/"/g, "&quot;")
-    .replace(/</g, "&lt;")
-    .replace(/>/g, "&gt;");
-}
-
 function median(values) {
   const sorted = [...values].sort((a, b) => a - b);
   const midpoint = Math.floor(sorted.length / 2);
   return (sorted[midpoint - 1] + sorted[midpoint]) / 2;
 }
 
-function getRange(key) {
-  return timeRanges.find((range) => range.key === key) || timeRanges[2];
-}
-
-function getStockRangeKey(stock) {
-  return activeRanges.get(stock.symbol) || "1M";
+function getActiveTab(stock) {
+  return activeTabs.get(stock.symbol) || "overview";
 }
 
 function tradingviewSymbol(stock) {
@@ -94,73 +97,202 @@ function tradingviewSymbol(stock) {
   return `${exchange}:${stock.symbol}`;
 }
 
-function tradingviewSymbolUrl(stock, key) {
-  const range = getRange(key);
+function tradingviewSymbolUrl(stock, path = "") {
   const symbol = tradingviewSymbol(stock);
   const symbolPath = symbol.replace(":", "-");
   const widgetSymbol = encodeURIComponent(symbol);
-  return `https://www.tradingview.com/symbols/${symbolPath}/?timeframe=${range.tradingView}&tvwidgetsymbol=${widgetSymbol}`;
+  return `https://www.tradingview.com/symbols/${symbolPath}/${path}?tvwidgetsymbol=${widgetSymbol}`;
 }
 
-function renderTradingViewWidget(container) {
-    const range = getRange(container.dataset.range);
-    const fullChartUrl = container.dataset.fullChartUrl;
-    const widgetShell = document.createElement("div");
-    const widgetMount = document.createElement("div");
-    const script = document.createElement("script");
+function makeWidgetConfig(stock, tabKey) {
+  const symbol = tradingviewSymbol(stock);
+  const symbolName = stock.symbol;
 
-    widgetShell.className = "tradingview-widget-container";
-    widgetMount.className = "tradingview-widget-container__widget";
-    script.type = "text/javascript";
-    script.async = true;
-    script.src = "https://s3.tradingview.com/external-embedding/embed-widget-mini-symbol-overview.js";
-    script.text = JSON.stringify(
-      {
-        symbol: container.dataset.tvSymbol,
+  if (tabKey === "overview") {
+    return {
+      script: "embed-widget-symbol-overview.js",
+      config: {
+        lineWidth: 2,
+        lineType: 0,
+        chartType: "area",
+        fontColor: "rgb(60, 60, 60)",
+        gridLineColor: "rgba(46, 46, 46, 0.06)",
+        backgroundColor: "#ffffff",
+        widgetFontColor: "#0F0F0F",
+        upColor: "#4a9b87",
+        downColor: "#ef5350",
+        borderUpColor: "#4a9b87",
+        borderDownColor: "#ef5350",
+        wickUpColor: "#4a9b87",
+        wickDownColor: "#ef5350",
+        colorTheme: "light",
+        isTransparent: false,
+        locale: "en",
         chartOnly: false,
-        dateRange: range.miniRange,
+        scalePosition: "right",
+        scaleMode: "Normal",
+        valuesTracking: "1",
+        changeMode: "price-and-percent",
+        symbols: [[symbolName, `${symbol}|1D`]],
+        dateRanges: timeRanges.map((range) => range.overviewRange),
+        fontSize: "12",
+        headerFontSize: "medium",
+        autosize: true,
+        width: "100%",
+        height: "100%",
         noTimeScale: false,
-        colorTheme: "dark",
+        hideDateRanges: false,
+        hideMarketStatus: false,
+        hideSymbolLogo: false,
+      },
+    };
+  }
+
+  if (tabKey === "financials") {
+    return {
+      script: "embed-widget-financials.js",
+      config: {
+        symbol,
+        colorTheme: "light",
+        displayMode: "regular",
         isTransparent: false,
         locale: "en",
         width: "100%",
-        autosize: true,
         height: "100%",
-        largeChartUrl: fullChartUrl,
       },
-      null,
-      2
-    );
+    };
+  }
 
-    widgetShell.append(widgetMount, script);
-    container.replaceChildren(widgetShell);
+  if (tabKey === "news") {
+    return {
+      script: "embed-widget-timeline.js",
+      config: {
+        feedMode: "symbol",
+        symbol,
+        colorTheme: "light",
+        isTransparent: false,
+        displayMode: "regular",
+        width: "100%",
+        height: "100%",
+        locale: "en",
+      },
+    };
+  }
+
+  if (tabKey === "technicals") {
+    return {
+      script: "embed-widget-technical-analysis.js",
+      config: {
+        symbol,
+        colorTheme: "light",
+        displayMode: "single",
+        isTransparent: false,
+        locale: "en",
+        interval: "1m",
+        disableInterval: false,
+        width: "100%",
+        height: "100%",
+        showIntervalTabs: true,
+      },
+    };
+  }
+
+  return null;
+}
+
+function renderTradingViewWidget(container) {
+  const stock = stocks.find((item) => item.symbol === container.dataset.symbol);
+  const tabKey = container.dataset.tab;
+  const widget = stock ? makeWidgetConfig(stock, tabKey) : null;
+  if (!widget) return;
+
+  const widgetShell = document.createElement("div");
+  const widgetMount = document.createElement("div");
+  const script = document.createElement("script");
+
+  widgetShell.className = "tradingview-widget-container";
+  widgetMount.className = "tradingview-widget-container__widget";
+  script.type = "text/javascript";
+  script.async = true;
+  script.src = `https://s3.tradingview.com/external-embedding/${widget.script}`;
+  script.text = JSON.stringify(widget.config, null, 2);
+
+  widgetShell.append(widgetMount, script);
+  container.replaceChildren(widgetShell);
 }
 
 function hydrateTradingViewCharts(root = document) {
-  root.querySelectorAll(".tv-live-chart").forEach(renderTradingViewWidget);
+  root.querySelectorAll(".stock-tab-panel[data-kind='widget']").forEach(renderTradingViewWidget);
 }
 
-function updateStockRange(symbol, rangeKey) {
+function sourceLinks(stock, tabKey) {
+  const symbol = stock.symbol;
+  const secSearch = `https://www.sec.gov/edgar/search/#/q=${encodeURIComponent(symbol)}`;
+  const paths = {
+    documents: [
+      ["TradingView documents", tradingviewSymbolUrl(stock, "documents/")],
+      ["SEC filings", secSearch],
+    ],
+    community: [["TradingView community ideas", tradingviewSymbolUrl(stock, "ideas/")]],
+    forecasts: [["TradingView forecasts", tradingviewSymbolUrl(stock, "forecast/")]],
+    seasonals: [["TradingView seasonals", tradingviewSymbolUrl(stock, "seasonals/")]],
+    options: [["TradingView options", tradingviewSymbolUrl(stock, "options/")]],
+    bonds: [["TradingView bonds", tradingviewSymbolUrl(stock, "bonds/")]],
+    etfs: [["TradingView ETFs", tradingviewSymbolUrl(stock, "etfs/")]],
+  };
+
+  return paths[tabKey] || [["Open on TradingView", tradingviewSymbolUrl(stock)]];
+}
+
+function renderSourcePanel(stock, tabKey) {
+  const tab = stockTabs.find((item) => item.key === tabKey);
+  const links = sourceLinks(stock, tabKey)
+    .map(([label, href]) => `<a href="${href}" target="_blank" rel="noopener noreferrer">${label}</a>`)
+    .join("");
+
+  return `
+    <div class="source-panel">
+      <h3>${tab.label}</h3>
+      <p>TradingView does not provide an embeddable ${tab.label.toLowerCase()} widget for this symbol tab, so this panel opens the corresponding source directly.</p>
+      <div class="source-links">${links}</div>
+    </div>
+  `;
+}
+
+function renderTabPanel(stock, tabKey) {
+  const tab = stockTabs.find((item) => item.key === tabKey) || stockTabs[0];
+
+  if (tab.kind === "source") {
+    return `
+      <div class="stock-tab-panel source-tab" data-kind="source" data-symbol="${stock.symbol}" data-tab="${tab.key}">
+        ${renderSourcePanel(stock, tab.key)}
+      </div>
+    `;
+  }
+
+  return `
+    <div class="stock-tab-panel ${tab.key}-panel" data-kind="widget" data-symbol="${stock.symbol}" data-tab="${tab.key}">
+      <span>Loading ${tab.label} from TradingView...</span>
+    </div>
+  `;
+}
+
+function updateStockTab(symbol, tabKey) {
   const stock = stocks.find((item) => item.symbol === symbol);
   const card = grid.querySelector(`.stock-card[data-symbol="${symbol}"]`);
   if (!stock || !card) return;
 
-  activeRanges.set(symbol, rangeKey);
+  activeTabs.set(symbol, tabKey);
 
-  const fullChartUrl = tradingviewSymbolUrl(stock, rangeKey);
-  const chart = card.querySelector(".tv-live-chart");
-  const fullChartLink = card.querySelector(".full-chart-link");
-
-  card.querySelectorAll("[data-range]").forEach((button) => {
-    const isActive = button.dataset.range === rangeKey;
+  card.querySelectorAll("[data-tab-target]").forEach((button) => {
+    const isActive = button.dataset.tabTarget === tabKey;
     button.classList.toggle("active", isActive);
-    button.setAttribute("aria-pressed", String(isActive));
+    button.setAttribute("aria-selected", String(isActive));
   });
 
-  fullChartLink.href = fullChartUrl;
-  chart.dataset.range = rangeKey;
-  chart.dataset.fullChartUrl = fullChartUrl;
-  renderTradingViewWidget(chart);
+  const panelHost = card.querySelector(".stock-panel-host");
+  panelHost.innerHTML = renderTabPanel(stock, tabKey);
+  hydrateTradingViewCharts(panelHost);
 }
 
 function renderSummary() {
@@ -199,19 +331,19 @@ function renderStocks() {
 
   grid.innerHTML = sortStocks(filtered)
     .map((stock) => {
-      const rangeKey = getStockRangeKey(stock);
-      const fullChartUrl = tradingviewSymbolUrl(stock, rangeKey);
-      const rangeButtons = timeRanges
+      const tabKey = getActiveTab(stock);
+      const fullChartUrl = tradingviewSymbolUrl(stock);
+      const tabButtons = stockTabs
         .map(
-          (range) => `
+          (tab) => `
             <button
               type="button"
-              class="${range.key === rangeKey ? "active" : ""}"
+              class="${tab.key === tabKey ? "active" : ""}"
               data-symbol="${stock.symbol}"
-              data-range="${range.key}"
-              aria-pressed="${range.key === rangeKey}"
-              title="${range.name}"
-            >${range.label}</button>
+              data-tab-target="${tab.key}"
+              aria-selected="${tab.key === tabKey}"
+              role="tab"
+            >${tab.label}</button>
           `
         )
         .join("");
@@ -229,16 +361,11 @@ function renderStocks() {
               <a class="full-chart-link" href="${fullChartUrl}" target="_blank" rel="noopener noreferrer">Full chart</a>
             </div>
           </div>
-          <div
-            class="tv-live-chart"
-            data-tv-symbol="${tradingviewSymbol(stock)}"
-            data-range="${rangeKey}"
-            data-full-chart-url="${escapeAttribute(fullChartUrl)}"
-          >
-            <span>Loading live TradingView quote...</span>
+          <div class="stock-tabs" role="tablist" aria-label="${stock.symbol} data tabs">
+            ${tabButtons}
           </div>
-          <div class="range-strip" role="group" aria-label="${stock.symbol} chart range">
-            ${rangeButtons}
+          <div class="stock-panel-host">
+            ${renderTabPanel(stock, tabKey)}
           </div>
         </article>
       `;
@@ -259,10 +386,10 @@ themeButtons.forEach((button) => {
 search.addEventListener("input", renderStocks);
 sortSelect.addEventListener("change", renderStocks);
 grid.addEventListener("click", (event) => {
-  const rangeButton = event.target.closest("[data-range]");
-  if (!rangeButton) return;
+  const tabButton = event.target.closest("[data-tab-target]");
+  if (!tabButton) return;
 
-  updateStockRange(rangeButton.dataset.symbol, rangeButton.dataset.range);
+  updateStockTab(tabButton.dataset.symbol, tabButton.dataset.tabTarget);
 });
 
 renderSummary();
