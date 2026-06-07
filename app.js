@@ -1,24 +1,24 @@
 const stocks = [
-  { rank: 1, symbol: "BNAI", exchange: "NASDAQ", company: "Brand Engagement Network", price: 22.17, ytd: 786.8, m1: 1.37, m3: -56.3, cap: "144.3M", theme: "AI platform", score: 97 },
-  { rank: 2, symbol: "SNDK", exchange: "NASDAQ", company: "Sandisk", price: 1559.32, ytd: 538.15, m1: 8.48, m3: 184.42, cap: "230.9B", theme: "Compute", score: 96 },
-  { rank: 3, symbol: "WATT", exchange: "NASDAQ", company: "Energous", price: 25.49, ytd: 523.23, m1: -8.28, m3: 147.96, cap: "140.2M", theme: "Compute", score: 95 },
-  { rank: 4, symbol: "AXTI", exchange: "NASDAQ", company: "AXT", price: 89.04, ytd: 417.67, m1: -19.2, m3: 143.95, cap: "5.8B", theme: "Compute", score: 94 },
-  { rank: 5, symbol: "AAOI", exchange: "NASDAQ", company: "Applied Optoelectronics", price: 177, ytd: 387, m1: -5.33, m3: 80.61, cap: "14.2B", theme: "Optical", score: 93 },
-  { rank: 6, symbol: "AEHR", exchange: "NASDAQ", company: "Aehr Test Systems", price: 98.45, ytd: 368.36, m1: 7.96, m3: 152.89, cap: "3.1B", theme: "Compute", score: 92 },
-  { rank: 7, symbol: "MXL", exchange: "NASDAQ", company: "MaxLinear", price: 80.92, ytd: 353.84, m1: 3.5, m3: 413.13, cap: "7.2B", theme: "Compute", score: 91 },
-  { rank: 8, symbol: "OPTX", exchange: "NASDAQ", company: "Syntec Optics", price: 11.35, ytd: 291.38, m1: 46.64, m3: 71.45, cap: "457.2M", theme: "Optical", score: 90 },
-  { rank: 9, symbol: "DOCN", exchange: "NYSE", company: "DigitalOcean", price: 169.87, ytd: 249.24, m1: 9.65, m3: 225.42, cap: "17.7B", theme: "AI platform", score: 89 },
-  { rank: 10, symbol: "NVTS", exchange: "NASDAQ", company: "Navitas Semiconductor", price: 25.08, ytd: 234.4, m1: 47.88, m3: 188.61, cap: "5.9B", theme: "Compute", score: 88 },
-  { rank: 11, symbol: "QUIK", exchange: "NASDAQ", company: "QuickLogic", price: 20, ytd: 230.58, m1: 8.46, m3: 135.29, cap: "364.5M", theme: "Compute", score: 87 },
-  { rank: 12, symbol: "DELL", exchange: "NYSE", company: "Dell Technologies", price: 394.39, ytd: 207.16, m1: 78.62, m3: 174.21, cap: "257.3B", theme: "Compute", score: 86 },
-  { rank: 13, symbol: "WOLF", exchange: "NYSE", company: "Wolfspeed", price: 55.06, ytd: 206.74, m1: 69.42, m3: 197.62, cap: "2.7B", theme: "Compute", score: 85 },
-  { rank: 14, symbol: "ARM", exchange: "NASDAQ", company: "Arm Holdings", price: 342.93, ytd: 203.94, m1: 47.81, m3: 190.31, cap: "438.2B", theme: "Compute", score: 84 },
-  { rank: 15, symbol: "MRVL", exchange: "NASDAQ", company: "Marvell Technology", price: 263.47, ytd: 203.75, m1: 52.65, m3: 211.01, cap: "230.5B", theme: "Compute", score: 83 },
-  { rank: 16, symbol: "VPG", exchange: "NYSE", company: "Vishay Precision Group", price: 117.51, ytd: 202.86, m1: 81.65, m3: 172.83, cap: "1.6B", theme: "Compute", score: 82 },
-  { rank: 17, symbol: "PENG", exchange: "NASDAQ", company: "Penguin Solutions", price: 59.86, ytd: 201.11, m1: 58.95, m3: 224.8, cap: "3.0B", theme: "Compute", score: 81 },
-  { rank: 18, symbol: "STX", exchange: "NASDAQ", company: "Seagate Technology", price: 847.47, ytd: 200.55, m1: 10.23, m3: 137.85, cap: "190.0B", theme: "Compute", score: 80 },
-  { rank: 19, symbol: "MU", exchange: "NASDAQ", company: "Micron Technology", price: 864.01, ytd: 192.76, m1: 30.84, m3: 127.29, cap: "974.4B", theme: "Compute", score: 79 },
-  { rank: 20, symbol: "WDC", exchange: "NASDAQ", company: "Western Digital", price: 511.72, ytd: 188.78, m1: 8.42, m3: 104.7, cap: "176.4B", theme: "Compute", score: 78 },
+  { rank: 1, symbol: "WATT", exchange: "NASDAQ", company: "Energous", price: 25.49, ytdBase: 4.32, ytd: 490.05, m1: -8.28, m3: 147.96, cap: "140.2M", theme: "Compute", score: 97 },
+  { rank: 2, symbol: "BNAI", exchange: "NASDAQ", company: "Brand Engagement Network", price: 22.17, ytdBase: 3.77, ytd: 488.06, m1: 1.37, m3: -56.3, cap: "144.3M", theme: "AI platform", score: 96 },
+  { rank: 3, symbol: "SNDK", exchange: "NASDAQ", company: "Sandisk", price: 1559.32, ytdBase: 275.24, ytd: 466.53, m1: 8.48, m3: 184.42, cap: "230.9B", theme: "Compute", score: 95 },
+  { rank: 4, symbol: "AXTI", exchange: "NASDAQ", company: "AXT", price: 89.04, ytdBase: 16.76, ytd: 431.26, m1: -19.2, m3: 143.95, cap: "5.8B", theme: "Compute", score: 94 },
+  { rank: 5, symbol: "AAOI", exchange: "NASDAQ", company: "Applied Optoelectronics", price: 177, ytdBase: 39.6, ytd: 346.97, m1: -5.33, m3: 80.61, cap: "14.2B", theme: "Optical", score: 93 },
+  { rank: 6, symbol: "AEHR", exchange: "NASDAQ", company: "Aehr Test Systems", price: 98.45, ytdBase: 22.16, ytd: 344.27, m1: 7.96, m3: 152.89, cap: "3.1B", theme: "Compute", score: 92 },
+  { rank: 7, symbol: "MXL", exchange: "NASDAQ", company: "MaxLinear", price: 80.92, ytdBase: 18.51, ytd: 337.17, m1: 3.5, m3: 413.13, cap: "7.2B", theme: "Compute", score: 91 },
+  { rank: 8, symbol: "OPTX", exchange: "NASDAQ", company: "Syntec Optics", price: 11.35, ytdBase: 3.13, ytd: 262.62, m1: 46.64, m3: 71.45, cap: "457.2M", theme: "Optical", score: 90 },
+  { rank: 9, symbol: "DOCN", exchange: "NYSE", company: "DigitalOcean", price: 169.87, ytdBase: 48.97, ytd: 246.89, m1: 9.65, m3: 225.42, cap: "17.7B", theme: "AI platform", score: 89 },
+  { rank: 10, symbol: "QUIK", exchange: "NASDAQ", company: "QuickLogic", price: 20, ytdBase: 6.28, ytd: 218.47, m1: 8.46, m3: 135.29, cap: "364.5M", theme: "Compute", score: 88 },
+  { rank: 11, symbol: "DELL", exchange: "NYSE", company: "Dell Technologies", price: 394.39, ytdBase: 127.8, ytd: 208.6, m1: 78.62, m3: 174.21, cap: "257.3B", theme: "Compute", score: 87 },
+  { rank: 12, symbol: "NVTS", exchange: "NASDAQ", company: "Navitas Semiconductor", price: 25.08, ytdBase: 8.38, ytd: 199.28, m1: 47.88, m3: 188.61, cap: "5.9B", theme: "Compute", score: 86 },
+  { rank: 13, symbol: "VPG", exchange: "NYSE", company: "Vishay Precision Group", price: 117.51, ytdBase: 39.28, ytd: 199.16, m1: 81.65, m3: 172.83, cap: "1.6B", theme: "Compute", score: 85 },
+  { rank: 14, symbol: "ARM", exchange: "NASDAQ", company: "Arm Holdings", price: 342.93, ytdBase: 114.73, ytd: 198.9, m1: 47.81, m3: 190.31, cap: "438.2B", theme: "Compute", score: 84 },
+  { rank: 15, symbol: "PENG", exchange: "NASDAQ", company: "Penguin Solutions", price: 59.86, ytdBase: 20.28, ytd: 195.17, m1: 58.95, m3: 224.8, cap: "3.0B", theme: "Compute", score: 83 },
+  { rank: 16, symbol: "MRVL", exchange: "NASDAQ", company: "Marvell Technology", price: 263.47, ytdBase: 89.39, ytd: 194.74, m1: 52.65, m3: 211.01, cap: "230.5B", theme: "Compute", score: 82 },
+  { rank: 17, symbol: "STX", exchange: "NASDAQ", company: "Seagate Technology", price: 847.47, ytdBase: 287.54, ytd: 194.73, m1: 10.23, m3: 137.85, cap: "190.0B", theme: "Compute", score: 81 },
+  { rank: 18, symbol: "WOLF", exchange: "NYSE", company: "Wolfspeed", price: 55.06, ytdBase: 18.93, ytd: 190.86, m1: 69.42, m3: 197.62, cap: "2.7B", theme: "Compute", score: 80 },
+  { rank: 19, symbol: "MU", exchange: "NASDAQ", company: "Micron Technology", price: 864.01, ytdBase: 315.42, ytd: 173.92, m1: 30.84, m3: 127.29, cap: "974.4B", theme: "Compute", score: 79 },
+  { rank: 20, symbol: "WDC", exchange: "NASDAQ", company: "Western Digital", price: 511.72, ytdBase: 187.7, ytd: 172.63, m1: 8.42, m3: 104.7, cap: "176.4B", theme: "Compute", score: 78 },
 ];
 
 const grid = document.querySelector("#stock-grid");
@@ -112,9 +112,18 @@ function median(values) {
   return (sorted[midpoint - 1] + sorted[midpoint]) / 2;
 }
 
+function calculateYtd(price, baseline) {
+  if (!Number.isFinite(price) || !Number.isFinite(baseline) || baseline <= 0) return NaN;
+  return ((price / baseline) - 1) * 100;
+}
+
 function stockYtd(stock) {
   const snapshot = marketSnapshots.get(stock.symbol);
-  return Number.isFinite(snapshot?.ytd) ? snapshot.ytd : stock.ytd;
+  const price = Number.isFinite(snapshot?.price) ? snapshot.price : stock.price;
+  const chartYtd = calculateYtd(price, stock.ytdBase);
+  if (Number.isFinite(chartYtd)) return chartYtd;
+
+  return Number.isFinite(snapshot?.scannerYtd) ? snapshot.scannerYtd : stock.ytd;
 }
 
 function getYtdSummary(items = stocks) {
@@ -279,7 +288,7 @@ function applyMarketSnapshot(rows) {
     marketSnapshots.set(symbol, {
       description,
       price,
-      ytd,
+      scannerYtd: ytd,
       m1,
       m3,
       cap: formatMarketCap(marketCap),
@@ -291,7 +300,6 @@ function applyMarketSnapshot(rows) {
     if (!snapshot) return;
 
     if (Number.isFinite(snapshot.price)) stock.price = snapshot.price;
-    if (Number.isFinite(snapshot.ytd)) stock.ytd = snapshot.ytd;
     if (Number.isFinite(snapshot.m1)) stock.m1 = snapshot.m1;
     if (Number.isFinite(snapshot.m3)) stock.m3 = snapshot.m3;
     if (snapshot.cap) stock.cap = snapshot.cap;

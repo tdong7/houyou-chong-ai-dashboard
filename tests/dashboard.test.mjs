@@ -69,6 +69,9 @@ assert.match(appSource, /dateRanges/, "Overview widgets should expose TradingVie
 assert.match(appSource, /updateStockTab/, "Tab clicks should update one stock card at a time");
 assert.match(appSource, /renderSourcePanel/, "Unsupported tabs should render source-backed panels");
 assert.match(appSource, /function getYtdSummary/, "Summary should be derived from a YTD summary helper");
+assert.match(appSource, /function calculateYtd/, "YTD should be calculated from the first 2026 trading-day close");
+assert.match(appSource, /symbol:\s*"BNAI"[\s\S]*ytdBase:\s*3\.77/, "BNAI YTD baseline should use the Jan 2, 2026 close");
+assert.match(appSource, /scannerYtd/, "Scanner YTD should be kept separate from chart-style YTD");
 assert.match(appSource, /function formatSignedPercent/, "Summary percentages should render their own sign");
 assert.match(appSource, /TRADINGVIEW_SCANNER_URL/, "Dashboard should have a TradingView scanner data source");
 assert.match(appSource, /refreshMarketSnapshot/, "Dashboard should refresh market data from TradingView");
@@ -83,6 +86,7 @@ assert.match(appSource, /symbol:\s*"WOLF",\s*exchange:\s*"NYSE"/, "WOLF should u
 assert.match(appSource, /symbol:\s*"VPG",\s*exchange:\s*"NYSE"/, "VPG should use TradingView's NYSE exchange code");
 assert.doesNotMatch(appSource, /stocks\[0\]\.ytd/, "Highest YTD should not depend on the first stock row");
 assert.doesNotMatch(appSource, /stocks\[0\]\.symbol/, "Highest stock label should not depend on the first stock row");
+assert.doesNotMatch(appSource, /stock\.ytd\s*=\s*snapshot\.ytd/, "Live scanner YTD should not overwrite chart-style YTD");
 assert.match(
   stylesSource,
   /\.stock-grid\s*\{[\s\S]*grid-template-columns:\s*repeat\(2,\s*minmax\(0,\s*1fr\)\)/,
