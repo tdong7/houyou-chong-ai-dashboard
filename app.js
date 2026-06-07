@@ -37,14 +37,14 @@ const exchangeOverrides = {
 };
 
 const timeRanges = [
-  { key: "1D", label: "1D", name: "1 day", points: 34, axis: ["09:30", "12:00", "16:00"], tradingView: "1D" },
-  { key: "5D", label: "5D", name: "5 days", points: 44, axis: ["Mon", "Wed", "Fri"], tradingView: "5D" },
-  { key: "1M", label: "1M", name: "1 month", points: 58, axis: ["May", "Mid", "Jun"], tradingView: "1M" },
-  { key: "6M", label: "6M", name: "6 months", points: 64, axis: ["Jan", "Mar", "Jun"], tradingView: "6M" },
-  { key: "YTD", label: "YTD", name: "Year to date", points: 72, axis: ["Jan", "Mar", "Jun"], tradingView: "YTD" },
-  { key: "1Y", label: "1Y", name: "1 year", points: 78, axis: ["Jul", "Jan", "Jun"], tradingView: "1Y" },
-  { key: "5Y", label: "5Y", name: "5 years", points: 88, axis: ["2022", "2024", "2026"], tradingView: "5Y" },
-  { key: "ALL", label: "ALL", name: "All time", points: 96, axis: ["IPO", "2024", "Now"], tradingView: "ALL" },
+  { key: "1D", label: "1D", name: "1 day", tradingView: "1D", miniRange: "1D" },
+  { key: "5D", label: "5D", name: "5 days", tradingView: "5D", miniRange: "5D" },
+  { key: "1M", label: "1M", name: "1 month", tradingView: "1M", miniRange: "1M" },
+  { key: "6M", label: "6M", name: "6 months", tradingView: "6M", miniRange: "6M" },
+  { key: "YTD", label: "YTD", name: "Year to date", tradingView: "YTD", miniRange: "YTD" },
+  { key: "1Y", label: "1Y", name: "1 year", tradingView: "1Y", miniRange: "12M" },
+  { key: "5Y", label: "5Y", name: "5 years", tradingView: "5Y", miniRange: "60M" },
+  { key: "ALL", label: "ALL", name: "All time", tradingView: "ALL", miniRange: "ALL" },
 ];
 
 const timeFormatter = new Intl.DateTimeFormat(undefined, {
@@ -67,26 +67,18 @@ function formatPercent(value) {
   return `${value.toLocaleString(undefined, { maximumFractionDigits: 1 })}%`;
 }
 
-function formatSignedPercent(value) {
-  return `${value >= 0 ? "+" : ""}${formatPercent(value)}`;
-}
-
-function formatPrice(value) {
-  return `$${value.toLocaleString(undefined, { minimumFractionDigits: 2, maximumFractionDigits: 2 })}`;
+function escapeAttribute(value) {
+  return String(value)
+    .replace(/&/g, "&amp;")
+    .replace(/"/g, "&quot;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;");
 }
 
 function median(values) {
   const sorted = [...values].sort((a, b) => a - b);
   const midpoint = Math.floor(sorted.length / 2);
   return (sorted[midpoint - 1] + sorted[midpoint]) / 2;
-}
-
-function seededNoise(seed) {
-  let value = seed % 2147483647;
-  return () => {
-    value = (value * 48271) % 2147483647;
-    return value / 2147483647;
-  };
 }
 
 function getRange(key) {
@@ -97,115 +89,53 @@ function getStockRangeKey(stock) {
   return activeRanges.get(stock.symbol) || "1M";
 }
 
-function rangeChange(stock, key) {
-  const rankDrift = (21 - stock.rank) / 22;
-  const dailyPulse = ((stock.symbol.charCodeAt(0) + stock.rank) % 7) - 3;
-  const values = {
-    "1D": stock.m1 * 0.08 + dailyPulse * 0.34,
-    "5D": stock.m1 * 0.26 + dailyPulse * 0.72,
-    "1M": stock.m1,
-    "6M": Math.max(stock.m3 * 1.42, stock.ytd * 0.34),
-    YTD: stock.ytd,
-    "1Y": stock.ytd * 1.18 + stock.m3 * 0.36,
-    "5Y": stock.ytd * 2.04 + stock.score * 2.6 + rankDrift * 70,
-    ALL: stock.ytd * 2.74 + stock.score * 5.5 + rankDrift * 120,
-  };
-
-  return values[key] ?? stock.m1;
+function tradingviewSymbol(stock) {
+  const exchange = exchangeOverrides[stock.symbol] || "NASDAQ";
+  return `${exchange}:${stock.symbol}`;
 }
 
 function tradingviewSymbolUrl(stock, key) {
-  const exchange = exchangeOverrides[stock.symbol] || "NASDAQ";
   const range = getRange(key);
-  const symbolPath = `${exchange}-${stock.symbol}`;
-  const widgetSymbol = encodeURIComponent(`${exchange}:${stock.symbol}`);
+  const symbol = tradingviewSymbol(stock);
+  const symbolPath = symbol.replace(":", "-");
+  const widgetSymbol = encodeURIComponent(symbol);
   return `https://www.tradingview.com/symbols/${symbolPath}/?timeframe=${range.tradingView}&tvwidgetsymbol=${widgetSymbol}`;
 }
 
-function makeSeries(stock, key) {
-  const range = getRange(key);
-  const seed = `${stock.symbol}${range.key}`.split("").reduce((sum, char) => sum + char.charCodeAt(0), 0) * 97;
-  const random = seededNoise(seed);
-  const count = range.points;
-  const change = rangeChange(stock, range.key);
-  const start = 100;
-  const end = Math.max(5, start * (1 + change / 100));
-  const values = [];
+function hydrateTradingViewCharts() {
+  document.querySelectorAll(".tv-live-chart").forEach((container) => {
+    const range = getRange(container.dataset.range);
+    const fullChartUrl = container.dataset.fullChartUrl;
+    const widgetShell = document.createElement("div");
+    const widgetMount = document.createElement("div");
+    const script = document.createElement("script");
 
-  for (let index = 0; index < count; index += 1) {
-    const progress = index / (count - 1);
-    const trend = start + (end - start) * progress;
-    const volatility = Math.max(2.2, Math.min(18, Math.abs(change) / 20));
-    const wave = Math.sin(index / 3.7) * volatility + Math.cos(index / 6.5) * volatility * 0.55;
-    const shock = (random() - 0.48) * volatility * 1.8;
-    const eventLift = index === Math.floor(count * 0.36) || index === Math.floor(count * 0.72) ? random() * volatility * 2.6 : 0;
+    widgetShell.className = "tradingview-widget-container";
+    widgetMount.className = "tradingview-widget-container__widget";
+    script.type = "text/javascript";
+    script.async = true;
+    script.src = "https://s3.tradingview.com/external-embedding/embed-widget-mini-symbol-overview.js";
+    script.text = JSON.stringify(
+      {
+        symbol: container.dataset.tvSymbol,
+        chartOnly: false,
+        dateRange: range.miniRange,
+        noTimeScale: false,
+        colorTheme: "dark",
+        isTransparent: false,
+        locale: "en",
+        width: "100%",
+        autosize: true,
+        height: "100%",
+        largeChartUrl: fullChartUrl,
+      },
+      null,
+      2
+    );
 
-    if (index === 0) {
-      values.push(start);
-    } else if (index === count - 1) {
-      values.push(end);
-    } else {
-      values.push(Math.max(4, trend + wave + shock + eventLift));
-    }
-  }
-
-  return values;
-}
-
-function linePath(points) {
-  return points.map((point, index) => `${index === 0 ? "M" : "L"}${point.x.toFixed(2)},${point.y.toFixed(2)}`).join(" ");
-}
-
-function renderSparkline(stock, key) {
-  const rangeMeta = getRange(key);
-  const width = 280;
-  const height = 90;
-  const pad = { top: 8, right: 34, bottom: 18, left: 8 };
-  const values = makeSeries(stock, rangeMeta.key);
-  const min = Math.min(...values);
-  const max = Math.max(...values);
-  const range = max - min || 1;
-  const points = values.map((value, index) => ({
-    value,
-    price: stock.price * (value / values.at(-1)),
-    change: ((value - values[0]) / values[0]) * 100,
-    x: pad.left + (index / (values.length - 1)) * (width - pad.left - pad.right),
-    y: pad.top + (1 - (value - min) / range) * (height - pad.top - pad.bottom),
-  }));
-  const path = linePath(points);
-  const areaPath = `${path} L${points.at(-1).x.toFixed(2)},${height - pad.bottom} L${points[0].x.toFixed(2)},${height - pad.bottom} Z`;
-  const latest = points.at(-1);
-
-  return `
-    <div class="sparkline" data-series='${JSON.stringify(points.map(({ price, change }) => [price, change]))}'>
-      <svg viewBox="0 0 ${width} ${height}" role="img" aria-label="${stock.symbol} ${rangeMeta.name} price sparkline">
-        <defs>
-          <linearGradient id="fill-${stock.symbol}-${rangeMeta.key}" x1="0" x2="0" y1="0" y2="1">
-            <stop offset="0%" stop-color="#24f29a" stop-opacity="0.34" />
-            <stop offset="100%" stop-color="#24f29a" stop-opacity="0.02" />
-          </linearGradient>
-        </defs>
-        <g class="grid-lines">
-          <line x1="8" y1="18" x2="246" y2="18" />
-          <line x1="8" y1="42" x2="246" y2="42" />
-          <line x1="8" y1="66" x2="246" y2="66" />
-          <line x1="70" y1="8" x2="70" y2="72" />
-          <line x1="150" y1="8" x2="150" y2="72" />
-        </g>
-        <path d="${areaPath}" fill="url(#fill-${stock.symbol}-${rangeMeta.key})" />
-        <path class="spark-line" d="${path}" />
-        <circle class="last-dot" cx="${latest.x.toFixed(2)}" cy="${latest.y.toFixed(2)}" r="2.2" />
-        <g class="axis">
-          <text x="258" y="20">${Math.round(stock.price * (max / values.at(-1)))}</text>
-          <text x="258" y="70">0</text>
-          <text x="18" y="84">${rangeMeta.axis[0]}</text>
-          <text x="116" y="84">${rangeMeta.axis[1]}</text>
-          <text x="216" y="84">${rangeMeta.axis[2]}</text>
-        </g>
-      </svg>
-      <div class="spark-tooltip" aria-hidden="true"></div>
-    </div>
-  `;
+    widgetShell.append(widgetMount, script);
+    container.replaceChildren(widgetShell);
+  });
 }
 
 function renderSummary() {
@@ -245,7 +175,7 @@ function renderStocks() {
   grid.innerHTML = sortStocks(filtered)
     .map((stock) => {
       const rangeKey = getStockRangeKey(stock);
-      const currentChange = rangeChange(stock, rangeKey);
+      const fullChartUrl = tradingviewSymbolUrl(stock, rangeKey);
       const rangeButtons = timeRanges
         .map(
           (range) => `
@@ -271,14 +201,21 @@ function renderStocks() {
             </div>
             <div class="card-badges">
               <span class="theme ${themeClass(stock.theme)}">${stock.theme}</span>
-              <a class="full-chart-link" href="${tradingviewSymbolUrl(stock, rangeKey)}" target="_blank" rel="noopener noreferrer">Full chart</a>
+              <a class="full-chart-link" href="${fullChartUrl}" target="_blank" rel="noopener noreferrer">Full chart</a>
             </div>
           </div>
-          <div class="quote-row">
-            <span>${formatPrice(stock.price)}</span>
-            <strong class="${currentChange >= 0 ? "positive" : "negative"}">${formatSignedPercent(currentChange)}</strong>
+          <div class="momentum-row">
+            <span>YTD gain</span>
+            <strong>+${formatPercent(stock.ytd)}</strong>
           </div>
-          ${renderSparkline(stock, rangeKey)}
+          <div
+            class="tv-live-chart"
+            data-tv-symbol="${tradingviewSymbol(stock)}"
+            data-range="${rangeKey}"
+            data-full-chart-url="${escapeAttribute(fullChartUrl)}"
+          >
+            <span>Loading live TradingView quote...</span>
+          </div>
           <div class="range-strip" role="group" aria-label="${stock.symbol} chart range">
             ${rangeButtons}
           </div>
@@ -293,31 +230,7 @@ function renderStocks() {
     })
     .join("");
 
-  wireSparklineTooltips();
-}
-
-function wireSparklineTooltips() {
-  document.querySelectorAll(".sparkline").forEach((chart) => {
-    const series = JSON.parse(chart.dataset.series);
-    const tooltip = chart.querySelector(".spark-tooltip");
-
-    chart.addEventListener("mousemove", (event) => {
-      const rect = chart.getBoundingClientRect();
-      const ratio = Math.min(1, Math.max(0, (event.clientX - rect.left) / rect.width));
-      const index = Math.round(ratio * (series.length - 1));
-      const [price, change] = series[index];
-      document.querySelectorAll(".spark-tooltip.visible").forEach((visibleTooltip) => {
-        if (visibleTooltip !== tooltip) visibleTooltip.classList.remove("visible");
-      });
-      tooltip.textContent = `${formatPrice(price)} · ${change >= 0 ? "+" : ""}${formatPercent(change)}`;
-      tooltip.style.left = `${ratio * 100}%`;
-      tooltip.classList.add("visible");
-    });
-
-    chart.addEventListener("mouseleave", () => {
-      tooltip.classList.remove("visible");
-    });
-  });
+  hydrateTradingViewCharts();
 }
 
 themeButtons.forEach((button) => {

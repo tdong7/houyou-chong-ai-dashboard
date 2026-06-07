@@ -13,3 +13,6 @@ assert.match(appSource, /tradingviewSymbolUrl/, "Missing TradingView URL builder
 assert.match(appSource, /https:\/\/www\.tradingview\.com\/symbols\/\$\{symbolPath\}/, "Missing TradingView symbol link");
 assert.match(appSource, /tvwidgetsymbol=\$\{widgetSymbol\}/, "TradingView link should include widget symbol");
 assert.match(appSource, /target="_blank"/, "Full chart links should open TradingView in a new tab");
+assert.match(appSource, /embed-widget-mini-symbol-overview\.js/, "Cards should use TradingView live Mini Chart widgets");
+assert.match(appSource, /hydrateTradingViewCharts/, "Missing TradingView chart hydration");
+assert.match(appSource, /dateRange/, "TradingView widgets should receive the selected date range");

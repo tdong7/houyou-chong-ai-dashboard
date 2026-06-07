@@ -450,6 +450,59 @@ main {
   color: var(--red);
 }
 
+.momentum-row {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 12px;
+  margin: 7px 0 6px;
+}
+
+.momentum-row span {
+  color: var(--muted);
+  font-size: 10px;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.momentum-row strong {
+  color: var(--green);
+  font-size: 18px;
+  line-height: 1;
+}
+
+.tv-live-chart {
+  position: relative;
+  height: 164px;
+  margin: 0 -6px 5px;
+  overflow: hidden;
+  border: 1px solid rgba(92, 137, 158, 0.2);
+  border-radius: 6px;
+  background: rgba(4, 14, 23, 0.64);
+}
+
+.tv-live-chart > span {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  color: var(--muted);
+  font-size: 11px;
+  font-weight: 800;
+}
+
+.tv-live-chart .tradingview-widget-container,
+.tv-live-chart .tradingview-widget-container__widget {
+  width: 100%;
+  height: 100%;
+}
+
+.tv-live-chart iframe {
+  display: block;
+  width: 100% !important;
+  height: 100% !important;
+}
+
 .sparkline {
   position: relative;
   height: 86px;
