@@ -80,11 +80,14 @@
           <button type="button" data-theme="Optical">Optical</button>
           <button type="button" data-theme="Robotics">Robotics</button>
         </div>
-        <select id="sort-select" aria-label="Sort stocks">
-          <option value="ytd-desc">Sort by: YTD Gain (High to Low)</option>
-          <option value="rank-asc">Sort by: Rank</option>
-          <option value="symbol-asc">Sort by: Ticker</option>
-        </select>
+        <div class="sort-box">
+          <select id="sort-select" aria-label="Sort stocks">
+            <option value="ytd-desc">Sort by: YTD Gain (High to Low)</option>
+            <option value="rank-asc">Sort by: Rank</option>
+            <option value="symbol-asc">Sort by: Ticker</option>
+          </select>
+          <span id="stock-list-update-time">Stock list update time: --</span>
+        </div>
       </section>
 
       <section class="stock-grid" id="stock-grid" aria-label="Top AI-related stocks"></section>

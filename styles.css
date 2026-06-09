@@ -251,7 +251,7 @@ main {
 
 .controls {
   display: grid;
-  grid-template-columns: 320px 1fr 260px;
+  grid-template-columns: 320px 1fr minmax(360px, 430px);
   align-items: center;
   gap: 14px;
   margin: 20px 0 16px;
@@ -313,6 +313,22 @@ main {
   height: 42px;
   padding: 0 14px;
   font-size: 12px;
+}
+
+.sort-box {
+  display: grid;
+  grid-template-columns: minmax(210px, 1fr) auto;
+  align-items: center;
+  gap: 10px;
+  min-width: 0;
+}
+
+#stock-list-update-time {
+  color: var(--muted);
+  font-size: 11px;
+  font-weight: 700;
+  line-height: 1.25;
+  white-space: nowrap;
 }
 
 .stock-grid {
@@ -635,6 +651,15 @@ main {
 
   .controls {
     grid-template-columns: 1fr;
+  }
+
+  .sort-box {
+    grid-template-columns: 1fr;
+    gap: 6px;
+  }
+
+  #stock-list-update-time {
+    white-space: normal;
   }
 }
 

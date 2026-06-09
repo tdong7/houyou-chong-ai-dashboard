@@ -21,6 +21,8 @@ const stocks = [
   { rank: 20, symbol: "WDC", exchange: "NASDAQ", company: "Western Digital Corporation", price: 526.93, ytdBase: 187.7, ytd: 180.73, m1: 10.92, m3: 96.29, cap: "181.6B", theme: "Compute", score: 79 },
 ];
 
+const stockListUpdatedAt = "2026-06-09T04:58:00.000Z";
+
 const grid = document.querySelector("#stock-grid");
 const search = document.querySelector("#stock-search");
 const sortSelect = document.querySelector("#sort-select");
@@ -81,6 +83,13 @@ const dateFormatter = new Intl.DateTimeFormat(undefined, {
   year: "numeric",
   month: "short",
   day: "2-digit",
+});
+
+const stockListTimeFormatter = new Intl.DateTimeFormat(undefined, {
+  month: "short",
+  day: "2-digit",
+  hour: "numeric",
+  minute: "2-digit",
 });
 
 function formatPercent(value) {
@@ -417,6 +426,16 @@ function renderTime() {
   document.querySelector("#source-detail").textContent = `Live local time · ${now.toLocaleTimeString()}`;
 }
 
+function renderStockListUpdateTime() {
+  const target = document.querySelector("#stock-list-update-time");
+  if (!target) return;
+
+  const updatedAt = new Date(stockListUpdatedAt);
+  target.textContent = Number.isNaN(updatedAt.getTime())
+    ? "Stock list update time: --"
+    : `Stock list update time: ${stockListTimeFormatter.format(updatedAt)}`;
+}
+
 function themeClass(theme) {
   return theme.toLowerCase().replace(/\s+/g, "-");
 }
@@ -505,6 +524,7 @@ grid.addEventListener("click", (event) => {
 
 renderSummary();
 renderTime();
+renderStockListUpdateTime();
 setInterval(renderTime, 1000);
 renderStocks();
 refreshMarketSnapshot();

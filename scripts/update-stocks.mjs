@@ -235,13 +235,16 @@ function stockLiteral(stock) {
   return `  { rank: ${stock.rank}, symbol: ${quote(stock.symbol)}, exchange: ${quote(stock.exchange)}, company: ${quote(stock.company)}, price: ${stock.price}, ytdBase: ${stock.ytdBase}, ytd: ${stock.ytd}, m1: ${stock.m1}, m3: ${stock.m3}, cap: ${quote(stock.cap)}, theme: ${quote(stock.theme)}, score: ${stock.score} }`;
 }
 
-async function updateAppStocks(stocks) {
+async function updateAppStocks(stocks, updatedAt = new Date()) {
   const appSource = await readFile(APP_PATH, "utf8");
   const nextBlock = `const stocks = [\n${stocks.map(stockLiteral).join(",\n")},\n];`;
+  const nextTimestamp = `const stockListUpdatedAt = ${quote(updatedAt.toISOString())};`;
   const currentBlockPattern = /const stocks = \[[\s\S]*?\n\];/;
+  const currentTimestampPattern = /const stockListUpdatedAt = "[^"]+";/;
   if (!currentBlockPattern.test(appSource)) throw new Error("Could not find stock block in app.js");
+  if (!currentTimestampPattern.test(appSource)) throw new Error("Could not find stock list timestamp in app.js");
 
-  const nextAppSource = appSource.replace(currentBlockPattern, nextBlock);
+  const nextAppSource = appSource.replace(currentBlockPattern, nextBlock).replace(currentTimestampPattern, nextTimestamp);
   if (nextAppSource !== appSource) {
     await writeFile(APP_PATH, nextAppSource);
     await bumpScriptVersion();

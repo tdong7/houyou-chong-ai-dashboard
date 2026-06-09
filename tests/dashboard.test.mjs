@@ -3,6 +3,7 @@ import { readFileSync } from "node:fs";
 
 const appSource = readFileSync(new URL("../app.js", import.meta.url), "utf8");
 const stylesSource = readFileSync(new URL("../styles.css", import.meta.url), "utf8");
+const indexSource = readFileSync(new URL("../index.html", import.meta.url), "utf8");
 
 const expectedRanges = ["1D", "5D", "1M", "6M", "YTD", "1Y", "5Y", "10Y", "ALL"];
 const expectedTabs = [
@@ -47,6 +48,10 @@ assert.match(appSource, /function getYtdSummary/, "Summary should be derived fro
 assert.match(appSource, /function calculateYtd/, "YTD should be calculated from the first 2026 trading-day close");
 assert.match(appSource, /scannerYtd/, "Scanner YTD should be kept separate from chart-style YTD");
 assert.match(appSource, /function formatSignedPercent/, "Summary percentages should render their own sign");
+assert.match(appSource, /stockListUpdatedAt/, "Dashboard should keep the stock list update timestamp");
+assert.match(appSource, /function renderStockListUpdateTime/, "Dashboard should render the stock list update time");
+assert.match(appSource, /Stock list update time:/, "Dashboard should label the stock list update time");
+assert.match(indexSource, /id="stock-list-update-time"/, "Controls should include a stock list update-time label next to sort");
 assert.match(appSource, /TRADINGVIEW_SCANNER_URL/, "Dashboard should have a TradingView scanner data source");
 assert.match(appSource, /refreshMarketSnapshot/, "Dashboard should refresh market data from TradingView");
 assert.match(appSource, /"Perf\.YTD"/, "TradingView scanner should request YTD performance");
