@@ -18,29 +18,6 @@ const expectedTabs = [
   "Bonds",
   "ETFs",
 ];
-const expectedTopSymbols = [
-  "BNAI",
-  "SNDK",
-  "WATT",
-  "AXTI",
-  "AAOI",
-  "AEHR",
-  "MXL",
-  "OPTX",
-  "DOCN",
-  "NVTS",
-  "QUIK",
-  "DELL",
-  "WOLF",
-  "ARM",
-  "MRVL",
-  "VPG",
-  "PENG",
-  "STX",
-  "MU",
-  "WDC",
-];
-
 for (const range of expectedRanges) {
   assert.match(appSource, new RegExp(`label:\\s*"${range}"`), `Missing ${range} chart range`);
 }
@@ -49,12 +26,10 @@ for (const tab of expectedTabs) {
   assert.match(appSource, new RegExp(`label:\\s*"${tab}"`), `Missing ${tab} stock tab`);
 }
 
-for (const symbol of expectedTopSymbols) {
-  assert.match(appSource, new RegExp(`symbol:\\s*"${symbol}"`), `Missing ${symbol} from current top AI stock list`);
-}
-
 const stockSymbolMatches = appSource.match(/symbol:\s*"[A-Z]+"/g) || [];
 assert.equal(stockSymbolMatches.length, 20, "Dashboard should contain exactly 20 ranked stocks");
+const ytdBaseMatches = appSource.match(/ytdBase:\s*[\d.]+/g) || [];
+assert.equal(ytdBaseMatches.length, 20, "Every ranked stock should carry a first-trading-day YTD baseline");
 
 assert.match(appSource, /tradingviewSymbolUrl/, "Missing TradingView URL builder");
 assert.match(appSource, /https:\/\/www\.tradingview\.com\/symbols\/\$\{symbolPath\}/, "Missing TradingView symbol link");
@@ -70,7 +45,6 @@ assert.match(appSource, /updateStockTab/, "Tab clicks should update one stock ca
 assert.match(appSource, /renderSourcePanel/, "Unsupported tabs should render source-backed panels");
 assert.match(appSource, /function getYtdSummary/, "Summary should be derived from a YTD summary helper");
 assert.match(appSource, /function calculateYtd/, "YTD should be calculated from the first 2026 trading-day close");
-assert.match(appSource, /symbol:\s*"BNAI"[\s\S]*ytdBase:\s*3\.77/, "BNAI YTD baseline should use the Jan 2, 2026 close");
 assert.match(appSource, /scannerYtd/, "Scanner YTD should be kept separate from chart-style YTD");
 assert.match(appSource, /function formatSignedPercent/, "Summary percentages should render their own sign");
 assert.match(appSource, /TRADINGVIEW_SCANNER_URL/, "Dashboard should have a TradingView scanner data source");

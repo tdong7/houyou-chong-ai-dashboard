@@ -1,0 +1,37 @@
+name: Update top AI stocks
+
+on:
+  schedule:
+    - cron: "30 13,14,19,20 * * 1-5"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 24
+
+      - name: Refresh ranked stocks
+        run: node scripts/update-stocks.mjs --market-window
+
+      - name: Verify dashboard
+        run: |
+          node tests/dashboard.test.mjs
+          node tests/automation.test.mjs
+          node --check app.js
+          node --check scripts/update-stocks.mjs
+
+      - name: Commit refreshed stock data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git diff --quiet || (git add app.js index.html && git commit -m "Refresh scheduled AI stock rankings" && git push)
