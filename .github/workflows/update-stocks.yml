@@ -2,7 +2,10 @@ name: Update top AI stocks
 
 on:
   schedule:
-    - cron: "30 13,14,19,20 * * 1-5"
+    - cron: "30 13 * * 1-5"
+    - cron: "30 14 * * 1-5"
+    - cron: "30 19 * * 1-5"
+    - cron: "30 20 * * 1-5"
   workflow_dispatch:
 
 permissions:
@@ -21,7 +24,7 @@ jobs:
           node-version: 24
 
       - name: Refresh ranked stocks
-        run: node scripts/update-stocks.mjs --market-window
+        run: node scripts/update-stocks.mjs --scheduled-window
 
       - name: Verify dashboard
         run: |

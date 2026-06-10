@@ -133,17 +133,44 @@ function easternParts(date = new Date()) {
   return Object.fromEntries(parts.map((part) => [part.type, part.value]));
 }
 
-function isScheduledTradingWindow(date = new Date()) {
-  const parts = easternParts(date);
-  if (["Sat", "Sun"].includes(parts.weekday)) return false;
+async function scheduledCron() {
+  if (!process.env.GITHUB_EVENT_PATH) return "";
 
-  const hour = Number(parts.hour);
-  const minute = Number(parts.minute);
-  const morningWindow = hour === 9 && minute >= 30;
-  const morningGrace = hour === 10 && minute < 30;
-  const afternoonWindow = hour === 15 && minute >= 30;
+  try {
+    const event = JSON.parse(await readFile(process.env.GITHUB_EVENT_PATH, "utf8"));
+    return event.schedule || "";
+  } catch (error) {
+    console.warn(`Could not read GitHub schedule event: ${error.message}`);
+    return "";
+  }
+}
 
-  return morningWindow || morningGrace || afternoonWindow;
+function parseCronMinuteHour(cron) {
+  const [minute, hour] = cron.trim().split(/\s+/);
+  const parsedMinute = Number(minute);
+  const parsedHour = Number(hour);
+  if (!Number.isInteger(parsedMinute) || !Number.isInteger(parsedHour)) return null;
+  return { minute: parsedMinute, hour: parsedHour };
+}
+
+function isScheduledUpdateSlot(cron, date = new Date()) {
+  if (!cron) return true;
+
+  const cronTime = parseCronMinuteHour(cron);
+  if (!cronTime) return false;
+
+  const scheduledUtc = new Date(Date.UTC(
+    date.getUTCFullYear(),
+    date.getUTCMonth(),
+    date.getUTCDate(),
+    cronTime.hour,
+    cronTime.minute
+  ));
+  const parts = easternParts(scheduledUtc);
+  const easternHour = Number(parts.hour);
+  const easternMinute = Number(parts.minute);
+
+  return easternMinute === 30 && (easternHour === 9 || easternHour === 15);
 }
 
 async function fetchTradingViewRows() {
@@ -259,8 +286,9 @@ async function bumpScriptVersion() {
 }
 
 async function main() {
-  if (process.argv.includes("--market-window") && !isScheduledTradingWindow()) {
-    console.log("Outside the 9:30 ET or 15:30 ET trading-hour update windows; skipping.");
+  const cron = await scheduledCron();
+  if (process.argv.includes("--scheduled-window") && !isScheduledUpdateSlot(cron)) {
+    console.log(`Skipping scheduled slot ${cron || "unknown"} because it is not 9:30 ET or 15:30 ET.`);
     return;
   }
 
