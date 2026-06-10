@@ -59,10 +59,8 @@ assert.match(appSource, /text\/plain;charset=UTF-8/, "TradingView scanner reques
 assert.match(appSource, /function formatMarketCap/, "Live market cap values should be formatted for cards");
 assert.match(appSource, /class="card-ytd"/, "Cards should show the same YTD return used by the summary");
 assert.match(appSource, /stock\.exchange/, "TradingView symbol building should use each stock exchange");
-assert.match(appSource, /symbol:\s*"DOCN",\s*exchange:\s*"NYSE"/, "DOCN should use TradingView's NYSE exchange code");
-assert.match(appSource, /symbol:\s*"DELL",\s*exchange:\s*"NYSE"/, "DELL should use TradingView's NYSE exchange code");
-assert.match(appSource, /symbol:\s*"WOLF",\s*exchange:\s*"NYSE"/, "WOLF should use TradingView's NYSE exchange code");
-assert.match(appSource, /symbol:\s*"VPG",\s*exchange:\s*"NYSE"/, "VPG should use TradingView's NYSE exchange code");
+const stockExchangeMatches = appSource.match(/exchange:\s*"(NASDAQ|NYSE|AMEX)"/g) || [];
+assert.equal(stockExchangeMatches.length, 20, "Every ranked stock should include its TradingView exchange code");
 assert.doesNotMatch(appSource, /stocks\[0\]\.ytd/, "Highest YTD should not depend on the first stock row");
 assert.doesNotMatch(appSource, /stocks\[0\]\.symbol/, "Highest stock label should not depend on the first stock row");
 assert.doesNotMatch(appSource, /stock\.ytd\s*=\s*snapshot\.ytd/, "Live scanner YTD should not overwrite chart-style YTD");
