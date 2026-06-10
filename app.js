@@ -21,7 +21,7 @@ const stocks = [
   { rank: 20, symbol: "NVTS", exchange: "NASDAQ", company: "Navitas Semiconductor Corporation", price: 22.85, ytdBase: 8.38, ytd: 172.67, m1: 43.85, m3: 162.04, cap: "5.3B", theme: "Compute", score: 79 },
 ];
 
-const stockListUpdatedAt = "2026-06-10T04:28:11.031Z";
+let stockListUpdatedAt = "2026-06-10T04:28:11.031Z";
 
 const grid = document.querySelector("#stock-grid");
 const search = document.querySelector("#stock-search");
@@ -42,6 +42,106 @@ const exchangeOverrides = {
 const TRADINGVIEW_SCANNER_URL = "https://scanner.tradingview.com/america/scan";
 const scannerColumns = ["name", "description", "close", "Perf.YTD", "Perf.1M", "Perf.3M", "market_cap_basic"];
 const marketSnapshots = new Map();
+const CLIENT_REFRESH_INTERVAL_MS = 6 * 60 * 60 * 1000;
+const CLIENT_REFRESH_CHECK_MS = 5 * 60 * 1000;
+const TOP_STOCK_COUNT = 20;
+const MINIMUM_YTD = 100;
+let clientRankRefreshInFlight = false;
+
+const AI_STOCK_UNIVERSE = [
+  { ticker: "BNAI", exchange: "NASDAQ", theme: "AI platform" },
+  { ticker: "WATT", exchange: "NASDAQ", theme: "Compute" },
+  { ticker: "SNDK", exchange: "NASDAQ", theme: "Compute" },
+  { ticker: "AXTI", exchange: "NASDAQ", theme: "Compute" },
+  { ticker: "AAOI", exchange: "NASDAQ", theme: "Optical" },
+  { ticker: "AEHR", exchange: "NASDAQ", theme: "Compute" },
+  { ticker: "MXL", exchange: "NASDAQ", theme: "Compute" },
+  { ticker: "OPTX", exchange: "NASDAQ", theme: "Optical" },
+  { ticker: "DOCN", exchange: "NYSE", theme: "AI platform" },
+  { ticker: "NVTS", exchange: "NASDAQ", theme: "Compute" },
+  { ticker: "QUIK", exchange: "NASDAQ", theme: "Compute" },
+  { ticker: "DELL", exchange: "NYSE", theme: "Compute" },
+  { ticker: "WOLF", exchange: "NYSE", theme: "Compute" },
+  { ticker: "ARM", exchange: "NASDAQ", theme: "Compute" },
+  { ticker: "MRVL", exchange: "NASDAQ", theme: "Compute" },
+  { ticker: "VPG", exchange: "NYSE", theme: "Compute" },
+  { ticker: "PENG", exchange: "NASDAQ", theme: "Compute" },
+  { ticker: "STX", exchange: "NASDAQ", theme: "Compute" },
+  { ticker: "MU", exchange: "NASDAQ", theme: "Compute" },
+  { ticker: "WDC", exchange: "NASDAQ", theme: "Compute" },
+  { ticker: "NVDA", exchange: "NASDAQ", theme: "Compute" },
+  { ticker: "SMCI", exchange: "NASDAQ", theme: "Compute" },
+  { ticker: "PLTR", exchange: "NASDAQ", theme: "AI platform" },
+  { ticker: "AVGO", exchange: "NASDAQ", theme: "Compute" },
+  { ticker: "AMD", exchange: "NASDAQ", theme: "Compute" },
+  { ticker: "APP", exchange: "NASDAQ", theme: "AI platform" },
+  { ticker: "IONQ", exchange: "NYSE", theme: "Quantum" },
+  { ticker: "CRWD", exchange: "NASDAQ", theme: "AI platform" },
+  { ticker: "SNOW", exchange: "NYSE", theme: "AI platform" },
+  { ticker: "COHR", exchange: "NYSE", theme: "Optical" },
+  { ticker: "LRCX", exchange: "NASDAQ", theme: "Compute" },
+  { ticker: "MELI", exchange: "NASDAQ", theme: "AI platform" },
+  { ticker: "PATH", exchange: "NYSE", theme: "AI platform" },
+  { ticker: "RKLB", exchange: "NASDAQ", theme: "Robotics" },
+  { ticker: "TEM", exchange: "NASDAQ", theme: "AI platform" },
+  { ticker: "HUBS", exchange: "NYSE", theme: "AI platform" },
+  { ticker: "ALAB", exchange: "NASDAQ", theme: "Compute" },
+  { ticker: "TTD", exchange: "NASDAQ", theme: "AI platform" },
+  { ticker: "QBTS", exchange: "NYSE", theme: "Quantum" },
+  { ticker: "RGTI", exchange: "NASDAQ", theme: "Quantum" },
+  { ticker: "QUBT", exchange: "NASDAQ", theme: "Quantum" },
+  { ticker: "ARQQ", exchange: "NASDAQ", theme: "Quantum" },
+  { ticker: "AI", exchange: "NYSE", theme: "AI platform" },
+  { ticker: "SOUN", exchange: "NASDAQ", theme: "AI platform" },
+  { ticker: "BBAI", exchange: "NYSE", theme: "AI platform" },
+  { ticker: "UPST", exchange: "NASDAQ", theme: "AI platform" },
+  { ticker: "APLD", exchange: "NASDAQ", theme: "Compute" },
+  { ticker: "IREN", exchange: "NASDAQ", theme: "Compute" },
+  { ticker: "CIFR", exchange: "NASDAQ", theme: "Compute" },
+  { ticker: "CORZ", exchange: "NASDAQ", theme: "Compute" },
+  { ticker: "VRT", exchange: "NYSE", theme: "Compute" },
+  { ticker: "CEG", exchange: "NASDAQ", theme: "Compute" },
+  { ticker: "ETN", exchange: "NYSE", theme: "Compute" },
+  { ticker: "ANET", exchange: "NYSE", theme: "Compute" },
+  { ticker: "CLS", exchange: "NYSE", theme: "Compute" },
+  { ticker: "CRDO", exchange: "NASDAQ", theme: "Compute" },
+  { ticker: "LITE", exchange: "NASDAQ", theme: "Optical" },
+  { ticker: "CIEN", exchange: "NYSE", theme: "Optical" },
+  { ticker: "NXT", exchange: "NASDAQ", theme: "Compute" },
+  { ticker: "ONTO", exchange: "NYSE", theme: "Compute" },
+  { ticker: "KLAC", exchange: "NASDAQ", theme: "Compute" },
+  { ticker: "AMAT", exchange: "NASDAQ", theme: "Compute" },
+  { ticker: "TER", exchange: "NASDAQ", theme: "Compute" },
+  { ticker: "MPWR", exchange: "NASDAQ", theme: "Compute" },
+  { ticker: "LSCC", exchange: "NASDAQ", theme: "Compute" },
+  { ticker: "QCOM", exchange: "NASDAQ", theme: "Compute" },
+  { ticker: "TXN", exchange: "NASDAQ", theme: "Compute" },
+  { ticker: "INTC", exchange: "NASDAQ", theme: "Compute" },
+  { ticker: "TSM", exchange: "NYSE", theme: "Compute" },
+  { ticker: "ASML", exchange: "NASDAQ", theme: "Compute" },
+  { ticker: "ORCL", exchange: "NYSE", theme: "AI platform" },
+  { ticker: "MSFT", exchange: "NASDAQ", theme: "AI platform" },
+  { ticker: "GOOGL", exchange: "NASDAQ", theme: "AI platform" },
+  { ticker: "META", exchange: "NASDAQ", theme: "AI platform" },
+  { ticker: "AMZN", exchange: "NASDAQ", theme: "AI platform" },
+  { ticker: "IBM", exchange: "NYSE", theme: "AI platform" },
+  { ticker: "CRM", exchange: "NYSE", theme: "AI platform" },
+  { ticker: "NOW", exchange: "NYSE", theme: "AI platform" },
+  { ticker: "ADBE", exchange: "NASDAQ", theme: "AI platform" },
+  { ticker: "TWLO", exchange: "NYSE", theme: "AI platform" },
+  { ticker: "DDOG", exchange: "NASDAQ", theme: "AI platform" },
+  { ticker: "NET", exchange: "NYSE", theme: "AI platform" },
+  { ticker: "ESTC", exchange: "NYSE", theme: "AI platform" },
+  { ticker: "GTLB", exchange: "NASDAQ", theme: "AI platform" },
+  { ticker: "FROG", exchange: "NASDAQ", theme: "AI platform" },
+  { ticker: "ROK", exchange: "NYSE", theme: "Robotics" },
+  { ticker: "ISRG", exchange: "NASDAQ", theme: "Robotics" },
+  { ticker: "SYM", exchange: "NASDAQ", theme: "Robotics" },
+  { ticker: "MBLY", exchange: "NASDAQ", theme: "Robotics" },
+  { ticker: "OUST", exchange: "NASDAQ", theme: "Robotics" },
+  { ticker: "AEVA", exchange: "NASDAQ", theme: "Robotics" },
+  { ticker: "SERV", exchange: "NASDAQ", theme: "Robotics" },
+];
 
 const timeRanges = [
   { key: "1D", label: "1D", name: "1 day", overviewRange: "1d|1" },
@@ -133,6 +233,37 @@ function stockYtd(stock) {
   if (Number.isFinite(chartYtd)) return chartYtd;
 
   return Number.isFinite(snapshot?.scannerYtd) ? snapshot.scannerYtd : stock.ytd;
+}
+
+function easternTimeParts(date = new Date()) {
+  const parts = new Intl.DateTimeFormat("en-US", {
+    timeZone: "America/New_York",
+    weekday: "short",
+    hour: "2-digit",
+    minute: "2-digit",
+    hourCycle: "h23",
+  }).formatToParts(date);
+
+  return Object.fromEntries(parts.map((part) => [part.type, part.value]));
+}
+
+function isTradingWindow(date = new Date()) {
+  const parts = easternTimeParts(date);
+  if (["Sat", "Sun"].includes(parts.weekday)) return false;
+
+  const minutes = Number(parts.hour) * 60 + Number(parts.minute);
+  return minutes >= 9 * 60 + 30 && minutes <= 16 * 60;
+}
+
+function shouldRefreshRankedStocks(date = new Date()) {
+  const updatedAt = new Date(stockListUpdatedAt);
+  if (Number.isNaN(updatedAt.getTime())) return isTradingWindow(date);
+  return isTradingWindow(date) && date.getTime() - updatedAt.getTime() >= CLIENT_REFRESH_INTERVAL_MS;
+}
+
+function inferYtdBaseline(price, ytd) {
+  if (!Number.isFinite(price) || !Number.isFinite(ytd) || ytd <= -100) return NaN;
+  return price / (1 + ytd / 100);
 }
 
 function getYtdSummary(items = stocks) {
@@ -340,6 +471,90 @@ async function refreshMarketSnapshot() {
   }
 }
 
+async function fetchScannerRowsForUniverse() {
+  const response = await fetch(TRADINGVIEW_SCANNER_URL, {
+    method: "POST",
+    headers: { "content-type": "text/plain;charset=UTF-8" },
+    body: JSON.stringify({
+      symbols: {
+        tickers: AI_STOCK_UNIVERSE.map((stock) => `${stock.exchange}:${stock.ticker}`),
+        query: { types: [] },
+      },
+      columns: scannerColumns,
+    }),
+  });
+
+  if (!response.ok) throw new Error(`TradingView scanner returned ${response.status}`);
+
+  return response.json();
+}
+
+function rankedStocksFromScannerRows(rows) {
+  const universeByTicker = new Map(AI_STOCK_UNIVERSE.map((stock) => [stock.ticker, stock]));
+  const candidates = (rows || [])
+    .map((row) => {
+      const [symbol, description, price, ytd, m1, m3, marketCap] = row.d || [];
+      const universeStock = universeByTicker.get(symbol);
+      if (!universeStock || !Number.isFinite(price) || !Number.isFinite(ytd) || ytd < MINIMUM_YTD) return null;
+
+      return {
+        symbol,
+        exchange: universeStock.exchange,
+        company: description || symbol,
+        price,
+        ytdBase: inferYtdBaseline(price, ytd),
+        ytd,
+        m1: Number.isFinite(m1) ? m1 : 0,
+        m3: Number.isFinite(m3) ? m3 : 0,
+        cap: formatMarketCap(marketCap),
+        theme: universeStock.theme,
+      };
+    })
+    .filter(Boolean)
+    .sort((a, b) => b.ytd - a.ytd)
+    .slice(0, TOP_STOCK_COUNT);
+
+  if (candidates.length < TOP_STOCK_COUNT) return null;
+
+  return candidates.map((stock, index) => ({
+    ...stock,
+    rank: index + 1,
+    score: TOP_STOCK_COUNT + 78 - index,
+    price: Number(stock.price.toFixed(2)),
+    ytdBase: Number(stock.ytdBase.toFixed(4)),
+    ytd: Number(stock.ytd.toFixed(2)),
+    m1: Number(stock.m1.toFixed(2)),
+    m3: Number(stock.m3.toFixed(2)),
+  }));
+}
+
+async function refreshRankedStocks({ force = false } = {}) {
+  if (clientRankRefreshInFlight || (!force && !shouldRefreshRankedStocks())) return;
+
+  clientRankRefreshInFlight = true;
+  try {
+    const payload = await fetchScannerRowsForUniverse();
+    const ranked = rankedStocksFromScannerRows(payload.data);
+    if (!ranked) throw new Error("TradingView scanner returned fewer than 20 AI stocks above 100% YTD");
+
+    stocks.splice(0, stocks.length, ...ranked);
+    marketSnapshots.clear();
+    stockListUpdatedAt = new Date().toISOString();
+    renderSummary();
+    renderStockListUpdateTime();
+    renderStocks();
+  } catch (error) {
+    console.warn("Browser stock list refresh failed", error);
+  } finally {
+    clientRankRefreshInFlight = false;
+  }
+}
+
+function scheduleClientRankRefresh() {
+  refreshRankedStocks();
+  setInterval(refreshRankedStocks, CLIENT_REFRESH_CHECK_MS);
+}
+
 function sourceLinks(stock, tabKey) {
   const symbol = stock.symbol;
   const secSearch = `https://www.sec.gov/edgar/search/#/q=${encodeURIComponent(symbol)}`;
@@ -528,3 +743,4 @@ renderStockListUpdateTime();
 setInterval(renderTime, 1000);
 renderStocks();
 refreshMarketSnapshot();
+scheduleClientRankRefresh();

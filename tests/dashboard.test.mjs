@@ -31,6 +31,7 @@ const stockSymbolMatches = appSource.match(/symbol:\s*"[A-Z]+"/g) || [];
 assert.equal(stockSymbolMatches.length, 20, "Dashboard should contain exactly 20 ranked stocks");
 const ytdBaseMatches = appSource.match(/ytdBase:\s*[\d.]+/g) || [];
 assert.equal(ytdBaseMatches.length, 20, "Every ranked stock should carry a first-trading-day YTD baseline");
+const stockBlock = appSource.match(/const stocks = \[[\s\S]*?\n\];/)?.[0] || "";
 
 assert.match(appSource, /tradingviewSymbolUrl/, "Missing TradingView URL builder");
 assert.match(appSource, /https:\/\/www\.tradingview\.com\/symbols\/\$\{symbolPath\}/, "Missing TradingView symbol link");
@@ -52,6 +53,10 @@ assert.match(appSource, /stockListUpdatedAt/, "Dashboard should keep the stock l
 assert.match(appSource, /function renderStockListUpdateTime/, "Dashboard should render the stock list update time");
 assert.match(appSource, /Stock list update time:/, "Dashboard should label the stock list update time");
 assert.match(indexSource, /id="stock-list-update-time"/, "Controls should include a stock list update-time label next to sort");
+assert.match(appSource, /CLIENT_REFRESH_INTERVAL_MS/, "Dashboard should define the browser-side stock refresh interval");
+assert.match(appSource, /AI_STOCK_UNIVERSE/, "Dashboard should have a client-side AI universe for fallback ranking refreshes");
+assert.match(appSource, /function refreshRankedStocks/, "Dashboard should refresh ranked stocks in the browser");
+assert.match(appSource, /function scheduleClientRankRefresh/, "Dashboard should schedule browser-side rank refreshes");
 assert.match(appSource, /TRADINGVIEW_SCANNER_URL/, "Dashboard should have a TradingView scanner data source");
 assert.match(appSource, /refreshMarketSnapshot/, "Dashboard should refresh market data from TradingView");
 assert.match(appSource, /"Perf\.YTD"/, "TradingView scanner should request YTD performance");
@@ -59,7 +64,7 @@ assert.match(appSource, /text\/plain;charset=UTF-8/, "TradingView scanner reques
 assert.match(appSource, /function formatMarketCap/, "Live market cap values should be formatted for cards");
 assert.match(appSource, /class="card-ytd"/, "Cards should show the same YTD return used by the summary");
 assert.match(appSource, /stock\.exchange/, "TradingView symbol building should use each stock exchange");
-const stockExchangeMatches = appSource.match(/exchange:\s*"(NASDAQ|NYSE|AMEX)"/g) || [];
+const stockExchangeMatches = stockBlock.match(/exchange:\s*"(NASDAQ|NYSE|AMEX)"/g) || [];
 assert.equal(stockExchangeMatches.length, 20, "Every ranked stock should include its TradingView exchange code");
 assert.doesNotMatch(appSource, /stocks\[0\]\.ytd/, "Highest YTD should not depend on the first stock row");
 assert.doesNotMatch(appSource, /stocks\[0\]\.symbol/, "Highest stock label should not depend on the first stock row");
