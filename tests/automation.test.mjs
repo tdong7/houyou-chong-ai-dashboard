@@ -28,3 +28,4 @@ assert.match(updaterSource, /query1\.finance\.yahoo\.com/, "Updater should fetch
 assert.match(updaterSource, /AI_STOCK_UNIVERSE/, "Updater should rank from a broader AI stock universe");
 assert.match(updaterSource, /const stocks = \[/, "Updater should rewrite the dashboard stock block");
 assert.match(updaterSource, /stockListUpdatedAt/, "Updater should refresh the displayed stock-list timestamp");
+assert.match(updaterSource, /\?:const\|let/, "Updater should support mutable dashboard timestamp declarations");

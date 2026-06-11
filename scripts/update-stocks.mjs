@@ -265,9 +265,9 @@ function stockLiteral(stock) {
 async function updateAppStocks(stocks, updatedAt = new Date()) {
   const appSource = await readFile(APP_PATH, "utf8");
   const nextBlock = `const stocks = [\n${stocks.map(stockLiteral).join(",\n")},\n];`;
-  const nextTimestamp = `const stockListUpdatedAt = ${quote(updatedAt.toISOString())};`;
+  const nextTimestamp = `let stockListUpdatedAt = ${quote(updatedAt.toISOString())};`;
   const currentBlockPattern = /const stocks = \[[\s\S]*?\n\];/;
-  const currentTimestampPattern = /const stockListUpdatedAt = "[^"]+";/;
+  const currentTimestampPattern = /(?:const|let) stockListUpdatedAt = "[^"]+";/;
   if (!currentBlockPattern.test(appSource)) throw new Error("Could not find stock block in app.js");
   if (!currentTimestampPattern.test(appSource)) throw new Error("Could not find stock list timestamp in app.js");
 

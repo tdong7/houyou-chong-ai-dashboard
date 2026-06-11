@@ -1,27 +1,27 @@
 const stocks = [
-  { rank: 1, symbol: "SNDK", exchange: "NASDAQ", company: "Sandisk Corporation", price: 1646.54, ytdBase: 275.24, ytd: 498.22, m1: 18.08, m3: 163.05, cap: "243.8B", theme: "Compute", score: 98 },
-  { rank: 2, symbol: "WATT", exchange: "NASDAQ", company: "Energous Corp.", price: 23.92, ytdBase: 4.32, ytd: 453.7, m1: -7.29, m3: 92.13, cap: "131.6M", theme: "Compute", score: 97 },
-  { rank: 3, symbol: "BNAI", exchange: "NASDAQ", company: "Brand Engagement Network Inc.", price: 19.18, ytdBase: 3.77, ytd: 408.75, m1: -13.21, m3: -45.56, cap: "124.8M", theme: "AI platform", score: 96 },
-  { rank: 4, symbol: "AXTI", exchange: "NASDAQ", company: "AXT, Inc.", price: 78.36, ytdBase: 16.76, ytd: 367.54, m1: -32.07, m3: 80.1, cap: "5.1B", theme: "Compute", score: 95 },
-  { rank: 5, symbol: "AEHR", exchange: "NASDAQ", company: "Aehr Test Systems", price: 94.31, ytdBase: 22.16, ytd: 325.59, m1: 0.33, m3: 124.55, cap: "3B", theme: "Compute", score: 94 },
-  { rank: 6, symbol: "AAOI", exchange: "NASDAQ", company: "Applied Optoelectronics, Inc.", price: 162.88, ytdBase: 39.6, ytd: 311.31, m1: -6.31, m3: 37.39, cap: "13.1B", theme: "Optical", score: 93 },
-  { rank: 7, symbol: "MXL", exchange: "NASDAQ", company: "MaxLinear, Inc.", price: 72.61, ytdBase: 18.51, ytd: 292.27, m1: -17.24, m3: 347.93, cap: "6.5B", theme: "Compute", score: 92 },
-  { rank: 8, symbol: "OPTX", exchange: "NASDAQ", company: "Syntec Optics Holdings, Inc. Class A", price: 11.63, ytdBase: 3.13, ytd: 271.57, m1: 62.2, m3: 45.19, cap: "468.5M", theme: "Optical", score: 91 },
-  { rank: 9, symbol: "DOCN", exchange: "NYSE", company: "DigitalOcean Holdings, Inc.", price: 168.33, ytdBase: 48.97, ytd: 243.74, m1: 11.29, m3: 171.46, cap: "17.6B", theme: "AI platform", score: 90 },
-  { rank: 10, symbol: "QUIK", exchange: "NASDAQ", company: "QuickLogic Corporation", price: 19.7, ytdBase: 6.28, ytd: 213.69, m1: 10.06, m3: 111.6, cap: "359M", theme: "Compute", score: 89 },
-  { rank: 11, symbol: "VPG", exchange: "NYSE", company: "Vishay Precision Group, Inc.", price: 122.66, ytdBase: 39.28, ytd: 212.27, m1: 91.9, m3: 178.33, cap: "1.6B", theme: "Compute", score: 88 },
-  { rank: 12, symbol: "PENG", exchange: "NASDAQ", company: "Penguin Solutions Incorporation", price: 61.69, ytdBase: 20.28, ytd: 204.19, m1: 54.26, m3: 229.72, cap: "3.1B", theme: "Compute", score: 87 },
-  { rank: 13, symbol: "DELL", exchange: "NYSE", company: "Dell Technologies, Inc. Class C", price: 381.78, ytdBase: 127.8, ytd: 198.73, m1: 63.44, m3: 162.1, cap: "249.1B", theme: "Compute", score: 86 },
-  { rank: 14, symbol: "MRVL", exchange: "NASDAQ", company: "Marvell Technology, Inc.", price: 266.88, ytdBase: 89.39, ytd: 198.56, m1: 62.05, m3: 185.13, cap: "233.5B", theme: "Compute", score: 85 },
-  { rank: 15, symbol: "MU", exchange: "NASDAQ", company: "Micron Technology, Inc.", price: 935.89, ytdBase: 315.42, ytd: 196.71, m1: 38.35, m3: 127.84, cap: "1.1T", theme: "Compute", score: 84 },
-  { rank: 16, symbol: "STX", exchange: "NASDAQ", company: "Seagate Technology Holdings PLC", price: 846.01, ytdBase: 287.54, ytd: 194.22, m1: 8.46, m3: 120.32, cap: "189.7B", theme: "Compute", score: 83 },
-  { rank: 17, symbol: "ARM", exchange: "NASDAQ", company: "ARM Holdings PLC Sponsored ADR", price: 324.86, ytdBase: 114.73, ytd: 183.15, m1: 49.73, m3: 168.86, cap: "368.6B", theme: "Compute", score: 82 },
-  { rank: 18, symbol: "WDC", exchange: "NASDAQ", company: "Western Digital Corporation", price: 517.72, ytdBase: 187.7, ytd: 175.82, m1: 8.98, m3: 91.89, cap: "178.4B", theme: "Compute", score: 81 },
-  { rank: 19, symbol: "INTC", exchange: "NASDAQ", company: "Intel Corporation", price: 107.92, ytdBase: 39.38, ytd: 174.05, m1: -3.48, m3: 130.52, cap: "542.4B", theme: "Compute", score: 80 },
-  { rank: 20, symbol: "NVTS", exchange: "NASDAQ", company: "Navitas Semiconductor Corporation", price: 22.85, ytdBase: 8.38, ytd: 172.67, m1: 43.85, m3: 162.04, cap: "5.3B", theme: "Compute", score: 79 },
+  { rank: 1, symbol: "SNDK", exchange: "NASDAQ", company: "Sandisk Corporation", price: 1643.23, ytdBase: 275.24, ytd: 497.02, m1: 3.59, m3: 153.98, cap: "243.3B", theme: "Compute", score: 98 },
+  { rank: 2, symbol: "BNAI", exchange: "NASDAQ", company: "Brand Engagement Network Inc.", price: 20.09, ytdBase: 3.77, ytd: 432.89, m1: -17.05, m3: -48.79, cap: "130.7M", theme: "AI platform", score: 97 },
+  { rank: 3, symbol: "WATT", exchange: "NASDAQ", company: "Energous Corp.", price: 22.92, ytdBase: 4.32, ytd: 430.56, m1: -19.04, m3: 68.78, cap: "126.1M", theme: "Compute", score: 96 },
+  { rank: 4, symbol: "AXTI", exchange: "NASDAQ", company: "AXT, Inc.", price: 85.29, ytdBase: 16.76, ytd: 408.89, m1: -27.95, m3: 83.1, cap: "5.6B", theme: "Compute", score: 95 },
+  { rank: 5, symbol: "AAOI", exchange: "NASDAQ", company: "Applied Optoelectronics, Inc.", price: 175.13, ytdBase: 39.6, ytd: 342.25, m1: 15.02, m3: 51.59, cap: "14.1B", theme: "Optical", score: 94 },
+  { rank: 6, symbol: "AEHR", exchange: "NASDAQ", company: "Aehr Test Systems", price: 93.32, ytdBase: 22.16, ytd: 321.12, m1: -6.49, m3: 126.12, cap: "2.9B", theme: "Compute", score: 93 },
+  { rank: 7, symbol: "OPTX", exchange: "NASDAQ", company: "Syntec Optics Holdings, Inc. Class A", price: 12.8, ytdBase: 3.13, ytd: 308.95, m1: 73.21, m3: 80.03, cap: "515.6M", theme: "Optical", score: 92 },
+  { rank: 8, symbol: "MXL", exchange: "NASDAQ", company: "MaxLinear, Inc.", price: 71.95, ytdBase: 18.51, ytd: 288.71, m1: -29.03, m3: 332.52, cap: "6.4B", theme: "Compute", score: 91 },
+  { rank: 9, symbol: "DOCN", exchange: "NYSE", company: "DigitalOcean Holdings, Inc.", price: 171.47, ytdBase: 48.97, ytd: 250.15, m1: 5.29, m3: 150.54, cap: "17.9B", theme: "AI platform", score: 90 },
+  { rank: 10, symbol: "QUIK", exchange: "NASDAQ", company: "QuickLogic Corporation", price: 19.6, ytdBase: 6.28, ytd: 212.1, m1: -2, m3: 109.4, cap: "357.2M", theme: "Compute", score: 89 },
+  { rank: 11, symbol: "VPG", exchange: "NYSE", company: "Vishay Precision Group, Inc.", price: 122.25, ytdBase: 39.28, ytd: 211.23, m1: 80.66, m3: 183.38, cap: "1.6B", theme: "Compute", score: 88 },
+  { rank: 12, symbol: "DELL", exchange: "NYSE", company: "Dell Technologies, Inc. Class C", price: 369.83, ytdBase: 127.8, ytd: 189.38, m1: 45.83, m3: 151.33, cap: "241.3B", theme: "Compute", score: 87 },
+  { rank: 13, symbol: "PENG", exchange: "NASDAQ", company: "Penguin Solutions Incorporation", price: 58.52, ytdBase: 20.28, ytd: 188.56, m1: 26.5, m3: 221.19, cap: "3B", theme: "Compute", score: 86 },
+  { rank: 14, symbol: "STX", exchange: "NASDAQ", company: "Seagate Technology Holdings PLC", price: 815.99, ytdBase: 287.54, ytd: 183.78, m1: 2.87, m3: 113.21, cap: "183B", theme: "Compute", score: 85 },
+  { rank: 15, symbol: "MU", exchange: "NASDAQ", company: "Micron Technology, Inc.", price: 891.88, ytdBase: 315.42, ytd: 182.76, m1: 12.47, m3: 117.53, cap: "1T", theme: "Compute", score: 84 },
+  { rank: 16, symbol: "MRVL", exchange: "NASDAQ", company: "Marvell Technology, Inc.", price: 252.59, ytdBase: 89.39, ytd: 182.57, m1: 54.33, m3: 181.12, cap: "221B", theme: "Compute", score: 83 },
+  { rank: 17, symbol: "INTC", exchange: "NASDAQ", company: "Intel Corporation", price: 107.04, ytdBase: 39.38, ytd: 171.81, m1: -18.22, m3: 125.82, cap: "538B", theme: "Compute", score: 82 },
+  { rank: 18, symbol: "ARM", exchange: "NASDAQ", company: "ARM Holdings PLC Sponsored ADR", price: 307.43, ytdBase: 114.73, ytd: 167.96, m1: 48.85, m3: 160.04, cap: "345.7B", theme: "Compute", score: 81 },
+  { rank: 19, symbol: "WDC", exchange: "NASDAQ", company: "Western Digital Corporation", price: 490.09, ytdBase: 187.7, ytd: 161.1, m1: 0.22, m3: 84.48, cap: "168.9B", theme: "Compute", score: 80 },
+  { rank: 20, symbol: "NVTS", exchange: "NASDAQ", company: "Navitas Semiconductor Corporation", price: 20.5, ytdBase: 8.38, ytd: 144.63, m1: 13.07, m3: 96.74, cap: "4.8B", theme: "Compute", score: 79 },
 ];
 
-let stockListUpdatedAt = "2026-06-10T04:28:11.031Z";
+let stockListUpdatedAt = "2026-06-11T00:08:59.156Z";
 
 const grid = document.querySelector("#stock-grid");
 const search = document.querySelector("#stock-search");
