@@ -1,27 +1,27 @@
 const stocks = [
-  { rank: 1, symbol: "SNDK", exchange: "NASDAQ", company: "Sandisk Corporation", price: 1643.23, ytdBase: 275.24, ytd: 497.02, m1: 3.59, m3: 153.98, cap: "243.3B", theme: "Compute", score: 98 },
-  { rank: 2, symbol: "BNAI", exchange: "NASDAQ", company: "Brand Engagement Network Inc.", price: 20.09, ytdBase: 3.77, ytd: 432.89, m1: -17.05, m3: -48.79, cap: "130.7M", theme: "AI platform", score: 97 },
-  { rank: 3, symbol: "WATT", exchange: "NASDAQ", company: "Energous Corp.", price: 22.92, ytdBase: 4.32, ytd: 430.56, m1: -19.04, m3: 68.78, cap: "126.1M", theme: "Compute", score: 96 },
-  { rank: 4, symbol: "AXTI", exchange: "NASDAQ", company: "AXT, Inc.", price: 85.29, ytdBase: 16.76, ytd: 408.89, m1: -27.95, m3: 83.1, cap: "5.6B", theme: "Compute", score: 95 },
-  { rank: 5, symbol: "AAOI", exchange: "NASDAQ", company: "Applied Optoelectronics, Inc.", price: 175.13, ytdBase: 39.6, ytd: 342.25, m1: 15.02, m3: 51.59, cap: "14.1B", theme: "Optical", score: 94 },
-  { rank: 6, symbol: "AEHR", exchange: "NASDAQ", company: "Aehr Test Systems", price: 93.32, ytdBase: 22.16, ytd: 321.12, m1: -6.49, m3: 126.12, cap: "2.9B", theme: "Compute", score: 93 },
-  { rank: 7, symbol: "OPTX", exchange: "NASDAQ", company: "Syntec Optics Holdings, Inc. Class A", price: 12.8, ytdBase: 3.13, ytd: 308.95, m1: 73.21, m3: 80.03, cap: "515.6M", theme: "Optical", score: 92 },
-  { rank: 8, symbol: "MXL", exchange: "NASDAQ", company: "MaxLinear, Inc.", price: 71.95, ytdBase: 18.51, ytd: 288.71, m1: -29.03, m3: 332.52, cap: "6.4B", theme: "Compute", score: 91 },
-  { rank: 9, symbol: "DOCN", exchange: "NYSE", company: "DigitalOcean Holdings, Inc.", price: 171.47, ytdBase: 48.97, ytd: 250.15, m1: 5.29, m3: 150.54, cap: "17.9B", theme: "AI platform", score: 90 },
-  { rank: 10, symbol: "QUIK", exchange: "NASDAQ", company: "QuickLogic Corporation", price: 19.6, ytdBase: 6.28, ytd: 212.1, m1: -2, m3: 109.4, cap: "357.2M", theme: "Compute", score: 89 },
-  { rank: 11, symbol: "VPG", exchange: "NYSE", company: "Vishay Precision Group, Inc.", price: 122.25, ytdBase: 39.28, ytd: 211.23, m1: 80.66, m3: 183.38, cap: "1.6B", theme: "Compute", score: 88 },
-  { rank: 12, symbol: "DELL", exchange: "NYSE", company: "Dell Technologies, Inc. Class C", price: 369.83, ytdBase: 127.8, ytd: 189.38, m1: 45.83, m3: 151.33, cap: "241.3B", theme: "Compute", score: 87 },
-  { rank: 13, symbol: "PENG", exchange: "NASDAQ", company: "Penguin Solutions Incorporation", price: 58.52, ytdBase: 20.28, ytd: 188.56, m1: 26.5, m3: 221.19, cap: "3B", theme: "Compute", score: 86 },
-  { rank: 14, symbol: "STX", exchange: "NASDAQ", company: "Seagate Technology Holdings PLC", price: 815.99, ytdBase: 287.54, ytd: 183.78, m1: 2.87, m3: 113.21, cap: "183B", theme: "Compute", score: 85 },
-  { rank: 15, symbol: "MU", exchange: "NASDAQ", company: "Micron Technology, Inc.", price: 891.88, ytdBase: 315.42, ytd: 182.76, m1: 12.47, m3: 117.53, cap: "1T", theme: "Compute", score: 84 },
-  { rank: 16, symbol: "MRVL", exchange: "NASDAQ", company: "Marvell Technology, Inc.", price: 252.59, ytdBase: 89.39, ytd: 182.57, m1: 54.33, m3: 181.12, cap: "221B", theme: "Compute", score: 83 },
-  { rank: 17, symbol: "INTC", exchange: "NASDAQ", company: "Intel Corporation", price: 107.04, ytdBase: 39.38, ytd: 171.81, m1: -18.22, m3: 125.82, cap: "538B", theme: "Compute", score: 82 },
-  { rank: 18, symbol: "ARM", exchange: "NASDAQ", company: "ARM Holdings PLC Sponsored ADR", price: 307.43, ytdBase: 114.73, ytd: 167.96, m1: 48.85, m3: 160.04, cap: "345.7B", theme: "Compute", score: 81 },
-  { rank: 19, symbol: "WDC", exchange: "NASDAQ", company: "Western Digital Corporation", price: 490.09, ytdBase: 187.7, ytd: 161.1, m1: 0.22, m3: 84.48, cap: "168.9B", theme: "Compute", score: 80 },
-  { rank: 20, symbol: "NVTS", exchange: "NASDAQ", company: "Navitas Semiconductor Corporation", price: 20.5, ytdBase: 8.38, ytd: 144.63, m1: 13.07, m3: 96.74, cap: "4.8B", theme: "Compute", score: 79 },
+  { rank: 1, symbol: "SNDK", exchange: "NASDAQ", company: "Sandisk Corporation", price: 2184.75, ytdBase: 275.24, ytd: 693.76, m1: 69.39, m3: 182.74, cap: "323.5B", theme: "Compute", score: 98 },
+  { rank: 2, symbol: "WATT", exchange: "NASDAQ", company: "Energous Corp.", price: 25.23, ytdBase: 4.32, ytd: 484.03, m1: 8.8, m3: 80.73, cap: "138.8M", theme: "Compute", score: 97 },
+  { rank: 3, symbol: "BNAI", exchange: "NASDAQ", company: "Brand Engagement Network Inc.", price: 20.03, ytdBase: 3.77, ytd: 431.3, m1: 0.15, m3: -52.33, cap: "130.3M", theme: "AI platform", score: 96 },
+  { rank: 4, symbol: "AEHR", exchange: "NASDAQ", company: "Aehr Test Systems", price: 115.3, ytdBase: 22.16, ytd: 420.31, m1: 41.14, m3: 205.67, cap: "3.6B", theme: "Compute", score: 95 },
+  { rank: 5, symbol: "AXTI", exchange: "NASDAQ", company: "AXT, Inc.", price: 84.57, ytdBase: 16.76, ytd: 404.59, m1: -18.68, m3: 41.43, cap: "5.5B", theme: "Compute", score: 94 },
+  { rank: 6, symbol: "MXL", exchange: "NASDAQ", company: "MaxLinear, Inc.", price: 88.76, ytdBase: 18.51, ytd: 379.52, m1: 4.7, m3: 417.85, cap: "7.9B", theme: "Compute", score: 93 },
+  { rank: 7, symbol: "AAOI", exchange: "NASDAQ", company: "Applied Optoelectronics, Inc.", price: 161.85, ytdBase: 39.6, ytd: 308.71, m1: -3.28, m3: 58.7, cap: "13B", theme: "Optical", score: 92 },
+  { rank: 8, symbol: "WDC", exchange: "NASDAQ", company: "Western Digital Corporation", price: 746.23, ytdBase: 187.7, ytd: 297.57, m1: 68.94, m3: 141.1, cap: "257.2B", theme: "Compute", score: 91 },
+  { rank: 9, symbol: "OPTX", exchange: "NASDAQ", company: "Syntec Optics Holdings, Inc. Class A", price: 12.11, ytdBase: 3.13, ytd: 286.9, m1: 88.34, m3: 71.29, cap: "487.8M", theme: "Optical", score: 90 },
+  { rank: 10, symbol: "ARM", exchange: "NASDAQ", company: "ARM Holdings PLC Sponsored ADR", price: 439.46, ytdBase: 114.73, ytd: 283.04, m1: 109.52, m3: 221.01, cap: "445.7B", theme: "Compute", score: 89 },
+  { rank: 11, symbol: "STX", exchange: "NASDAQ", company: "Seagate Technology Holdings PLC", price: 1070.23, ytdBase: 287.54, ytd: 272.2, m1: 48.74, m3: 146.88, cap: "240B", theme: "Compute", score: 88 },
+  { rank: 12, symbol: "VPG", exchange: "NYSE", company: "Vishay Precision Group, Inc.", price: 141.34, ytdBase: 39.28, ytd: 259.83, m1: 35.38, m3: 231.24, cap: "1.9B", theme: "Compute", score: 87 },
+  { rank: 13, symbol: "MU", exchange: "NASDAQ", company: "Micron Technology, Inc.", price: 1133.99, ytdBase: 315.42, ytd: 259.52, m1: 70.38, m3: 155.45, cap: "1.3T", theme: "Compute", score: 86 },
+  { rank: 14, symbol: "DOCN", exchange: "NYSE", company: "DigitalOcean Holdings, Inc.", price: 173.27, ytdBase: 48.97, ytd: 253.83, m1: 21.15, m3: 104.09, cap: "18.1B", theme: "AI platform", score: 85 },
+  { rank: 15, symbol: "QUIK", exchange: "NASDAQ", company: "QuickLogic Corporation", price: 21.9, ytdBase: 6.28, ytd: 248.73, m1: 22.48, m3: 130.53, cap: "399.1M", theme: "Compute", score: 84 },
+  { rank: 16, symbol: "MRVL", exchange: "NASDAQ", company: "Marvell Technology, Inc.", price: 310.58, ytdBase: 89.39, ytd: 247.44, m1: 88.68, m3: 249.36, cap: "271.7B", theme: "Compute", score: 83 },
+  { rank: 17, symbol: "INTC", exchange: "NASDAQ", company: "Intel Corporation", price: 133.99, ytdBase: 39.38, ytd: 240.25, m1: 25.25, m3: 185.39, cap: "673.4B", theme: "Compute", score: 82 },
+  { rank: 18, symbol: "PENG", exchange: "NASDAQ", company: "Penguin Solutions Incorporation", price: 67.15, ytdBase: 20.28, ytd: 231.11, m1: 46.9, m3: 280.24, cap: "3.4B", theme: "Compute", score: 81 },
+  { rank: 19, symbol: "DELL", exchange: "NYSE", company: "Dell Technologies, Inc. Class C", price: 409.5, ytdBase: 127.8, ytd: 220.42, m1: 74.81, m3: 150.46, cap: "265.4B", theme: "Compute", score: 80 },
+  { rank: 20, symbol: "WOLF", exchange: "NYSE", company: "Wolfspeed Inc", price: 57.41, ytdBase: 18.93, ytd: 203.28, m1: 3.09, m3: 238.5, cap: "2.8B", theme: "Compute", score: 79 },
 ];
 
-let stockListUpdatedAt = "2026-06-11T00:08:59.156Z";
+let stockListUpdatedAt = "2026-06-18T23:41:25.559Z";
 
 const grid = document.querySelector("#stock-grid");
 const search = document.querySelector("#stock-search");
