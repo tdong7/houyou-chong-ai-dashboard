@@ -21,7 +21,7 @@ const stocks = [
   { rank: 20, symbol: "WOLF", exchange: "NYSE", company: "Wolfspeed Inc", price: 57.41, ytdBase: 18.93, ytd: 203.28, m1: 3.09, m3: 238.5, cap: "2.8B", theme: "Compute", score: 79 },
 ];
 
-let stockListUpdatedAt = "2026-06-18T23:41:25.559Z";
+let stockListUpdatedAt = "2026-06-19T04:16:20.114Z";
 
 const grid = document.querySelector("#stock-grid");
 const search = document.querySelector("#stock-search");
