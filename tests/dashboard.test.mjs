@@ -29,9 +29,9 @@ for (const tab of expectedTabs) {
 
 const stockSymbolMatches = appSource.match(/symbol:\s*"[A-Z]+"/g) || [];
 assert.equal(stockSymbolMatches.length, 20, "Dashboard should contain exactly 20 ranked stocks");
-const ytdBaseMatches = appSource.match(/ytdBase:\s*[\d.]+/g) || [];
-assert.equal(ytdBaseMatches.length, 20, "Every ranked stock should carry a first-trading-day YTD baseline");
 const stockBlock = appSource.match(/const stocks = \[[\s\S]*?\n\];/)?.[0] || "";
+const rangePerformanceMatches = stockBlock.match(/performance:\s*\{/g) || [];
+assert.equal(rangePerformanceMatches.length, 20, "Every ranked stock should carry TradingView range performance");
 
 assert.match(appSource, /tradingviewSymbolUrl/, "Missing TradingView URL builder");
 assert.match(appSource, /https:\/\/www\.tradingview\.com\/symbols\/\$\{symbolPath\}/, "Missing TradingView symbol link");
@@ -46,8 +46,12 @@ assert.match(appSource, /dateRanges/, "Overview widgets should expose TradingVie
 assert.match(appSource, /updateStockTab/, "Tab clicks should update one stock card at a time");
 assert.match(appSource, /renderSourcePanel/, "Unsupported tabs should render source-backed panels");
 assert.match(appSource, /function getYtdSummary/, "Summary should be derived from a YTD summary helper");
-assert.match(appSource, /function calculateYtd/, "YTD should be calculated from the first 2026 trading-day close");
-assert.match(appSource, /scannerYtd/, "Scanner YTD should be kept separate from chart-style YTD");
+assert.doesNotMatch(appSource, /function calculateYtd/, "Dashboard should not recalculate TradingView YTD from another baseline");
+assert.doesNotMatch(appSource, /ytdBase/, "Dashboard should not keep a competing Yahoo YTD baseline");
+assert.match(appSource, /const activeRanges = new Map\(\)/, "Each stock should keep its own selected chart range");
+assert.match(appSource, /data-range-target/, "Overview charts should expose independent range controls");
+assert.match(appSource, /function stockRangePerformance/, "Range labels should read TradingView performance values");
+assert.match(appSource, /chartOnly:\s*true/, "Embedded charts should hide their conflicting range percentage header");
 assert.match(appSource, /function formatSignedPercent/, "Summary percentages should render their own sign");
 assert.match(appSource, /stockListUpdatedAt/, "Dashboard should keep the stock list update timestamp");
 assert.match(appSource, /function renderStockListUpdateTime/, "Dashboard should render the stock list update time");
@@ -63,17 +67,22 @@ assert.match(appSource, /"Perf\.YTD"/, "TradingView scanner should request YTD p
 assert.match(appSource, /text\/plain;charset=UTF-8/, "TradingView scanner request should avoid a CORS preflight");
 assert.match(appSource, /function formatMarketCap/, "Live market cap values should be formatted for cards");
 assert.match(appSource, /class="card-ytd"/, "Cards should show the same YTD return used by the summary");
+assert.match(appSource, /class="card-price"/, "Cards should keep showing the live price when the widget header is hidden");
 assert.match(appSource, /stock\.exchange/, "TradingView symbol building should use each stock exchange");
 const stockExchangeMatches = stockBlock.match(/exchange:\s*"(NASDAQ|NYSE|AMEX)"/g) || [];
 assert.equal(stockExchangeMatches.length, 20, "Every ranked stock should include its TradingView exchange code");
 assert.doesNotMatch(appSource, /stocks\[0\]\.ytd/, "Highest YTD should not depend on the first stock row");
 assert.doesNotMatch(appSource, /stocks\[0\]\.symbol/, "Highest stock label should not depend on the first stock row");
-assert.doesNotMatch(appSource, /stock\.ytd\s*=\s*snapshot\.ytd/, "Live scanner YTD should not overwrite chart-style YTD");
+assert.match(appSource, /stock\.performance\s*=\s*snapshot\.performance/, "Live TradingView performance should refresh every range");
 assert.match(
   stylesSource,
   /\.stock-grid\s*\{[\s\S]*grid-template-columns:\s*repeat\(2,\s*minmax\(0,\s*1fr\)\)/,
   "Desktop stock grid should render two charts per row"
 );
+assert.match(stylesSource, /\.stock-card\s*\{[\s\S]*min-width:\s*0/, "Stock cards should be allowed to shrink on mobile");
+assert.match(stylesSource, /\.stock-tabs\s*\{[^}]*overflow-x:\s*auto/, "Stock tabs should scroll instead of widening mobile cards");
+assert.match(stylesSource, /@media \(max-width:\s*640px\)[\s\S]*\.updated strong\s*\{[^}]*white-space:\s*normal/, "Mobile update time should wrap instead of widening the page");
+assert.match(stylesSource, /body\s*\{[^}]*overflow-x:\s*hidden/, "Page-level horizontal overflow should be contained");
 assert.doesNotMatch(appSource, /class="momentum-row"/, "Per-card YTD gain row should be removed");
 assert.doesNotMatch(appSource, /class="stats-row"/, "Custom 1M/3M stats row should be removed");
 assert.doesNotMatch(appSource, /embed-widget-mini-symbol-overview\.js/, "Mini chart widget should not be used for screenshot-style Overview charts");

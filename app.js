@@ -1,27 +1,27 @@
 const stocks = [
-  { rank: 1, symbol: "SNDK", exchange: "NASDAQ", company: "Sandisk Corporation", price: 2184.75, ytdBase: 275.24, ytd: 693.76, m1: 69.39, m3: 182.74, cap: "323.5B", theme: "Compute", score: 98 },
-  { rank: 2, symbol: "WATT", exchange: "NASDAQ", company: "Energous Corp.", price: 25.23, ytdBase: 4.32, ytd: 484.03, m1: 8.8, m3: 80.73, cap: "138.8M", theme: "Compute", score: 97 },
-  { rank: 3, symbol: "BNAI", exchange: "NASDAQ", company: "Brand Engagement Network Inc.", price: 20.03, ytdBase: 3.77, ytd: 431.3, m1: 0.15, m3: -52.33, cap: "130.3M", theme: "AI platform", score: 96 },
-  { rank: 4, symbol: "AEHR", exchange: "NASDAQ", company: "Aehr Test Systems", price: 115.3, ytdBase: 22.16, ytd: 420.31, m1: 41.14, m3: 205.67, cap: "3.6B", theme: "Compute", score: 95 },
-  { rank: 5, symbol: "AXTI", exchange: "NASDAQ", company: "AXT, Inc.", price: 84.57, ytdBase: 16.76, ytd: 404.59, m1: -18.68, m3: 41.43, cap: "5.5B", theme: "Compute", score: 94 },
-  { rank: 6, symbol: "MXL", exchange: "NASDAQ", company: "MaxLinear, Inc.", price: 88.76, ytdBase: 18.51, ytd: 379.52, m1: 4.7, m3: 417.85, cap: "7.9B", theme: "Compute", score: 93 },
-  { rank: 7, symbol: "AAOI", exchange: "NASDAQ", company: "Applied Optoelectronics, Inc.", price: 161.85, ytdBase: 39.6, ytd: 308.71, m1: -3.28, m3: 58.7, cap: "13B", theme: "Optical", score: 92 },
-  { rank: 8, symbol: "WDC", exchange: "NASDAQ", company: "Western Digital Corporation", price: 746.23, ytdBase: 187.7, ytd: 297.57, m1: 68.94, m3: 141.1, cap: "257.2B", theme: "Compute", score: 91 },
-  { rank: 9, symbol: "OPTX", exchange: "NASDAQ", company: "Syntec Optics Holdings, Inc. Class A", price: 12.11, ytdBase: 3.13, ytd: 286.9, m1: 88.34, m3: 71.29, cap: "487.8M", theme: "Optical", score: 90 },
-  { rank: 10, symbol: "ARM", exchange: "NASDAQ", company: "ARM Holdings PLC Sponsored ADR", price: 439.46, ytdBase: 114.73, ytd: 283.04, m1: 109.52, m3: 221.01, cap: "467.6B", theme: "Compute", score: 89 },
-  { rank: 11, symbol: "STX", exchange: "NASDAQ", company: "Seagate Technology Holdings PLC", price: 1070.23, ytdBase: 287.54, ytd: 272.2, m1: 48.74, m3: 146.88, cap: "240B", theme: "Compute", score: 88 },
-  { rank: 12, symbol: "VPG", exchange: "NYSE", company: "Vishay Precision Group, Inc.", price: 141.34, ytdBase: 39.28, ytd: 259.83, m1: 35.38, m3: 231.24, cap: "1.9B", theme: "Compute", score: 87 },
-  { rank: 13, symbol: "MU", exchange: "NASDAQ", company: "Micron Technology, Inc.", price: 1133.99, ytdBase: 315.42, ytd: 259.52, m1: 70.38, m3: 155.45, cap: "1.3T", theme: "Compute", score: 86 },
-  { rank: 14, symbol: "DOCN", exchange: "NYSE", company: "DigitalOcean Holdings, Inc.", price: 173.27, ytdBase: 48.97, ytd: 253.83, m1: 21.15, m3: 104.09, cap: "18.1B", theme: "AI platform", score: 85 },
-  { rank: 15, symbol: "QUIK", exchange: "NASDAQ", company: "QuickLogic Corporation", price: 21.9, ytdBase: 6.28, ytd: 248.73, m1: 22.48, m3: 130.53, cap: "399.1M", theme: "Compute", score: 84 },
-  { rank: 16, symbol: "MRVL", exchange: "NASDAQ", company: "Marvell Technology, Inc.", price: 310.58, ytdBase: 89.39, ytd: 247.44, m1: 88.68, m3: 249.36, cap: "271.7B", theme: "Compute", score: 83 },
-  { rank: 17, symbol: "INTC", exchange: "NASDAQ", company: "Intel Corporation", price: 133.99, ytdBase: 39.38, ytd: 240.25, m1: 25.25, m3: 185.39, cap: "673.4B", theme: "Compute", score: 82 },
-  { rank: 18, symbol: "PENG", exchange: "NASDAQ", company: "Penguin Solutions Incorporation", price: 67.15, ytdBase: 20.28, ytd: 231.11, m1: 46.9, m3: 280.24, cap: "3.4B", theme: "Compute", score: 81 },
-  { rank: 19, symbol: "DELL", exchange: "NYSE", company: "Dell Technologies, Inc. Class C", price: 409.5, ytdBase: 127.8, ytd: 220.42, m1: 74.81, m3: 150.46, cap: "265.5B", theme: "Compute", score: 80 },
-  { rank: 20, symbol: "WOLF", exchange: "NYSE", company: "Wolfspeed Inc", price: 57.41, ytdBase: 18.93, ytd: 203.28, m1: 3.09, m3: 238.5, cap: "2.8B", theme: "Compute", score: 79 },
+  { rank: 1, symbol: "SNDK", exchange: "NASDAQ", company: "Sandisk Corporation", price: 2184.75, performance: {"1D":11.54,"5D":15.54,"1M":69.39,"3M":182.74,"6M":882.84,"YTD":794.11,"1Y":4755,"5Y":6131.46,"10Y":6131.46,"ALL":6131.46}, ytd: 794.11, cap: "323.5B", theme: "Compute", score: 98 },
+  { rank: 2, symbol: "BNAI", exchange: "NASDAQ", company: "Brand Engagement Network Inc.", price: 20.03, performance: {"1D":-1.57,"5D":-3.79,"1M":0.15,"3M":-52.33,"6M":1113.94,"YTD":701.2,"1Y":534.46,"5Y":-79.37,"10Y":-79.44,"ALL":-79.44}, ytd: 701.2, cap: "130.3M", theme: "AI platform", score: 97 },
+  { rank: 3, symbol: "WATT", exchange: "NASDAQ", company: "Energous Corp.", price: 25.23, performance: {"1D":-6.42,"5D":5.34,"1M":8.8,"3M":80.73,"6M":510.9,"YTD":516.87,"1Y":223.46,"5Y":-98.47,"10Y":-99.6,"ALL":-99.56}, ytd: 516.87, cap: "138.8M", theme: "Compute", score: 96 },
+  { rank: 4, symbol: "AEHR", exchange: "NASDAQ", company: "Aehr Test Systems", price: 115.3, performance: {"1D":2.38,"5D":11.7,"1M":41.14,"3M":205.67,"6M":436.78,"YTD":448.53,"1Y":915.59,"5Y":4625.41,"10Y":6488.57,"ALL":681.69}, ytd: 448.53, cap: "3.6B", theme: "Compute", score: 95 },
+  { rank: 5, symbol: "MXL", exchange: "NASDAQ", company: "MaxLinear, Inc.", price: 88.76, performance: {"1D":7.11,"5D":9.85,"1M":4.7,"3M":417.85,"6M":411.88,"YTD":397.81,"1Y":589.67,"5Y":129.59,"10Y":353.32,"ALL":394.48}, ytd: 397.81, cap: "7.9B", theme: "Compute", score: 94 },
+  { rank: 6, symbol: "AXTI", exchange: "NASDAQ", company: "AXT, Inc.", price: 84.57, performance: {"1D":-8.19,"5D":-6.66,"1M":-18.68,"3M":41.43,"6M":501.49,"YTD":391.69,"1Y":4259.28,"5Y":661.21,"10Y":2502.15,"ALL":705.43}, ytd: 391.69, cap: "5.5B", theme: "Compute", score: 93 },
+  { rank: 7, symbol: "AAOI", exchange: "NASDAQ", company: "Applied Optoelectronics, Inc.", price: 161.85, performance: {"1D":-3.28,"5D":-6.52,"1M":-3.28,"3M":58.7,"6M":443.94,"YTD":345.32,"1Y":846.77,"5Y":1850,"10Y":1496.15,"ALL":1518.5}, ytd: 345.32, cap: "13B", theme: "Optical", score: 92 },
+  { rank: 8, symbol: "WDC", exchange: "NASDAQ", company: "Western Digital Corporation", price: 746.23, performance: {"1D":4.79,"5D":37.68,"1M":68.94,"3M":141.1,"6M":322,"YTD":321.12,"1Y":1171.48,"5Y":1320.96,"10Y":1955.72,"ALL":14264.62}, ytd: 321.12, cap: "257.2B", theme: "Compute", score: 91 },
+  { rank: 9, symbol: "OPTX", exchange: "NASDAQ", company: "Syntec Optics Holdings, Inc. Class A", price: 12.11, performance: {"1D":-5.91,"5D":-14.17,"1M":88.34,"3M":71.29,"6M":746.85,"YTD":317.59,"1Y":876.69,"5Y":22.32,"10Y":22.32,"ALL":22.32}, ytd: 317.59, cap: "487.8M", theme: "Optical", score: 90 },
+  { rank: 10, symbol: "ARM", exchange: "NASDAQ", company: "ARM Holdings PLC Sponsored ADR", price: 439.46, performance: {"1D":4.91,"5D":24.45,"1M":109.52,"3M":221.01,"6M":284.77,"YTD":289.49,"1Y":202.74,"5Y":683.35,"10Y":683.35,"ALL":683.35}, ytd: 289.49, cap: "467.6B", theme: "Compute", score: 89 },
+  { rank: 11, symbol: "MU", exchange: "NASDAQ", company: "Micron Technology, Inc.", price: 1133.99, performance: {"1D":8.7,"5D":16.69,"1M":70.38,"3M":155.45,"6M":350.44,"YTD":284.24,"1Y":841.38,"5Y":1375.59,"10Y":8964.67,"ALL":80182.48}, ytd: 284.24, cap: "1.3T", theme: "Compute", score: 88 },
+  { rank: 12, symbol: "STX", exchange: "NASDAQ", company: "Seagate Technology Holdings PLC", price: 1070.23, performance: {"1D":0.39,"5D":21.59,"1M":48.74,"3M":146.88,"6M":260.75,"YTD":279.55,"1Y":717.78,"5Y":1138.79,"10Y":4448.36,"ALL":9206.35}, ytd: 279.55, cap: "240B", theme: "Compute", score: 87 },
+  { rank: 13, symbol: "VPG", exchange: "NYSE", company: "Vishay Precision Group, Inc.", price: 141.34, performance: {"1D":5.91,"5D":-0.06,"1M":35.38,"3M":231.24,"6M":272.54,"YTD":264.28,"1Y":448.89,"5Y":322.16,"10Y":973.2,"ALL":1030.72}, ytd: 264.28, cap: "1.9B", theme: "Compute", score: 86 },
+  { rank: 14, symbol: "QUIK", exchange: "NASDAQ", company: "QuickLogic Corporation", price: 21.9, performance: {"1D":4.99,"5D":-0.32,"1M":22.48,"3M":130.53,"6M":237.44,"YTD":261.98,"1Y":268.07,"5Y":243.26,"10Y":58.01,"ALL":-88.41}, ytd: 261.98, cap: "399.1M", theme: "Compute", score: 85 },
+  { rank: 15, symbol: "MRVL", exchange: "NASDAQ", company: "Marvell Technology, Inc.", price: 310.58, performance: {"1D":7.27,"5D":15,"1M":88.68,"3M":249.36,"6M":269.52,"YTD":258.06,"1Y":316.72,"5Y":471.97,"10Y":2956.89,"ALL":2515.41}, ytd: 258.06, cap: "271.7B", theme: "Compute", score: 84 },
+  { rank: 16, symbol: "DOCN", exchange: "NYSE", company: "DigitalOcean Holdings, Inc.", price: 173.27, performance: {"1D":-2.55,"5D":-2.44,"1M":21.15,"3M":104.09,"6M":276.26,"YTD":256.23,"1Y":523.95,"5Y":273.11,"10Y":317.52,"ALL":317.52}, ytd: 256.23, cap: "18.1B", theme: "AI platform", score: 83 },
+  { rank: 17, symbol: "INTC", exchange: "NASDAQ", company: "Intel Corporation", price: 133.99, performance: {"1D":10.64,"5D":14.12,"1M":25.25,"3M":185.39,"6M":267.3,"YTD":254.75,"1Y":544.03,"5Y":140.34,"10Y":317.8,"ALL":332134.07}, ytd: 254.75, cap: "673.4B", theme: "Compute", score: 82 },
+  { rank: 18, symbol: "PENG", exchange: "NASDAQ", company: "Penguin Solutions Incorporation", price: 67.15, performance: {"1D":12.52,"5D":4.69,"1M":46.9,"3M":280.24,"6M":242.6,"YTD":237.78,"1Y":241.21,"5Y":204.19,"10Y":1019.17,"ALL":1019.17}, ytd: 237.78, cap: "3.4B", theme: "Compute", score: 81 },
+  { rank: 19, symbol: "NVTS", exchange: "NASDAQ", company: "Navitas Semiconductor Corporation", price: 24.02, performance: {"1D":7.52,"5D":9.18,"1M":25.96,"3M":168.53,"6M":222.42,"YTD":220.27,"1Y":252.2,"5Y":141.65,"10Y":116.4,"ALL":116.4}, ytd: 220.27, cap: "5.6B", theme: "Compute", score: 80 },
+  { rank: 20, symbol: "WOLF", exchange: "NYSE", company: "Wolfspeed Inc", price: 57.41, performance: {"1D":17.91,"5D":25.21,"1M":3.09,"3M":238.5,"6M":218.94,"YTD":219.83,"1Y":4529.84,"5Y":-37.18,"10Y":129.73,"ALL":4933.21}, ytd: 219.83, cap: "2.8B", theme: "Compute", score: 79 },
 ];
 
-let stockListUpdatedAt = "2026-06-19T16:19:20.792Z";
+let stockListUpdatedAt = "2026-06-19T16:25:16.858Z";
 
 const grid = document.querySelector("#stock-grid");
 const search = document.querySelector("#stock-search");
@@ -30,6 +30,7 @@ const themeButtons = document.querySelectorAll("[data-theme]");
 
 let activeTheme = "all";
 const activeTabs = new Map();
+const activeRanges = new Map();
 
 const exchangeOverrides = {
   AEVA: "NASDAQ",
@@ -40,7 +41,22 @@ const exchangeOverrides = {
 };
 
 const TRADINGVIEW_SCANNER_URL = "https://scanner.tradingview.com/america/scan";
-const scannerColumns = ["name", "description", "close", "Perf.YTD", "Perf.1M", "Perf.3M", "market_cap_basic"];
+const scannerColumns = [
+  "name",
+  "description",
+  "close",
+  "change",
+  "Perf.5D",
+  "Perf.1M",
+  "Perf.3M",
+  "Perf.6M",
+  "Perf.YTD",
+  "Perf.Y",
+  "Perf.5Y",
+  "Perf.10Y",
+  "Perf.All",
+  "market_cap_basic",
+];
 const marketSnapshots = new Map();
 const CLIENT_REFRESH_INTERVAL_MS = 6 * 60 * 60 * 1000;
 const CLIENT_REFRESH_CHECK_MS = 5 * 60 * 1000;
@@ -196,6 +212,11 @@ function formatPercent(value) {
   return `${value.toLocaleString(undefined, { maximumFractionDigits: 1 })}%`;
 }
 
+function formatPrice(value) {
+  if (!Number.isFinite(value)) return "--";
+  return `$${value.toLocaleString(undefined, { minimumFractionDigits: 2, maximumFractionDigits: 2 })}`;
+}
+
 function formatSignedPercent(value) {
   return `${value >= 0 ? "+" : ""}${formatPercent(value)}`;
 }
@@ -221,18 +242,17 @@ function median(values) {
   return (sorted[midpoint - 1] + sorted[midpoint]) / 2;
 }
 
-function calculateYtd(price, baseline) {
-  if (!Number.isFinite(price) || !Number.isFinite(baseline) || baseline <= 0) return NaN;
-  return ((price / baseline) - 1) * 100;
+function stockRangePerformance(stock, rangeKey) {
+  const snapshotValue = marketSnapshots.get(stock.symbol)?.performance?.[rangeKey];
+  if (Number.isFinite(snapshotValue)) return snapshotValue;
+
+  const storedValue = stock.performance?.[rangeKey];
+  return Number.isFinite(storedValue) ? storedValue : NaN;
 }
 
 function stockYtd(stock) {
-  const snapshot = marketSnapshots.get(stock.symbol);
-  const price = Number.isFinite(snapshot?.price) ? snapshot.price : stock.price;
-  const chartYtd = calculateYtd(price, stock.ytdBase);
-  if (Number.isFinite(chartYtd)) return chartYtd;
-
-  return Number.isFinite(snapshot?.scannerYtd) ? snapshot.scannerYtd : stock.ytd;
+  const scannerYtd = stockRangePerformance(stock, "YTD");
+  return Number.isFinite(scannerYtd) ? scannerYtd : stock.ytd;
 }
 
 function easternTimeParts(date = new Date()) {
@@ -261,11 +281,6 @@ function shouldRefreshRankedStocks(date = new Date()) {
   return isTradingWindow(date) && date.getTime() - updatedAt.getTime() >= CLIENT_REFRESH_INTERVAL_MS;
 }
 
-function inferYtdBaseline(price, ytd) {
-  if (!Number.isFinite(price) || !Number.isFinite(ytd) || ytd <= -100) return NaN;
-  return price / (1 + ytd / 100);
-}
-
 function getYtdSummary(items = stocks) {
   const values = items
     .map((stock) => ({ stock, ytd: stockYtd(stock) }))
@@ -287,6 +302,10 @@ function getActiveTab(stock) {
   return activeTabs.get(stock.symbol) || "overview";
 }
 
+function getActiveRange(stock) {
+  return activeRanges.get(stock.symbol) || "YTD";
+}
+
 function tradingviewSymbol(stock) {
   const exchange = stock.exchange || exchangeOverrides[stock.symbol] || "NASDAQ";
   return `${exchange}:${stock.symbol}`;
@@ -299,11 +318,12 @@ function tradingviewSymbolUrl(stock, path = "") {
   return `https://www.tradingview.com/symbols/${symbolPath}/${path}?tvwidgetsymbol=${widgetSymbol}`;
 }
 
-function makeWidgetConfig(stock, tabKey) {
+function makeWidgetConfig(stock, tabKey, rangeKey = getActiveRange(stock)) {
   const symbol = tradingviewSymbol(stock);
   const symbolName = stock.symbol;
 
   if (tabKey === "overview") {
+    const selectedRange = timeRanges.find((range) => range.key === rangeKey) || timeRanges[4];
     return {
       script: "embed-widget-symbol-overview.js",
       config: {
@@ -323,22 +343,22 @@ function makeWidgetConfig(stock, tabKey) {
         colorTheme: "light",
         isTransparent: false,
         locale: "en",
-        chartOnly: false,
+        chartOnly: true,
         scalePosition: "right",
         scaleMode: "Normal",
         valuesTracking: "1",
         changeMode: "price-and-percent",
         symbols: [[symbolName, `${symbol}|1D`]],
-        dateRanges: timeRanges.map((range) => range.overviewRange),
+        dateRanges: [selectedRange.overviewRange],
         fontSize: "12",
         headerFontSize: "medium",
         autosize: true,
         width: "100%",
         height: "100%",
         noTimeScale: false,
-        hideDateRanges: false,
-        hideMarketStatus: false,
-        hideSymbolLogo: false,
+        hideDateRanges: true,
+        hideMarketStatus: true,
+        hideSymbolLogo: true,
       },
     };
   }
@@ -398,7 +418,7 @@ function makeWidgetConfig(stock, tabKey) {
 function renderTradingViewWidget(container) {
   const stock = stocks.find((item) => item.symbol === container.dataset.symbol);
   const tabKey = container.dataset.tab;
-  const widget = stock ? makeWidgetConfig(stock, tabKey) : null;
+  const widget = stock ? makeWidgetConfig(stock, tabKey, container.dataset.range) : null;
   if (!widget) return;
 
   const widgetShell = document.createElement("div");
@@ -422,15 +442,24 @@ function hydrateTradingViewCharts(root = document) {
 
 function applyMarketSnapshot(rows) {
   rows.forEach((row) => {
-    const [symbol, description, price, ytd, m1, m3, marketCap] = row.d || [];
+    const [symbol, description, price, d1, d5, m1, m3, m6, ytd, y1, y5, y10, all, marketCap] = row.d || [];
     if (!symbol) return;
 
     marketSnapshots.set(symbol, {
       description,
       price,
-      scannerYtd: ytd,
-      m1,
-      m3,
+      performance: {
+        "1D": d1,
+        "5D": d5,
+        "1M": m1,
+        "3M": m3,
+        "6M": m6,
+        YTD: ytd,
+        "1Y": y1,
+        "5Y": y5,
+        "10Y": y10,
+        ALL: all,
+      },
       cap: formatMarketCap(marketCap),
     });
   });
@@ -440,8 +469,8 @@ function applyMarketSnapshot(rows) {
     if (!snapshot) return;
 
     if (Number.isFinite(snapshot.price)) stock.price = snapshot.price;
-    if (Number.isFinite(snapshot.m1)) stock.m1 = snapshot.m1;
-    if (Number.isFinite(snapshot.m3)) stock.m3 = snapshot.m3;
+    stock.performance = snapshot.performance;
+    if (Number.isFinite(snapshot.performance.YTD)) stock.ytd = snapshot.performance.YTD;
     if (snapshot.cap) stock.cap = snapshot.cap;
   });
 }
@@ -493,7 +522,7 @@ function rankedStocksFromScannerRows(rows) {
   const universeByTicker = new Map(AI_STOCK_UNIVERSE.map((stock) => [stock.ticker, stock]));
   const candidates = (rows || [])
     .map((row) => {
-      const [symbol, description, price, ytd, m1, m3, marketCap] = row.d || [];
+      const [symbol, description, price, d1, d5, m1, m3, m6, ytd, y1, y5, y10, all, marketCap] = row.d || [];
       const universeStock = universeByTicker.get(symbol);
       if (!universeStock || !Number.isFinite(price) || !Number.isFinite(ytd) || ytd < MINIMUM_YTD) return null;
 
@@ -502,10 +531,19 @@ function rankedStocksFromScannerRows(rows) {
         exchange: universeStock.exchange,
         company: description || symbol,
         price,
-        ytdBase: inferYtdBaseline(price, ytd),
+        performance: {
+          "1D": d1,
+          "5D": d5,
+          "1M": m1,
+          "3M": m3,
+          "6M": m6,
+          YTD: ytd,
+          "1Y": y1,
+          "5Y": y5,
+          "10Y": y10,
+          ALL: all,
+        },
         ytd,
-        m1: Number.isFinite(m1) ? m1 : 0,
-        m3: Number.isFinite(m3) ? m3 : 0,
         cap: formatMarketCap(marketCap),
         theme: universeStock.theme,
       };
@@ -521,10 +559,10 @@ function rankedStocksFromScannerRows(rows) {
     rank: index + 1,
     score: TOP_STOCK_COUNT + 78 - index,
     price: Number(stock.price.toFixed(2)),
-    ytdBase: Number(stock.ytdBase.toFixed(4)),
     ytd: Number(stock.ytd.toFixed(2)),
-    m1: Number(stock.m1.toFixed(2)),
-    m3: Number(stock.m3.toFixed(2)),
+    performance: Object.fromEntries(
+      Object.entries(stock.performance).map(([key, value]) => [key, Number.isFinite(value) ? Number(value.toFixed(2)) : null])
+    ),
   }));
 }
 
@@ -589,8 +627,49 @@ function renderSourcePanel(stock, tabKey) {
   `;
 }
 
+function renderOverviewPanel(stock) {
+  const activeRange = getActiveRange(stock);
+  const rangeControls = timeRanges
+    .map((range) => {
+      const value = stockRangePerformance(stock, range.key);
+      const returnLabel = Number.isFinite(value) ? formatSignedPercent(value) : "--";
+      const direction = Number.isFinite(value) && value < 0 ? "negative" : "positive";
+
+      return `
+        <button
+          type="button"
+          class="range-option ${range.key === activeRange ? "active" : ""}"
+          data-symbol="${stock.symbol}"
+          data-range-target="${range.key}"
+          aria-pressed="${range.key === activeRange}"
+        >
+          <span>${range.name}</span>
+          <strong class="${direction}">${returnLabel}</strong>
+        </button>
+      `;
+    })
+    .join("");
+
+  return `
+    <div class="overview-range-controls" role="group" aria-label="${stock.symbol} chart range">
+      ${rangeControls}
+    </div>
+    <div
+      class="stock-tab-panel overview-panel"
+      data-kind="widget"
+      data-symbol="${stock.symbol}"
+      data-tab="overview"
+      data-range="${activeRange}"
+    >
+      <span>Loading Overview from TradingView...</span>
+    </div>
+  `;
+}
+
 function renderTabPanel(stock, tabKey) {
   const tab = stockTabs.find((item) => item.key === tabKey) || stockTabs[0];
+
+  if (tab.key === "overview") return renderOverviewPanel(stock);
 
   if (tab.kind === "source") {
     return `
@@ -622,6 +701,17 @@ function updateStockTab(symbol, tabKey) {
 
   const panelHost = card.querySelector(".stock-panel-host");
   panelHost.innerHTML = renderTabPanel(stock, tabKey);
+  hydrateTradingViewCharts(panelHost);
+}
+
+function updateOverviewRange(symbol, rangeKey) {
+  const stock = stocks.find((item) => item.symbol === symbol);
+  const card = grid.querySelector(`.stock-card[data-symbol="${symbol}"]`);
+  if (!stock || !card || !timeRanges.some((range) => range.key === rangeKey)) return;
+
+  activeRanges.set(symbol, rangeKey);
+  const panelHost = card.querySelector(".stock-panel-host");
+  panelHost.innerHTML = renderOverviewPanel(stock);
   hydrateTradingViewCharts(panelHost);
 }
 
@@ -698,6 +788,7 @@ function renderStocks() {
             <div>
               <span class="rank">#${displayRank}</span>
               <h2>${stock.symbol}</h2>
+              <span class="card-price">${formatPrice(stock.price)}</span>
               <p>${stock.company}</p>
             </div>
             <div class="card-badges">
@@ -731,6 +822,12 @@ themeButtons.forEach((button) => {
 search.addEventListener("input", renderStocks);
 sortSelect.addEventListener("change", renderStocks);
 grid.addEventListener("click", (event) => {
+  const rangeButton = event.target.closest("[data-range-target]");
+  if (rangeButton) {
+    updateOverviewRange(rangeButton.dataset.symbol, rangeButton.dataset.rangeTarget);
+    return;
+  }
+
   const tabButton = event.target.closest("[data-tab-target]");
   if (!tabButton) return;
 

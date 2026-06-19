@@ -24,7 +24,12 @@ assert.match(updaterSource, /America\/New_York/, "Updater should evaluate market
 assert.match(updaterSource, /scheduledCron/, "Updater should inspect the scheduled cron slot from GitHub");
 assert.match(updaterSource, /isScheduledUpdateSlot/, "Updater should guard by scheduled update slot, not delayed runner start time");
 assert.match(updaterSource, /TRADINGVIEW_SCANNER_URL/, "Updater should pull live market ranking data from TradingView");
-assert.match(updaterSource, /query1\.finance\.yahoo\.com/, "Updater should fetch first-trading-day closes for chart-style YTD");
+for (const field of ["change", "Perf.5D", "Perf.1M", "Perf.6M", "Perf.YTD", "Perf.Y", "Perf.5Y", "Perf.10Y", "Perf.All"]) {
+  assert.match(updaterSource, new RegExp(field.replace(".", "\\.")), `Updater should request TradingView ${field}`);
+}
+assert.doesNotMatch(updaterSource, /Perf\.1Y/, "TradingView's one-year scanner field is Perf.Y, not Perf.1Y");
+assert.doesNotMatch(updaterSource, /query1\.finance\.yahoo\.com/, "Updater should not replace TradingView performance with a Yahoo baseline");
+assert.doesNotMatch(updaterSource, /fetchYtdBaseline/, "Updater should rank directly from TradingView YTD performance");
 assert.match(updaterSource, /AI_STOCK_UNIVERSE/, "Updater should rank from a broader AI stock universe");
 assert.match(updaterSource, /const stocks = \[/, "Updater should rewrite the dashboard stock block");
 assert.match(updaterSource, /stockListUpdatedAt/, "Updater should refresh the displayed stock-list timestamp");

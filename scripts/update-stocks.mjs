@@ -102,10 +102,29 @@ const AI_STOCK_UNIVERSE = [
   { symbol: "SERV", exchange: "NASDAQ", theme: "Robotics" },
 ];
 
-const scannerColumns = ["name", "description", "close", "Perf.YTD", "Perf.1M", "Perf.3M", "market_cap_basic"];
+const scannerColumns = [
+  "name",
+  "description",
+  "close",
+  "change",
+  "Perf.5D",
+  "Perf.1M",
+  "Perf.3M",
+  "Perf.6M",
+  "Perf.YTD",
+  "Perf.Y",
+  "Perf.5Y",
+  "Perf.10Y",
+  "Perf.All",
+  "market_cap_basic",
+];
 
 function number(value, digits = 2) {
   return Number(value.toFixed(digits));
+}
+
+function performanceValue(value) {
+  return Number.isFinite(value) ? number(value, 2) : null;
 }
 
 function formatMarketCap(value) {
@@ -191,25 +210,28 @@ async function fetchTradingViewRows() {
   const payload = await response.json();
   const rows = new Map();
   for (const row of payload.data || []) {
-    const [symbol, description, price, scannerYtd, m1, m3, marketCap] = row.d || [];
+    const [symbol, description, price, d1, d5, m1, m3, m6, ytd, y1, y5, y10, all, marketCap] = row.d || [];
     if (!symbol || !Number.isFinite(price)) continue;
-    rows.set(symbol, { symbol, description, price, scannerYtd, m1, m3, marketCap });
+    rows.set(symbol, {
+      symbol,
+      description,
+      price,
+      performance: {
+        "1D": performanceValue(d1),
+        "5D": performanceValue(d5),
+        "1M": performanceValue(m1),
+        "3M": performanceValue(m3),
+        "6M": performanceValue(m6),
+        YTD: performanceValue(ytd),
+        "1Y": performanceValue(y1),
+        "5Y": performanceValue(y5),
+        "10Y": performanceValue(y10),
+        ALL: performanceValue(all),
+      },
+      marketCap,
+    });
   }
   return rows;
-}
-
-async function fetchYtdBaseline(symbol, now = new Date()) {
-  const year = Number(new Intl.DateTimeFormat("en-US", { timeZone: ET_TIME_ZONE, year: "numeric" }).format(now));
-  const period1 = Math.floor(Date.UTC(year, 0, 1) / 1000);
-  const period2 = Math.floor((now.getTime() + 24 * 60 * 60 * 1000) / 1000);
-  const url = `https://query1.finance.yahoo.com/v8/finance/chart/${symbol}?period1=${period1}&period2=${period2}&interval=1d&events=history`;
-  const response = await fetch(url, { headers: { "user-agent": "Mozilla/5.0" } });
-
-  if (!response.ok) throw new Error(`Yahoo chart returned ${response.status} for ${symbol}`);
-
-  const payload = await response.json();
-  const closes = payload.chart?.result?.[0]?.indicators?.quote?.[0]?.close || [];
-  return closes.find((close) => Number.isFinite(close));
 }
 
 async function buildRankedStocks() {
@@ -220,26 +242,19 @@ async function buildRankedStocks() {
     const row = scannerRows.get(universeStock.symbol);
     if (!row) continue;
 
-    try {
-      const ytdBase = await fetchYtdBaseline(universeStock.symbol);
-      const ytd = ((row.price / ytdBase) - 1) * 100;
-      if (!Number.isFinite(ytd) || ytd < MINIMUM_YTD) continue;
+    const ytd = row.performance.YTD;
+    if (!Number.isFinite(ytd) || ytd < MINIMUM_YTD) continue;
 
-      candidates.push({
-        symbol: universeStock.symbol,
-        exchange: universeStock.exchange,
-        company: row.description || universeStock.symbol,
-        price: number(row.price, 2),
-        ytdBase: number(ytdBase, 4),
-        ytd: number(ytd, 2),
-        m1: Number.isFinite(row.m1) ? number(row.m1, 2) : 0,
-        m3: Number.isFinite(row.m3) ? number(row.m3, 2) : 0,
-        cap: formatMarketCap(row.marketCap),
-        theme: universeStock.theme,
-      });
-    } catch (error) {
-      console.warn(`Skipping ${universeStock.symbol}: ${error.message}`);
-    }
+    candidates.push({
+      symbol: universeStock.symbol,
+      exchange: universeStock.exchange,
+      company: row.description || universeStock.symbol,
+      price: number(row.price, 2),
+      performance: row.performance,
+      ytd,
+      cap: formatMarketCap(row.marketCap),
+      theme: universeStock.theme,
+    });
   }
 
   const ranked = candidates.sort((a, b) => b.ytd - a.ytd).slice(0, TOP_COUNT);
@@ -259,7 +274,7 @@ function quote(value) {
 }
 
 function stockLiteral(stock) {
-  return `  { rank: ${stock.rank}, symbol: ${quote(stock.symbol)}, exchange: ${quote(stock.exchange)}, company: ${quote(stock.company)}, price: ${stock.price}, ytdBase: ${stock.ytdBase}, ytd: ${stock.ytd}, m1: ${stock.m1}, m3: ${stock.m3}, cap: ${quote(stock.cap)}, theme: ${quote(stock.theme)}, score: ${stock.score} }`;
+  return `  { rank: ${stock.rank}, symbol: ${quote(stock.symbol)}, exchange: ${quote(stock.exchange)}, company: ${quote(stock.company)}, price: ${stock.price}, performance: ${quote(stock.performance)}, ytd: ${stock.ytd}, cap: ${quote(stock.cap)}, theme: ${quote(stock.theme)}, score: ${stock.score} }`;
 }
 
 async function updateAppStocks(stocks, updatedAt = new Date()) {
