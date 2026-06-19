@@ -8,7 +8,7 @@ const stocks = [
   { rank: 7, symbol: "AAOI", exchange: "NASDAQ", company: "Applied Optoelectronics, Inc.", price: 161.85, ytdBase: 39.6, ytd: 308.71, m1: -3.28, m3: 58.7, cap: "13B", theme: "Optical", score: 92 },
   { rank: 8, symbol: "WDC", exchange: "NASDAQ", company: "Western Digital Corporation", price: 746.23, ytdBase: 187.7, ytd: 297.57, m1: 68.94, m3: 141.1, cap: "257.2B", theme: "Compute", score: 91 },
   { rank: 9, symbol: "OPTX", exchange: "NASDAQ", company: "Syntec Optics Holdings, Inc. Class A", price: 12.11, ytdBase: 3.13, ytd: 286.9, m1: 88.34, m3: 71.29, cap: "487.8M", theme: "Optical", score: 90 },
-  { rank: 10, symbol: "ARM", exchange: "NASDAQ", company: "ARM Holdings PLC Sponsored ADR", price: 439.46, ytdBase: 114.73, ytd: 283.04, m1: 109.52, m3: 221.01, cap: "445.7B", theme: "Compute", score: 89 },
+  { rank: 10, symbol: "ARM", exchange: "NASDAQ", company: "ARM Holdings PLC Sponsored ADR", price: 439.46, ytdBase: 114.73, ytd: 283.04, m1: 109.52, m3: 221.01, cap: "467.6B", theme: "Compute", score: 89 },
   { rank: 11, symbol: "STX", exchange: "NASDAQ", company: "Seagate Technology Holdings PLC", price: 1070.23, ytdBase: 287.54, ytd: 272.2, m1: 48.74, m3: 146.88, cap: "240B", theme: "Compute", score: 88 },
   { rank: 12, symbol: "VPG", exchange: "NYSE", company: "Vishay Precision Group, Inc.", price: 141.34, ytdBase: 39.28, ytd: 259.83, m1: 35.38, m3: 231.24, cap: "1.9B", theme: "Compute", score: 87 },
   { rank: 13, symbol: "MU", exchange: "NASDAQ", company: "Micron Technology, Inc.", price: 1133.99, ytdBase: 315.42, ytd: 259.52, m1: 70.38, m3: 155.45, cap: "1.3T", theme: "Compute", score: 86 },
@@ -17,11 +17,11 @@ const stocks = [
   { rank: 16, symbol: "MRVL", exchange: "NASDAQ", company: "Marvell Technology, Inc.", price: 310.58, ytdBase: 89.39, ytd: 247.44, m1: 88.68, m3: 249.36, cap: "271.7B", theme: "Compute", score: 83 },
   { rank: 17, symbol: "INTC", exchange: "NASDAQ", company: "Intel Corporation", price: 133.99, ytdBase: 39.38, ytd: 240.25, m1: 25.25, m3: 185.39, cap: "673.4B", theme: "Compute", score: 82 },
   { rank: 18, symbol: "PENG", exchange: "NASDAQ", company: "Penguin Solutions Incorporation", price: 67.15, ytdBase: 20.28, ytd: 231.11, m1: 46.9, m3: 280.24, cap: "3.4B", theme: "Compute", score: 81 },
-  { rank: 19, symbol: "DELL", exchange: "NYSE", company: "Dell Technologies, Inc. Class C", price: 409.5, ytdBase: 127.8, ytd: 220.42, m1: 74.81, m3: 150.46, cap: "265.4B", theme: "Compute", score: 80 },
+  { rank: 19, symbol: "DELL", exchange: "NYSE", company: "Dell Technologies, Inc. Class C", price: 409.5, ytdBase: 127.8, ytd: 220.42, m1: 74.81, m3: 150.46, cap: "265.5B", theme: "Compute", score: 80 },
   { rank: 20, symbol: "WOLF", exchange: "NYSE", company: "Wolfspeed Inc", price: 57.41, ytdBase: 18.93, ytd: 203.28, m1: 3.09, m3: 238.5, cap: "2.8B", theme: "Compute", score: 79 },
 ];
 
-let stockListUpdatedAt = "2026-06-19T04:16:20.114Z";
+let stockListUpdatedAt = "2026-06-19T16:19:20.792Z";
 
 const grid = document.querySelector("#stock-grid");
 const search = document.querySelector("#stock-search");
