@@ -48,6 +48,8 @@ for (const hour of [14, 15]) {
 assert.match(newsWorkflowSource, /workflow_dispatch:/, "News updates should support manual dispatch");
 assert.match(newsWorkflowSource, /node-version:\s*24/, "News workflow should use Node 24");
 assert.match(newsWorkflowSource, /node scripts\/update-news\.mjs --scheduled-window/, "News workflow should enforce the ET hour guard");
+assert.match(newsWorkflowSource, /github\.event_name/, "News workflow should distinguish manual and scheduled runs");
+assert.match(newsWorkflowSource, /node scripts\/update-news\.mjs --force/, "Manual news updates should bypass the ET hour guard");
 assert.match(newsWorkflowSource, /node tests\/news\.test\.mjs/, "News workflow should run page tests");
 assert.match(newsWorkflowSource, /node tests\/news-data\.test\.mjs/, "News workflow should run data tests");
 assert.match(newsWorkflowSource, /node tests\/news-updater\.test\.mjs/, "News workflow should run updater tests");

@@ -21,8 +21,13 @@ jobs:
         with:
           node-version: 24
 
-      - name: Refresh latest news
+      - name: Refresh latest news on schedule
+        if: github.event_name == 'schedule'
         run: node scripts/update-news.mjs --scheduled-window
+
+      - name: Refresh latest news manually
+        if: github.event_name == 'workflow_dispatch'
+        run: node scripts/update-news.mjs --force
 
       - name: Verify website and news archive
         run: |
