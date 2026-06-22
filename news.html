@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>最新资讯 · 猴油冲冲冲</title>
+    <link rel="stylesheet" href="news.css?v=20260622" />
+  </head>
+  <body>
+    <header class="news-header">
+      <div class="news-brand">
+        <div class="news-brand-mark" aria-hidden="true">猴</div>
+        <div>
+          <strong>猴油冲冲冲</strong>
+          <span>INTELLIGENCE / DAILY BRIEFING</span>
+        </div>
+      </div>
+      <a class="dashboard-link" href="index.html">← 返回市场看板</a>
+    </header>
+
+    <main>
+      <section class="news-page-head">
+        <div>
+          <h1>最新资讯</h1>
+          <p>AI、太空与神经科学的重要进展，按日期归档</p>
+        </div>
+        <div class="news-updated">
+          <span>每日美东时间 10:00 更新</span>
+          <strong id="news-updated-at">等待数据</strong>
+        </div>
+      </section>
+
+      <section class="news-metrics" aria-label="Daily news limits">
+        <div class="news-metric ai"><span>AI Daily Select</span><strong>每日最多 5 条</strong></div>
+        <div class="news-metric space"><span>Space Watch</span><strong>每日最多 2 条</strong></div>
+        <div class="news-metric neuroscience"><span>Neuroscience</span><strong>每日最多 2 条</strong></div>
+      </section>
+
+      <p class="news-unavailable" id="news-unavailable" hidden>资讯暂时无法读取，请稍后再试。</p>
+
+      <section class="news-columns" aria-label="Latest news categories">
+        <article class="news-channel ai" data-category="ai">
+          <header><h2><i aria-hidden="true"></i>AI</h2><span data-story-count>0 STORIES</span></header>
+          <div class="news-stories" data-story-list></div>
+          <button class="view-all" type="button" data-view-all hidden>View all</button>
+        </article>
+        <article class="news-channel space" data-category="space">
+          <header><h2><i aria-hidden="true"></i>Space</h2><span data-story-count>0 STORIES</span></header>
+          <div class="news-stories" data-story-list></div>
+          <button class="view-all" type="button" data-view-all hidden>View all</button>
+        </article>
+        <article class="news-channel neuroscience" data-category="neuroscience">
+          <header><h2><i aria-hidden="true"></i>Neuroscience</h2><span data-story-count>0 STORIES</span></header>
+          <div class="news-stories" data-story-list></div>
+          <button class="view-all" type="button" data-view-all hidden>View all</button>
+        </article>
+      </section>
+    </main>
+
+    <footer class="news-footer">
+      新闻标题链接至原始来源。中文翻译仅供快速阅读，原文内容以来源网站为准。
+    </footer>
+    <script type="module" src="news.js?v=20260622"></script>
+  </body>
+</html>

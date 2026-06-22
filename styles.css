@@ -255,6 +255,44 @@ main {
   margin: 20px 0 16px;
 }
 
+.latest-news-nav {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 12px 0 -2px;
+}
+
+.latest-news-link {
+  display: inline-flex;
+  align-items: center;
+  min-height: 34px;
+  padding: 0 12px;
+  border: 1px solid var(--line);
+  border-radius: 4px;
+  background: var(--panel-strong);
+  color: var(--text);
+  font-size: 12px;
+  font-weight: 800;
+}
+
+.latest-news-link::after {
+  content: "→";
+  margin-left: 9px;
+  color: var(--interactive);
+}
+
+.latest-news-link:hover {
+  border-color: var(--interactive);
+  color: #dbe8ff;
+}
+
+.latest-news-nav span {
+  color: var(--muted);
+  font-size: 10px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
 .search-box {
   position: relative;
   display: block;

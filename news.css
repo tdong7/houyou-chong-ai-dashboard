@@ -1,0 +1,74 @@
+:root {
+  color-scheme: dark;
+  --bg: #080c10;
+  --panel: #0d1319;
+  --panel-strong: #111820;
+  --line: #2d3944;
+  --text: #e8edf2;
+  --muted: #7f8d98;
+  --positive: #2dd4a0;
+  --interactive: #3b82f6;
+  --neuroscience: #a98bfa;
+  font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+* { box-sizing: border-box; }
+body { margin: 0; min-width: 320px; background: var(--bg); color: var(--text); }
+a { color: inherit; text-decoration: none; }
+button { font: inherit; }
+.news-header { min-height: 72px; display: flex; align-items: center; justify-content: space-between; gap: 18px; padding: 10px 22px; border-bottom: 1px solid var(--line); background: #0a0f14; }
+.news-brand { display: flex; align-items: center; gap: 12px; }
+.news-brand-mark { width: 46px; height: 46px; display: grid; place-items: center; border: 1px solid var(--line); border-radius: 5px; background: var(--panel-strong); color: var(--positive); font-size: 20px; font-weight: 900; }
+.news-brand strong, .news-brand span { display: block; }
+.news-brand strong { font-size: 22px; }
+.news-brand span { margin-top: 3px; color: var(--muted); font-size: 10px; font-weight: 800; }
+.dashboard-link { padding: 9px 12px; border: 1px solid var(--line); border-radius: 4px; color: #cbd5dc; font-size: 12px; font-weight: 750; }
+.dashboard-link:hover { border-color: var(--interactive); color: #dbe8ff; }
+main { width: min(100%, 1480px); margin: 0 auto; padding: 18px 22px 28px; }
+.news-page-head { display: flex; align-items: end; justify-content: space-between; gap: 20px; padding: 4px 0 16px; }
+.news-page-head h1 { margin: 0; font-size: 28px; }
+.news-page-head p { margin: 6px 0 0; color: var(--muted); font-size: 12px; }
+.news-updated { color: var(--muted); font-size: 10px; text-align: right; }
+.news-updated strong { display: block; margin-top: 4px; color: #c7d1d8; font-size: 11px; }
+.news-metrics { display: grid; grid-template-columns: repeat(3, 1fr); overflow: hidden; margin-bottom: 14px; border: 1px solid var(--line); border-radius: 5px; background: var(--panel); }
+.news-metric { padding: 12px 15px; border-right: 1px solid var(--line); }
+.news-metric:last-child { border-right: 0; }
+.news-metric span { display: block; color: var(--muted); font-size: 10px; font-weight: 800; text-transform: uppercase; }
+.news-metric strong { display: block; margin-top: 4px; font-size: 17px; }
+.news-metric.ai strong { color: var(--positive); }
+.news-metric.space strong { color: #82b4ff; }
+.news-metric.neuroscience strong { color: #c4a7ff; }
+.news-unavailable { padding: 12px 14px; border: 1px solid #6f3a3f; background: rgba(248, 113, 113, 0.08); color: #ffb4b4; font-size: 12px; }
+.news-columns { display: grid; grid-template-columns: 1.25fr 0.85fr 0.85fr; align-items: start; gap: 12px; }
+.news-channel { overflow: hidden; border: 1px solid var(--line); border-radius: 5px; background: var(--panel); }
+.news-channel > header { min-height: 52px; display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 0 14px; border-bottom: 1px solid var(--line); background: var(--panel-strong); }
+.news-channel h2 { margin: 0; font-size: 15px; }
+.news-channel h2 i { display: inline-block; width: 6px; height: 6px; margin-right: 7px; border-radius: 50%; background: var(--positive); vertical-align: 2px; }
+.news-channel.space h2 i { background: #5b9cff; }
+.news-channel.neuroscience h2 i { background: var(--neuroscience); }
+.news-channel [data-story-count] { color: var(--muted); font-size: 10px; font-weight: 800; }
+.news-stories:empty::before { content: "当前没有符合条件的新闻"; display: block; padding: 18px 14px; color: var(--muted); font-size: 11px; }
+.news-date { margin: 0; padding: 11px 14px 6px; color: var(--muted); font-size: 10px; font-weight: 850; text-transform: uppercase; }
+.news-story { display: block; margin: 0 10px; padding: 12px 4px; border-bottom: 1px solid rgba(127, 141, 152, 0.18); }
+.news-story-meta { display: flex; justify-content: space-between; gap: 10px; margin-bottom: 6px; color: var(--muted); font-size: 9px; font-weight: 800; text-transform: uppercase; }
+.news-story strong { display: block; color: var(--text); font-size: 13px; line-height: 1.4; }
+.news-story:hover strong { color: #bcd4ff; }
+.news-translation { display: block; margin-top: 5px; color: #98a5af; font-size: 11px; line-height: 1.45; }
+.view-all { width: calc(100% - 20px); min-height: 36px; margin: 5px 10px 10px; border: 1px solid var(--line); border-radius: 4px; background: var(--panel-strong); color: #b9c4cc; cursor: pointer; font-size: 11px; font-weight: 800; }
+.view-all:hover { border-color: var(--interactive); color: #dbe8ff; }
+.news-footer { width: min(100%, 1480px); margin: 0 auto 20px; padding: 12px 22px 0; border-top: 1px solid var(--line); color: #64727d; font-size: 10px; }
+
+@media (max-width: 900px) {
+  .news-columns, .news-metrics { grid-template-columns: 1fr; }
+  .news-metric { border-right: 0; border-bottom: 1px solid var(--line); }
+  .news-metric:last-child { border-bottom: 0; }
+}
+
+@media (max-width: 560px) {
+  .news-header, main { padding-left: 14px; padding-right: 14px; }
+  .news-header { align-items: flex-start; flex-direction: column; padding-top: 12px; padding-bottom: 12px; }
+  .news-brand strong { font-size: 19px; }
+  .news-page-head { align-items: flex-start; flex-direction: column; }
+  .news-updated { text-align: left; }
+  .news-page-head h1 { font-size: 24px; }
+}

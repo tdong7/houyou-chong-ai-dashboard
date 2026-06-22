@@ -3,12 +3,18 @@ import { existsSync, readFileSync } from "node:fs";
 
 const workflowPath = new URL("../.github/workflows/update-stocks.yml", import.meta.url);
 const updaterPath = new URL("../scripts/update-stocks.mjs", import.meta.url);
+const newsWorkflowPath = new URL("../.github/workflows/update-news.yml", import.meta.url);
+const newsUpdaterPath = new URL("../scripts/update-news.mjs", import.meta.url);
 
 assert.equal(existsSync(workflowPath), true, "Missing scheduled GitHub Action workflow");
 assert.equal(existsSync(updaterPath), true, "Missing stock updater script");
+assert.equal(existsSync(newsWorkflowPath), true, "Missing scheduled news workflow");
+assert.equal(existsSync(newsUpdaterPath), true, "Missing news updater script");
 
 const workflowSource = readFileSync(workflowPath, "utf8");
 const updaterSource = readFileSync(updaterPath, "utf8");
+const newsWorkflowSource = readFileSync(newsWorkflowPath, "utf8");
+const newsUpdaterSource = readFileSync(newsUpdaterPath, "utf8");
 
 assert.match(workflowSource, /name:\s*Update top AI stocks/, "Workflow should be named for stock updates");
 for (const hour of [13, 14, 19, 20]) {
@@ -34,3 +40,18 @@ assert.match(updaterSource, /AI_STOCK_UNIVERSE/, "Updater should rank from a bro
 assert.match(updaterSource, /const stocks = \[/, "Updater should rewrite the dashboard stock block");
 assert.match(updaterSource, /stockListUpdatedAt/, "Updater should refresh the displayed stock-list timestamp");
 assert.match(updaterSource, /\?:const\|let/, "Updater should support mutable dashboard timestamp declarations");
+
+assert.match(newsWorkflowSource, /name:\s*Update latest news/, "News workflow should have a clear name");
+for (const hour of [14, 15]) {
+  assert.match(newsWorkflowSource, new RegExp(`0 ${hour} \\* \\* \\*`), `News workflow should include ${hour}:00 UTC`);
+}
+assert.match(newsWorkflowSource, /workflow_dispatch:/, "News updates should support manual dispatch");
+assert.match(newsWorkflowSource, /node-version:\s*24/, "News workflow should use Node 24");
+assert.match(newsWorkflowSource, /node scripts\/update-news\.mjs --scheduled-window/, "News workflow should enforce the ET hour guard");
+assert.match(newsWorkflowSource, /node tests\/news\.test\.mjs/, "News workflow should run page tests");
+assert.match(newsWorkflowSource, /node tests\/news-data\.test\.mjs/, "News workflow should run data tests");
+assert.match(newsWorkflowSource, /node tests\/news-updater\.test\.mjs/, "News workflow should run updater tests");
+assert.match(newsWorkflowSource, /git add data\/news-data\.json/, "News workflow should commit only the generated archive");
+assert.match(newsUpdaterSource, /America\/New_York/, "News updater should evaluate time in New York");
+assert.match(newsUpdaterSource, /isScheduledNewsWindow/, "News updater should guard the daily schedule");
+assert.match(newsUpdaterSource, /MyMemory|mymemory/i, "News updater should provide automatic Chinese title translation");
