@@ -80,9 +80,11 @@ export function validateStory(story) {
   return story;
 }
 
-export function validateArchive(archive) {
+export function validateArchive(archive, now = new Date()) {
   if (!archive || typeof archive !== "object") throw new Error("News archive must be an object");
-  if (!Number.isFinite(Date.parse(archive.updatedAt))) throw new Error("Archive updatedAt must be a valid ISO date");
+  const updatedAt = Date.parse(archive.updatedAt);
+  if (!Number.isFinite(updatedAt)) throw new Error("Archive updatedAt must be a valid ISO date");
+  if (updatedAt > now.getTime() + 5 * 60_000) throw new Error("Archive updatedAt cannot be in the future");
   if (archive.timezone !== ET_TIME_ZONE) throw new Error(`Archive timezone must be ${ET_TIME_ZONE}`);
   if (!Array.isArray(archive.stories)) throw new Error("Archive stories must be an array");
 

@@ -58,6 +58,11 @@ assert.throws(
   /daily limit/,
   "Daily AI selection should not exceed five stories"
 );
+assert.throws(
+  () => validateArchive(validArchive, new Date("2026-06-22T05:12:00.000Z")),
+  /future/,
+  "Archive update time should never be displayed in the future"
+);
 
 assert.equal(
   stableStoryId(story()),
