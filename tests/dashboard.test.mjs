@@ -86,3 +86,11 @@ assert.match(stylesSource, /body\s*\{[^}]*overflow-x:\s*hidden/, "Page-level hor
 assert.doesNotMatch(appSource, /class="momentum-row"/, "Per-card YTD gain row should be removed");
 assert.doesNotMatch(appSource, /class="stats-row"/, "Custom 1M/3M stats row should be removed");
 assert.doesNotMatch(appSource, /embed-widget-mini-symbol-overview\.js/, "Mini chart widget should not be used for screenshot-style Overview charts");
+assert.match(stylesSource, /--bg:\s*#080c10/, "Graphite preview should use the approved neutral background");
+assert.match(stylesSource, /--positive:\s*#2dd4a0/, "Graphite preview should use the approved emerald accent");
+assert.match(stylesSource, /--interactive:\s*#3b82f6/, "Graphite preview should reserve blue for interactions");
+assert.doesNotMatch(stylesSource, /radial-gradient/, "Graphite preview should avoid decorative glow gradients");
+assert.match(indexSource, /class="market-status"/, "Header should show a compact live-market status");
+assert.match(stylesSource, /\.summary-icon\s*\{[^}]*display:\s*none/, "Summary should use a compact metric strip without numbered circles");
+assert.match(appSource, /colorTheme:\s*"dark"/, "TradingView panels should match the graphite shell");
+assert.match(appSource, /IntersectionObserver/, "TradingView panels should load near the viewport instead of all at once");

@@ -330,17 +330,17 @@ function makeWidgetConfig(stock, tabKey, rangeKey = getActiveRange(stock)) {
         lineWidth: 2,
         lineType: 0,
         chartType: "area",
-        fontColor: "rgb(60, 60, 60)",
-        gridLineColor: "rgba(46, 46, 46, 0.06)",
-        backgroundColor: "#ffffff",
-        widgetFontColor: "#0F0F0F",
-        upColor: "#4a9b87",
-        downColor: "#ef5350",
-        borderUpColor: "#4a9b87",
-        borderDownColor: "#ef5350",
-        wickUpColor: "#4a9b87",
-        wickDownColor: "#ef5350",
-        colorTheme: "light",
+        fontColor: "#7f8d98",
+        gridLineColor: "rgba(127, 141, 152, 0.12)",
+        backgroundColor: "#0d1319",
+        widgetFontColor: "#d8e0e6",
+        upColor: "#2dd4a0",
+        downColor: "#f87171",
+        borderUpColor: "#2dd4a0",
+        borderDownColor: "#f87171",
+        wickUpColor: "#2dd4a0",
+        wickDownColor: "#f87171",
+        colorTheme: "dark",
         isTransparent: false,
         locale: "en",
         chartOnly: true,
@@ -368,7 +368,7 @@ function makeWidgetConfig(stock, tabKey, rangeKey = getActiveRange(stock)) {
       script: "embed-widget-financials.js",
       config: {
         symbol,
-        colorTheme: "light",
+        colorTheme: "dark",
         displayMode: "regular",
         isTransparent: false,
         locale: "en",
@@ -384,7 +384,7 @@ function makeWidgetConfig(stock, tabKey, rangeKey = getActiveRange(stock)) {
       config: {
         feedMode: "symbol",
         symbol,
-        colorTheme: "light",
+        colorTheme: "dark",
         isTransparent: false,
         displayMode: "regular",
         width: "100%",
@@ -399,7 +399,7 @@ function makeWidgetConfig(stock, tabKey, rangeKey = getActiveRange(stock)) {
       script: "embed-widget-technical-analysis.js",
       config: {
         symbol,
-        colorTheme: "light",
+        colorTheme: "dark",
         displayMode: "single",
         isTransparent: false,
         locale: "en",
@@ -436,8 +436,28 @@ function renderTradingViewWidget(container) {
   container.replaceChildren(widgetShell);
 }
 
+const chartObserver =
+  "IntersectionObserver" in window
+    ? new IntersectionObserver(
+        (entries, observer) => {
+          entries.forEach((entry) => {
+            if (!entry.isIntersecting) return;
+            renderTradingViewWidget(entry.target);
+            observer.unobserve(entry.target);
+          });
+        },
+        { rootMargin: "500px 0px" }
+      )
+    : null;
+
 function hydrateTradingViewCharts(root = document) {
-  root.querySelectorAll(".stock-tab-panel[data-kind='widget']").forEach(renderTradingViewWidget);
+  root.querySelectorAll(".stock-tab-panel[data-kind='widget']").forEach((container) => {
+    if (chartObserver) {
+      chartObserver.observe(container);
+    } else {
+      renderTradingViewWidget(container);
+    }
+  });
 }
 
 function applyMarketSnapshot(rows) {
