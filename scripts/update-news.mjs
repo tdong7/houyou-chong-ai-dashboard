@@ -50,6 +50,7 @@ function easternParts(date) {
       month: "2-digit",
       day: "2-digit",
       hour: "2-digit",
+      minute: "2-digit",
       hourCycle: "h23",
     })
       .formatToParts(date)
@@ -62,8 +63,33 @@ export function easternDate(date) {
   return `${parts.year}-${parts.month}-${parts.day}`;
 }
 
-export function isScheduledNewsWindow(date = new Date()) {
-  return Number(easternParts(date).hour) === 10;
+async function scheduledCron() {
+  if (!process.env.GITHUB_EVENT_PATH) return "";
+
+  try {
+    const event = JSON.parse(await readFile(process.env.GITHUB_EVENT_PATH, "utf8"));
+    return event.schedule || "";
+  } catch (error) {
+    console.warn(`Could not read GitHub schedule event: ${error.message}`);
+    return "";
+  }
+}
+
+function parseCronMinuteHour(cron) {
+  const [minute, hour] = cron.trim().split(/\s+/);
+  const parsedMinute = Number(minute);
+  const parsedHour = Number(hour);
+  if (!Number.isInteger(parsedMinute) || !Number.isInteger(parsedHour)) return null;
+  return { minute: parsedMinute, hour: parsedHour };
+}
+
+export function isScheduledNewsWindow(date = new Date(), cron = "") {
+  const cronTime = cron ? parseCronMinuteHour(cron) : null;
+  const checkedDate = cronTime
+    ? new Date(Date.UTC(date.getUTCFullYear(), date.getUTCMonth(), date.getUTCDate(), cronTime.hour, cronTime.minute))
+    : date;
+  const parts = easternParts(checkedDate);
+  return Number(parts.hour) === 10 && Number(parts.minute) === 0;
 }
 
 function decodeEntities(value = "") {
@@ -340,7 +366,8 @@ async function buildSelectedStories(candidates, existing, now) {
 }
 
 export async function runUpdate({ now = new Date(), force = false, scheduledWindow = false } = {}) {
-  if (scheduledWindow && !force && !isScheduledNewsWindow(now)) {
+  const cron = scheduledWindow ? await scheduledCron() : "";
+  if (scheduledWindow && !force && !isScheduledNewsWindow(now, cron)) {
     console.log("Skipping: it is not 10:00 in America/New_York.");
     return false;
   }

@@ -15,6 +15,11 @@ import {
 assert.equal(isScheduledNewsWindow(new Date("2026-06-22T14:00:00Z")), true, "EDT 10:00 should run");
 assert.equal(isScheduledNewsWindow(new Date("2026-12-22T15:00:00Z")), true, "EST 10:00 should run");
 assert.equal(isScheduledNewsWindow(new Date("2026-06-22T13:00:00Z")), false, "EDT 09:00 should not run");
+assert.equal(
+  isScheduledNewsWindow(new Date("2026-06-23T16:28:36Z"), "0 14 * * *"),
+  true,
+  "A delayed GitHub scheduled run should use the cron slot, not runner start time"
+);
 
 const sourcesByName = Object.fromEntries(SOURCE_DEFINITIONS.map((source) => [source.name, source]));
 assert.equal(sourcesByName["The Information"].relevanceRequired, true, "The Information's broad feed should require AI relevance");

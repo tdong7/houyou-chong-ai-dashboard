@@ -1,7 +1,91 @@
 {
-  "updatedAt": "2026-06-23T00:11:03.208Z",
+  "updatedAt": "2026-06-23T19:58:18.357Z",
   "timezone": "America/New_York",
   "stories": [
+    {
+      "id": "c975dac8c26148e3992a",
+      "category": "ai",
+      "publishedAt": "2026-06-23T19:08:12.109Z",
+      "dateET": "2026-06-23",
+      "source": "Reuters Technology",
+      "title": "S&P, Nasdaq drop on semiconductor selloff as AI spending concerns mount",
+      "titleZh": "随着人工智能支出担忧加剧，标准普尔、纳斯达克下跌半导体抛售",
+      "url": "https://www.reuters.com/business/nasdaq-futures-fall-2-tech-worries-fed-hike-bets-2026-06-23/",
+      "score": 55,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "868cf1ed9221e01b2736",
+      "category": "ai",
+      "publishedAt": "2026-06-23T18:51:07.776Z",
+      "dateET": "2026-06-23",
+      "source": "Reuters Technology",
+      "title": "SoFi deepens AI-powered trading ambitions with Composer deal",
+      "titleZh": "SoFi通过Composer交易深化人工智能驱动的交易野心",
+      "url": "https://www.reuters.com/technology/sofi-deepens-ai-powered-trading-ambitions-with-composer-deal-2026-06-23/",
+      "score": 55,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "5ee199384db4be94d7fb",
+      "category": "ai",
+      "publishedAt": "2026-06-23T18:09:27.000Z",
+      "dateET": "2026-06-23",
+      "source": "The Information",
+      "title": "Open Source Growth Boosts Together AI, Hugging Face",
+      "titleZh": "开源增长共同推动人工智能，拥抱面孔",
+      "url": "https://www.theinformation.com/articles/open-source-growth-boosts-together-ai-hugging-face",
+      "score": 52,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "ab3c97c7077be990e585",
+      "category": "space",
+      "publishedAt": "2026-06-23T18:00:00.000Z",
+      "dateET": "2026-06-23",
+      "source": "Space.com",
+      "title": "Rocket Lab launches US Space Force mission with less than 17 hours' notice — a new record",
+      "titleZh": "火箭实验室在不到17小时的时间内发射了美国太空部队的任务—创下新纪录",
+      "url": "https://www.space.com/space-exploration/launches-spacecraft/rocket-lab-launches-us-space-force-mission-with-less-than-17-hours-notice-a-new-record",
+      "score": 53,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "8e51c6ac99a5fead2c14",
+      "category": "ai",
+      "publishedAt": "2026-06-23T17:55:58.000Z",
+      "dateET": "2026-06-23",
+      "source": "The Information",
+      "title": "OpenAI Execs Tout Ad Progress at Cannes",
+      "titleZh": "OpenAI Execs在戛纳宣传广告进展",
+      "url": "https://www.theinformation.com/briefings/openai-execs-tout-ad-progress-cannes",
+      "score": 52,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "3bcd040552900cd89e10",
+      "category": "space",
+      "publishedAt": "2026-06-23T16:52:28.000Z",
+      "dateET": "2026-06-23",
+      "source": "Space.com",
+      "title": "China's space plane appears to have released a mystery object in orbit",
+      "titleZh": "中国的太空飞机似乎在轨道上释放了一个神秘物体",
+      "url": "https://www.space.com/space-exploration/launches-spacecraft/chinas-space-plane-appears-to-have-released-a-mystery-object-in-orbit",
+      "score": 52,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "d46ac75730eee26e1cf1",
+      "category": "ai",
+      "publishedAt": "2026-06-23T13:00:56.000Z",
+      "dateET": "2026-06-23",
+      "source": "The Information",
+      "title": "How AI Customers Are Lowering Their Anthropic and OpenAI Bills",
+      "titleZh": "人工智能客户如何降低其人性化和OpenAI账单",
+      "url": "https://www.theinformation.com/articles/ai-customers-lowering-anthropic-openai-bills",
+      "score": 55,
+      "translationStatus": "complete"
+    },
     {
       "id": "b04bb47da20c4aab576d",
       "category": "ai",
