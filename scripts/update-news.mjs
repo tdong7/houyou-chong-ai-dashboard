@@ -1,5 +1,7 @@
+import { execFile } from "node:child_process";
 import { readFile, rename, writeFile } from "node:fs/promises";
 import { pathToFileURL } from "node:url";
+import { promisify } from "node:util";
 import {
   ARCHIVE_START_DATE,
   ET_TIME_ZONE,
@@ -13,6 +15,7 @@ import {
 
 const ARCHIVE_PATH = new URL("../data/news-data.json", import.meta.url);
 const FETCH_TIMEOUT_MS = 12_000;
+const execFileAsync = promisify(execFile);
 const RELEVANCE_TERMS = {
   ai: ["ai", "artificial intelligence", "model", "gpu", "chip", "data center", "openai", "anthropic", "deepmind", "inference"],
   space: ["space", "launch", "rocket", "starship", "spacex", "orbit", "moon", "mars", "satellite", "nasa"],
@@ -20,18 +23,24 @@ const RELEVANCE_TERMS = {
 };
 
 export const SOURCE_DEFINITIONS = Object.freeze([
-  { name: "The Information", category: "ai", url: "https://www.theinformation.com/feed", format: "feed", priority: 20 },
-  { name: "Reuters Technology", category: "ai", url: "https://www.reuters.com/technology/", format: "html", priority: 22 },
-  { name: "OpenAI News", category: "ai", url: "https://openai.com/news/", format: "html", priority: 18 },
+  { name: "The Information", category: "ai", url: "https://www.theinformation.com/feed", format: "feed", priority: 20, relevanceRequired: true },
+  { name: "Reuters Technology", category: "ai", url: "https://www.reuters.com/arc/outboundfeeds/news-sitemap/?outputType=xml", format: "news-sitemap", priority: 22, relevanceRequired: true },
+  { name: "OpenAI News", category: "ai", url: "https://openai.com/news/rss.xml", format: "feed", priority: 18 },
   { name: "Anthropic Newsroom", category: "ai", url: "https://www.anthropic.com/news", format: "html", priority: 18 },
   { name: "SemiAnalysis", category: "ai", url: "https://semianalysis.com/feed/", format: "feed", priority: 19 },
-  { name: "Data Center World", category: "ai", url: "https://datacenterworld.com/rss.xml", format: "feed", priority: 14 },
+  { name: "Data Center World", category: "ai", url: "https://datacenterworld.com/news-insights/", format: "article-list", priority: 14 },
   { name: "SpaceX Updates", category: "space", url: "https://www.spacex.com/updates", format: "html", priority: 20 },
   { name: "Space.com", category: "space", url: "https://www.space.com/feeds/all", format: "feed", priority: 17 },
   { name: "Nature Neuroscience", category: "neuroscience", url: "https://www.nature.com/neuro.rss", format: "feed", priority: 20 },
   { name: "Science", category: "neuroscience", url: "https://www.science.org/action/showFeed?type=etoc&feed=rss&jc=science", format: "feed", priority: 18 },
-  { name: "NIH News", category: "neuroscience", url: "https://www.nih.gov/news-events/news-releases/rss.xml", format: "feed", priority: 18 },
+  { name: "NINDS News", category: "neuroscience", url: "https://www.ninds.nih.gov/news-events/press-releases/press-releases.rss", format: "feed", priority: 18 },
 ]);
+
+const REQUEST_HEADERS = Object.freeze({
+  accept: "application/rss+xml, application/xml, text/xml, text/html;q=0.9, */*;q=0.8",
+  "accept-language": "en-US,en;q=0.9",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 Chrome/137.0.0.0 Safari/537.36",
+});
 
 function easternParts(date) {
   return Object.fromEntries(
@@ -95,6 +104,46 @@ export function parseFeed(xml, source) {
     .filter(Boolean);
 }
 
+export function parseNewsSitemap(xml, source) {
+  const blocks = xml.match(/<url\b[\s\S]*?<\/url>/gi) || [];
+  const nonEnglishPath = /^\/(?:ar|de|es|fr|it|ja|pt|ru|zh)\//i;
+  return blocks
+    .map((block) => {
+      const title = xmlValue(block, ["news:title"]);
+      const url = xmlValue(block, ["loc"]);
+      const date = xmlValue(block, ["news:publication_date", "lastmod"]);
+      const publishedAt = new Date(date);
+      if (!title || !url || nonEnglishPath.test(new URL(url).pathname) || !Number.isFinite(publishedAt.getTime())) return null;
+      return { ...source, title, url, publishedAt: publishedAt.toISOString(), featured: false };
+    })
+    .filter(Boolean);
+}
+
+function metaContent(html, property) {
+  const escaped = property.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+  const propertyFirst = html.match(new RegExp(`<meta[^>]+property=["']${escaped}["'][^>]+content=["']([^"']+)["']`, "i"));
+  const contentFirst = html.match(new RegExp(`<meta[^>]+content=["']([^"']+)["'][^>]+property=["']${escaped}["']`, "i"));
+  return decodeEntities(propertyFirst?.[1] || contentFirst?.[1] || "");
+}
+
+export function extractArticleLinks(html, baseUrl) {
+  const links = [];
+  for (const match of html.matchAll(/href=["']([^"']*\/article\/[^"'#?]+\/?)["']/gi)) {
+    const url = new URL(decodeEntities(match[1]), baseUrl).toString();
+    if (!links.includes(url)) links.push(url);
+  }
+  return links;
+}
+
+export function parseArticlePage(html, source) {
+  const title = metaContent(html, "og:title");
+  const url = metaContent(html, "og:url");
+  const date = html.match(/["']datePublished["']\s*:\s*["']([^"']+)["']/i)?.[1] || "";
+  const publishedAt = new Date(date);
+  if (!title || !url || !Number.isFinite(publishedAt.getTime())) return [];
+  return [{ ...source, title, url, publishedAt: publishedAt.toISOString(), featured: false }];
+}
+
 function collectJsonLd(value, output) {
   if (Array.isArray(value)) {
     value.forEach((item) => collectJsonLd(item, output));
@@ -130,14 +179,32 @@ export function parseHtml(html, source) {
     .filter((item) => item?.title && item.url);
 }
 
-async function fetchText(url, fetchImpl = fetch) {
+async function fetchWithCurl(url) {
+  const { stdout } = await execFileAsync("curl", [
+    "--fail",
+    "--location",
+    "--silent",
+    "--show-error",
+    "--max-time",
+    String(FETCH_TIMEOUT_MS / 1_000),
+    "--user-agent",
+    REQUEST_HEADERS["user-agent"],
+    "--header",
+    `Accept: ${REQUEST_HEADERS.accept}`,
+    url,
+  ], { maxBuffer: 5 * 1024 * 1024 });
+  return stdout;
+}
+
+export async function fetchText(url, fetchImpl = fetch, fallbackImpl = fetchWithCurl) {
   const controller = new AbortController();
   const timeout = setTimeout(() => controller.abort(), FETCH_TIMEOUT_MS);
   try {
     const response = await fetchImpl(url, {
       signal: controller.signal,
-      headers: { "user-agent": "houyou-news-dashboard/1.0" },
+      headers: REQUEST_HEADERS,
     });
+    if ([401, 403].includes(response.status)) return await fallbackImpl(url);
     if (!response.ok) throw new Error(`HTTP ${response.status}`);
     return await response.text();
   } finally {
@@ -154,8 +221,16 @@ export function createSources(fetchImpl = fetch) {
         source: definition.name,
         category: definition.category,
         priority: definition.priority,
+        relevanceRequired: Boolean(definition.relevanceRequired),
       };
-      return definition.format === "feed" ? parseFeed(content, source) : parseHtml(content, source);
+      if (definition.format === "feed") return parseFeed(content, source);
+      if (definition.format === "news-sitemap") return parseNewsSitemap(content, source);
+      if (definition.format === "article-list") {
+        const articleUrls = extractArticleLinks(content, definition.url).slice(0, 16);
+        const pages = await Promise.allSettled(articleUrls.map((url) => fetchText(url, fetchImpl)));
+        return pages.flatMap((result) => result.status === "fulfilled" ? parseArticlePage(result.value, source) : []);
+      }
+      return parseHtml(content, source);
     },
   }));
 }
@@ -172,7 +247,12 @@ export async function collectSources(sources, onError = console.warn) {
 
 function relevanceScore(candidate) {
   const title = normalizeTitle(candidate.title);
-  return RELEVANCE_TERMS[candidate.category].reduce((score, term) => score + (title.includes(term) ? 4 : 0), 0);
+  const paddedTitle = ` ${title} `;
+  return RELEVANCE_TERMS[candidate.category].reduce((score, term) => score + (paddedTitle.includes(` ${term} `) ? 4 : 0), 0);
+}
+
+export function isRelevantCandidate(candidate) {
+  return !candidate.relevanceRequired || relevanceScore(candidate) > 0;
 }
 
 export function scoreCandidates(candidates, now = new Date()) {
@@ -222,6 +302,7 @@ export function mergeArchive(existing, newStories, now = new Date()) {
 async function buildSelectedStories(candidates, existing, now) {
   const today = easternDate(now);
   const qualified = scoreCandidates(candidates, now)
+    .filter(isRelevantCandidate)
     .map((candidate) => {
       try {
         return { ...candidate, url: canonicalizeUrl(candidate.url), dateET: easternDate(new Date(candidate.publishedAt)) };
