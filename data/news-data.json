@@ -1,7 +1,91 @@
 {
-  "updatedAt": "2026-06-23T19:58:18.357Z",
+  "updatedAt": "2026-06-24T16:24:49.499Z",
   "timezone": "America/New_York",
   "stories": [
+    {
+      "id": "528d18c820f06803bfc0",
+      "category": "ai",
+      "publishedAt": "2026-06-24T16:11:59.918Z",
+      "dateET": "2026-06-24",
+      "source": "Reuters Technology",
+      "title": "SK Hynix targets $29 billion US listing as AI demand surges",
+      "titleZh": "随着人工智能需求激增， SK海力士计划在美国上市$ 290亿美元",
+      "url": "https://www.reuters.com/world/asia-pacific/south-koreas-sk-hynix-says-raise-29-bln-us-adr-listing-2026-06-24/",
+      "score": 56,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "6a14f968d3f6e72dd3d4",
+      "category": "space",
+      "publishedAt": "2026-06-24T16:00:00.000Z",
+      "dateET": "2026-06-24",
+      "source": "Space.com",
+      "title": "NASA sent a FIFA World Cup 2026 ball to the ISS so astronauts can test their footwork in zero gravity (video)",
+      "titleZh": "美国宇航局向国际空间站发送了一个2026年世界杯足球，以便宇航员在零重力下测试他们的步法（视频）",
+      "url": "https://www.space.com/space-exploration/nasa-sent-a-fifa-world-cup-2026-ball-to-the-iss-so-astronauts-can-test-their-footwork-in-zero-gravity-video",
+      "score": 51,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "d3e59a54b1b8ace7b567",
+      "category": "ai",
+      "publishedAt": "2026-06-24T15:59:03.823Z",
+      "dateET": "2026-06-24",
+      "source": "Reuters Technology",
+      "title": "Apple-Intel chip deal makes strategic sense but production is years away",
+      "titleZh": "苹果-英特尔芯片交易具有战略意义，但生产还需要数年时间",
+      "url": "https://www.reuters.com/world/china/apple-intel-chip-deal-makes-strategic-sense-production-is-years-away-2026-06-24/",
+      "score": 56,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "895da3e71bbff4b60f6f",
+      "category": "ai",
+      "publishedAt": "2026-06-24T15:53:12.046Z",
+      "dateET": "2026-06-24",
+      "source": "Reuters Technology",
+      "title": "Qualcomm to buy startup Modular for $4 billion in AI software push",
+      "titleZh": "高通公司将以40亿美元的价格收购初创公司Modular ，以推动人工智能软件",
+      "url": "https://www.reuters.com/business/qualcomm-buy-ai-startup-modular-2026-06-24/",
+      "score": 55,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "1ba71c87d393ed8d4f5b",
+      "category": "space",
+      "publishedAt": "2026-06-24T14:00:00.000Z",
+      "dateET": "2026-06-24",
+      "source": "Space.com",
+      "title": "NASA looks for the origins of interstellar comet 3I/ATLAS | Space photo of the day for June 24, 2026",
+      "titleZh": "美国宇航局寻找星际彗星3I/ATLAS的起源| 2026年6月24日当天的太空照片",
+      "url": "https://www.space.com/astronomy/comets/nasa-looks-for-the-origins-of-interstellar-comet-3i-atlas-space-photo-of-the-day-for-june-24-2026",
+      "score": 53,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "17fe01a335ba8640f890",
+      "category": "ai",
+      "publishedAt": "2026-06-24T13:27:43.000Z",
+      "dateET": "2026-06-24",
+      "source": "The Information",
+      "title": "OpenAI and Broadcom Unveil AI Server Chip",
+      "titleZh": "OpenAI和Broadcom推出AI服务器芯片",
+      "url": "https://www.theinformation.com/briefings/openai-broadcom-unveil-first-chip",
+      "score": 59,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "7211e5906338149c6626",
+      "category": "ai",
+      "publishedAt": "2026-06-24T06:00:00.000Z",
+      "dateET": "2026-06-24",
+      "source": "OpenAI News",
+      "title": "OpenAI and Broadcom unveil LLM-optimized inference chip",
+      "titleZh": "OpenAI和Broadcom推出LLM优化推理芯片",
+      "url": "https://openai.com/index/openai-broadcom-jalapeno-inference-chip",
+      "score": 50,
+      "translationStatus": "complete"
+    },
     {
       "id": "c975dac8c26148e3992a",
       "category": "ai",
