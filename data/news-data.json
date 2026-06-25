@@ -1,7 +1,91 @@
 {
-  "updatedAt": "2026-06-24T16:24:49.499Z",
+  "updatedAt": "2026-06-25T16:29:06.307Z",
   "timezone": "America/New_York",
   "stories": [
+    {
+      "id": "c8b98cc7ac07c6934ac1",
+      "category": "ai",
+      "publishedAt": "2026-06-25T16:22:58.533Z",
+      "dateET": "2026-06-25",
+      "source": "Reuters Technology",
+      "title": "Italy's Domyn to launch open source frontier AI model within a year, CEO says",
+      "titleZh": "首席执行官表示，意大利的Domyn将在一年内推出开源前沿AI模型",
+      "url": "https://www.reuters.com/world/china/italys-domyn-launch-open-source-frontier-ai-model-within-year-ceo-says-2026-06-25/",
+      "score": 60,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "7ffb05f2f4c504f4e94d",
+      "category": "ai",
+      "publishedAt": "2026-06-25T16:16:53.784Z",
+      "dateET": "2026-06-25",
+      "source": "Reuters Technology",
+      "title": "World stocks climb on chip rally; dollar steadies near one-year high",
+      "titleZh": "全球股市随筹码上涨而攀升；美元趋于稳定，接近一年高位",
+      "url": "https://www.reuters.com/world/china/global-markets-wrapup-1-2026-06-25/",
+      "score": 56,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "4d8dd7a20ab011618864",
+      "category": "space",
+      "publishedAt": "2026-06-25T16:00:00.000Z",
+      "dateET": "2026-06-25",
+      "source": "Space.com",
+      "title": "A SpaceX rocket will slam into the moon this August. Will we be able to see it?",
+      "titleZh": "今年8月，一枚SpaceX火箭将撞上月球。我们能看到它吗？",
+      "url": "https://www.space.com/astronomy/moon/a-spacex-rocket-will-slam-into-the-moon-this-august-will-we-be-able-to-see-it",
+      "score": 59,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "71b560443e7a71a2e2d4",
+      "category": "space",
+      "publishedAt": "2026-06-25T15:00:00.000Z",
+      "dateET": "2026-06-25",
+      "source": "Space.com",
+      "title": "'F9' took a car into space, but 5 years on, just how ridiculous was the scene? We asked the experts",
+      "titleZh": "“F9”将一辆汽车带入太空，但5年过去了，这个场景有多荒谬？我们询问了专家",
+      "url": "https://www.space.com/entertainment/space-movies-shows/f9-took-a-car-into-space-but-5-years-on-just-how-ridiculous-was-the-scene-we-asked-the-experts",
+      "score": 50,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "ce0b32bc02d7b895cbf0",
+      "category": "ai",
+      "publishedAt": "2026-06-25T14:01:20.000Z",
+      "dateET": "2026-06-25",
+      "source": "The Information",
+      "title": "World Models vs VLAs: The Rift Dividing Physical AI",
+      "titleZh": "世界模型与VLA ：分裂物理人工智能",
+      "url": "https://www.theinformation.com/articles/world-models-vs-vlas-rift-dividing-physical-ai",
+      "score": 52,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "d6e56ec7f2588f740481",
+      "category": "ai",
+      "publishedAt": "2026-06-25T13:00:57.000Z",
+      "dateET": "2026-06-25",
+      "source": "The Information",
+      "title": "Google Revamps New AI Coding Strike Team Amid Struggle to Catch Up With Anthropic",
+      "titleZh": "在努力追赶人类的过程中，谷歌重组了新的AI编码罢工团队",
+      "url": "https://www.theinformation.com/articles/google-revamps-new-ai-coding-strike-team-amid-struggle-catch-anthropic",
+      "score": 55,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "91185bd27cfb92961929",
+      "category": "ai",
+      "publishedAt": "2026-06-25T04:23:20.000Z",
+      "dateET": "2026-06-25",
+      "source": "The Information",
+      "title": "Anthropic Accuses Alibaba of Illicit Access to Claude Models",
+      "titleZh": "Anthropic指责阿里巴巴非法接触Claude模特",
+      "url": "https://www.theinformation.com/briefings/anthropic-accuses-alibaba-illicit-access-claude-models",
+      "score": 42,
+      "translationStatus": "complete"
+    },
     {
       "id": "528d18c820f06803bfc0",
       "category": "ai",
