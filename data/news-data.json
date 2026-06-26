@@ -1,7 +1,43 @@
 {
-  "updatedAt": "2026-06-25T16:29:06.307Z",
+  "updatedAt": "2026-06-26T16:20:42.411Z",
   "timezone": "America/New_York",
   "stories": [
+    {
+      "id": "77e7d6cb39903309fd2f",
+      "category": "space",
+      "publishedAt": "2026-06-26T14:00:00.000Z",
+      "dateET": "2026-06-26",
+      "source": "Space.com",
+      "title": "Neon green auroras from space will take your breath away | Space photo of the day for June 26, 2026",
+      "titleZh": "来自太空的霓虹绿极光将让您叹为观止| 2026年6月26日当天的太空照片",
+      "url": "https://www.space.com/astronomy/earth/neon-green-auroras-from-space-will-take-your-breath-away-space-photo-of-the-day-for-june-26-2026",
+      "score": 49,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "20ff408b114ab51e44b2",
+      "category": "ai",
+      "publishedAt": "2026-06-26T13:00:50.000Z",
+      "dateET": "2026-06-26",
+      "source": "The Information",
+      "title": "Anthropic’s Mythos Spooked DeepSeek, Prompting Its $7.4 Billion Fundraising",
+      "titleZh": "Anthropic的神话吓坏了DeepSeek ，促使其筹集了74亿美元",
+      "url": "https://www.theinformation.com/articles/anthropics-mythos-spooked-deepseek-prompting-7-4-billion-fundraising",
+      "score": 51,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "827278bc418f0ba96560",
+      "category": "space",
+      "publishedAt": "2026-06-26T12:00:00.000Z",
+      "dateET": "2026-06-26",
+      "source": "Space.com",
+      "title": "NASA is paying $30 million for a 1st-of-its-kind rescue mission to the aging Swift telescope before it falls from space. Is it worth it?",
+      "titleZh": "美国国家航空航天局（ NASA ）正在支付3000万美元（ $ 3000万美元） ，用于在老化的斯威夫特望远镜从太空坠落之前对其进行首次救援任务。值得吗？",
+      "url": "https://www.space.com/space-exploration/launches-spacecraft/nasa-is-paying-usd30-million-for-a-1st-of-its-kind-rescue-mission-to-the-aging-swift-telescope-before-it-falls-from-space-is-it-worth-it",
+      "score": 51,
+      "translationStatus": "complete"
+    },
     {
       "id": "c8b98cc7ac07c6934ac1",
       "category": "ai",
