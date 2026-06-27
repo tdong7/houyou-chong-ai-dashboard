@@ -1,7 +1,79 @@
 {
-  "updatedAt": "2026-06-26T16:20:42.411Z",
+  "updatedAt": "2026-06-27T15:19:09.053Z",
   "timezone": "America/New_York",
   "stories": [
+    {
+      "id": "dcbb9d34b7faf07c7193",
+      "category": "space",
+      "publishedAt": "2026-06-27T15:10:46.000Z",
+      "dateET": "2026-06-27",
+      "source": "Space.com",
+      "title": "This Week In Space podcast: Episode 216 — Dark Matter Intelligence",
+      "titleZh": "本周太空播客：第216集—暗物质情报",
+      "url": "https://www.space.com/entertainment/space-movies-shows/this-week-in-space-podcast-episode-216-dark-matter-intelligence",
+      "score": 51,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "170d00c1b42731402369",
+      "category": "ai",
+      "publishedAt": "2026-06-27T14:01:05.000Z",
+      "dateET": "2026-06-27",
+      "source": "The Information",
+      "title": "Salesforce Employees Worry Over Anthropic’s Invasion of Slack",
+      "titleZh": "Salesforce员工担心Anthropic入侵Slack",
+      "url": "https://www.theinformation.com/articles/salesforce-employees-worry-anthropics-invasion-slack",
+      "score": 53,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "8121bff5c3e549fc0cdc",
+      "category": "space",
+      "publishedAt": "2026-06-27T14:00:00.000Z",
+      "dateET": "2026-06-27",
+      "source": "Space.com",
+      "title": "SpaceCamp at 40: A wish-fulfillment fantasy brought down to earth by NASA's real-life disaster",
+      "titleZh": "40岁的SpaceCamp ：美国宇航局现实生活中的灾难带来的愿望实现幻想",
+      "url": "https://www.space.com/entertainment/space-movies-shows/spacecamp-at-40-a-wish-fulfillment-fantasy-brought-down-to-earth-by-nasas-real-life-disaster",
+      "score": 50,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "c43129e6039135cf4452",
+      "category": "ai",
+      "publishedAt": "2026-06-27T13:14:07.398Z",
+      "dateET": "2026-06-27",
+      "source": "Reuters Technology",
+      "title": "Volatile AI costs may spark efficiency rethink: podcast",
+      "titleZh": "不稳定的人工智能成本可能会引发效率反思：播客",
+      "url": "https://www.reuters.com/podcasts/viewsroom/volatile-ai-costs-may-spark-efficiency-rethink-podcast-2026-06-25/",
+      "score": 54,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "d7c9bc9577778b945f6d",
+      "category": "ai",
+      "publishedAt": "2026-06-27T13:13:14.612Z",
+      "dateET": "2026-06-27",
+      "source": "Reuters Technology",
+      "title": "US close to allowing Anthropic to restore Fable 5 model, Axios reports",
+      "titleZh": "Axios报道，美国即将允许Anthropic恢复Fable 5模型",
+      "url": "https://www.reuters.com/business/us-close-allowing-anthropic-restore-fable-5-model-axios-reports-2026-06-27/",
+      "score": 58,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "f241780e9b808b382ada",
+      "category": "ai",
+      "publishedAt": "2026-06-27T11:14:10.000Z",
+      "dateET": "2026-06-27",
+      "source": "The Information",
+      "title": "Coinbase Cuts AI Spending in Half As Usage Rises, Armstrong Says",
+      "titleZh": "阿姆斯特朗表示，随着使用量的增加， Coinbase将人工智能支出削减了一半",
+      "url": "https://www.theinformation.com/briefings/coinbase-cuts-ai-spending-half-usage-rises-armstrong-says",
+      "score": 50,
+      "translationStatus": "complete"
+    },
     {
       "id": "77e7d6cb39903309fd2f",
       "category": "space",
