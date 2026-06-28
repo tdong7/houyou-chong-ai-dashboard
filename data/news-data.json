@@ -1,7 +1,79 @@
 {
-  "updatedAt": "2026-06-27T15:19:09.053Z",
+  "updatedAt": "2026-06-28T15:20:51.006Z",
   "timezone": "America/New_York",
   "stories": [
+    {
+      "id": "27b75f1a236a7b4922d7",
+      "category": "ai",
+      "publishedAt": "2026-06-28T14:03:43.840Z",
+      "dateET": "2026-06-28",
+      "source": "Reuters Technology",
+      "title": "Australia's Firmus Technologies strikes AI access deal with Nvidia",
+      "titleZh": "澳大利亚Firmus Technologies与英伟达达成人工智能接入协议",
+      "url": "https://www.reuters.com/world/asia-pacific/australias-firmus-technologies-strikes-ai-access-deal-with-nvidia-2026-06-28/",
+      "score": 55,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "63551711fc8e356cd5b1",
+      "category": "ai",
+      "publishedAt": "2026-06-28T14:00:48.000Z",
+      "dateET": "2026-06-28",
+      "source": "The Information",
+      "title": "Firmus And Nvidia Partner On Massive Data Center Project In Indonesia",
+      "titleZh": "Firmus与英伟达合作在印尼开展大型数据中心项目",
+      "url": "https://www.theinformation.com/briefings/firmus-nvidia-partner-massive-data-center-project-indonesia",
+      "score": 53,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "24a8e187f05faefd9dc5",
+      "category": "ai",
+      "publishedAt": "2026-06-28T13:49:38.688Z",
+      "dateET": "2026-06-28",
+      "source": "Reuters Technology",
+      "title": "Austria urges Europe to host Anthropic following US curbs on AI access",
+      "titleZh": "奥地利敦促欧洲在美国限制人工智能访问后接待Anthropic",
+      "url": "https://www.reuters.com/business/austria-lobbies-eu-host-anthropic-ai-after-us-curbs-bloomberg-news-reports-2026-06-28/",
+      "score": 58,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "32b846cf69011d32ec6e",
+      "category": "space",
+      "publishedAt": "2026-06-28T13:00:00.000Z",
+      "dateET": "2026-06-28",
+      "source": "Space.com",
+      "title": "Watch China's Tiangong space station cross the moon in stunning amateur footage",
+      "titleZh": "观看中国的天宫空间站在令人惊叹的业余镜头中穿越月球",
+      "url": "https://www.space.com/stargazing/astrophotography/watch-chinas-tiangong-space-station-cross-the-moon-in-stunning-amateur-footage",
+      "score": 53,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "df3ad8941c19d9598439",
+      "category": "space",
+      "publishedAt": "2026-06-28T12:00:00.000Z",
+      "dateET": "2026-06-28",
+      "source": "Space.com",
+      "title": "Watch SpaceX launch 15,000-pound SiriusXM satellite to orbit tonight",
+      "titleZh": "观看SpaceX今晚发射15,000磅SiriusXM卫星进入轨道",
+      "url": "https://www.space.com/space-exploration/launches-spacecraft/spacex-sirius-sxm-11-satellite-launch-falcon-9",
+      "score": 60,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "716cc30406ec1d882db7",
+      "category": "ai",
+      "publishedAt": "2026-06-28T11:29:13.000Z",
+      "dateET": "2026-06-28",
+      "source": "The Information",
+      "title": "Chinese AI Matches Mythos in Cybersecurity, Report Says",
+      "titleZh": "报告称，中国人工智能与网络安全中的神话相匹配",
+      "url": "https://www.theinformation.com/briefings/chinese-ai-matches-mythos-cybersecurity-report-says",
+      "score": 50,
+      "translationStatus": "complete"
+    },
     {
       "id": "dcbb9d34b7faf07c7193",
       "category": "space",
