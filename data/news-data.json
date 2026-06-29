@@ -1,7 +1,91 @@
 {
-  "updatedAt": "2026-06-28T15:20:51.006Z",
+  "updatedAt": "2026-06-29T16:54:51.342Z",
   "timezone": "America/New_York",
   "stories": [
+    {
+      "id": "17efe7b2c0d5980cddd2",
+      "category": "ai",
+      "publishedAt": "2026-06-29T16:14:33.019Z",
+      "dateET": "2026-06-29",
+      "source": "Reuters Technology",
+      "title": "AI energy race accelerates sodium battery production",
+      "titleZh": "人工智能能源竞赛加速钠电池生产",
+      "url": "https://www.reuters.com/default/ai-energy-race-accelerates-sodium-battery-production--reeii-2026-06-29/",
+      "score": 55,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "d24f42d9beb103225413",
+      "category": "ai",
+      "publishedAt": "2026-06-29T16:00:45.000Z",
+      "dateET": "2026-06-29",
+      "source": "The Information",
+      "title": "Amazon Could Pay More for Anthropic Technology Under New Deal",
+      "titleZh": "根据新协议，亚马逊可以为人类技术支付更多费用",
+      "url": "https://www.theinformation.com/articles/amazon-pay-anthropic-technology-new-deal",
+      "score": 53,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "0c75c19aa4db2d394de9",
+      "category": "space",
+      "publishedAt": "2026-06-29T14:00:00.000Z",
+      "dateET": "2026-06-29",
+      "source": "Space.com",
+      "title": "Mars orbiter watches Perseverance rover cross the marathon finish line | Space photo of the day for June 29, 2026",
+      "titleZh": "火星轨道器观看毅力漫游者越过马拉松终点线| 2026年6月29日当天的太空照片",
+      "url": "https://www.space.com/space-exploration/mars-rovers/mars-orbiter-watches-perseverance-rover-cross-the-marathon-finish-line-space-photo-of-the-day-for-june-29-2026",
+      "score": 52,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "9a424829fabbe138a23a",
+      "category": "ai",
+      "publishedAt": "2026-06-29T13:30:47.000Z",
+      "dateET": "2026-06-29",
+      "source": "The Information",
+      "title": "Sen. Mark Warner to Unveil AI Agent Bill",
+      "titleZh": "参议员马克·华纳（ Mark Warner ）将公布人工智能特工法案",
+      "url": "https://www.theinformation.com/articles/sen-mark-warner-unveil-ai-agent-bill",
+      "score": 51,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "cfc40adb23ca3963d24a",
+      "category": "space",
+      "publishedAt": "2026-06-29T13:00:00.000Z",
+      "dateET": "2026-06-29",
+      "source": "Space.com",
+      "title": "How NASA's 'America 250' celebrations are reaching from the sky to the moon",
+      "titleZh": "美国宇航局的“美国250”庆祝活动如何从天空到达月球",
+      "url": "https://www.space.com/space-exploration/how-nasas-america-250-celebrations-are-reaching-from-the-sky-to-the-moon",
+      "score": 51,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "ef468623489778f3bae3",
+      "category": "ai",
+      "publishedAt": "2026-06-29T10:33:24.000Z",
+      "dateET": "2026-06-29",
+      "source": "The Information",
+      "title": "South Korea to Invest $880 Billion Into Chips, Robotics and AI Over 10 Years",
+      "titleZh": "韩国将在10年内向芯片、机器人和人工智能领域投资8800亿美元$",
+      "url": "https://www.theinformation.com/briefings/south-korea-invest-880-billion-chips-robotics-ai-10-years",
+      "score": 48,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "48a29b2577e327d619e0",
+      "category": "ai",
+      "publishedAt": "2026-06-29T08:47:53.000Z",
+      "dateET": "2026-06-29",
+      "source": "The Information",
+      "title": "Anthropic’s Mythos Spooked DeepSeek, Prompting Its $7.4 Billion Fundraising",
+      "titleZh": "Anthropic的神话吓坏了DeepSeek ，促使其筹集了74亿美元",
+      "url": "https://www.theinformation.com/briefings/anthropics-mythos-spooked-deepseek-prompting-7-4-billion-fundraising",
+      "score": 46,
+      "translationStatus": "complete"
+    },
     {
       "id": "27b75f1a236a7b4922d7",
       "category": "ai",
