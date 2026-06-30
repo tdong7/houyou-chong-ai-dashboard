@@ -1,7 +1,67 @@
 {
-  "updatedAt": "2026-06-29T16:54:51.342Z",
+  "updatedAt": "2026-06-30T16:24:20.346Z",
   "timezone": "America/New_York",
   "stories": [
+    {
+      "id": "7bc55f2de5004c8c3659",
+      "category": "ai",
+      "publishedAt": "2026-06-30T14:06:21.000Z",
+      "dateET": "2026-06-30",
+      "source": "The Information",
+      "title": "OpenAI Discovers New Way to Cut Inference Costs in Half",
+      "titleZh": "OpenAI探索将推理成本降低一半的新方法",
+      "url": "https://www.theinformation.com/articles/openai-discovers-new-way-cut-inference-costs-half",
+      "score": 56,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "0b0c2f64cabac283f346",
+      "category": "space",
+      "publishedAt": "2026-06-30T14:00:00.000Z",
+      "dateET": "2026-06-30",
+      "source": "Space.com",
+      "title": "Europe's deadly heat wave seen from space | Space photo of the day for June 30, 2026",
+      "titleZh": "从太空看到的欧洲致命热浪| 2026年6月30日当天的太空照片",
+      "url": "https://www.space.com/space-exploration/satellites/europes-deadly-heat-wave-seen-from-space-space-photo-of-the-day-for-june-30-2026",
+      "score": 49,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "4c8323ebbf7ef85a8651",
+      "category": "ai",
+      "publishedAt": "2026-06-30T13:00:59.000Z",
+      "dateET": "2026-06-30",
+      "source": "The Information",
+      "title": "New KKR Venture Hunts for Deals to Clear Data Center Logjam",
+      "titleZh": "新的KKR Venture寻找交易以清除数据中心堵塞",
+      "url": "https://www.theinformation.com/articles/new-kkr-venture-hunts-deals-clear-data-center-logjam",
+      "score": 51,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "ffebf0b0367b3c2f3cac",
+      "category": "space",
+      "publishedAt": "2026-06-30T12:00:00.000Z",
+      "dateET": "2026-06-30",
+      "source": "Space.com",
+      "title": "NASA will announce moon base news today: Watch it live",
+      "titleZh": "美国宇航局今天将公布月球基地新闻：观看直播",
+      "url": "https://www.space.com/astronomy/moon/nasa-will-announce-moon-base-news-today-watch-it-live",
+      "score": 51,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "a8b399c6711afea29a2e",
+      "category": "ai",
+      "publishedAt": "2026-06-30T09:00:00.000Z",
+      "dateET": "2026-06-30",
+      "source": "OpenAI News",
+      "title": "How ChatGPT adoption has expanded",
+      "titleZh": "ChatGPT采用率如何扩展",
+      "url": "https://openai.com/index/how-chatgpt-adoption-has-expanded",
+      "score": 41,
+      "translationStatus": "complete"
+    },
     {
       "id": "17efe7b2c0d5980cddd2",
       "category": "ai",
