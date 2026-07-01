@@ -1,7 +1,91 @@
 {
-  "updatedAt": "2026-06-30T16:24:20.346Z",
+  "updatedAt": "2026-07-01T16:29:36.203Z",
   "timezone": "America/New_York",
   "stories": [
+    {
+      "id": "bda246d59083381780f5",
+      "category": "ai",
+      "publishedAt": "2026-07-01T16:05:45.351Z",
+      "dateET": "2026-07-01",
+      "source": "Reuters Technology",
+      "title": "Together AI raises $800 million at $8.3 billion valuation",
+      "titleZh": "人工智能总共以83亿美元的估值筹集了8亿美元",
+      "url": "https://www.reuters.com/legal/transactional/together-ai-raises-800-million-83-billion-valuation-2026-07-01/",
+      "score": 56,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "1ef9a2e2c16eb9223ffe",
+      "category": "ai",
+      "publishedAt": "2026-07-01T16:01:43.868Z",
+      "dateET": "2026-07-01",
+      "source": "Reuters Technology",
+      "title": "Portugal launches first open-source AI model, joining Europe's sovereignty push",
+      "titleZh": "葡萄牙推出首个开源人工智能模型，加入欧洲主权运动",
+      "url": "https://www.reuters.com/business/finance/portugal-launches-first-open-source-ai-model-joining-europes-sovereignty-push-2026-07-01/",
+      "score": 60,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "3835fc80b418014ea678",
+      "category": "ai",
+      "publishedAt": "2026-07-01T15:56:30.165Z",
+      "dateET": "2026-07-01",
+      "source": "Reuters Technology",
+      "title": "AI hopes and fears dominate global central bank meet",
+      "titleZh": "人工智能希望和恐惧主导全球央行会议",
+      "url": "https://www.reuters.com/business/finance/ai-hopes-fears-dominate-global-central-bank-meet-2026-07-01/",
+      "score": 55,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "3c32d07e514723c37062",
+      "category": "ai",
+      "publishedAt": "2026-07-01T15:45:15.227Z",
+      "dateET": "2026-07-01",
+      "source": "Reuters Technology",
+      "title": "Cigna invests $100 million in new AI-powered specialty pharmacy program",
+      "titleZh": "信诺投资1亿美元用于新的人工智能专科药房计划（ $ 100 million in new AI-powered specialty pharmacy program ）",
+      "url": "https://www.reuters.com/legal/litigation/cigna-invests-100-million-new-ai-powered-specialty-pharmacy-program-2026-07-01/",
+      "score": 55,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "0d5b514fbd7a6e969edb",
+      "category": "space",
+      "publishedAt": "2026-07-01T15:00:00.000Z",
+      "dateET": "2026-07-01",
+      "source": "Space.com",
+      "title": "NASA will send a soccer ball to the moon —if the US wins the World Cup",
+      "titleZh": "如果美国赢得世界杯，美国宇航局将向月球发送一个足球",
+      "url": "https://www.space.com/astronomy/moon/nasa-will-send-a-soccer-ball-to-the-moon-if-the-us-wins-the-world-cup",
+      "score": 54,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "b5b8e63b9172ceeab164",
+      "category": "space",
+      "publishedAt": "2026-07-01T14:00:00.000Z",
+      "dateET": "2026-07-01",
+      "source": "Space.com",
+      "title": "Ocean-monitoring satellite spots wildfire smoke from space | Space photo of the day for July 1, 2026",
+      "titleZh": "海洋监测卫星观测到来自太空的野火烟雾| 2026年7月1日当天的太空照片",
+      "url": "https://www.space.com/astronomy/earth/ocean-monitoring-satellite-spots-wildfire-smoke-from-space-space-photo-of-the-day-for-july-1-2026",
+      "score": 53,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "46e6a3986302be5dd553",
+      "category": "ai",
+      "publishedAt": "2026-07-01T13:24:17.000Z",
+      "dateET": "2026-07-01",
+      "source": "The Information",
+      "title": "Meta Said to Plan AI Cloud Business Push",
+      "titleZh": "Meta表示计划AI云业务推送",
+      "url": "https://www.theinformation.com/briefings/meta-plans-ai-cloud-business-push",
+      "score": 51,
+      "translationStatus": "complete"
+    },
     {
       "id": "7bc55f2de5004c8c3659",
       "category": "ai",
