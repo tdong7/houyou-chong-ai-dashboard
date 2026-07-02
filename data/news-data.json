@@ -1,7 +1,79 @@
 {
-  "updatedAt": "2026-07-01T16:29:36.203Z",
+  "updatedAt": "2026-07-02T16:06:38.268Z",
   "timezone": "America/New_York",
   "stories": [
+    {
+      "id": "e6a56b1d4d05bbb3ad0d",
+      "category": "space",
+      "publishedAt": "2026-07-02T16:00:00.000Z",
+      "dateET": "2026-07-02",
+      "source": "Space.com",
+      "title": "Astronomers discover a potentially habitable planet just 25 light-years away. 'This one is exciting'",
+      "titleZh": "天文学家发现了一颗距离我们仅25光年的潜在宜居行星。'这一个是令人兴奋的'",
+      "url": "https://www.space.com/astronomy/exoplanets/astronomers-discover-a-potentially-habitable-planet-just-25-light-years-away-this-one-is-exciting",
+      "score": 47,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "31defa19825d6ff161fd",
+      "category": "ai",
+      "publishedAt": "2026-07-02T15:19:44.035Z",
+      "dateET": "2026-07-02",
+      "source": "Reuters Technology",
+      "title": "Chip Ganassi Racing confirms Scott Dixon's departure",
+      "titleZh": "Chip Ganassi Racing确认Scott Dixon离职",
+      "url": "https://www.reuters.com/sports/chip-ganassi-racing-confirms-scott-dixons-departure--flm-2026-07-02/",
+      "score": 55,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "9cda8403f0a4726c2657",
+      "category": "ai",
+      "publishedAt": "2026-07-02T14:00:40.000Z",
+      "dateET": "2026-07-02",
+      "source": "The Information",
+      "title": "The Five Kinds of Model Routers That Cut AI Costs",
+      "titleZh": "降低人工智能成本的五种模型路由器",
+      "url": "https://www.theinformation.com/articles/five-kinds-model-routers-cut-ai-costs",
+      "score": 56,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "a3512e97414fc45d25d8",
+      "category": "space",
+      "publishedAt": "2026-07-02T14:00:00.000Z",
+      "dateET": "2026-07-02",
+      "source": "Space.com",
+      "title": "'Flying saucer' arrives at NASA for Artemis 3 moon mission in time for World UFO Day | Space photo of the day for July 2, 2026",
+      "titleZh": "“飞碟”抵达美国宇航局参加阿尔忒弥斯3号登月任务，及时赶上世界不明飞行物日| 2026年7月2日当天的太空照片",
+      "url": "https://www.space.com/space-exploration/human-spaceflight/flying-saucer-arrives-at-nasa-for-artemis-3-moon-mission-space-photo-of-the-day-for-july-2-2026",
+      "score": 57,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "dbd558e058b343c06f1f",
+      "category": "ai",
+      "publishedAt": "2026-07-02T13:50:56.000Z",
+      "dateET": "2026-07-02",
+      "source": "The Information",
+      "title": "Anthropic in Talks With Samsung to Manufacture Custom AI Chip",
+      "titleZh": "Anthropic与三星洽谈定制AI芯片",
+      "url": "https://www.theinformation.com/articles/anthropic-talks-samsung-manufacture-custom-ai-chip",
+      "score": 60,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "69faf98bbba82c1a1f52",
+      "category": "ai",
+      "publishedAt": "2026-07-02T13:47:43.000Z",
+      "dateET": "2026-07-02",
+      "source": "The Information",
+      "title": "Microsoft Commits $2.5 Billion to New Applied AI Consulting Effort",
+      "titleZh": "微软承诺投入$ 25亿用于新的应用人工智能咨询工作",
+      "url": "https://www.theinformation.com/briefings/microsoft-commits-2-5-billion-new-applied-ai-consulting-effort",
+      "score": 52,
+      "translationStatus": "complete"
+    },
     {
       "id": "bda246d59083381780f5",
       "category": "ai",
