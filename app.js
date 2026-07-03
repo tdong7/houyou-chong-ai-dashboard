@@ -15,13 +15,13 @@ const stocks = [
   { rank: 14, symbol: "WDC", exchange: "NASDAQ", company: "Western Digital Corporation", price: 539, performance: {"1D":-9.92,"5D":-16.19,"1M":-3.58,"3M":93.77,"6M":204.18,"YTD":204.18,"1Y":746.95,"5Y":900.02,"10Y":1425.16,"ALL":10275.53}, ytd: 204.18, cap: "185.8B", theme: "Compute", score: 85 },
   { rank: 15, symbol: "STX", exchange: "NASDAQ", company: "Seagate Technology Holdings PLC", price: 820.16, performance: {"1D":-10.38,"5D":-17.54,"1M":-11.8,"3M":104.53,"6M":190.87,"YTD":190.87,"1Y":465.47,"5Y":843.4,"10Y":3287.69,"ALL":7031.83}, ytd: 190.87, cap: "183.9B", theme: "Compute", score: 84 },
   { rank: 16, symbol: "MRVL", exchange: "NASDAQ", company: "Marvell Technology, Inc.", price: 245.29, performance: {"1D":-9.84,"5D":-8.6,"1M":-3.22,"3M":139.78,"6M":182.79,"YTD":182.79,"1Y":221.95,"5Y":327.33,"10Y":2482,"ALL":1965.6}, ytd: 182.79, cap: "214.6B", theme: "Compute", score: 83 },
-  { rank: 17, symbol: "ARM", exchange: "NASDAQ", company: "ARM Holdings PLC Sponsored ADR", price: 315.28, performance: {"1D":-6.58,"5D":-5.91,"1M":-21.4,"3M":110.51,"6M":179.43,"YTD":179.43,"1Y":104.46,"5Y":462,"10Y":462,"ALL":462}, ytd: 179.43, cap: "359.1B", theme: "Compute", score: 82 },
+  { rank: 17, symbol: "ARM", exchange: "NASDAQ", company: "ARM Holdings PLC Sponsored ADR", price: 315.28, performance: {"1D":-6.58,"5D":-5.91,"1M":-21.4,"3M":110.51,"6M":179.43,"YTD":179.43,"1Y":104.46,"5Y":462,"10Y":462,"ALL":462}, ytd: 179.43, cap: "335.5B", theme: "Compute", score: 82 },
   { rank: 18, symbol: "DOCN", exchange: "NYSE", company: "DigitalOcean Holdings, Inc.", price: 130.13, performance: {"1D":-9.99,"5D":-9.63,"1M":-23.88,"3M":51.77,"6M":167.54,"YTD":167.54,"1Y":361.13,"5Y":136.6,"10Y":213.57,"ALL":213.57}, ytd: 167.54, cap: "13.6B", theme: "AI platform", score: 81 },
   { rank: 19, symbol: "QUIK", exchange: "NASDAQ", company: "QuickLogic Corporation", price: 16.02, performance: {"1D":-10.4,"5D":-8.72,"1M":-24.93,"3M":66.7,"6M":164.79,"YTD":164.79,"1Y":172.45,"5Y":136.63,"10Y":14.43,"ALL":-91.52}, ytd: 164.79, cap: "292M", theme: "Compute", score: 80 },
   { rank: 20, symbol: "ALAB", exchange: "NASDAQ", company: "Astera Labs, Inc.", price: 406.42, performance: {"1D":-5.67,"5D":6.27,"1M":25.2,"3M":299.7,"6M":136.72,"YTD":136.72,"1Y":361.58,"5Y":673.25,"10Y":673.25,"ALL":673.25}, ytd: 136.72, cap: "69.7B", theme: "Compute", score: 79 },
 ];
 
-let stockListUpdatedAt = "2026-07-02T20:42:51.179Z";
+let stockListUpdatedAt = "2026-07-03T15:34:10.895Z";
 
 const grid = document.querySelector("#stock-grid");
 const search = document.querySelector("#stock-search");
