@@ -1,7 +1,31 @@
 {
-  "updatedAt": "2026-07-02T16:06:38.268Z",
+  "updatedAt": "2026-07-03T15:54:11.517Z",
   "timezone": "America/New_York",
   "stories": [
+    {
+      "id": "8cdd04d64c3f0cbfec22",
+      "category": "space",
+      "publishedAt": "2026-07-03T14:54:32.000Z",
+      "dateET": "2026-07-03",
+      "source": "Space.com",
+      "title": "Space science has come a long way since July 4, 1776. Here's a look back at the saga",
+      "titleZh": "自1776年7月4日以来，空间科学已经走过了漫长的道路。这是对传奇故事的回顾",
+      "url": "https://www.space.com/astronomy/space-science-has-come-a-long-way-since-july-4-1776-heres-a-look-back-at-the-saga",
+      "score": 50,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "92c7db9cfc2f1b555d7a",
+      "category": "space",
+      "publishedAt": "2026-07-03T14:00:00.000Z",
+      "dateET": "2026-07-03",
+      "source": "Space.com",
+      "title": "Infant stars celebrate their independence with cosmic fireworks| Space photo of the day for July 3, 2026",
+      "titleZh": "婴儿明星用宇宙烟花庆祝他们的独立| 2026年7月3日当天的太空照片",
+      "url": "https://www.space.com/astronomy/galaxies/infant-stars-celebrate-their-independence-with-cosmic-fireworks-space-photo-of-the-day-for-july-3-2026",
+      "score": 49,
+      "translationStatus": "complete"
+    },
     {
       "id": "e6a56b1d4d05bbb3ad0d",
       "category": "space",
