@@ -21,7 +21,7 @@ const stocks = [
   { rank: 20, symbol: "ALAB", exchange: "NASDAQ", company: "Astera Labs, Inc.", price: 406.42, performance: {"1D":-5.67,"5D":6.27,"1M":25.2,"3M":299.7,"6M":136.72,"YTD":136.72,"1Y":361.58,"5Y":673.25,"10Y":673.25,"ALL":673.25}, ytd: 136.72, cap: "69.7B", theme: "Compute", score: 79 },
 ];
 
-let stockListUpdatedAt = "2026-07-03T15:34:10.895Z";
+let stockListUpdatedAt = "2026-07-03T20:39:52.827Z";
 
 const grid = document.querySelector("#stock-grid");
 const search = document.querySelector("#stock-search");
