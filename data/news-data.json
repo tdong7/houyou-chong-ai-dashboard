@@ -1,7 +1,55 @@
 {
-  "updatedAt": "2026-07-03T15:54:11.517Z",
+  "updatedAt": "2026-07-04T15:09:06.824Z",
   "timezone": "America/New_York",
   "stories": [
+    {
+      "id": "550ca0fe9ad3850b92f8",
+      "category": "ai",
+      "publishedAt": "2026-07-04T14:23:53.796Z",
+      "dateET": "2026-07-04",
+      "source": "Reuters Technology",
+      "title": "For one small business, AI was key to a quick start and expansion",
+      "titleZh": "对于一家小型企业来说，人工智能是快速启动和扩展的关键",
+      "url": "https://www.reuters.com/business/healthcare-pharmaceuticals/one-small-business-ai-was-key-quick-start-expansion-2026-07-04/",
+      "score": 55,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "add65b246f00d4e35df2",
+      "category": "ai",
+      "publishedAt": "2026-07-04T14:00:51.000Z",
+      "dateET": "2026-07-04",
+      "source": "The Information",
+      "title": "Alex Karp, Open Source AI and a Neocloud Heyday",
+      "titleZh": "Alex Karp ，开源人工智能和新云Heyday",
+      "url": "https://www.theinformation.com/articles/alex-karp-open-source-ai-neocloud-heyday",
+      "score": 53,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "a73b72cb4fab8ff2bdc4",
+      "category": "space",
+      "publishedAt": "2026-07-04T14:00:00.000Z",
+      "dateET": "2026-07-04",
+      "source": "Space.com",
+      "title": "Human flight was still 7 years away in 1776. Now, we're headed back to the moon",
+      "titleZh": "1776年，人类的飞行还需要7年时间。现在，我们要回到月球",
+      "url": "https://www.space.com/astronomy/moon/human-flight-was-still-7-years-away-in-1776-now-were-headed-back-to-the-moon",
+      "score": 50,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "701780cf37a7c74a7053",
+      "category": "space",
+      "publishedAt": "2026-07-04T12:00:00.000Z",
+      "dateET": "2026-07-04",
+      "source": "Space.com",
+      "title": "What did the night sky look like on the 1st Independence Day 250 years ago?",
+      "titleZh": "250年前的第一个独立日，夜空是什么样子的？",
+      "url": "https://www.space.com/stargazing/what-did-the-night-sky-look-like-on-the-1st-independence-day-250-years-ago",
+      "score": 44,
+      "translationStatus": "complete"
+    },
     {
       "id": "8cdd04d64c3f0cbfec22",
       "category": "space",
