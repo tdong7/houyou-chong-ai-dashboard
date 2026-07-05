@@ -1,7 +1,31 @@
 {
-  "updatedAt": "2026-07-04T15:09:06.824Z",
+  "updatedAt": "2026-07-05T15:16:24.413Z",
   "timezone": "America/New_York",
   "stories": [
+    {
+      "id": "90894f863dfab5e58adb",
+      "category": "space",
+      "publishedAt": "2026-07-05T14:00:00.000Z",
+      "dateET": "2026-07-05",
+      "source": "Space.com",
+      "title": "NASA tests advanced new Mars rover prototype in the California desert (video)",
+      "titleZh": "美国宇航局在加利福尼亚沙漠测试先进的新型火星探测器原型（视频）",
+      "url": "https://www.space.com/space-exploration/nasa-tests-advanced-new-mars-rover-prototype-in-the-california-desert-video",
+      "score": 54,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "8256115c7dd135c14ef4",
+      "category": "space",
+      "publishedAt": "2026-07-05T12:00:00.000Z",
+      "dateET": "2026-07-05",
+      "source": "Space.com",
+      "title": "He-Man and beyond: 20 sci-fi cartoons (some iconic, some weird) that transported '80s and '90s kids to strange new worlds",
+      "titleZh": "He-Man及其他： 20部科幻漫画（一些标志性的，一些奇怪的）将80年代和90年代的孩子带到了陌生的新世界",
+      "url": "https://www.space.com/entertainment/space-movies-shows/he-man-and-beyond-20-sci-fi-cartoons-some-iconic-some-weird-that-transported-80s-and-90s-kids-to-strange-new-worlds",
+      "score": 44,
+      "translationStatus": "complete"
+    },
     {
       "id": "550ca0fe9ad3850b92f8",
       "category": "ai",
