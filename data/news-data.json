@@ -1,7 +1,91 @@
 {
-  "updatedAt": "2026-07-05T15:16:24.413Z",
+  "updatedAt": "2026-07-06T16:53:41.248Z",
   "timezone": "America/New_York",
   "stories": [
+    {
+      "id": "8125c79800be86c19512",
+      "category": "ai",
+      "publishedAt": "2026-07-06T16:42:45.347Z",
+      "dateET": "2026-07-06",
+      "source": "Reuters Technology",
+      "title": "Solstice buys Element Solutions in $14.5 billion deal, sharpens focus on AI market",
+      "titleZh": "Solstice以145亿美元收购Element Solutions ，聚焦人工智能市场",
+      "url": "https://www.reuters.com/business/honeywell-spinoff-solstice-buy-element-solutions-145-billion-2026-07-06/",
+      "score": 56,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "ff69917c8f8eb4fbd20c",
+      "category": "space",
+      "publishedAt": "2026-07-06T16:30:00.000Z",
+      "dateET": "2026-07-06",
+      "source": "Space.com",
+      "title": "Unidentified metal spheres found on Australian beach are 'debris from a foreign rocket body', space agency says",
+      "titleZh": "航天局称，在澳大利亚海滩上发现的不明金属球是“来自外国火箭体的碎片”",
+      "url": "https://www.space.com/space-exploration/launches-spacecraft/unidentified-metal-spheres-found-on-australian-beach-are-debris-from-a-foreign-rocket-body-space-agency-says",
+      "score": 55,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "5d0b3b4003e416451a4f",
+      "category": "ai",
+      "publishedAt": "2026-07-06T16:24:44.159Z",
+      "dateET": "2026-07-06",
+      "source": "Reuters Technology",
+      "title": "Financial services AI dangers highlighted by regulator's review",
+      "titleZh": "监管机构审查强调的金融服务AI危险",
+      "url": "https://www.reuters.com/legal/litigation/financial-services-ai-dangers-highlighted-by-regulators-review-2026-07-06/",
+      "score": 56,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "bcd5a9ef186aeb10b015",
+      "category": "ai",
+      "publishedAt": "2026-07-06T15:52:03.135Z",
+      "dateET": "2026-07-06",
+      "source": "Data Center World",
+      "title": "Data Center Digest: $120B in Hyperscaler Leases, OpenAI's First Chip, and FERC's Grid Crackdown",
+      "titleZh": "数据中心摘要： 1200亿美元的超大规模租赁、OpenAI的首个芯片和FERC的电网打击",
+      "url": "https://datacenterworld.com/article/data-center-digest-120b-in-hyperscaler-leases-openais-first-chip-and-fercs-grid-crackdown/",
+      "score": 55,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "8623f7d5d7cf6dd31fa3",
+      "category": "ai",
+      "publishedAt": "2026-07-06T14:53:33.000Z",
+      "dateET": "2026-07-06",
+      "source": "The Information",
+      "title": "The Next Phase of Enterprise AI Is About Decisions, Not Experiments",
+      "titleZh": "企业人工智能的下一阶段是决策，而不是实验",
+      "url": "https://www.theinformation.com/articles/next-phase-enterprise-ai-decisions-experiments",
+      "score": 52,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "f03bb08a8afeb38fc855",
+      "category": "ai",
+      "publishedAt": "2026-07-06T14:00:56.000Z",
+      "dateET": "2026-07-06",
+      "source": "The Information",
+      "title": "Pika vs. Higgsfield Feud Over Copying Shows How AI Makes Mimicry Easy",
+      "titleZh": "皮卡与希格斯菲尔德对抄袭的争斗展示了人工智能如何让模仿变得容易",
+      "url": "https://www.theinformation.com/articles/pika-vs-higgsfield-feud-copying-shows-ai-makes-mimicry-easy",
+      "score": 51,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "6ca6789c014234861415",
+      "category": "space",
+      "publishedAt": "2026-07-06T14:00:00.000Z",
+      "dateET": "2026-07-06",
+      "source": "Space.com",
+      "title": "Artemis moon astronauts visit Capitol Hill | Space photo of the day for July 6, 2026",
+      "titleZh": "阿尔忒弥斯月球宇航员参观国会山| 2026年7月6日当天的太空照片",
+      "url": "https://www.space.com/space-exploration/human-spaceflight/artemis-moon-astronauts-visit-capitol-hill-space-photo-of-the-day-for-july-6-2026",
+      "score": 52,
+      "translationStatus": "complete"
+    },
     {
       "id": "90894f863dfab5e58adb",
       "category": "space",
