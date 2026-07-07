@@ -1,7 +1,91 @@
 {
-  "updatedAt": "2026-07-06T16:53:41.248Z",
+  "updatedAt": "2026-07-07T16:34:31.295Z",
   "timezone": "America/New_York",
   "stories": [
+    {
+      "id": "4511bb0fe958072e8c8a",
+      "category": "ai",
+      "publishedAt": "2026-07-07T16:20:17.292Z",
+      "dateET": "2026-07-07",
+      "source": "Reuters Technology",
+      "title": "AI startup CEO pleaded guilty in US to trading on insider tips from lawyers",
+      "titleZh": "人工智能初创公司首席执行官在美国承认利用律师的内幕提示进行交易",
+      "url": "https://www.reuters.com/legal/government/ai-startup-ceo-pleaded-guilty-us-trading-insider-tips-lawyers-2026-07-07/",
+      "score": 56,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "5264f1abf64684abf0a5",
+      "category": "ai",
+      "publishedAt": "2026-07-07T16:16:17.003Z",
+      "dateET": "2026-07-07",
+      "source": "Reuters Technology",
+      "title": "Nasdaq slides over 1% as chip rout deepens",
+      "titleZh": "纳斯达克指数下跌超过1% ，因芯片溃败加剧",
+      "url": "https://www.reuters.com/business/nasdaq-futures-fall-after-samsungs-record-profit-fails-allay-chip-jitters-2026-07-07/",
+      "score": 56,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "227b4635de865a23d4a4",
+      "category": "ai",
+      "publishedAt": "2026-07-07T16:09:04.291Z",
+      "dateET": "2026-07-07",
+      "source": "Reuters Technology",
+      "title": "Bank of England sees growing risks to financial stability from AI",
+      "titleZh": "英格兰银行认为人工智能给金融稳定带来的风险越来越大",
+      "url": "https://www.reuters.com/business/finance/bank-england-sees-growing-risks-financial-stability-ai-2026-07-07/",
+      "score": 56,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "7943698cafb6268b99e4",
+      "category": "ai",
+      "publishedAt": "2026-07-07T16:05:44.709Z",
+      "dateET": "2026-07-07",
+      "source": "Reuters Technology",
+      "title": "Ukraine to pick AI models operated without provider control, official says",
+      "titleZh": "官方表示，乌克兰将选择在没有供应商控制的情况下运行的人工智能模型",
+      "url": "https://www.reuters.com/legal/litigation/ukraine-pick-ai-models-operated-without-provider-control-official-says-2026-07-07/",
+      "score": 56,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "fd390e3b16178a621b0a",
+      "category": "space",
+      "publishedAt": "2026-07-07T16:00:00.000Z",
+      "dateET": "2026-07-07",
+      "source": "Space.com",
+      "title": "China releases 1st photo of Earth's elusive 'quasi-moon' Kamo'oalewa",
+      "titleZh": "中国发布地球难以捉摸的“准月亮” Kamo 'oalewa的第一张照片",
+      "url": "https://www.space.com/space-exploration/asteroid-comet-missions/china-releases-1st-photo-of-earths-elusive-quasi-moon-kamooalewa",
+      "score": 50,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "468dd3928762aa105d64",
+      "category": "space",
+      "publishedAt": "2026-07-07T15:00:00.000Z",
+      "dateET": "2026-07-07",
+      "source": "Space.com",
+      "title": "'That's going to come back and bite us': Former NASA chief questions Artemis moon lander plans",
+      "titleZh": "“这会回来咬我们” ：前美国宇航局局长质疑阿尔忒弥斯登月计划",
+      "url": "https://www.space.com/space-exploration/artemis/thats-going-to-come-back-and-bite-us-former-nasa-chief-questions-artemis-moon-lander-plans",
+      "score": 53,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "b008cb358ecbc1482908",
+      "category": "ai",
+      "publishedAt": "2026-07-07T13:00:35.000Z",
+      "dateET": "2026-07-07",
+      "source": "The Information",
+      "title": "China’s AI Lab Zhipu Weighs Custom Chip As Demand for its GLM Model Soars",
+      "titleZh": "中国人工智能实验室Zhipu权衡定制芯片，因为其GLM型号的需求飙升",
+      "url": "https://www.theinformation.com/articles/chinas-ai-lab-ziphu-weighs-custom-chip-demand-glm-model-soars",
+      "score": 58,
+      "translationStatus": "complete"
+    },
     {
       "id": "8125c79800be86c19512",
       "category": "ai",
