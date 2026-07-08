@@ -1,7 +1,91 @@
 {
-  "updatedAt": "2026-07-07T16:34:31.295Z",
+  "updatedAt": "2026-07-08T16:03:25.621Z",
   "timezone": "America/New_York",
   "stories": [
+    {
+      "id": "cc065a77752329494570",
+      "category": "space",
+      "publishedAt": "2026-07-08T16:00:00.000Z",
+      "dateET": "2026-07-08",
+      "source": "Space.com",
+      "title": "'This is the future of spatial intelligence': Vantor unveils stunning 3D satellite views of Earth (photos)",
+      "titleZh": "“这是空间智能的未来” ： Vantor推出令人惊叹的地球3D卫星视图（照片）",
+      "url": "https://www.space.com/space-exploration/satellites/this-is-the-future-of-spatial-intelligence-vantor-unveils-stunning-3d-satellite-views-of-earth-photos",
+      "score": 51,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "f23569c0788d427228ed",
+      "category": "ai",
+      "publishedAt": "2026-07-08T15:58:47.728Z",
+      "dateET": "2026-07-08",
+      "source": "Reuters Technology",
+      "title": "China plans to let top AI firms buy limited Nvidia H200 chips, the Information reports",
+      "titleZh": "信息报告称，中国计划让顶级人工智能公司购买有限的Nvidia H200芯片",
+      "url": "https://www.reuters.com/world/china/china-plans-let-top-ai-firms-buy-limited-amount-nvidia-h200-chips-information-2026-07-08/",
+      "score": 68,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "93aacb3e494d3fefede9",
+      "category": "ai",
+      "publishedAt": "2026-07-08T15:52:32.666Z",
+      "dateET": "2026-07-08",
+      "source": "Reuters Technology",
+      "title": "Allianz to cut up to 1,800 jobs due to increasing AI use",
+      "titleZh": "由于人工智能使用的增加，安联将削减多达1,800个工作岗位",
+      "url": "https://www.reuters.com/legal/litigation/allianz-cut-up-1800-jobs-due-increasing-ai-use-2026-07-08/",
+      "score": 56,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "86afba786751d2ae9e7b",
+      "category": "ai",
+      "publishedAt": "2026-07-08T15:45:44.099Z",
+      "dateET": "2026-07-08",
+      "source": "Reuters Technology",
+      "title": "Mistral launches first robotics model in physical AI push",
+      "titleZh": "Mistral推出物理AI推送领域的首个机器人模型",
+      "url": "https://www.reuters.com/business/mistral-launches-first-robotics-model-physical-ai-push-2026-07-08/",
+      "score": 60,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "6c079f3d959c9b18c4c6",
+      "category": "ai",
+      "publishedAt": "2026-07-08T14:54:19.000Z",
+      "dateET": "2026-07-08",
+      "source": "The Information",
+      "title": "China Plans to Let Top AI Firms Buy Limited Amount of Nvidia H200 Chips",
+      "titleZh": "中国计划让顶级人工智能公司购买数量有限的英伟达H200芯片",
+      "url": "https://www.theinformation.com/articles/china-plans-let-top-ai-firms-buy-limited-amount-nvidia-h200-chips",
+      "score": 65,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "fc574d7867071e3d25ec",
+      "category": "ai",
+      "publishedAt": "2026-07-08T14:00:38.000Z",
+      "dateET": "2026-07-08",
+      "source": "The Information",
+      "title": "OpenAI Researcher Says GPT-5.6 is Better at AI Research Than Most Human Interns",
+      "titleZh": "OpenAI研究人员表示， GPT-5.6在人工智能研究方面优于大多数人类实习生",
+      "url": "https://www.theinformation.com/articles/openai-researcher-says-gpt-5-6-better-ai-research-human-interns",
+      "score": 56,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "589714baf6d2a57fc3ce",
+      "category": "space",
+      "publishedAt": "2026-07-08T14:00:00.000Z",
+      "dateET": "2026-07-08",
+      "source": "Space.com",
+      "title": "NASA's Roman Space Telescope prepares for launch | Space photo of the day for July 8, 2026",
+      "titleZh": "美国宇航局罗马太空望远镜准备发射| 2026年7月8日当天的太空照片",
+      "url": "https://www.space.com/space-exploration/launches-spacecraft/nasas-roman-space-telescope-prepares-for-launch-space-photo-of-the-day-for-july-8-2026",
+      "score": 57,
+      "translationStatus": "complete"
+    },
     {
       "id": "4511bb0fe958072e8c8a",
       "category": "ai",
