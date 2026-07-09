@@ -1,7 +1,91 @@
 {
-  "updatedAt": "2026-07-08T16:03:25.621Z",
+  "updatedAt": "2026-07-09T16:29:33.596Z",
   "timezone": "America/New_York",
   "stories": [
+    {
+      "id": "9e089633ec0588b300ac",
+      "category": "ai",
+      "publishedAt": "2026-07-09T16:08:23.006Z",
+      "dateET": "2026-07-09",
+      "source": "Reuters Technology",
+      "title": "New York Times-led group asks court to sanction OpenAI in US copyright dispute",
+      "titleZh": "《纽约时报》领导的小组要求法院在美国版权纠纷中制裁OpenAI",
+      "url": "https://www.reuters.com/legal/litigation/new-york-times-led-group-asks-court-sanction-openai-us-copyright-dispute-2026-07-09/",
+      "score": 56,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "6448765e63e601a86479",
+      "category": "ai",
+      "publishedAt": "2026-07-09T16:06:37.155Z",
+      "dateET": "2026-07-09",
+      "source": "Data Center World",
+      "title": "How AlumaPower Is Rethinking Backup Power for the AI Era",
+      "titleZh": "AlumaPower如何重新思考人工智能时代的备用电源",
+      "url": "https://datacenterworld.com/article/how-alumapower-is-rethinking-backup-power-for-the-ai-era/",
+      "score": 48,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "118a030b84b24508214b",
+      "category": "ai",
+      "publishedAt": "2026-07-09T16:03:25.938Z",
+      "dateET": "2026-07-09",
+      "source": "Reuters Technology",
+      "title": "Meta debuts Muse Spark 1.1 model with preview open to developers",
+      "titleZh": "Meta推出Muse Spark 1.1型号，向开发人员开放预览版",
+      "url": "https://www.reuters.com/business/meta-debuts-muse-spark-11-with-preview-open-developers-2026-07-09/",
+      "score": 56,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "fa75e8ed0f591db73331",
+      "category": "space",
+      "publishedAt": "2026-07-09T15:00:00.000Z",
+      "dateET": "2026-07-09",
+      "source": "Space.com",
+      "title": "Could evidence of life on Mars be hiding in clay? Europe wants to send a rover to check",
+      "titleZh": "火星上生命的证据是否隐藏在粘土中？欧洲想派一辆火星车去检查",
+      "url": "https://www.space.com/space-exploration/search-for-life/could-evidence-of-life-on-mars-be-hiding-in-clay-europe-wants-to-send-a-rover-to-check",
+      "score": 50,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "9db007a78fe8fe2871f4",
+      "category": "ai",
+      "publishedAt": "2026-07-09T14:01:22.000Z",
+      "dateET": "2026-07-09",
+      "source": "The Information",
+      "title": "Universities Fret as Anthropic, OpenAI, Meta and DeepMind Lure Their Professors",
+      "titleZh": "大学担心Anthropic、OpenAI、Meta和DeepMind会吸引他们的教授",
+      "url": "https://www.theinformation.com/articles/universities-fret-anthropic-openai-meta-deepmind-lure-professors",
+      "score": 60,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "5d94a02401ceaeceeaa2",
+      "category": "ai",
+      "publishedAt": "2026-07-09T13:00:33.000Z",
+      "dateET": "2026-07-09",
+      "source": "The Information",
+      "title": "Khosla-Backed Startup Claims Breakthrough With Largest-Ever AI Model on an iPhone",
+      "titleZh": "科斯拉支持的初创公司声称在iPhone上使用有史以来最大的人工智能模型取得突破",
+      "url": "https://www.theinformation.com/articles/khosla-backed-startup-claims-breakthrough-largest-ever-ai-model-iphone",
+      "score": 55,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "f2163411c70706ddf75a",
+      "category": "space",
+      "publishedAt": "2026-07-09T13:00:00.000Z",
+      "dateET": "2026-07-09",
+      "source": "Space.com",
+      "title": "The US wants to build offshore rocket launch sites. Critics say 'our coasts deserve better'",
+      "titleZh": "美国希望建造海上火箭发射场。批评人士说， “我们的海岸应该更好”",
+      "url": "https://www.space.com/space-exploration/launches-spacecraft/the-us-wants-to-build-offshore-rocket-launch-sites-critics-say-our-coasts-deserve-better",
+      "score": 52,
+      "translationStatus": "complete"
+    },
     {
       "id": "cc065a77752329494570",
       "category": "space",
