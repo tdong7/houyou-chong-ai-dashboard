@@ -1,7 +1,79 @@
 {
-  "updatedAt": "2026-07-09T16:29:33.596Z",
+  "updatedAt": "2026-07-10T16:26:59.581Z",
   "timezone": "America/New_York",
   "stories": [
+    {
+      "id": "e2ec28f492e9a6102cb7",
+      "category": "ai",
+      "publishedAt": "2026-07-10T16:14:23.220Z",
+      "dateET": "2026-07-10",
+      "source": "Reuters Technology",
+      "title": "Fed report cites 'stepped-up' inflation due to tariffs, Iran war, AI buildout",
+      "titleZh": "美联储报告指出，由于关税、伊朗战争、人工智能建设，通货膨胀“加剧”",
+      "url": "https://www.reuters.com/business/fed-report-cites-stepped-up-inflation-2026-07-10/",
+      "score": 56,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "496e1f629057c9e1ab4a",
+      "category": "space",
+      "publishedAt": "2026-07-10T16:13:48.000Z",
+      "dateET": "2026-07-10",
+      "source": "Space.com",
+      "title": "SpaceX ignites all 33 powerful engines on Starship booster test ahead of Flight 13 launch",
+      "titleZh": "SpaceX在Flight 13发射前在Starship助推器测试中点燃所有33个强大发动机",
+      "url": "https://www.space.com/space-exploration/launches-spacecraft/spacex-ignites-all-33-powerful-engines-on-starship-booster-test-ahead-of-flight-13-test-launch",
+      "score": 59,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "556509728857e873bfc4",
+      "category": "ai",
+      "publishedAt": "2026-07-10T16:09:48.949Z",
+      "dateET": "2026-07-10",
+      "source": "Reuters Technology",
+      "title": "SK Hynix's shares jump 14% in marquee US debut as AI euphoria persists",
+      "titleZh": "随着人工智能的兴奋情绪持续存在， SK海力士在美国首次亮相的股价上涨了14%",
+      "url": "https://www.reuters.com/world/asia-pacific/sk-hynix-set-marquee-us-debut-test-ai-appetite-2026-07-10/",
+      "score": 56,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "1f8cc4fe5954b69c0c0d",
+      "category": "ai",
+      "publishedAt": "2026-07-10T15:51:41.473Z",
+      "dateET": "2026-07-10",
+      "source": "Reuters Technology",
+      "title": "Meta AI image detector fails to identify some of its own cropped AI images, Reuters analysis finds",
+      "titleZh": "路透社分析发现， Meta AI图像检测器无法识别自己裁剪的一些AI图像",
+      "url": "https://www.reuters.com/business/meta-ai-image-detector-fails-identify-some-its-own-cropped-ai-images-reuters-2026-07-10/",
+      "score": 55,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "4508d8dff9db1bce2933",
+      "category": "space",
+      "publishedAt": "2026-07-10T14:00:00.000Z",
+      "dateET": "2026-07-10",
+      "source": "Space.com",
+      "title": "SpaceX launch creates colorful 'jellyfish' in the night sky | Space photo of the day for July 10, 2026",
+      "titleZh": "SpaceX发射在夜空中创造了五颜六色的“水母” | 2026年7月10日当天的太空照片",
+      "url": "https://www.space.com/space-exploration/spacex-launch-creates-colorful-jellyfish-in-the-night-sky-space-photo-of-the-day-for-july-10-2026",
+      "score": 57,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "3809e7f7f61fc5481a1d",
+      "category": "ai",
+      "publishedAt": "2026-07-10T07:00:00.000Z",
+      "dateET": "2026-07-10",
+      "source": "OpenAI News",
+      "title": "How Deutsche Telekom is rewiring telecommunications with AI",
+      "titleZh": "德国电信如何使用人工智能重新布线电信",
+      "url": "https://openai.com/index/deutsche-telekom",
+      "score": 43,
+      "translationStatus": "complete"
+    },
     {
       "id": "9e089633ec0588b300ac",
       "category": "ai",
