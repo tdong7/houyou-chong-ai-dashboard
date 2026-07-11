@@ -1,7 +1,55 @@
 {
-  "updatedAt": "2026-07-10T16:26:59.581Z",
+  "updatedAt": "2026-07-11T14:58:12.672Z",
   "timezone": "America/New_York",
   "stories": [
+    {
+      "id": "1f8cc4fe5954b69c0c0d",
+      "category": "ai",
+      "publishedAt": "2026-07-11T13:57:35.984Z",
+      "dateET": "2026-07-11",
+      "source": "Reuters Technology",
+      "title": "Meta AI image detector fails to identify some of its own cropped AI images, Reuters analysis finds",
+      "titleZh": "路透社分析发现， Meta AI图像检测器无法识别自己裁剪的一些AI图像",
+      "url": "https://www.reuters.com/business/meta-ai-image-detector-fails-identify-some-its-own-cropped-ai-images-reuters-2026-07-10/",
+      "score": 55,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "016383ce92f3b81e199d",
+      "category": "ai",
+      "publishedAt": "2026-07-11T13:45:04.159Z",
+      "dateET": "2026-07-11",
+      "source": "Reuters Technology",
+      "title": "Apple sues OpenAI, two former employees for trade secrets theft",
+      "titleZh": "苹果起诉两名前雇员OpenAI窃取商业机密",
+      "url": "https://www.reuters.com/legal/litigation/apple-sues-openai-alleging-misappropriation-trade-secrets-court-records-show-2026-07-10/",
+      "score": 55,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "c253862d7ec102a7816f",
+      "category": "space",
+      "publishedAt": "2026-07-11T10:00:00.000Z",
+      "dateET": "2026-07-11",
+      "source": "Space.com",
+      "title": "White House appoints Harvard astronomer Avi Loeb to lead new UFO study group",
+      "titleZh": "白宫任命哈佛天文学家Avi Loeb领导新的UFO研究小组",
+      "url": "https://www.space.com/space-exploration/search-for-life/white-house-appoints-harvard-astronomer-avi-loeb-to-lead-new-ufo-study-group",
+      "score": 42,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "a2e848e3db56803a400e",
+      "category": "space",
+      "publishedAt": "2026-07-11T04:02:20.000Z",
+      "dateET": "2026-07-11",
+      "source": "Space.com",
+      "title": "SpaceX Falcon 9 rocket launches for 35th time, hauls Starlink satellites to orbit (video)",
+      "titleZh": "SpaceX猎鹰9号火箭第35次发射，将Starlink卫星送入轨道（视频）",
+      "url": "https://www.space.com/space-exploration/launches-spacecraft/spacex-falcon-9-rocket-35th-mission-starlink-launch",
+      "score": 48,
+      "translationStatus": "complete"
+    },
     {
       "id": "e2ec28f492e9a6102cb7",
       "category": "ai",
@@ -36,18 +84,6 @@
       "titleZh": "随着人工智能的兴奋情绪持续存在， SK海力士在美国首次亮相的股价上涨了14%",
       "url": "https://www.reuters.com/world/asia-pacific/sk-hynix-set-marquee-us-debut-test-ai-appetite-2026-07-10/",
       "score": 56,
-      "translationStatus": "complete"
-    },
-    {
-      "id": "1f8cc4fe5954b69c0c0d",
-      "category": "ai",
-      "publishedAt": "2026-07-10T15:51:41.473Z",
-      "dateET": "2026-07-10",
-      "source": "Reuters Technology",
-      "title": "Meta AI image detector fails to identify some of its own cropped AI images, Reuters analysis finds",
-      "titleZh": "路透社分析发现， Meta AI图像检测器无法识别自己裁剪的一些AI图像",
-      "url": "https://www.reuters.com/business/meta-ai-image-detector-fails-identify-some-its-own-cropped-ai-images-reuters-2026-07-10/",
-      "score": 55,
       "translationStatus": "complete"
     },
     {
