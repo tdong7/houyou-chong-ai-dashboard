@@ -1,7 +1,31 @@
 {
-  "updatedAt": "2026-07-11T14:58:12.672Z",
+  "updatedAt": "2026-07-12T15:00:38.140Z",
   "timezone": "America/New_York",
   "stories": [
+    {
+      "id": "3ccacfa09f0554be5154",
+      "category": "space",
+      "publishedAt": "2026-07-12T14:00:00.000Z",
+      "dateET": "2026-07-12",
+      "source": "Space.com",
+      "title": "149 million views! Artemis II moon mission breaks NASA's streaming record",
+      "titleZh": "1.49亿次观看！阿尔忒弥斯二号登月任务打破NASA流媒体记录",
+      "url": "https://www.space.com/space-exploration/artemis/149-million-views-artemis-ii-moon-mission-breaks-nasas-streaming-record",
+      "score": 54,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "4423774a73172649374e",
+      "category": "space",
+      "publishedAt": "2026-07-12T12:05:00.000Z",
+      "dateET": "2026-07-12",
+      "source": "Space.com",
+      "title": "Space medicine breakthrough? Kidney and liver tissue bioprinted off Earth for 1st time ever",
+      "titleZh": "太空医学突破？肾脏和肝脏组织首次在地球上进行生物打印",
+      "url": "https://www.space.com/technology/space-medicine-breakthrough-kidney-and-liver-tissue-bioprinted-off-earth-for-1st-time-ever",
+      "score": 48,
+      "translationStatus": "complete"
+    },
     {
       "id": "1f8cc4fe5954b69c0c0d",
       "category": "ai",
