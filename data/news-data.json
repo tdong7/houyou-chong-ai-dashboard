@@ -1,7 +1,91 @@
 {
-  "updatedAt": "2026-07-12T15:00:38.140Z",
+  "updatedAt": "2026-07-13T16:37:19.141Z",
   "timezone": "America/New_York",
   "stories": [
+    {
+      "id": "f451d36492ce56a14713",
+      "category": "ai",
+      "publishedAt": "2026-07-13T16:27:18.911Z",
+      "dateET": "2026-07-13",
+      "source": "Reuters Technology",
+      "title": "Global smartphone shipments in second quarter hit lowest in 13 years on memory chip crunch",
+      "titleZh": "由于内存芯片紧缩，第二季度全球智能手机出货量创下13年来最低水平",
+      "url": "https://www.reuters.com/business/media-telecom/global-smartphone-shipments-second-quarter-hit-lowest-13-years-memory-chip-2026-07-13/",
+      "score": 56,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "1fb0016a49ac43eba137",
+      "category": "ai",
+      "publishedAt": "2026-07-13T16:09:47.590Z",
+      "dateET": "2026-07-13",
+      "source": "Reuters Technology",
+      "title": "Intel announces $5.7 billion AI-driven capital investment in Ireland",
+      "titleZh": "英特尔宣布在爱尔兰进行57亿美元的人工智能驱动资本投资（ $ 5.7 billion AI-driven capital investment in Ireland",
+      "url": "https://www.reuters.com/business/intel-announces-57-billion-capital-investment-irish-manufacturing-hub-2026-07-13/",
+      "score": 56,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "80e89aff8e43f0b2b870",
+      "category": "ai",
+      "publishedAt": "2026-07-13T16:05:40.714Z",
+      "dateET": "2026-07-13",
+      "source": "Reuters Technology",
+      "title": "White House to rally utilities, data centers for AI power cost pledge, sources say",
+      "titleZh": "消息人士称，白宫将召集公用事业公司、数据中心进行人工智能电力成本承诺",
+      "url": "https://www.reuters.com/legal/litigation/white-house-rally-utilities-data-centers-over-ai-power-costs-2026-07-13/",
+      "score": 55,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "3ff08c50cd0c66823ba2",
+      "category": "ai",
+      "publishedAt": "2026-07-13T16:03:25.807Z",
+      "dateET": "2026-07-13",
+      "source": "Reuters Technology",
+      "title": "AI mega-IPOs endanger venture-capitalism jobs",
+      "titleZh": "人工智能大型IPO危及风险资本主义工作",
+      "url": "https://www.reuters.com/commentary/breakingviews/ai-mega-ipos-endanger-venture-capitalism-jobs-2026-07-13/",
+      "score": 55,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "fcce2fc8502030715bd9",
+      "category": "space",
+      "publishedAt": "2026-07-13T16:00:04.000Z",
+      "dateET": "2026-07-13",
+      "source": "Space.com",
+      "title": "SpaceX targets July 16 for Starship Flight 13, reveals what went wrong on previous launch",
+      "titleZh": "SpaceX的目标是7月16日的Starship Flight 13 ，揭示了上一次发射时出错的地方",
+      "url": "https://www.space.com/space-exploration/launches-spacecraft/spacex-targets-july-16-for-starship-flight-13-reveals-what-went-wrong-on-previous-launch",
+      "score": 58,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "0c41027b038174a2d7cc",
+      "category": "ai",
+      "publishedAt": "2026-07-13T13:58:11.000Z",
+      "dateET": "2026-07-13",
+      "source": "The Information",
+      "title": "Meta Doubles Louisiana Data Center Capacity",
+      "titleZh": "Meta使路易斯安那州数据中心容量增加一倍",
+      "url": "https://www.theinformation.com/briefings/meta-doubles-louisiana-data-center-capacity",
+      "score": 51,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "f411b77cecf58a71b9f3",
+      "category": "space",
+      "publishedAt": "2026-07-13T10:00:00.000Z",
+      "dateET": "2026-07-13",
+      "source": "Space.com",
+      "title": "The FCC just gave Reflect Orbital permission to launch its 1st space mirror to orbit. Tens of thousands more could follow",
+      "titleZh": "美国联邦通信委员会刚刚授予Reflect Orbital将其第一面太空镜发射到轨道的许可。成千上万的人可以跟随",
+      "url": "https://www.space.com/space-exploration/satellites/reflect-orbital-just-got-permission-to-launch-its-1st-space-mirror-to-orbit-tens-of-thousands-more-could-follow",
+      "score": 52,
+      "translationStatus": "complete"
+    },
     {
       "id": "3ccacfa09f0554be5154",
       "category": "space",
