@@ -1,7 +1,55 @@
 {
-  "updatedAt": "2026-07-13T16:37:19.141Z",
+  "updatedAt": "2026-07-14T15:25:53.215Z",
   "timezone": "America/New_York",
   "stories": [
+    {
+      "id": "7a381d38a045278a52ef",
+      "category": "ai",
+      "publishedAt": "2026-07-14T14:45:38.125Z",
+      "dateET": "2026-07-14",
+      "source": "Reuters Technology",
+      "title": "China's exports ride AI boom as domestic economy struggles",
+      "titleZh": "在国内经济挣扎之际，中国的出口乘坐人工智能热潮",
+      "url": "https://www.reuters.com/world/china/chinas-june-trade-tops-forecasts-buoyed-by-ai-boom-2026-07-14/",
+      "score": 55,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "ff92372a2d4f0e9c8d8f",
+      "category": "space",
+      "publishedAt": "2026-07-14T14:00:00.000Z",
+      "dateET": "2026-07-14",
+      "source": "Space.com",
+      "title": "Honeycomb structures spotted on Mars | Space photo of the day for July 14, 2026",
+      "titleZh": "火星上发现的蜂窝结构| 2026年7月14日当天的太空照片",
+      "url": "https://www.space.com/astronomy/mars/honeycomb-structures-spotted-on-mars-space-photo-of-the-day-for-july-14-2026",
+      "score": 54,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "bfd8d2a86334ed3ba77f",
+      "category": "ai",
+      "publishedAt": "2026-07-14T13:00:52.000Z",
+      "dateET": "2026-07-14",
+      "source": "The Information",
+      "title": "Americans Deserve a Dividend From AI Companies’ Riches",
+      "titleZh": "美国人应该从人工智能公司的财富中获得红利",
+      "url": "https://www.theinformation.com/articles/americans-deserve-dividend-ai-companies-riches",
+      "score": 52,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "7dd523a1308543328ac2",
+      "category": "space",
+      "publishedAt": "2026-07-14T12:00:00.000Z",
+      "dateET": "2026-07-14",
+      "source": "Space.com",
+      "title": "How to watch SpaceX launch Starship Flight 13 on July 16",
+      "titleZh": "如何观看SpaceX于7月16日发射Starship Flight 13",
+      "url": "https://www.space.com/space-exploration/launches-spacecraft/how-to-watch-spacex-launch-starship-flight-13-on-july-16",
+      "score": 56,
+      "translationStatus": "complete"
+    },
     {
       "id": "f451d36492ce56a14713",
       "category": "ai",
