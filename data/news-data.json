@@ -1,7 +1,67 @@
 {
-  "updatedAt": "2026-07-14T15:25:53.215Z",
+  "updatedAt": "2026-07-15T15:27:54.874Z",
   "timezone": "America/New_York",
   "stories": [
+    {
+      "id": "7322077f94ec835b31ed",
+      "category": "ai",
+      "publishedAt": "2026-07-15T14:47:35.553Z",
+      "dateET": "2026-07-15",
+      "source": "Reuters Technology",
+      "title": "Morgan Stanley beats estimates on strong trading and dealmaking, bets on AI investment",
+      "titleZh": "摩根士丹利在强劲的交易和交易中超出预期，押注人工智能投资",
+      "url": "https://www.reuters.com/business/finance/morgan-stanley-profit-rises-dealmaking-boost-2026-07-15/",
+      "score": 55,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "0823c4af3d6ba0d437e4",
+      "category": "ai",
+      "publishedAt": "2026-07-15T14:30:53.000Z",
+      "dateET": "2026-07-15",
+      "source": "The Information",
+      "title": "Apple Hunts for AI Chip Acquisitions",
+      "titleZh": "苹果寻求人工智能芯片收购",
+      "url": "https://www.theinformation.com/articles/apple-hunts-ai-chip-acquisitions",
+      "score": 57,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "1bed7eca2addcf81affb",
+      "category": "space",
+      "publishedAt": "2026-07-15T12:00:00.000Z",
+      "dateET": "2026-07-15",
+      "source": "Space.com",
+      "title": "Every SpaceX Starlink satellite has to dodge a collision almost weekly, and experts fear the worst",
+      "titleZh": "每颗SpaceX Starlink卫星几乎每周都要躲避碰撞，专家们担心最糟糕的情况",
+      "url": "https://www.space.com/space-exploration/satellites/every-spacex-starlink-satellite-has-to-dodge-a-collision-almost-weekly-and-experts-fear-the-worst",
+      "score": 52,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "1a0c945db4a20143a708",
+      "category": "ai",
+      "publishedAt": "2026-07-15T10:59:58.000Z",
+      "dateET": "2026-07-15",
+      "source": "The Information",
+      "title": "Apple Receives Approval for Alibaba-Powered AI Service in China",
+      "titleZh": "苹果获批在中国提供阿里巴巴人工智能服务",
+      "url": "https://www.theinformation.com/briefings/apple-receives-approval-alibaba-powered-ai-service-china",
+      "score": 50,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "981c4723c0270f996e76",
+      "category": "space",
+      "publishedAt": "2026-07-15T10:00:00.000Z",
+      "dateET": "2026-07-15",
+      "source": "Space.com",
+      "title": "What time is SpaceX's Starship Flight 13 launch on July 16? (Full mission timeline)",
+      "titleZh": "SpaceX的Starship Flight 13将于7月16日什么时候发射？ （完整任务时间表）",
+      "url": "https://www.space.com/space-exploration/launches-spacecraft/spacex-starship-flight-13-launch-what-time",
+      "score": 54,
+      "translationStatus": "complete"
+    },
     {
       "id": "7a381d38a045278a52ef",
       "category": "ai",
