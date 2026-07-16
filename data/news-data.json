@@ -1,7 +1,91 @@
 {
-  "updatedAt": "2026-07-15T15:27:54.874Z",
+  "updatedAt": "2026-07-16T15:40:39.800Z",
   "timezone": "America/New_York",
   "stories": [
+    {
+      "id": "d3659b74664d606df8c5",
+      "category": "ai",
+      "publishedAt": "2026-07-16T15:23:44.018Z",
+      "dateET": "2026-07-16",
+      "source": "Reuters Technology",
+      "title": "Twenty-nine countries sign agreement to establish global AI cooperation body",
+      "titleZh": "29个国家签署协议成立全球人工智能合作机构",
+      "url": "https://www.reuters.com/world/china/twenty-nine-countries-sign-agreement-establish-global-ai-cooperation-body-2026-07-16/",
+      "score": 56,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "14be585db9ad2f0a6eb4",
+      "category": "ai",
+      "publishedAt": "2026-07-16T15:07:30.236Z",
+      "dateET": "2026-07-16",
+      "source": "Reuters Technology",
+      "title": "Nvidia partners with Japan robotics firms on AI development",
+      "titleZh": "英伟达与日本机器人公司合作开发人工智能",
+      "url": "https://www.reuters.com/business/media-telecom/nvidia-partners-with-japan-robotics-firms-ai-development-2026-07-16/",
+      "score": 55,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "e001d16ccd4f6d225f27",
+      "category": "ai",
+      "publishedAt": "2026-07-16T14:01:32.000Z",
+      "dateET": "2026-07-16",
+      "source": "The Information",
+      "title": "Andreessen Horowitz Backs Startup Aiming to ‘Parent’ AI Agents",
+      "titleZh": "Andreessen Horowitz支持旨在“母公司”人工智能代理的初创公司",
+      "url": "https://www.theinformation.com/articles/andreessen-horowitz-backs-startup-aiming-parent-ai-agents",
+      "score": 52,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "9b1b70de555c33c6cd68",
+      "category": "space",
+      "publishedAt": "2026-07-16T12:00:00.000Z",
+      "dateET": "2026-07-16",
+      "source": "Space.com",
+      "title": "Watch SpaceX launch 21 'data transport' satellites for US military today",
+      "titleZh": "观看SpaceX今天为美国军方发射21颗“数据传输”卫星",
+      "url": "https://www.space.com/space-exploration/launches-spacecraft/spacex-falcon-9-launch-sda-titl-3-military-satellites",
+      "score": 51,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "536d7a60a4e33b92e1e1",
+      "category": "ai",
+      "publishedAt": "2026-07-16T10:29:39.000Z",
+      "dateET": "2026-07-16",
+      "source": "The Information",
+      "title": "Japan to Develop Homegrown AI Models With Nvidia’s Vera Rubin Chips",
+      "titleZh": "日本将使用英伟达的Vera Rubin芯片开发本土人工智能模型",
+      "url": "https://www.theinformation.com/briefings/japan-develop-homegrown-ai-models-nvidias-vera-rubin-chips",
+      "score": 49,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "c2881b97c48e12d818a2",
+      "category": "space",
+      "publishedAt": "2026-07-16T10:00:00.000Z",
+      "dateET": "2026-07-16",
+      "source": "Space.com",
+      "title": "SpaceX will launch Starship, the world's largest rocket, on critical Flight 13 test today. Here's what to expect.",
+      "titleZh": "SpaceX今天将在关键的Flight 13测试中发射世界上最大的火箭Starship。接下来会发生什么。",
+      "url": "https://www.space.com/space-exploration/launches-spacecraft/spacex-starship-flight-13-starlink-v3-satellites",
+      "score": 57,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "257613313791d4d1c7cf",
+      "category": "ai",
+      "publishedAt": "2026-07-16T09:03:33.000Z",
+      "dateET": "2026-07-16",
+      "source": "The Information",
+      "title": "Thinking Machines Lab’s First Model Gives Nod to Chinese Open Source AI",
+      "titleZh": "思考机器实验室的首款模型向中国开源人工智能致敬",
+      "url": "https://www.theinformation.com/briefings/thinking-machines-labs-first-model-gives-nod-chinese-open-source-ai",
+      "score": 51,
+      "translationStatus": "complete"
+    },
     {
       "id": "7322077f94ec835b31ed",
       "category": "ai",
