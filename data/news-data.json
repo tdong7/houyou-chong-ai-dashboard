@@ -1,7 +1,91 @@
 {
-  "updatedAt": "2026-07-16T15:40:39.800Z",
+  "updatedAt": "2026-07-17T15:16:32.107Z",
   "timezone": "America/New_York",
   "stories": [
+    {
+      "id": "87499cb3440eb225a521",
+      "category": "space",
+      "publishedAt": "2026-07-17T15:00:29.000Z",
+      "dateET": "2026-07-17",
+      "source": "Space.com",
+      "title": "'The Starry Night' in space: Dark Energy Camera channels a cosmic Van Gogh (video)",
+      "titleZh": "太空中的“星夜” ：黑暗能量相机播放宇宙梵高（视频）",
+      "url": "https://www.space.com/astronomy/stars/the-starry-night-in-space-dark-energy-camera-channels-a-cosmic-van-gogh-video",
+      "score": 51,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "bb64bc7921d82121680c",
+      "category": "ai",
+      "publishedAt": "2026-07-17T14:49:43.875Z",
+      "dateET": "2026-07-17",
+      "source": "Reuters Technology",
+      "title": "BofA names senior executives to drive AI adoption in global markets-memo",
+      "titleZh": "美国银行任命高级管理人员推动全球市场采用人工智能-备忘录",
+      "url": "https://www.reuters.com/legal/transactional/bofa-names-senior-executives-drive-ai-adoption-global-markets-memo-2026-07-17/",
+      "score": 56,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "5cd266fc5c05f2161450",
+      "category": "ai",
+      "publishedAt": "2026-07-17T14:47:52.996Z",
+      "dateET": "2026-07-17",
+      "source": "Reuters Technology",
+      "title": "S&P 500 and Nasdaq slip as chip rout extends; Netflix slides",
+      "titleZh": "标准普尔500指数和纳斯达克指数下滑，芯片溃败延续； Netflix下滑",
+      "url": "https://www.reuters.com/business/wall-st-futures-fall-chip-selloff-gathers-pace-netflix-tumbles-2026-07-17/",
+      "score": 56,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "79dddb1c5d1bf4bde1c8",
+      "category": "ai",
+      "publishedAt": "2026-07-17T14:39:45.492Z",
+      "dateET": "2026-07-17",
+      "source": "Reuters Technology",
+      "title": "Xi pitches China as leader of new global AI order, challenging US dominance",
+      "titleZh": "习近平将中国视为全球人工智能新秩序的领导者，挑战美国的主导地位",
+      "url": "https://www.reuters.com/world/asia-pacific/chinas-xi-promotes-chinas-commitment-ai-access-speech-shanghai-conference-2026-07-17/",
+      "score": 55,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "b3eab28277566f648d44",
+      "category": "space",
+      "publishedAt": "2026-07-17T14:00:00.000Z",
+      "dateET": "2026-07-17",
+      "source": "Space.com",
+      "title": "Smoke from devastating Canada wildfires visible from space | Space photo of the day for July 17, 2026",
+      "titleZh": "从太空可见毁灭性的加拿大野火产生的烟雾| 2026年7月17日当天的太空照片",
+      "url": "https://www.space.com/astronomy/earth/smoke-from-devastating-canada-wildfires-visible-from-space-space-photo-of-the-day-for-july-17-2026",
+      "score": 50,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "52e7d474537c43828d2c",
+      "category": "ai",
+      "publishedAt": "2026-07-17T13:18:30.000Z",
+      "dateET": "2026-07-17",
+      "source": "The Information",
+      "title": "Private Jets Are Scarce. Blame the Gusher of AI Wealth",
+      "titleZh": "私人飞机稀缺。归咎于AI财富的涌入者",
+      "url": "https://www.theinformation.com/articles/private-jets-scarce-blame-gusher-ai-wealth",
+      "score": 52,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "c451ce54321e29645d7d",
+      "category": "ai",
+      "publishedAt": "2026-07-17T10:00:00.000Z",
+      "dateET": "2026-07-17",
+      "source": "OpenAI News",
+      "title": "A scorecard for the AI age",
+      "titleZh": "人工智能时代的记分卡",
+      "url": "https://openai.com/index/a-scorecard-for-the-ai-age",
+      "score": 47,
+      "translationStatus": "complete"
+    },
     {
       "id": "d3659b74664d606df8c5",
       "category": "ai",
