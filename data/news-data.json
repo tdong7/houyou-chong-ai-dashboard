@@ -1,7 +1,43 @@
 {
-  "updatedAt": "2026-07-17T15:16:32.107Z",
+  "updatedAt": "2026-07-18T14:57:44.922Z",
   "timezone": "America/New_York",
   "stories": [
+    {
+      "id": "0bed290cac16ce681167",
+      "category": "ai",
+      "publishedAt": "2026-07-18T14:00:43.000Z",
+      "dateET": "2026-07-18",
+      "source": "The Information",
+      "title": "Trump’s AI Agenda Collides With Reality",
+      "titleZh": "特朗普的人工智能议程与现实碰撞",
+      "url": "https://www.theinformation.com/articles/trumps-ai-agenda-collides-reality",
+      "score": 53,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "696ec3a956758a54dcb4",
+      "category": "space",
+      "publishedAt": "2026-07-18T14:00:00.000Z",
+      "dateET": "2026-07-18",
+      "source": "Space.com",
+      "title": "Another reusable rocket? Japan launches, lands RV-X prototype (video)",
+      "titleZh": "另一枚可重复使用的火箭？日本发射，降落RV-X原型（视频）",
+      "url": "https://www.space.com/space-exploration/launches-spacecraft/another-reusable-rocket-coming-japan-launches-lands-rv-x-prototype-video",
+      "score": 50,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "2c3ba21b0ebdb9d34d87",
+      "category": "space",
+      "publishedAt": "2026-07-18T13:40:10.000Z",
+      "dateET": "2026-07-18",
+      "source": "Space.com",
+      "title": "This Week In Space podcast: Episode 219 — SpaceX Goes to War!",
+      "titleZh": "本周太空播客：第219集— SpaceX开战！",
+      "url": "https://www.space.com/entertainment/space-movies-shows/this-week-in-space-podcast-episode-219-spacex-goes-to-war",
+      "score": 54,
+      "translationStatus": "complete"
+    },
     {
       "id": "87499cb3440eb225a521",
       "category": "space",
