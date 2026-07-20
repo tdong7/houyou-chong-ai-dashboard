@@ -1,7 +1,91 @@
 {
-  "updatedAt": "2026-07-19T15:00:00.807Z",
+  "updatedAt": "2026-07-20T15:53:15.986Z",
   "timezone": "America/New_York",
   "stories": [
+    {
+      "id": "04983c05e8966f00393f",
+      "category": "ai",
+      "publishedAt": "2026-07-20T15:17:29.613Z",
+      "dateET": "2026-07-20",
+      "source": "Reuters Technology",
+      "title": "State AGs are not waiting for new regulations to exercise authority over AI use",
+      "titleZh": "各州总检察长不会等待新法规对人工智能的使用行使权力",
+      "url": "https://www.reuters.com/legal/legalindustry/state-ags-are-not-waiting-new-regulations-exercise-authority-over-ai-use--pracin-2026-07-20/",
+      "score": 55,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "57419fb1f093c457e88c",
+      "category": "ai",
+      "publishedAt": "2026-07-20T14:05:26.000Z",
+      "dateET": "2026-07-20",
+      "source": "The Information",
+      "title": "What the New Kimi K3 Model Really Means for the U.S.-China AI Race",
+      "titleZh": "全新Kimi K3车型对中美人工智能竞赛的真正意义",
+      "url": "https://www.theinformation.com/articles/new-kimi-k3-model-means-u-s-china-ai-race",
+      "score": 56,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "87db8d4d980faa27800c",
+      "category": "space",
+      "publishedAt": "2026-07-20T14:00:00.000Z",
+      "dateET": "2026-07-20",
+      "source": "Space.com",
+      "title": "Ancient sandstorm leaves behind wreckage on Mars | Space photo of the day for July 20, 2026",
+      "titleZh": "古代沙尘暴在火星上留下残骸| 2026年7月20日当天的太空照片",
+      "url": "https://www.space.com/astronomy/mars/ancient-sandstorm-leaves-behind-wreckage-on-mars-space-photo-of-the-day-for-july-20-2026",
+      "score": 53,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "d9ff78fef563a210953b",
+      "category": "ai",
+      "publishedAt": "2026-07-20T13:32:44.000Z",
+      "dateET": "2026-07-20",
+      "source": "The Information",
+      "title": "Samsung Is the New Memory Chip Underdog—for Now",
+      "titleZh": "就目前而言，三星是新的内存芯片失败者",
+      "url": "https://www.theinformation.com/articles/samsung-new-memory-chip-underdog-now",
+      "score": 52,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "1f195dbb0f7f51cd0d71",
+      "category": "ai",
+      "publishedAt": "2026-07-20T13:00:53.000Z",
+      "dateET": "2026-07-20",
+      "source": "The Information",
+      "title": "Google Plans New ‘Frozen’ Chip to Run Its AI Models Much More Efficiently",
+      "titleZh": "谷歌计划推出新的“冷冻”芯片，以更有效地运行其AI模型",
+      "url": "https://www.theinformation.com/articles/google-plans-new-frozen-chip-run-ai-models-efficiently",
+      "score": 55,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "cd02d888f6acd7588f2e",
+      "category": "space",
+      "publishedAt": "2026-07-20T13:00:00.000Z",
+      "dateET": "2026-07-20",
+      "source": "Space.com",
+      "title": "Rocket launch costs have dropped 96% since 1960. How low can they go?",
+      "titleZh": "自1960年以来，火箭发射成本下降了96%。它们能降到多低？",
+      "url": "https://www.space.com/space-exploration/launches-spacecraft/rocket-launch-costs-have-dropped-96-percent-since-1960-how-low-can-they-go",
+      "score": 52,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "ec630364252744c83f5c",
+      "category": "ai",
+      "publishedAt": "2026-07-20T04:51:14.000Z",
+      "dateET": "2026-07-20",
+      "source": "The Information",
+      "title": "Alibaba Unveils New Model as Chinese AI Firms Shake Up Silicon Valley",
+      "titleZh": "随着中国人工智能公司撼动硅谷，阿里巴巴推出新模式",
+      "url": "https://www.theinformation.com/briefings/alibaba-unveils-new-model-chinese-ai-firms-shake-silicon-valley",
+      "score": 47,
+      "translationStatus": "complete"
+    },
     {
       "id": "46ce9dc40a89a436ba2b",
       "category": "space",
