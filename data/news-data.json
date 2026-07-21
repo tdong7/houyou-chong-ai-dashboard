@@ -1,7 +1,91 @@
 {
-  "updatedAt": "2026-07-20T15:53:15.986Z",
+  "updatedAt": "2026-07-21T15:47:20.769Z",
   "timezone": "America/New_York",
   "stories": [
+    {
+      "id": "74d33bb916a0da57001a",
+      "category": "ai",
+      "publishedAt": "2026-07-21T15:47:04.000Z",
+      "dateET": "2026-07-21",
+      "source": "The Information",
+      "title": "Treasury Secretary Scott Bessent Warns of Chinese Theft of AI Intellectual Property",
+      "titleZh": "美国财政部长斯科特·贝森特警告中国窃取人工智能知识产权",
+      "url": "https://www.theinformation.com/briefings/treasury-secretary-scott-bessent-warns-chinese-theft-ai-intellectual-property",
+      "score": 54,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "b1dfa9e20704ca0d85da",
+      "category": "ai",
+      "publishedAt": "2026-07-21T15:43:56.470Z",
+      "dateET": "2026-07-21",
+      "source": "Reuters Technology",
+      "title": "University of Tennessee sues Anthropic over neural network technology",
+      "titleZh": "田纳西大学就神经网络技术起诉Anthropic",
+      "url": "https://www.reuters.com/legal/government/university-tennessee-sues-anthropic-over-neural-network-technology-2026-07-21/",
+      "score": 56,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "7579898304e3e0892365",
+      "category": "ai",
+      "publishedAt": "2026-07-21T15:01:11.000Z",
+      "dateET": "2026-07-21",
+      "source": "The Information",
+      "title": "Anthropic’s Robot Ambition; Nvidia Ramps Up Vera Rubin",
+      "titleZh": "Anthropic的机器人雄心壮志；英伟达提升Vera Rubin",
+      "url": "https://www.theinformation.com/articles/anthropics-robot-ambition-nvidia-ramps-vera-rubin",
+      "score": 53,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "39522545daad55f31f8c",
+      "category": "space",
+      "publishedAt": "2026-07-21T14:00:00.000Z",
+      "dateET": "2026-07-21",
+      "source": "Space.com",
+      "title": "James Webb Space Telescope looks back in time 4.4 billion years | Space photo of the day for July 21, 2026",
+      "titleZh": "詹姆斯·韦伯太空望远镜回顾44亿年前| 2026年7月21日当天的太空照片",
+      "url": "https://www.space.com/astronomy/james-webb-space-telescope-looks-back-in-time-4-4-billion-years-space-photo-of-the-day-for-july-21-2026",
+      "score": 49,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "d088bfc625af93b29ba3",
+      "category": "ai",
+      "publishedAt": "2026-07-21T13:00:40.000Z",
+      "dateET": "2026-07-21",
+      "source": "The Information",
+      "title": "Mercor’s Fast Growth Relies on Biggest AI Companies, Documents Show",
+      "titleZh": "文件显示， Mercor的快速增长依赖于最大的人工智能公司",
+      "url": "https://www.theinformation.com/articles/mercors-fast-growth-relies-biggest-ai-companies-documents-show",
+      "score": 51,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "4e90660435a33afdda31",
+      "category": "space",
+      "publishedAt": "2026-07-21T13:00:00.000Z",
+      "dateET": "2026-07-21",
+      "source": "Space.com",
+      "title": "SpaceX will launch a satellite repair drone with robot arms to Earth orbit today: How to watch it live",
+      "titleZh": "SpaceX今天将向地球轨道发射一架带有机器人手臂的卫星维修无人机：如何观看现场直播",
+      "url": "https://www.space.com/space-exploration/launches-spacecraft/spacex-launch-northrop-grumman-mrv-mep-satellite-servicing-mission",
+      "score": 60,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "91279cab1377ab300d27",
+      "category": "ai",
+      "publishedAt": "2026-07-21T07:59:20.000Z",
+      "dateET": "2026-07-21",
+      "source": "The Information",
+      "title": "China’s Zhipu AI Builds Data Center Using Only Domestic Chips",
+      "titleZh": "中国的Zhipu AI仅使用国产芯片构建数据中心",
+      "url": "https://www.theinformation.com/briefings/chinas-zhipu-ai-builds-data-center-using-domestic-chips",
+      "score": 50,
+      "translationStatus": "complete"
+    },
     {
       "id": "04983c05e8966f00393f",
       "category": "ai",
