@@ -1,7 +1,91 @@
 {
-  "updatedAt": "2026-07-21T15:47:20.769Z",
+  "updatedAt": "2026-07-22T15:44:30.829Z",
   "timezone": "America/New_York",
   "stories": [
+    {
+      "id": "1c2f9130a96a56471615",
+      "category": "ai",
+      "publishedAt": "2026-07-22T15:12:32.408Z",
+      "dateET": "2026-07-22",
+      "source": "Reuters Technology",
+      "title": "AI investment boom puts Big Tech's free cash flow under pressure",
+      "titleZh": "人工智能投资热潮给科技巨头的自由现金流带来压力",
+      "url": "https://www.reuters.com/business/ai-investment-boom-puts-big-techs-free-cash-flow-under-pressure-2026-07-22/",
+      "score": 55,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "92d2b790b9b149f3f0d0",
+      "category": "ai",
+      "publishedAt": "2026-07-22T15:06:54.665Z",
+      "dateET": "2026-07-22",
+      "source": "Reuters Technology",
+      "title": "Southern Co unit signs 25-year power deal with OpenAI",
+      "titleZh": "Southern Co部门与OpenAI签署25年电力协议",
+      "url": "https://www.reuters.com/business/energy/southern-co-unit-signs-25-year-power-deal-with-openai-2026-07-22/",
+      "score": 55,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "2a0c4dcaa9c942874362",
+      "category": "ai",
+      "publishedAt": "2026-07-22T15:05:32.497Z",
+      "dateET": "2026-07-22",
+      "source": "Reuters Technology",
+      "title": "US accuses China's Moonshot of stealing from Anthropic's Fable for latest AI model",
+      "titleZh": "美国指责中国的登月计划从《人类寓言》中窃取了最新的人工智能模型",
+      "url": "https://www.reuters.com/world/us/trump-reports-more-than-14-billion-income-crypto-ventures-2026-06-30/",
+      "score": 63,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "90eeb58d20b56202a5ba",
+      "category": "space",
+      "publishedAt": "2026-07-22T15:00:00.000Z",
+      "dateET": "2026-07-22",
+      "source": "Space.com",
+      "title": "Astronomers may have discovered the 1st moon outside of our solar system — or is it something weirder?",
+      "titleZh": "天文学家可能在我们的太阳系外发现了第一颗卫星，还是更奇怪？",
+      "url": "https://www.space.com/astronomy/exoplanets/astronomers-may-have-discovered-the-1st-moon-outside-of-our-solar-system-or-is-it-something-weirder",
+      "score": 50,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "7aaa76983c0c3f5c7f20",
+      "category": "ai",
+      "publishedAt": "2026-07-22T13:00:35.000Z",
+      "dateET": "2026-07-22",
+      "source": "The Information",
+      "title": "SpaceXAI Explores Major Data Center Expansion in Texas",
+      "titleZh": "SpaceXAI探索德克萨斯州的主要数据中心扩张",
+      "url": "https://www.theinformation.com/articles/spacexai-explores-major-data-center-expansion-texas",
+      "score": 51,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "3ef3bc88e24d6645e60e",
+      "category": "ai",
+      "publishedAt": "2026-07-22T13:00:00.000Z",
+      "dateET": "2026-07-22",
+      "source": "OpenAI News",
+      "title": "Building AI infrastructure with the Effingham County community",
+      "titleZh": "与埃芬汉县社区一起建设人工智能基础设施",
+      "url": "https://openai.com/index/building-ai-infrastructure-with-the-effingham-county-community",
+      "score": 49,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "d6ea8c8a32b555fbb803",
+      "category": "space",
+      "publishedAt": "2026-07-22T12:00:00.000Z",
+      "dateET": "2026-07-22",
+      "source": "Space.com",
+      "title": "New timelapse video shows NASA's Psyche spacecraft zooming by Mars",
+      "titleZh": "新的延时摄影视频显示美国宇航局的Psyche航天器在火星上放大",
+      "url": "https://www.space.com/astronomy/mars/new-timelapse-video-shows-nasas-psyche-spacecraft-zooming-by-mars",
+      "score": 51,
+      "translationStatus": "complete"
+    },
     {
       "id": "74d33bb916a0da57001a",
       "category": "ai",
