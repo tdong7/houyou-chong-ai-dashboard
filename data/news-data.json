@@ -1,7 +1,91 @@
 {
-  "updatedAt": "2026-07-22T15:44:30.829Z",
+  "updatedAt": "2026-07-23T15:56:47.983Z",
   "timezone": "America/New_York",
   "stories": [
+    {
+      "id": "158dc2390cdb2671257c",
+      "category": "ai",
+      "publishedAt": "2026-07-23T15:50:31.417Z",
+      "dateET": "2026-07-23",
+      "source": "Reuters Technology",
+      "title": "AI chip startup Etched raises $300 million at $10.3 billion valuation",
+      "titleZh": "人工智能芯片初创公司Etched以103亿美元的估值筹集了3亿美元",
+      "url": "https://www.reuters.com/technology/ai-chip-startup-etched-raises-300-million-103-billion-valuation-2026-07-23/",
+      "score": 60,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "ccdf2740a6974f8bd4a2",
+      "category": "ai",
+      "publishedAt": "2026-07-23T15:38:11.514Z",
+      "dateET": "2026-07-23",
+      "source": "Reuters Technology",
+      "title": "Cigna says AI tools to save customers $200 million in medical expenses over three years",
+      "titleZh": "Cigna表示，人工智能工具可在三年内为客户节省2亿美元的医疗费用",
+      "url": "https://www.reuters.com/legal/litigation/cigna-says-ai-tools-save-customers-200-million-medical-expenses-over-three-years-2026-07-23/",
+      "score": 56,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "e5267e0c66cf03dd048a",
+      "category": "ai",
+      "publishedAt": "2026-07-23T15:35:51.129Z",
+      "dateET": "2026-07-23",
+      "source": "Reuters Technology",
+      "title": "OpenAI jailbreak is a bad prompt for regulation",
+      "titleZh": "OpenAI越狱是一个糟糕的监管提示",
+      "url": "https://www.reuters.com/commentary/breakingviews/openai-jailbreak-is-bad-prompt-regulation-2026-07-23/",
+      "score": 56,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "52dbc2c3f5d4341708dd",
+      "category": "ai",
+      "publishedAt": "2026-07-23T15:34:25.746Z",
+      "dateET": "2026-07-23",
+      "source": "Reuters Technology",
+      "title": "White House monitors OpenAI's 'rogue' AI incident as lawmakers push kill switch",
+      "titleZh": "白宫监控OpenAI的“流氓”人工智能事件，立法者推动杀戮开关",
+      "url": "https://www.reuters.com/legal/litigation/ai-kill-switch-bill-floated-by-us-house-lawmakers-2026-07-23/",
+      "score": 60,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "1972148a6f6d47000b89",
+      "category": "ai",
+      "publishedAt": "2026-07-23T15:30:53.000Z",
+      "dateET": "2026-07-23",
+      "source": "The Information",
+      "title": "Silicon Valley Unites Against Anthropic Over Chinese AI Restrictions",
+      "titleZh": "硅谷联合起来对抗人类对中国人工智能的限制",
+      "url": "https://www.theinformation.com/articles/silicon-valley-unites-anthropic-chinese-ai-restrictions",
+      "score": 58,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "f6fc08ef422fb631950f",
+      "category": "space",
+      "publishedAt": "2026-07-23T14:00:00.000Z",
+      "dateET": "2026-07-23",
+      "source": "Space.com",
+      "title": "Satellite spots a 'hummingbird' in Antarctica | Space photo of the day for July 23, 2026",
+      "titleZh": "卫星在南极洲发现一只“蜂鸟” | 2026年7月23日当天的太空照片",
+      "url": "https://www.space.com/astronomy/earth/radar-satellite-spots-a-hummingbird-in-antarctica-space-photo-of-the-day-for-july-23-2026",
+      "score": 53,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "66e91238dd9e6493a857",
+      "category": "space",
+      "publishedAt": "2026-07-23T12:00:00.000Z",
+      "dateET": "2026-07-23",
+      "source": "Space.com",
+      "title": "Should Artemis IV astronauts actually land near the moon's south pole? Artemis II pilot says the lunar equator might be better",
+      "titleZh": "阿尔忒弥斯IV号宇航员真的应该降落在月球南极附近吗？阿尔忒弥斯II飞行员说月球赤道可能更好",
+      "url": "https://www.space.com/space-exploration/artemis/should-artemis-iv-astronauts-actually-land-near-the-moons-south-pole-artemis-ii-pilot-says-the-lunar-equator-might-be-better",
+      "score": 47,
+      "translationStatus": "complete"
+    },
     {
       "id": "1c2f9130a96a56471615",
       "category": "ai",
