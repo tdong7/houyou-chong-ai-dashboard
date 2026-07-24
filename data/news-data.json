@@ -1,7 +1,91 @@
 {
-  "updatedAt": "2026-07-23T15:56:47.983Z",
+  "updatedAt": "2026-07-24T15:27:06.670Z",
   "timezone": "America/New_York",
   "stories": [
+    {
+      "id": "dee4ac7343a348bcacd2",
+      "category": "ai",
+      "publishedAt": "2026-07-24T15:12:22.926Z",
+      "dateET": "2026-07-24",
+      "source": "Reuters Technology",
+      "title": "Trump pledge on data center power supplies draws skepticism",
+      "titleZh": "特朗普对数据中心电源的承诺引起怀疑",
+      "url": "https://www.reuters.com/legal/litigation/trump-pledge-data-center-power-supplies-draws-skepticism-2026-07-24/",
+      "score": 56,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "42d94b1d59a9e6eb9624",
+      "category": "ai",
+      "publishedAt": "2026-07-24T15:11:09.785Z",
+      "dateET": "2026-07-24",
+      "source": "Reuters Technology",
+      "title": "As AI grows more powerful, a US-China feud threatens safety efforts",
+      "titleZh": "随着人工智能变得越来越强大，美中之间的仇恨威胁着安全工作",
+      "url": "https://www.reuters.com/legal/litigation/ai-grows-more-powerful-us-china-feud-threatens-safety-efforts-2026-07-24/",
+      "score": 56,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "e6a77fca0c2970950e6f",
+      "category": "ai",
+      "publishedAt": "2026-07-24T15:09:41.259Z",
+      "dateET": "2026-07-24",
+      "source": "Reuters Technology",
+      "title": "Indian court says OpenAI did not violate news agency ANI's copyright",
+      "titleZh": "印度法院称OpenAI没有侵犯ANI通讯社的版权",
+      "url": "https://www.reuters.com/legal/litigation/indian-court-rules-favor-openai-copyright-lawsuit-brought-by-news-agency-ani-2026-07-24/",
+      "score": 56,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "10c6700ab90e0e6d813f",
+      "category": "ai",
+      "publishedAt": "2026-07-24T14:56:17.130Z",
+      "dateET": "2026-07-24",
+      "source": "Reuters Technology",
+      "title": "AI shortens drug discovery to around 1 year in China, Insilico CEO says",
+      "titleZh": "Insilico首席执行官表示，人工智能将中国的药物发现时间缩短至约1年",
+      "url": "https://www.reuters.com/business/healthcare-pharmaceuticals/ai-shortens-drug-discovery-around-1-year-china-insilico-ceo-says-2026-07-23/",
+      "score": 55,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "a06d8a4c4c6ff5fa392a",
+      "category": "ai",
+      "publishedAt": "2026-07-24T13:54:55.000Z",
+      "dateET": "2026-07-24",
+      "source": "The Information",
+      "title": "Meta, Microsoft, Nvidia and Others Sign Letter Defending Open-Source AI",
+      "titleZh": "Meta、微软、英伟达等公司签署信函捍卫开源人工智能",
+      "url": "https://www.theinformation.com/briefings/meta-microsoft-nvidia-others-sign-letter-defending-open-source-ai",
+      "score": 52,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "d1fb72761dbacb001bc4",
+      "category": "space",
+      "publishedAt": "2026-07-24T12:57:03.000Z",
+      "dateET": "2026-07-24",
+      "source": "Space.com",
+      "title": "Lightning strike on Chinese rocket captured in epic launch photo",
+      "titleZh": "史诗般的发射照片中捕捉到的对中国火箭的雷击",
+      "url": "https://www.space.com/space-exploration/launches-spacecraft/epic-photo-captures-lightning-striking-a-chinese-rocket-during-liftoff",
+      "score": 52,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "cb779a36c3cf21378941",
+      "category": "space",
+      "publishedAt": "2026-07-24T12:00:00.000Z",
+      "dateET": "2026-07-24",
+      "source": "Space.com",
+      "title": "This Week In Space LIVE: The Viking Mars landings 50 years later",
+      "titleZh": "本周太空直播：海盗号50年后登陆火星",
+      "url": "https://www.space.com/astronomy/mars/this-week-in-space-live-the-viking-mars-landings-50-years-later",
+      "score": 52,
+      "translationStatus": "complete"
+    },
     {
       "id": "158dc2390cdb2671257c",
       "category": "ai",
