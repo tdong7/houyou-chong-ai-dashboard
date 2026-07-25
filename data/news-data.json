@@ -1,7 +1,91 @@
 {
-  "updatedAt": "2026-07-24T15:27:06.670Z",
+  "updatedAt": "2026-07-25T15:06:54.281Z",
   "timezone": "America/New_York",
   "stories": [
+    {
+      "id": "8dfb6e201d3a08c92616",
+      "category": "ai",
+      "publishedAt": "2026-07-25T14:25:37.085Z",
+      "dateET": "2026-07-25",
+      "source": "Reuters Technology",
+      "title": "Samsung Elec wins $200 billion Broadcom AI chip partnership, boosting foundry push",
+      "titleZh": "三星电子赢得2000亿美元的博通AI芯片合作伙伴关系，推动代工厂的发展",
+      "url": "https://www.reuters.com/business/autos-transportation/samsung-elec-wins-200-billion-broadcom-ai-chip-partnership-boosting-foundry-push-2026-07-25/",
+      "score": 59,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "4334ddd17102745b1253",
+      "category": "ai",
+      "publishedAt": "2026-07-25T14:00:42.000Z",
+      "dateET": "2026-07-25",
+      "source": "The Information",
+      "title": "Crackdown on AI Lovers Ignites Heartbreak in China—and Hopes to Get Them Back",
+      "titleZh": "对人工智能爱好者的镇压点燃了中国的心碎-并希望让他们回来",
+      "url": "https://www.theinformation.com/articles/crackdown-ai-lovers-ignites-heartbreak-china-hopes-get-back",
+      "score": 53,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "04b3976334df9b1dfba5",
+      "category": "ai",
+      "publishedAt": "2026-07-25T13:45:06.572Z",
+      "dateET": "2026-07-25",
+      "source": "Reuters Technology",
+      "title": "Samsung Elec, SK Group seal $950 bln deals as South Korea hosts AI powers",
+      "titleZh": "三星电气、SK集团完成9500亿美元的交易，因为韩国拥有人工智能",
+      "url": "https://www.reuters.com/business/media-telecom/south-korea-president-lee-looking-open-new-era-ai-with-global-tech-companies-2026-07-25/",
+      "score": 55,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "89cfe7f00d1d220a61b4",
+      "category": "space",
+      "publishedAt": "2026-07-25T13:00:00.000Z",
+      "dateET": "2026-07-25",
+      "source": "Space.com",
+      "title": "An off-the-shelf camera could help us find more black holes smashing together",
+      "titleZh": "现成的摄像头可以帮助我们找到更多的黑洞",
+      "url": "https://www.space.com/astronomy/black-holes/an-off-the-shelf-camera-could-help-us-find-more-black-holes-smashing-together",
+      "score": 45,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "9603758f57b94bb759b6",
+      "category": "ai",
+      "publishedAt": "2026-07-25T12:01:44.499Z",
+      "dateET": "2026-07-25",
+      "source": "Reuters Technology",
+      "title": "Its AI agent spent days hacking a company, but sources say OpenAI did not notice for a week",
+      "titleZh": "其人工智能代理花了几天时间入侵一家公司，但消息人士称， OpenAI一周没有注意到",
+      "url": "https://www.reuters.com/business/its-ai-agent-spent-days-hacking-company-sources-say-openai-did-not-notice-week-2026-07-24/",
+      "score": 57,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "dece3e038de59f127a41",
+      "category": "space",
+      "publishedAt": "2026-07-25T10:00:00.000Z",
+      "dateET": "2026-07-25",
+      "source": "Space.com",
+      "title": "NASA astronaut, 2 cosmonauts returning to Earth on July 26: Watch it live",
+      "titleZh": "美国宇航局宇航员，两名宇航员于7月26日返回地球：观看直播",
+      "url": "https://www.space.com/space-exploration/human-spaceflight/nasa-astronaut-two-cosmonauts-return-to-earth-soyuz-ms-28",
+      "score": 46,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "d1de73f32f21564680da",
+      "category": "ai",
+      "publishedAt": "2026-07-25T05:00:41.000Z",
+      "dateET": "2026-07-25",
+      "source": "The Information",
+      "title": "Nvidia Forms $500 Billion AI ‘Partnership’ With Memory Chip Giant SK",
+      "titleZh": "英伟达与内存芯片巨头SK达成价值5000 $的人工智能“合作伙伴关系”",
+      "url": "https://www.theinformation.com/briefings/nvidia-forms-500-billion-ai-partnership-memory-chip-giant-sk",
+      "score": 48,
+      "translationStatus": "complete"
+    },
     {
       "id": "dee4ac7343a348bcacd2",
       "category": "ai",
