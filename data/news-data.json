@@ -1,7 +1,43 @@
 {
-  "updatedAt": "2026-07-25T15:06:54.281Z",
+  "updatedAt": "2026-07-26T15:08:46.839Z",
   "timezone": "America/New_York",
   "stories": [
+    {
+      "id": "b123d9c22d0dbae00340",
+      "category": "ai",
+      "publishedAt": "2026-07-26T15:00:55.000Z",
+      "dateET": "2026-07-26",
+      "source": "The Information",
+      "title": "How Google Is Using Wall Street Financing Techniques to Expand Chip Sales",
+      "titleZh": "谷歌如何利用华尔街融资技术扩大芯片销售",
+      "url": "https://www.theinformation.com/articles/google-using-wall-street-financing-techniques-expand-chip-sales",
+      "score": 54,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "2c14446ea21c109c9d6b",
+      "category": "space",
+      "publishedAt": "2026-07-26T13:00:00.000Z",
+      "dateET": "2026-07-26",
+      "source": "Space.com",
+      "title": "What happened to space horror movies?",
+      "titleZh": "太空恐怖电影是怎么回事？",
+      "url": "https://www.space.com/entertainment/space-movies-shows/what-happened-to-space-horror-movies",
+      "score": 49,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "63948221ecbf7ddf99b1",
+      "category": "space",
+      "publishedAt": "2026-07-26T10:00:00.000Z",
+      "dateET": "2026-07-26",
+      "source": "Space.com",
+      "title": "I'm not an astronaut, but I went to the International Space Station (sort of)",
+      "titleZh": "我不是宇航员，但我去了国际空间站（有点）",
+      "url": "https://www.space.com/space-exploration/international-space-station/im-not-an-astronaut-but-i-went-to-the-international-space-station-sort-of",
+      "score": 46,
+      "translationStatus": "complete"
+    },
     {
       "id": "8dfb6e201d3a08c92616",
       "category": "ai",
