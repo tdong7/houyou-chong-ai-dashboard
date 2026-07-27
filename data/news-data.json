@@ -1,7 +1,91 @@
 {
-  "updatedAt": "2026-07-26T15:08:46.839Z",
+  "updatedAt": "2026-07-27T16:24:25.163Z",
   "timezone": "America/New_York",
   "stories": [
+    {
+      "id": "b227d561168a36edcd37",
+      "category": "space",
+      "publishedAt": "2026-07-27T16:00:00.000Z",
+      "dateET": "2026-07-27",
+      "source": "Space.com",
+      "title": "Are we overlooking signs of alien life that aren't technological or biological? 'Bread would be a signature of intelligence'",
+      "titleZh": "我们是否忽略了非技术或生物的外星生命迹象？ “面包是智慧的象征”",
+      "url": "https://www.space.com/space-exploration/search-for-life/are-we-overlooking-signs-of-alien-life-that-arent-technological-or-biological-bread-would-be-a-signature-of-intelligence",
+      "score": 47,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "b1309bd7addefef14959",
+      "category": "ai",
+      "publishedAt": "2026-07-27T15:46:52.124Z",
+      "dateET": "2026-07-27",
+      "source": "Reuters Technology",
+      "title": "OpenAI's Sam Altman to meet with Senate Intelligence Committee's top Democrat",
+      "titleZh": "OpenAI的Sam Altman将与参议院情报委员会的最高民主党人会面",
+      "url": "https://www.reuters.com/business/openais-sam-altman-meet-with-senate-intelligence-committees-top-democrat-2026-07-27/",
+      "score": 55,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "72d1b231a27a40b7cbd7",
+      "category": "ai",
+      "publishedAt": "2026-07-27T15:44:24.481Z",
+      "dateET": "2026-07-27",
+      "source": "Reuters Technology",
+      "title": "China accuses US of 'AI hegemonism', threatens countermeasures over potential probes",
+      "titleZh": "中国指责美国“人工智能霸权主义” ，威胁对潜在调查采取反制措施",
+      "url": "https://www.reuters.com/world/china/china-accuses-us-ai-hegemonism-threatens-countermeasures-over-potential-probes-2026-07-27/",
+      "score": 55,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "8675a4392500dbd17554",
+      "category": "ai",
+      "publishedAt": "2026-07-27T15:37:00.000Z",
+      "dateET": "2026-07-27",
+      "source": "The Information",
+      "title": "Beijing Strikes Back At Washington’s AI Distillation Accusation",
+      "titleZh": "北京对华盛顿的人工智能蒸馏指控进行反击",
+      "url": "https://www.theinformation.com/briefings/beijing-strikes-back-washingtons-ai-distillation-accusation",
+      "score": 53,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "fff25af276bcd01e89d5",
+      "category": "space",
+      "publishedAt": "2026-07-27T14:00:00.000Z",
+      "dateET": "2026-07-27",
+      "source": "Space.com",
+      "title": "Curiosity Mars rover inspects cracked wheel | Space photo of the day for July 24, 2026",
+      "titleZh": "好奇号火星车检查破裂的轮子| 2026年7月24日当天的太空照片",
+      "url": "https://www.space.com/space-exploration/mars-rovers/curiosity-mars-rover-inspects-cracked-wheel-space-photo-of-the-day-for-july-24-2026",
+      "score": 53,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "1826b86fbf7394e5c412",
+      "category": "ai",
+      "publishedAt": "2026-07-27T13:01:00.000Z",
+      "dateET": "2026-07-27",
+      "source": "The Information",
+      "title": "China Starts Mass-Producing Homegrown DUV Chipmaking Tools, An Advance for Local Chip Industry",
+      "titleZh": "中国开始大规模生产国产DUV芯片制造工具，推动本土芯片行业的发展",
+      "url": "https://www.theinformation.com/articles/china-starts-mass-producing-homegrown-duv-chipmaking-tools-advance-local-chip-industry",
+      "score": 51,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "12f49b7b5cc5dab2efd4",
+      "category": "ai",
+      "publishedAt": "2026-07-27T08:51:41.000Z",
+      "dateET": "2026-07-27",
+      "source": "The Information",
+      "title": "Nvidia to Invest $1 Billion in South Korea’s Naver for AI Data Center Expansion",
+      "titleZh": "英伟达将向韩国Naver投资10 $ 10亿用于人工智能数据中心扩张",
+      "url": "https://www.theinformation.com/briefings/nvidia-invest-1-billion-south-koreas-naver-ai-data-center-expansion",
+      "score": 50,
+      "translationStatus": "complete"
+    },
     {
       "id": "b123d9c22d0dbae00340",
       "category": "ai",
