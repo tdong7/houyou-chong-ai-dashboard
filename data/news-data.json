@@ -1,7 +1,91 @@
 {
-  "updatedAt": "2026-07-27T16:24:25.163Z",
+  "updatedAt": "2026-07-28T16:06:20.507Z",
   "timezone": "America/New_York",
   "stories": [
+    {
+      "id": "6ee5733612ccc8634446",
+      "category": "ai",
+      "publishedAt": "2026-07-28T15:33:14.689Z",
+      "dateET": "2026-07-28",
+      "source": "Reuters Technology",
+      "title": "China's chip tool push shows ASML caught in US-China squeeze",
+      "titleZh": "中国的芯片工具推送显示ASML陷入美中挤压",
+      "url": "https://www.reuters.com/world/china/chinas-chip-tool-push-shows-asml-caught-us-china-squeeze-2026-07-28/",
+      "score": 55,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "417221efac987c9bb152",
+      "category": "ai",
+      "publishedAt": "2026-07-28T15:24:13.934Z",
+      "dateET": "2026-07-28",
+      "source": "Reuters Technology",
+      "title": "Meta, BlackRock partner on $14 billion El Paso data center venture",
+      "titleZh": "Meta ，贝莱德140 $十亿埃尔帕索数据中心合伙人",
+      "url": "https://www.reuters.com/technology/meta-blackrock-partner-14-billion-el-paso-data-center-2026-07-28/",
+      "score": 55,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "3dd12a65c2712777783f",
+      "category": "ai",
+      "publishedAt": "2026-07-28T15:18:32.405Z",
+      "dateET": "2026-07-28",
+      "source": "Reuters Technology",
+      "title": "UK's Burnham outlines youth training overhaul as AI reshapes jobs market",
+      "titleZh": "英国的伯纳姆概述了随着人工智能重塑就业市场而进行的青年培训改革",
+      "url": "https://www.reuters.com/world/uk/uks-burnham-outlines-youth-training-overhaul-ai-reshapes-jobs-market-2026-07-28/",
+      "score": 55,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "6c0cd7110d286c9adcfd",
+      "category": "space",
+      "publishedAt": "2026-07-28T15:00:00.000Z",
+      "dateET": "2026-07-28",
+      "source": "Space.com",
+      "title": "SpaceX launches 24 Starlink satellites to orbit in wake of Starship test flight (video)",
+      "titleZh": "SpaceX在星际飞船测试飞行后发射24颗Starlink卫星进入轨道（视频）",
+      "url": "https://www.space.com/space-exploration/launches-spacecraft/spacex-starlink-17-51-b1100-vsfb-ocisly",
+      "score": 58,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "94db4c25413ede4f27a0",
+      "category": "ai",
+      "publishedAt": "2026-07-28T14:01:26.000Z",
+      "dateET": "2026-07-28",
+      "source": "The Information",
+      "title": "OpenAI and Anthropic Are Quietly Teaming Up in Washington",
+      "titleZh": "OpenAI和Anthropic正在华盛顿悄悄合作",
+      "url": "https://www.theinformation.com/articles/openai-anthropic-quietly-teaming-washington",
+      "score": 56,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "a71e04e6e30c09af2dd1",
+      "category": "ai",
+      "publishedAt": "2026-07-28T13:00:59.000Z",
+      "dateET": "2026-07-28",
+      "source": "The Information",
+      "title": "Chinese AI Startup Moonshot Seeks More Nvidia Blackwell Chips for Next Model",
+      "titleZh": "中国人工智能初创公司Moonshot为下一代车型寻求更多Nvidia Blackwell芯片",
+      "url": "https://www.theinformation.com/articles/chinese-ai-startup-moonshot-seeks-nvidia-blackwell-chips-next-model",
+      "score": 55,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "c75a83dd4812e914f0bc",
+      "category": "space",
+      "publishedAt": "2026-07-28T13:00:00.000Z",
+      "dateET": "2026-07-28",
+      "source": "Space.com",
+      "title": "BALLS on the moon: China set to launch Africa's 1st lunar science mission in 2029",
+      "titleZh": "月球上的球：中国将于2029年启动非洲首次月球科学任务",
+      "url": "https://www.space.com/astronomy/moon/balls-on-the-moon-china-set-to-launch-africas-1st-lunar-science-mission-in-2029",
+      "score": 52,
+      "translationStatus": "complete"
+    },
     {
       "id": "b227d561168a36edcd37",
       "category": "space",
