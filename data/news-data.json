@@ -1,7 +1,67 @@
 {
-  "updatedAt": "2026-07-28T16:06:20.507Z",
+  "updatedAt": "2026-07-29T15:50:41.243Z",
   "timezone": "America/New_York",
   "stories": [
+    {
+      "id": "95ad50153dfee7f724a6",
+      "category": "ai",
+      "publishedAt": "2026-07-29T15:28:49.172Z",
+      "dateET": "2026-07-29",
+      "source": "Reuters Technology",
+      "title": "NextEra, Brookfield plan $100 billion data center at US uranium site in Kentucky",
+      "titleZh": "NextEra ，布鲁克菲尔德计划在肯塔基州的美国铀矿场建造价值1000亿美元的数据中心",
+      "url": "https://www.reuters.com/business/energy/brookfield-nextera-develop-100-billion-data-center-campus-kentucky-source-says-2026-07-29/",
+      "score": 56,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "746399f12f736022c38e",
+      "category": "ai",
+      "publishedAt": "2026-07-29T15:14:26.999Z",
+      "dateET": "2026-07-29",
+      "source": "Reuters Technology",
+      "title": "Qualcomm wins BMW chip supply deal for future vehicle platforms",
+      "titleZh": "高通赢得宝马未来汽车平台芯片供应协议",
+      "url": "https://www.reuters.com/business/qualcomm-wins-bmw-chip-supply-deal-future-vehicle-platforms-2026-07-29/",
+      "score": 55,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "2fe3ce5fd17733efb635",
+      "category": "ai",
+      "publishedAt": "2026-07-29T15:12:22.515Z",
+      "dateET": "2026-07-29",
+      "source": "Reuters Technology",
+      "title": "Germany's financial watchdog to monitor AI use at banks and insurers",
+      "titleZh": "德国金融监管机构监测银行和保险公司的人工智能使用情况",
+      "url": "https://www.reuters.com/business/finance/germanys-financial-watchdog-monitor-ai-use-banks-insurers-2026-07-29/",
+      "score": 55,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "b66712d35d93351263ae",
+      "category": "space",
+      "publishedAt": "2026-07-29T14:00:00.000Z",
+      "dateET": "2026-07-29",
+      "source": "Space.com",
+      "title": "SpaceX Starship still floating 5 days after flight | Space photo of the day for July 29, 2026",
+      "titleZh": "SpaceX星际飞船在飞行5天后仍在漂浮| 2026年7月29日当天的太空照片",
+      "url": "https://www.space.com/space-exploration/launches-spacecraft/spacex-starship-still-floating-5-days-after-flight-space-photo-of-the-day-for-july-29-2026",
+      "score": 57,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "5fbcd5c7217e50ed65aa",
+      "category": "space",
+      "publishedAt": "2026-07-29T14:00:00.000Z",
+      "dateET": "2026-07-29",
+      "source": "Space.com",
+      "title": "On this day in space! July 29, 1982: Soviet Salyut 6 space station falls to Earth",
+      "titleZh": "就在这一天，在太空中！ 1982年7月29日：苏联礼炮6号空间站坠落地球",
+      "url": "https://www.space.com/space-exploration/on-this-day-in-space-july-29-2026",
+      "score": 49,
+      "translationStatus": "complete"
+    },
     {
       "id": "6ee5733612ccc8634446",
       "category": "ai",
