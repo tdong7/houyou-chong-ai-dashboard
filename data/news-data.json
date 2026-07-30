@@ -1,7 +1,67 @@
 {
-  "updatedAt": "2026-07-29T15:50:41.243Z",
+  "updatedAt": "2026-07-30T15:53:31.064Z",
   "timezone": "America/New_York",
   "stories": [
+    {
+      "id": "60c354da4709b68c0101",
+      "category": "ai",
+      "publishedAt": "2026-07-30T15:45:10.145Z",
+      "dateET": "2026-07-30",
+      "source": "Reuters Technology",
+      "title": "Meta's AI splurge lays bare its compute conundrum",
+      "titleZh": "Meta的人工智能挥霍暴露了其计算难题",
+      "url": "https://www.reuters.com/business/retail-consumer/metas-ai-splurge-lays-bare-its-compute-conundrum-2026-07-30/",
+      "score": 56,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "7f97ce564a19f67ef22f",
+      "category": "space",
+      "publishedAt": "2026-07-30T14:00:00.000Z",
+      "dateET": "2026-07-30",
+      "source": "Space.com",
+      "title": "On this day in space! July 30, 1610: Galileo sees Saturn's rings for the 1st time",
+      "titleZh": "就在这一天，在太空中！ 1610年7月30日：伽利略第一次看到土星环",
+      "url": "https://www.space.com/space-exploration/on-this-day-in-space-july-30-2026",
+      "score": 49,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "a5826995ba9b2602aa82",
+      "category": "ai",
+      "publishedAt": "2026-07-30T13:00:34.000Z",
+      "dateET": "2026-07-30",
+      "source": "The Information",
+      "title": "TSMC Develops AI Chip Packaging Tech to Counter Intel",
+      "titleZh": "台积电开发AI芯片封装技术来对抗英特尔",
+      "url": "https://www.theinformation.com/articles/tsmc-develops-ai-chip-packaging-tech-counter-intel",
+      "score": 55,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "f47613e99d1dcfa20eee",
+      "category": "space",
+      "publishedAt": "2026-07-30T10:00:00.000Z",
+      "dateET": "2026-07-30",
+      "source": "Space.com",
+      "title": "A SpaceX rocket will crash into the moon next week, and scientists aren't sure what to expect",
+      "titleZh": "SpaceX火箭将于下周坠入月球，科学家们不确定会发生什么",
+      "url": "https://www.space.com/astronomy/moon/a-spacex-rocket-will-crash-into-the-moon-next-week-and-scientists-arent-sure-what-to-expect",
+      "score": 53,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "7fbe22e66cb85ebd19b9",
+      "category": "ai",
+      "publishedAt": "2026-07-30T04:34:59.000Z",
+      "dateET": "2026-07-30",
+      "source": "The Information",
+      "title": "OpenAI CFO Says Revenue Growth Accelerated in July",
+      "titleZh": "OpenAI首席财务官表示7月份收入增长加速",
+      "url": "https://www.theinformation.com/briefings/openai-cfo-says-revenue-growth-accelerated-july",
+      "score": 43,
+      "translationStatus": "complete"
+    },
     {
       "id": "95ad50153dfee7f724a6",
       "category": "ai",
