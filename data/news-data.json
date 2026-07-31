@@ -1,7 +1,91 @@
 {
-  "updatedAt": "2026-07-30T15:53:31.064Z",
+  "updatedAt": "2026-07-31T16:02:34.946Z",
   "timezone": "America/New_York",
   "stories": [
+    {
+      "id": "d0866b202b7113349691",
+      "category": "space",
+      "publishedAt": "2026-07-31T16:00:00.000Z",
+      "dateET": "2026-07-31",
+      "source": "Space.com",
+      "title": "NASA is sending 2 probes to the moon to test complex 'three-body orbits'",
+      "titleZh": "美国宇航局正在向月球发送2个探测器，以测试复杂的“三体轨道”",
+      "url": "https://www.space.com/space-exploration/launches-spacecraft/nasa-is-sending-2-probes-to-the-moon-to-test-complex-three-body-orbits",
+      "score": 55,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "8a32fc78f02499a21f73",
+      "category": "ai",
+      "publishedAt": "2026-07-31T15:45:43.983Z",
+      "dateET": "2026-07-31",
+      "source": "Reuters Technology",
+      "title": "Situational Awareness' portfolio sinks 67% in July on AI stock rout, letter shows",
+      "titleZh": "信中显示， 7月份情境意识投资组合因人工智能股票暴跌而下跌67%",
+      "url": "https://www.reuters.com/business/finance/situational-awareness-portfolio-sinks-67-july-ai-stock-rout-letter-shows-2026-07-31/",
+      "score": 56,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "cb865c2714614211e091",
+      "category": "ai",
+      "publishedAt": "2026-07-31T15:44:04.659Z",
+      "dateET": "2026-07-31",
+      "source": "Reuters Technology",
+      "title": "Chime to cut 10% of total workforce on AI driven efficiencies",
+      "titleZh": "在人工智能驱动的效率上削减10%的总劳动力",
+      "url": "https://www.reuters.com/business/world-at-work/chime-cut-10-total-workforce-or-about-140-jobs-source-says-2026-07-31/",
+      "score": 56,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "315d9881228c28fc9f12",
+      "category": "ai",
+      "publishedAt": "2026-07-31T15:37:57.501Z",
+      "dateET": "2026-07-31",
+      "source": "Reuters Technology",
+      "title": "Amazon soars as cloud revenue surge allays fears over ballooning AI bets",
+      "titleZh": "随着云收入激增，亚马逊飙升，缓解了对不断膨胀的人工智能押注的担忧",
+      "url": "https://www.reuters.com/business/retail-consumer/amazon-jumps-aws-growth-soothes-fears-over-rising-ai-spending-2026-07-31/",
+      "score": 56,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "5ef603e375c3f0cceeb3",
+      "category": "ai",
+      "publishedAt": "2026-07-31T15:32:44.688Z",
+      "dateET": "2026-07-31",
+      "source": "Reuters Technology",
+      "title": "Microsoft says cash will keep flowing from AI, shares rise",
+      "titleZh": "微软表示现金将继续从人工智能流出，股价上涨",
+      "url": "https://www.reuters.com/business/microsoft-tops-quarterly-cloud-growth-estimates-easing-spending-concerns-2026-07-29/",
+      "score": 56,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "61e12dc6fbfa8f125715",
+      "category": "space",
+      "publishedAt": "2026-07-31T14:30:26.000Z",
+      "dateET": "2026-07-31",
+      "source": "Space.com",
+      "title": "Watch SpaceX's Starship land at sea in these stunning new videos",
+      "titleZh": "观看SpaceX的星际飞船登陆海上，观看这些令人惊叹的新视频",
+      "url": "https://www.space.com/space-exploration/launches-spacecraft/watch-spacexs-starship-land-at-sea-in-these-stunning-new-videos",
+      "score": 53,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "2110d5f9abc0976a3f87",
+      "category": "ai",
+      "publishedAt": "2026-07-31T14:10:42.000Z",
+      "dateET": "2026-07-31",
+      "source": "The Information",
+      "title": "Amazon Completes Additional $35 Billion Investment in OpenAI",
+      "titleZh": "亚马逊完成对OpenAI的额外350亿美元投资",
+      "url": "https://www.theinformation.com/briefings/amazon-completes-additional-35-billion-investment-openai",
+      "score": 52,
+      "translationStatus": "complete"
+    },
     {
       "id": "60c354da4709b68c0101",
       "category": "ai",
