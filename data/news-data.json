@@ -1,7 +1,43 @@
 {
-  "updatedAt": "2026-07-31T16:02:34.946Z",
+  "updatedAt": "2026-08-01T15:03:51.294Z",
   "timezone": "America/New_York",
   "stories": [
+    {
+      "id": "508977b0b64b4c88b6e1",
+      "category": "space",
+      "publishedAt": "2026-08-01T14:16:28.000Z",
+      "dateET": "2026-08-01",
+      "source": "Space.com",
+      "title": "This Week In Space podcast: Episode 221 — Starship Can Float?",
+      "titleZh": "本周太空播客：第221集—星际飞船能漂浮吗？",
+      "url": "https://www.space.com/entertainment/space-movies-shows/this-week-in-space-podcast-episode-221-starship-can-float",
+      "score": 54,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "d3a1517c94713c0d6ea9",
+      "category": "space",
+      "publishedAt": "2026-08-01T14:00:00.000Z",
+      "dateET": "2026-08-01",
+      "source": "Space.com",
+      "title": "On this day in space! Aug. 1, 1968: NASA ends production of Saturn V moon rocket",
+      "titleZh": "就在这一天，在太空中！ 1968年8月1日：美国宇航局停止生产土星五号月球火箭",
+      "url": "https://www.space.com/space-exploration/on-this-day-in-space-august-1-2026",
+      "score": 62,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "ae794731a8e18b6f9ac0",
+      "category": "ai",
+      "publishedAt": "2026-08-01T13:03:41.197Z",
+      "dateET": "2026-08-01",
+      "source": "Reuters Technology",
+      "title": "Alphabet rolls back AI image generation in Google Earth over policy violations",
+      "titleZh": "Alphabet因违反政策而在Google地球中回滚AI图像生成",
+      "url": "https://www.reuters.com/business/media-telecom/alphabet-rolls-back-ai-image-generation-google-earth-over-policy-violations-2026-07-31/",
+      "score": 54,
+      "translationStatus": "complete"
+    },
     {
       "id": "d0866b202b7113349691",
       "category": "space",
