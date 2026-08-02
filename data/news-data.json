@@ -1,7 +1,67 @@
 {
-  "updatedAt": "2026-08-01T15:03:51.294Z",
+  "updatedAt": "2026-08-02T15:05:45.310Z",
   "timezone": "America/New_York",
   "stories": [
+    {
+      "id": "899fabcfa45a5f9c29cb",
+      "category": "space",
+      "publishedAt": "2026-08-02T14:00:00.000Z",
+      "dateET": "2026-08-02",
+      "source": "Space.com",
+      "title": "On this day in space! Aug. 2, 1971: Apollo 15 makes 1st-ever televised liftoff from the moon",
+      "titleZh": "就在这一天，在太空中！ 1971年8月2日：阿波罗15号首次从月球进行电视直播升空",
+      "url": "https://www.space.com/space-exploration/on-this-day-in-space-august-2-2026",
+      "score": 54,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "8247d43fdab05cdc774b",
+      "category": "ai",
+      "publishedAt": "2026-08-02T13:10:50.736Z",
+      "dateET": "2026-08-02",
+      "source": "Reuters Technology",
+      "title": "OpenAI finds evidence other AI agents escaped containment as it widens hacking probe",
+      "titleZh": "OpenAI发现其他人工智能特工在扩大黑客探测范围时逃脱遏制的证据",
+      "url": "https://www.reuters.com/business/openai-finds-evidence-other-ai-agents-escaped-containment-it-widens-hacking-2026-07-31/",
+      "score": 58,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "923a7931af8b64333ea6",
+      "category": "ai",
+      "publishedAt": "2026-08-02T12:34:45.329Z",
+      "dateET": "2026-08-02",
+      "source": "Reuters Technology",
+      "title": "Chinese military researchers tap US AI models to train defence systems",
+      "titleZh": "中国军事研究人员利用美国人工智能模型来训练防御系统",
+      "url": "https://www.reuters.com/world/asia-pacific/chinese-military-researchers-tap-us-ai-models-train-defence-systems-2026-07-31/",
+      "score": 53,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "4ec721889002e0691942",
+      "category": "space",
+      "publishedAt": "2026-08-02T10:00:00.000Z",
+      "dateET": "2026-08-02",
+      "source": "Space.com",
+      "title": "Rocket issue delays 1st orbital rocket launch from the UK",
+      "titleZh": "火箭问题推迟了从英国发射的第一枚轨道火箭",
+      "url": "https://www.space.com/space-exploration/launches-spacecraft/rocket-issue-delays-1st-orbital-rocket-launch-from-the-uk",
+      "score": 50,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "a4e75fb84067914f03b5",
+      "category": "ai",
+      "publishedAt": "2026-08-02T04:10:31.000Z",
+      "dateET": "2026-08-02",
+      "source": "The Information",
+      "title": "DeepSeek Makes a Splash with Small, Affordable V4-Flash Model",
+      "titleZh": "DeepSeek以经济实惠的小型V4闪存型号轰动一时",
+      "url": "https://www.theinformation.com/briefings/deepseek-makes-splash-small-affordable-v4-flash-model",
+      "score": 43,
+      "translationStatus": "complete"
+    },
     {
       "id": "508977b0b64b4c88b6e1",
       "category": "space",
