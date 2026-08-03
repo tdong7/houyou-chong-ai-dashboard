@@ -1,7 +1,91 @@
 {
-  "updatedAt": "2026-08-02T15:05:45.310Z",
+  "updatedAt": "2026-08-03T16:28:55.219Z",
   "timezone": "America/New_York",
   "stories": [
+    {
+      "id": "a23fa78218f42b5db08e",
+      "category": "ai",
+      "publishedAt": "2026-08-03T16:10:23.625Z",
+      "dateET": "2026-08-03",
+      "source": "Reuters Technology",
+      "title": "US finalizes voluntary AI safety tests, White House official says",
+      "titleZh": "白宫官员说，美国完成了自愿的人工智能安全测试",
+      "url": "https://www.reuters.com/world/us-finalizes-voluntary-ai-safety-tests-white-house-official-says-2026-08-03/",
+      "score": 56,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "cc2070c886202d69c82e",
+      "category": "ai",
+      "publishedAt": "2026-08-03T15:47:52.838Z",
+      "dateET": "2026-08-03",
+      "source": "Reuters Technology",
+      "title": "Perplexity AI loses bid to toss Reddit lawsuit over data scraping",
+      "titleZh": "Perplexity AI输掉了Reddit对数据抓取的诉讼",
+      "url": "https://www.reuters.com/legal/litigation/perplexity-ai-loses-bid-toss-reddit-lawsuit-over-data-scraping-2026-07-31/",
+      "score": 55,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "cd7c045d6dab1123315c",
+      "category": "ai",
+      "publishedAt": "2026-08-03T15:45:47.027Z",
+      "dateET": "2026-08-03",
+      "source": "Reuters Technology",
+      "title": "Britain says it is open to AI regulation if voluntary safeguards fall short",
+      "titleZh": "英国表示，如果自愿保障措施不足，它对人工智能监管持开放态度",
+      "url": "https://www.reuters.com/business/media-telecom/britain-says-it-is-open-ai-regulation-if-voluntary-safeguards-fall-short-2026-08-03/",
+      "score": 55,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "a3a449c0404990a50483",
+      "category": "ai",
+      "publishedAt": "2026-08-03T15:43:58.016Z",
+      "dateET": "2026-08-03",
+      "source": "Reuters Technology",
+      "title": "Amazon enters $3 trillion club as AI, cloud growth power rally",
+      "titleZh": "亚马逊进入$ 3万亿美元的俱乐部作为人工智能，云增长力量反弹",
+      "url": "https://www.reuters.com/legal/transactional/amazon-enters-3-trillion-club-ai-optimism-sweeps-through-wall-street-2026-08-03/",
+      "score": 55,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "5fb2012ca261f6e135ab",
+      "category": "ai",
+      "publishedAt": "2026-08-03T14:24:36.000Z",
+      "dateET": "2026-08-03",
+      "source": "The Information",
+      "title": "White House to Host AI Companies on Tuesday to Review AI Framework",
+      "titleZh": "白宫将于周二接待人工智能公司，以审查人工智能框架",
+      "url": "https://www.theinformation.com/articles/white-house-host-ai-companies-tuesday-review-ai-framework",
+      "score": 52,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "49b9b931e4578ab65ada",
+      "category": "space",
+      "publishedAt": "2026-08-03T14:20:32.000Z",
+      "dateET": "2026-08-03",
+      "source": "Space.com",
+      "title": "The 1st 'three-headed' asteroid | Space photo of the day for Aug. 3, 2026",
+      "titleZh": "第一颗“三头”小行星| 2026年8月3日当天的太空照片",
+      "url": "https://www.space.com/astronomy/asteroids/the-1st-three-headed-asteroid-space-photo-of-the-day-for-aug-3-2026",
+      "score": 49,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "4c974a653e9a7b79930e",
+      "category": "space",
+      "publishedAt": "2026-08-03T14:05:00.000Z",
+      "dateET": "2026-08-03",
+      "source": "Space.com",
+      "title": "On this day in space! Aug. 3, 2004: NASA launches MESSENGER spacecraft to orbit Mercury",
+      "titleZh": "就在这一天，在太空中！ 2004年8月3日：美国宇航局发射信使号航天器进入水星轨道",
+      "url": "https://www.space.com/space-exploration/on-this-day-in-space-august-3-2026",
+      "score": 57,
+      "translationStatus": "complete"
+    },
     {
       "id": "899fabcfa45a5f9c29cb",
       "category": "space",
