@@ -1,7 +1,91 @@
 {
-  "updatedAt": "2026-08-03T16:28:55.219Z",
+  "updatedAt": "2026-08-04T16:13:50.924Z",
   "timezone": "America/New_York",
   "stories": [
+    {
+      "id": "d7d3399ca48c010a9235",
+      "category": "ai",
+      "publishedAt": "2026-08-04T16:08:20.866Z",
+      "dateET": "2026-08-04",
+      "source": "Reuters Technology",
+      "title": "S&P 500, Dow hit record highs on strong AI-linked earnings, Mideast deal hopes",
+      "titleZh": "标准普尔500指数，道琼斯指数创历史新高，强劲的人工智能相关盈利，中东交易希望",
+      "url": "https://www.reuters.com/business/nasdaq-futures-underpinned-by-strong-ai-forecasts-focus-earnings-data-2026-08-04/",
+      "score": 56,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "d80042266667ba050b09",
+      "category": "ai",
+      "publishedAt": "2026-08-04T16:05:55.034Z",
+      "dateET": "2026-08-04",
+      "source": "Reuters Technology",
+      "title": "BofA, USAA agree to cross-license AI, banking patents",
+      "titleZh": "美银美林同意交叉许可AI、银行专利",
+      "url": "https://www.reuters.com/legal/transactional/bofa-usaa-agree-cross-license-ai-banking-patents-2026-08-04/",
+      "score": 56,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "9e5f8c7cf9879269a0d1",
+      "category": "ai",
+      "publishedAt": "2026-08-04T16:00:10.075Z",
+      "dateET": "2026-08-04",
+      "source": "Reuters Technology",
+      "title": "Pathos AI to license experimental breast cancer drug from China's Jiangsu Alphamab Biopharmaceutical",
+      "titleZh": "Pathos AI将从中国江苏Alphamab Biopharmaceutical获得实验性乳腺癌药物的许可",
+      "url": "https://www.reuters.com/legal/litigation/pathos-ai-license-experimental-breast-cancer-drug-chinas-jiangsu-alphamab-2026-08-04/",
+      "score": 56,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "7372593817a824690e6f",
+      "category": "ai",
+      "publishedAt": "2026-08-04T15:59:09.184Z",
+      "dateET": "2026-08-04",
+      "source": "Reuters Technology",
+      "title": "Apple seeks preliminary injunction against OpenAI in trade secrets case",
+      "titleZh": "苹果在商业秘密案中寻求针对OpenAI的初步禁令",
+      "url": "https://www.reuters.com/legal/litigation/apple-seeks-preliminary-injunction-against-openai-trade-secrets-case-2026-08-04/",
+      "score": 56,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "312a35984873266600ea",
+      "category": "space",
+      "publishedAt": "2026-08-04T15:58:13.000Z",
+      "dateET": "2026-08-04",
+      "source": "Space.com",
+      "title": "A 9,000-pound SpaceX rocket will crash into the moon tonight. Will you be able to see it?",
+      "titleZh": "一枚重达9000磅的SpaceX火箭今晚将坠毁在月球上。你能看到它吗？",
+      "url": "https://www.space.com/astronomy/moon/a-9-000-pound-spacex-rocket-will-crash-into-the-moon-tonight-will-you-be-able-to-see-it",
+      "score": 59,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "15f9ce5879dcb6e96afb",
+      "category": "ai",
+      "publishedAt": "2026-08-04T15:34:31.250Z",
+      "dateET": "2026-08-04",
+      "source": "Reuters Technology",
+      "title": "Meta, Anthropic, Google, OpenAI to meet with Trump advisers amid rogue AI agent fallout",
+      "titleZh": "Meta、Anthropic、Google、OpenAI将在流氓AI特工影响下与特朗普顾问会面",
+      "url": "https://www.reuters.com/legal/litigation/meta-anthropic-google-openai-meet-with-trump-white-house-amid-rogue-ai-agent-2026-08-04/",
+      "score": 63,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "df8fdc0cefdee4cd21b9",
+      "category": "space",
+      "publishedAt": "2026-08-04T14:00:00.000Z",
+      "dateET": "2026-08-04",
+      "source": "Space.com",
+      "title": "On this day in space! Aug. 4, 2007: NASA launches Phoenix Mars lander to Red Planet",
+      "titleZh": "就在这一天，在太空中！ 2007年8月4日：美国宇航局向红色星球发射凤凰火星着陆器",
+      "url": "https://www.space.com/space-exploration/on-this-day-in-space-august-4-2026",
+      "score": 57,
+      "translationStatus": "complete"
+    },
     {
       "id": "a23fa78218f42b5db08e",
       "category": "ai",
