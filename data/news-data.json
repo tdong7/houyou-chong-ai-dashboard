@@ -1,7 +1,91 @@
 {
-  "updatedAt": "2026-08-04T16:13:50.924Z",
+  "updatedAt": "2026-08-05T16:02:13.507Z",
   "timezone": "America/New_York",
   "stories": [
+    {
+      "id": "c17a2febc2d356cb6b0d",
+      "category": "ai",
+      "publishedAt": "2026-08-05T16:01:06.284Z",
+      "dateET": "2026-08-05",
+      "source": "Reuters Technology",
+      "title": "Kenya's stock exchange plans East Africa's first AI-focused ETF",
+      "titleZh": "肯尼亚证券交易所计划东非首个以人工智能为重点的ETF",
+      "url": "https://www.reuters.com/world/africa/kenyas-stock-exchange-plans-east-africas-first-ai-focused-etf-2026-08-05/",
+      "score": 56,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "44d4f8b729d7cf1e5726",
+      "category": "ai",
+      "publishedAt": "2026-08-05T15:54:00.457Z",
+      "dateET": "2026-08-05",
+      "source": "Reuters Technology",
+      "title": "JPMorgan CEO Dimon leads new cross-industry effort to tackle AI risks",
+      "titleZh": "摩根大通首席执行官戴蒙领导新的跨行业努力，以应对人工智能风险",
+      "url": "https://www.reuters.com/world/jpmorgan-ceo-dimon-leads-new-cross-industry-effort-tackle-ai-risks-2026-08-05/",
+      "score": 56,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "ffbbf26244aa9a26c07e",
+      "category": "space",
+      "publishedAt": "2026-08-05T14:10:19.000Z",
+      "dateET": "2026-08-05",
+      "source": "Space.com",
+      "title": "Curiosity rover spots mysterious honeycombs on Mars | Space photo of the day for Aug. 5, 2026",
+      "titleZh": "好奇号火星车在火星上发现神秘的蜂窝| 2026年8月5日当天的太空照片",
+      "url": "https://www.space.com/astronomy/mars/curiosity-rover-spots-mysterious-honeycombs-on-mars-space-photo-of-the-day-for-aug-5-2026",
+      "score": 53,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "4395498dc40a6185116b",
+      "category": "ai",
+      "publishedAt": "2026-08-05T14:00:46.000Z",
+      "dateET": "2026-08-05",
+      "source": "The Information",
+      "title": "How Meta Plans to Close the Gap with Anthropic and OpenAI in Coding",
+      "titleZh": "Meta计划如何缩小与Anthropic和OpenAI在编码方面的差距",
+      "url": "https://www.theinformation.com/articles/meta-plans-close-gap-anthropic-openai-coding",
+      "score": 56,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "bd21c8bd9cad402d010c",
+      "category": "space",
+      "publishedAt": "2026-08-05T14:00:00.000Z",
+      "dateET": "2026-08-05",
+      "source": "Space.com",
+      "title": "On this day in space! Aug. 5, 2011: NASA's Juno spacecraft launches to Jupiter",
+      "titleZh": "就在这一天，在太空中！ 2011年8月5日：美国宇航局的朱诺号宇宙飞船发射到木星",
+      "url": "https://www.space.com/space-exploration/on-this-day-in-space-august-5-2026",
+      "score": 53,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "eef153ac9e861f986e82",
+      "category": "ai",
+      "publishedAt": "2026-08-05T13:19:25.000Z",
+      "dateET": "2026-08-05",
+      "source": "The Information",
+      "title": "ByteDance’s Founder Rules Out Distillation on AI Models",
+      "titleZh": "ByteDance的创始人排除了人工智能模型的蒸馏",
+      "url": "https://www.theinformation.com/articles/bytedances-founder-rules-distillation-ai-models",
+      "score": 51,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "0841da1c3eb5757a114d",
+      "category": "ai",
+      "publishedAt": "2026-08-05T13:00:49.000Z",
+      "dateET": "2026-08-05",
+      "source": "The Information",
+      "title": "China’s New AI Gold Rush: World Models",
+      "titleZh": "中国新的人工智能淘金热：世界模式",
+      "url": "https://www.theinformation.com/articles/chinas-new-ai-gold-rush-world-models",
+      "score": 51,
+      "translationStatus": "complete"
+    },
     {
       "id": "d7d3399ca48c010a9235",
       "category": "ai",
