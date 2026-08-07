@@ -1,7 +1,91 @@
 {
-  "updatedAt": "2026-08-05T16:02:13.507Z",
+  "updatedAt": "2026-08-07T14:56:05.734Z",
   "timezone": "America/New_York",
   "stories": [
+    {
+      "id": "0325068e1eef2b308928",
+      "category": "ai",
+      "publishedAt": "2026-08-07T14:41:22.023Z",
+      "dateET": "2026-08-07",
+      "source": "Reuters Technology",
+      "title": "Trump says Congress wants to regulate AI industry 'out of business'",
+      "titleZh": "特朗普表示，国会希望规范人工智能行业“破产”",
+      "url": "https://www.reuters.com/legal/litigation/trump-says-congress-wants-regulate-ai-industry-out-business-2026-08-07/",
+      "score": 56,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "974e789f6a9406750dfd",
+      "category": "ai",
+      "publishedAt": "2026-08-07T14:38:28.358Z",
+      "dateET": "2026-08-07",
+      "source": "Reuters Technology",
+      "title": "Chinese startup Moonshot's AI model breaks out of testing environment, researchers say",
+      "titleZh": "研究人员表示，中国初创公司Moonshot的人工智能模型打破了测试环境",
+      "url": "https://www.reuters.com/legal/litigation/chinese-startup-moonshots-ai-model-breaks-out-testing-environment-researchers-2026-08-07/",
+      "score": 60,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "715ffb72ac6100f3e695",
+      "category": "ai",
+      "publishedAt": "2026-08-07T14:31:44.167Z",
+      "dateET": "2026-08-07",
+      "source": "Reuters Technology",
+      "title": "AI ballot-box cash augurs fairer fight than crypto",
+      "titleZh": "人工智能投票箱现金预示着比加密更公平的斗争",
+      "url": "https://www.reuters.com/commentary/breakingviews/ai-ballot-box-cash-augurs-fairer-fight-than-crypto-2026-08-07/",
+      "score": 56,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "50f20c45479da19db116",
+      "category": "space",
+      "publishedAt": "2026-08-07T14:14:51.000Z",
+      "dateET": "2026-08-07",
+      "source": "Space.com",
+      "title": "On this day in space! Aug. 7, 1980: NASA's Viking 1 Mars orbiter shuts down 4 years into a 90-day mission",
+      "titleZh": "就在这一天，在太空中！ 1980年8月7日：美国宇航局的维京1号火星轨道器在为期90天的任务中关闭了4年",
+      "url": "https://www.space.com/space-exploration/on-this-day-in-space-august-7-2026",
+      "score": 58,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "11bb86173f4fd4b36e3a",
+      "category": "space",
+      "publishedAt": "2026-08-07T14:00:00.000Z",
+      "dateET": "2026-08-07",
+      "source": "Space.com",
+      "title": "Cosmic treasure chest explodes with baby stars | Space photo of the day for Aug. 7, 2026",
+      "titleZh": "宇宙宝箱与婴儿星星一起爆炸| 2026年8月7日当天的太空照片",
+      "url": "https://www.space.com/astronomy/james-webb-space-telescope/cosmic-treasure-chest-explodes-with-baby-stars-space-photo-of-the-day-for-aug-7-2026",
+      "score": 50,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "3c658cdf8d468b718cf1",
+      "category": "ai",
+      "publishedAt": "2026-08-07T10:04:18.000Z",
+      "dateET": "2026-08-07",
+      "source": "The Information",
+      "title": "SK Hynix to Start Building Two New Chip Fabs Next Year",
+      "titleZh": "SK海力士将于明年开始建造两家新芯片晶圆厂",
+      "url": "https://www.theinformation.com/briefings/sk-hynix-start-building-two-new-chip-fabs-next-year",
+      "score": 49,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "e14bcafbb48cf695a861",
+      "category": "ai",
+      "publishedAt": "2026-08-07T09:00:00.000Z",
+      "dateET": "2026-08-07",
+      "source": "OpenAI News",
+      "title": "How HSP GRUPPE builds AI capabilities for tax advisory",
+      "titleZh": "HSP GRUPPE如何构建税务咨询的AI功能",
+      "url": "https://openai.com/index/hsp-gruppe",
+      "score": 46,
+      "translationStatus": "complete"
+    },
     {
       "id": "c17a2febc2d356cb6b0d",
       "category": "ai",
