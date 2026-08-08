@@ -1,7 +1,55 @@
 {
-  "updatedAt": "2026-08-07T14:56:05.734Z",
+  "updatedAt": "2026-08-08T14:35:06.771Z",
   "timezone": "America/New_York",
   "stories": [
+    {
+      "id": "51a64517117696158209",
+      "category": "space",
+      "publishedAt": "2026-08-08T14:00:00.000Z",
+      "dateET": "2026-08-08",
+      "source": "Space.com",
+      "title": "Don't miss the crescent moon shine close to the red light of Mars before dawn on Aug. 9",
+      "titleZh": "不要错过8月9日黎明前靠近火星红光的新月",
+      "url": "https://www.space.com/stargazing/dont-miss-the-crescent-moon-shine-close-to-the-red-light-of-mars-before-dawn-aug-9-2026",
+      "score": 54,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "bd3cbd220c951e9752d1",
+      "category": "space",
+      "publishedAt": "2026-08-08T14:00:00.000Z",
+      "dateET": "2026-08-08",
+      "source": "Space.com",
+      "title": "On this day in space! Aug. 8, 1977: Soviet Union's Salyut 5 reconnaissance space station burns up in Earth's atmosphere",
+      "titleZh": "就在这一天，在太空中！ 1977年8月8日：苏联礼炮5号侦察空间站在地球大气层中燃烧",
+      "url": "https://www.space.com/space-exploration/on-this-day-in-space-august-8-2026",
+      "score": 50,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "e657013cecc540351fb2",
+      "category": "ai",
+      "publishedAt": "2026-08-08T13:50:27.980Z",
+      "dateET": "2026-08-08",
+      "source": "Reuters Technology",
+      "title": "OpenAI flags possible critical cybersecurity risk in upcoming model, tightens controls",
+      "titleZh": "OpenAI在即将推出的模型中标记可能存在的重大网络安全风险，加强控制",
+      "url": "https://www.reuters.com/legal/litigation/openai-flags-possible-critical-cybersecurity-risk-upcoming-model-tightens-2026-08-07/",
+      "score": 59,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "1f8948a085b2086f2453",
+      "category": "ai",
+      "publishedAt": "2026-08-08T12:35:45.577Z",
+      "dateET": "2026-08-08",
+      "source": "Reuters Technology",
+      "title": "Apple says Mac users in China can connect to Alibaba's Qwen AI service",
+      "titleZh": "苹果表示，中国的Mac用户可以连接到阿里巴巴的Qwen AI服务",
+      "url": "https://www.reuters.com/business/retail-consumer/apple-says-mac-users-china-can-connect-alibabas-qwen-ai-service-2026-08-08/",
+      "score": 54,
+      "translationStatus": "complete"
+    },
     {
       "id": "0325068e1eef2b308928",
       "category": "ai",
