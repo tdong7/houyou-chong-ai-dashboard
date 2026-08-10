@@ -1,7 +1,67 @@
 {
-  "updatedAt": "2026-08-09T14:38:19.810Z",
+  "updatedAt": "2026-08-10T15:02:23.791Z",
   "timezone": "America/New_York",
   "stories": [
+    {
+      "id": "e262a06e5e69a1d6ba99",
+      "category": "ai",
+      "publishedAt": "2026-08-10T14:00:00.000Z",
+      "dateET": "2026-08-10",
+      "source": "OpenAI News",
+      "title": "OpenAI’s letter to Governor Abbott on responsible AI infrastructure in Texas",
+      "titleZh": "OpenAI致州长Abbott关于德克萨斯州负责任的人工智能基础设施的信",
+      "url": "https://openai.com/index/responsible-ai-infrastructure-texas",
+      "score": 55,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "1d13ce0d606a7339d181",
+      "category": "space",
+      "publishedAt": "2026-08-10T14:00:00.000Z",
+      "dateET": "2026-08-10",
+      "source": "Space.com",
+      "title": "Sharpest image of the sun ever captured! | Space photo of the day for Aug. 10, 2026",
+      "titleZh": "有史以来拍摄的最清晰的太阳图像！ | 2026年8月10日当天的太空照片",
+      "url": "https://www.space.com/astronomy/sun/sharpest-image-of-the-sun-ever-captured-space-photo-of-the-day-for-aug-10-2026",
+      "score": 50,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "b7c3ab4ce58c656da67f",
+      "category": "ai",
+      "publishedAt": "2026-08-10T13:00:33.000Z",
+      "dateET": "2026-08-10",
+      "source": "The Information",
+      "title": "Microsoft’s Homegrown AI Chip Effort Shows Signs of Life After Slow Start",
+      "titleZh": "微软自主研发的人工智能芯片在缓慢启动后显示出生命迹象",
+      "url": "https://www.theinformation.com/articles/microsofts-homegrown-ai-chip-effort-shows-signs-life-slow-start",
+      "score": 56,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "d49f3c3348de3e0d9c9a",
+      "category": "space",
+      "publishedAt": "2026-08-10T13:00:00.000Z",
+      "dateET": "2026-08-10",
+      "source": "Space.com",
+      "title": "Watch Japanese H3 rocket launch 10,800-pound navigation satellite to orbit today",
+      "titleZh": "观看日本H3火箭今天发射10,800磅重的导航卫星进入轨道",
+      "url": "https://www.space.com/space-exploration/launches-spacecraft/japan-h3-rocket-launch-navigation-satellite-michibiki-7",
+      "score": 61,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "aec92827f4c2e0e1ab28",
+      "category": "ai",
+      "publishedAt": "2026-08-10T12:00:00.000Z",
+      "dateET": "2026-08-10",
+      "source": "OpenAI News",
+      "title": "Model ML completes finance work more efficiently with GPT-5.6 Sol",
+      "titleZh": "Model ML使用GPT-5.6 SOL更高效地完成财务工作",
+      "url": "https://openai.com/index/model-ml",
+      "score": 49,
+      "translationStatus": "complete"
+    },
     {
       "id": "6a986a800252a53c3ab8",
       "category": "space",
