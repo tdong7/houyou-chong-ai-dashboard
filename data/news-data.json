@@ -1,7 +1,67 @@
 {
-  "updatedAt": "2026-08-10T15:02:23.791Z",
+  "updatedAt": "2026-08-11T15:01:32.323Z",
   "timezone": "America/New_York",
   "stories": [
+    {
+      "id": "e81518bc275301a6a39c",
+      "category": "ai",
+      "publishedAt": "2026-08-11T14:38:21.334Z",
+      "dateET": "2026-08-11",
+      "source": "Reuters Technology",
+      "title": "French press body asks competition watchdog to take action over Google AI",
+      "titleZh": "法国媒体机构要求竞争监管机构对谷歌人工智能采取行动",
+      "url": "https://www.reuters.com/world/french-media-asks-french-anti-trust-watchdog-act-googles-ai-2026-08-11/",
+      "score": 56,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "75fd52753c968f933c2d",
+      "category": "space",
+      "publishedAt": "2026-08-11T14:00:00.000Z",
+      "dateET": "2026-08-11",
+      "source": "Space.com",
+      "title": "On this day in space! Aug. 11, 1960: 1st object successfully recovered from orbit",
+      "titleZh": "就在这一天，在太空中！ 1960年8月11日：第一个物体成功从轨道上回收",
+      "url": "https://www.space.com/space-exploration/aug-11-1960-1st-object-successfully-recovered-from-orbit",
+      "score": 54,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "381f6ece2421965f0b45",
+      "category": "ai",
+      "publishedAt": "2026-08-11T13:00:59.000Z",
+      "dateET": "2026-08-11",
+      "source": "The Information",
+      "title": "Why Nvidia Is Trying To Develop The World’s Best Open-Source AI Models",
+      "titleZh": "英伟达为什么要开发世界上最好的开源人工智能模型",
+      "url": "https://www.theinformation.com/articles/nvidia-trying-develop-worlds-best-open-source-ai-models",
+      "score": 52,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "958a33587d7c77aa76c4",
+      "category": "space",
+      "publishedAt": "2026-08-11T13:00:00.000Z",
+      "dateET": "2026-08-11",
+      "source": "Space.com",
+      "title": "SpaceX wants to put 1 million AI satellites in orbit. What would that do to Earth's climate?",
+      "titleZh": "SpaceX希望将100万颗人工智能卫星送入轨道。这对地球的气候有什么影响？",
+      "url": "https://www.space.com/space-exploration/launches-spacecraft/spacex-wants-to-put-1-million-ai-satellites-in-orbit-what-would-that-do-to-earths-climate",
+      "score": 53,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "33eb61b67e2833541014",
+      "category": "ai",
+      "publishedAt": "2026-08-11T08:44:05.000Z",
+      "dateET": "2026-08-11",
+      "source": "The Information",
+      "title": "Meta to Open-Source Flagship Muse Spark 1.2 Model",
+      "titleZh": "元到开源旗舰Muse Spark 1.2型号",
+      "url": "https://www.theinformation.com/briefings/meta-open-source-flagship-muse-spark-1-2-model",
+      "score": 48,
+      "translationStatus": "complete"
+    },
     {
       "id": "e262a06e5e69a1d6ba99",
       "category": "ai",
