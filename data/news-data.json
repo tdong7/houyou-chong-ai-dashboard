@@ -1,7 +1,55 @@
 {
-  "updatedAt": "2026-08-12T15:00:51.435Z",
+  "updatedAt": "2026-08-13T15:01:06.089Z",
   "timezone": "America/New_York",
   "stories": [
+    {
+      "id": "40c409315f552e713e77",
+      "category": "ai",
+      "publishedAt": "2026-08-13T14:47:30.333Z",
+      "dateET": "2026-08-13",
+      "source": "Reuters Technology",
+      "title": "Microsoft retreats in China, but AI boom helps it keep a window open",
+      "titleZh": "微软在中国撤退，但人工智能热潮有助于其保持窗口敞开",
+      "url": "https://www.reuters.com/world/china/microsoft-retreats-china-ai-boom-helps-it-keep-window-open-2026-08-13/",
+      "score": 56,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "3c58c0cbc3e73a657304",
+      "category": "ai",
+      "publishedAt": "2026-08-13T14:00:39.000Z",
+      "dateET": "2026-08-13",
+      "source": "The Information",
+      "title": "Why The AI Compute Crunch Is Hitting Neolabs Especially Hard",
+      "titleZh": "为什么人工智能计算紧缩对Neolabs的打击特别严重",
+      "url": "https://www.theinformation.com/articles/ai-compute-crunch-hitting-neolabs-especially-hard",
+      "score": 53,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "f7cb7125ca48dd2ee577",
+      "category": "space",
+      "publishedAt": "2026-08-13T14:00:00.000Z",
+      "dateET": "2026-08-13",
+      "source": "Space.com",
+      "title": "On this day in space! Aug. 13, 2014: Game-changing WorldView-3 Earth-observing satellite launches to orbit",
+      "titleZh": "就在这一天，在太空中！ 2014年8月13日：改变游戏规则的WorldView-3地球观测卫星发射到轨道",
+      "url": "https://www.space.com/space-exploration/on-this-day-in-space-aug-13-2014-game-changing-worldview-3-earth-observing-satellite-launches-to-orbit",
+      "score": 58,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "ccf4b1db8dcb874e5f85",
+      "category": "space",
+      "publishedAt": "2026-08-13T14:00:00.000Z",
+      "dateET": "2026-08-13",
+      "source": "Space.com",
+      "title": "Total solar eclipse stuns skywatchers | Space photo of the day for Aug. 13, 2026",
+      "titleZh": "日全食眩晕天空观察者| 2026年8月13日当天的太空照片",
+      "url": "https://www.space.com/stargazing/solar-eclipses/total-solar-eclipse-stuns-skywatchers-space-photo-of-the-day-for-aug-13-2026",
+      "score": 50,
+      "translationStatus": "complete"
+    },
     {
       "id": "562a9c3379f09da8bcca",
       "category": "ai",
@@ -9,10 +57,10 @@
       "dateET": "2026-08-12",
       "source": "Reuters Technology",
       "title": "Nebius powers past estimates as customers race to secure AI computing power",
-      "titleZh": "",
+      "titleZh": "随着客户竞相保护人工智能计算能力， Nebius为过去的估计提供了动力",
       "url": "https://www.reuters.com/technology/nebius-beats-quarterly-revenue-estimates-ai-demand-fuels-growth-2026-08-12/",
       "score": 56,
-      "translationStatus": "pending"
+      "translationStatus": "complete"
     },
     {
       "id": "fd2164cbf367630bae21",
@@ -21,10 +69,10 @@
       "dateET": "2026-08-12",
       "source": "Reuters Technology",
       "title": "AI code review platform CodeRabbit valued at $1.5 billion in latest funding round",
-      "titleZh": "",
+      "titleZh": "人工智能代码审查平台CodeRabbit在最新一轮融资中价值15亿美元$",
       "url": "https://www.reuters.com/technology/ai-code-review-platform-coderabbit-valued-15-billion-latest-funding-round-2026-08-12/",
       "score": 56,
-      "translationStatus": "pending"
+      "translationStatus": "complete"
     },
     {
       "id": "943544da596c0f4c332f",
@@ -33,10 +81,10 @@
       "dateET": "2026-08-12",
       "source": "The Information",
       "title": "Tencent’s Capex Nearly Triples on More Compute for AI Models and Tools",
-      "titleZh": "",
+      "titleZh": "腾讯的资本支出几乎是人工智能模型和工具计算量的三倍",
       "url": "https://www.theinformation.com/briefings/tencents-capex-nearly-triples-compute-ai-models-tools",
       "score": 54,
-      "translationStatus": "pending"
+      "translationStatus": "complete"
     },
     {
       "id": "d58ed4a8f92faa9c90e0",
@@ -45,10 +93,10 @@
       "dateET": "2026-08-12",
       "source": "Reuters Technology",
       "title": "Tencent Q2 revenue climbs 11% on AI-driven ad gains, but profit falls short",
-      "titleZh": "",
+      "titleZh": "腾讯第二季度收入在人工智能驱动的广告收益上攀升11% ，但利润不足",
       "url": "https://www.reuters.com/business/retail-consumer/chinas-tencent-posts-11-second-quarter-revenue-rise-profit-misses-estimates-2026-08-12/",
       "score": 55,
-      "translationStatus": "pending"
+      "translationStatus": "complete"
     },
     {
       "id": "25297fb889b3e0b9eb1d",
@@ -57,10 +105,10 @@
       "dateET": "2026-08-12",
       "source": "Reuters Technology",
       "title": "Spotify to slap 'AI Persona' badges on AI-generated artist profiles",
-      "titleZh": "",
+      "titleZh": "Spotify在人工智能生成的艺术家个人资料上贴上“人工智能角色”徽章",
       "url": "https://www.reuters.com/business/spotify-slap-ai-persona-badges-ai-generated-artist-profiles-2026-08-11/",
       "score": 55,
-      "translationStatus": "pending"
+      "translationStatus": "complete"
     },
     {
       "id": "1c5ebbd8626f0f19aa84",
@@ -69,10 +117,10 @@
       "dateET": "2026-08-12",
       "source": "Space.com",
       "title": "On this day in space! Aug. 12, 2005: Mars Reconnaissance Orbiter launched",
-      "titleZh": "",
+      "titleZh": "就在这一天，在太空中！ 2005年8月12日：火星侦察轨道器发射升空",
       "url": "https://www.space.com/space-exploration/missions/on-this-day-in-space-aug-12-2005-mars-reconnaissance-orbiter-launched",
       "score": 54,
-      "translationStatus": "pending"
+      "translationStatus": "complete"
     },
     {
       "id": "6f0493906281a9c4445c",
@@ -81,10 +129,10 @@
       "dateET": "2026-08-12",
       "source": "Space.com",
       "title": "SpaceX wraps Starlink double header day with the launch of 24 Starlink satellites from California",
-      "titleZh": "",
+      "titleZh": "SpaceX从加利福尼亚州发射了24颗Starlink卫星，将Starlink双标头日包裹起来",
       "url": "https://www.space.com/space-exploration/launches-spacecraft/spacex-starlink-group-17-49-b1103-asog",
       "score": 52,
-      "translationStatus": "pending"
+      "translationStatus": "complete"
     },
     {
       "id": "e81518bc275301a6a39c",
