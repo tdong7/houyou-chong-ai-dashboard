@@ -1,7 +1,55 @@
 {
-  "updatedAt": "2026-08-14T14:54:58.830Z",
+  "updatedAt": "2026-08-15T14:26:37.848Z",
   "timezone": "America/New_York",
   "stories": [
+    {
+      "id": "4ac163e1c89debfd1ced",
+      "category": "space",
+      "publishedAt": "2026-08-15T14:00:00.000Z",
+      "dateET": "2026-08-15",
+      "source": "Space.com",
+      "title": "On this day in space! Aug. 15, 1977: Mysterious 'Wow!' Signal boosts search for E.T.",
+      "titleZh": "就在这一天，在太空中！ 1977年8月15日：神秘的“哇！“信号提升了E.T.的搜索量。",
+      "url": "https://www.space.com/space-exploration/search-for-life/on-this-day-in-space-aug-15-1977-mysterious-wow-signal-boosts-search-for-e-t",
+      "score": 51,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "3b23318937e1214c5ea7",
+      "category": "ai",
+      "publishedAt": "2026-08-15T13:25:43.861Z",
+      "dateET": "2026-08-15",
+      "source": "Reuters Technology",
+      "title": "Jane Street took $15 billion hit in July tied to Situational Awareness, AI selloff, sources say",
+      "titleZh": "消息人士称， Jane Street在7月份遭受了150亿美元的打击，与情境意识、人工智能抛售有关",
+      "url": "https://www.reuters.com/business/finance/jane-street-took-15-billion-hit-july-tied-situational-awareness-sources-say-2026-08-14/",
+      "score": 55,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "dfc472c1731b3ee45fcf",
+      "category": "ai",
+      "publishedAt": "2026-08-15T13:23:38.839Z",
+      "dateET": "2026-08-15",
+      "source": "Reuters Technology",
+      "title": "Anthropic IPO valuation hinges on $190-200 billion 2028 revenue forecast, sources say",
+      "titleZh": "消息人士称，人性化IPO估值取决于2028年收入预测（ $ 1,900亿至2,000亿）",
+      "url": "https://www.reuters.com/business/anthropic-ipo-valuation-hinges-190-200-billion-2028-revenue-forecast-sources-say-2026-08-15/",
+      "score": 55,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "1894e604ce330257ce67",
+      "category": "space",
+      "publishedAt": "2026-08-15T12:08:27.000Z",
+      "dateET": "2026-08-15",
+      "source": "Space.com",
+      "title": "This Week In Space podcast: Episode 223 — The Lunar Domain",
+      "titleZh": "本周太空播客：第223集—月球领域",
+      "url": "https://www.space.com/entertainment/space-movies-shows/this-week-in-space-podcast-episode-223-the-lunar-domain",
+      "score": 49,
+      "translationStatus": "complete"
+    },
     {
       "id": "9fe9236d9fedb70fcae3",
       "category": "space",
@@ -9,10 +57,10 @@
       "dateET": "2026-08-14",
       "source": "Space.com",
       "title": "India-US space ties deepen as NASA invites ISRO to join moon base program",
-      "titleZh": "",
+      "titleZh": "随着美国宇航局邀请印度空间研究组织加入月球基地计划，印度与美国的太空关系加深",
       "url": "https://www.space.com/astronomy/moon/india-us-space-ties-deepen-as-nasa-invites-isro-to-join-moon-base-program",
       "score": 56,
-      "translationStatus": "pending"
+      "translationStatus": "complete"
     },
     {
       "id": "ab79a1871ac2db0ff2f4",
@@ -21,10 +69,10 @@
       "dateET": "2026-08-14",
       "source": "Space.com",
       "title": "SpaceX rocket's moon crash highlights 'a tangible operational risk' of lunar settlement",
-      "titleZh": "",
+      "titleZh": "SpaceX火箭的月球坠毁凸显了月球沉降的“实际操作风险”",
       "url": "https://www.space.com/astronomy/moon/spacex-rockets-moon-crash-highlights-a-tangible-operational-risk-of-lunar-settlement",
       "score": 54,
-      "translationStatus": "pending"
+      "translationStatus": "complete"
     },
     {
       "id": "6f51d3b2da8777913d19",
@@ -33,10 +81,10 @@
       "dateET": "2026-08-14",
       "source": "The Information",
       "title": "China’s Z.ai Touts New GLM-5.3 Model as Cyber Defense Tool",
-      "titleZh": "",
+      "titleZh": "中国的Z.ai推出新的GLM-5.3模型作为网络防御工具",
       "url": "https://www.theinformation.com/briefings/chinas-z-ai-touts-new-glm-5-3-model-cyber-defense-tool",
       "score": 53,
-      "translationStatus": "pending"
+      "translationStatus": "complete"
     },
     {
       "id": "40c409315f552e713e77",
