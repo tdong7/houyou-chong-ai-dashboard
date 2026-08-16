@@ -1,7 +1,43 @@
 {
-  "updatedAt": "2026-08-15T14:26:37.848Z",
+  "updatedAt": "2026-08-16T14:26:26.108Z",
   "timezone": "America/New_York",
   "stories": [
+    {
+      "id": "1b850e72803cf4aba717",
+      "category": "space",
+      "publishedAt": "2026-08-16T14:00:00.000Z",
+      "dateET": "2026-08-16",
+      "source": "Space.com",
+      "title": "On this day in space! Aug. 16, 1963: Wingless M2-F1 completes 1st glide flight",
+      "titleZh": "就在这一天，在太空中！ 1963年8月16日：无翼M2-F1完成首次滑翔飞行",
+      "url": "https://www.space.com/space-exploration/human-spaceflight/on-this-day-in-space-aug-16-1963-wingless-m2-f1-completes-1st-glide-flight",
+      "score": 51,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "dfc472c1731b3ee45fcf",
+      "category": "ai",
+      "publishedAt": "2026-08-16T12:23:27.220Z",
+      "dateET": "2026-08-16",
+      "source": "Reuters Technology",
+      "title": "Anthropic IPO valuation hinges on $190-200 billion 2028 revenue forecast, sources say",
+      "titleZh": "消息人士称，人性化IPO估值取决于2028年收入预测（ $ 1,900亿至2,000亿）",
+      "url": "https://www.reuters.com/business/anthropic-ipo-valuation-hinges-190-200-billion-2028-revenue-forecast-sources-say-2026-08-15/",
+      "score": 54,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "8931b5b82dded550a9ac",
+      "category": "space",
+      "publishedAt": "2026-08-16T10:00:00.000Z",
+      "dateET": "2026-08-16",
+      "source": "Space.com",
+      "title": "'This goes beyond showcasing technological soft power': China's new moon map signals bold space ambitions (video)",
+      "titleZh": "“这不仅仅是展示技术软实力” ：中国的新月地图标志着大胆的太空野心（视频）",
+      "url": "https://www.space.com/astronomy/moon/this-goes-beyond-showcasing-technological-soft-power-chinas-new-moon-map-signals-bold-space-ambitions-video",
+      "score": 51,
+      "translationStatus": "complete"
+    },
     {
       "id": "4ac163e1c89debfd1ced",
       "category": "space",
@@ -23,18 +59,6 @@
       "title": "Jane Street took $15 billion hit in July tied to Situational Awareness, AI selloff, sources say",
       "titleZh": "消息人士称， Jane Street在7月份遭受了150亿美元的打击，与情境意识、人工智能抛售有关",
       "url": "https://www.reuters.com/business/finance/jane-street-took-15-billion-hit-july-tied-situational-awareness-sources-say-2026-08-14/",
-      "score": 55,
-      "translationStatus": "complete"
-    },
-    {
-      "id": "dfc472c1731b3ee45fcf",
-      "category": "ai",
-      "publishedAt": "2026-08-15T13:23:38.839Z",
-      "dateET": "2026-08-15",
-      "source": "Reuters Technology",
-      "title": "Anthropic IPO valuation hinges on $190-200 billion 2028 revenue forecast, sources say",
-      "titleZh": "消息人士称，人性化IPO估值取决于2028年收入预测（ $ 1,900亿至2,000亿）",
-      "url": "https://www.reuters.com/business/anthropic-ipo-valuation-hinges-190-200-billion-2028-revenue-forecast-sources-say-2026-08-15/",
       "score": 55,
       "translationStatus": "complete"
     },
