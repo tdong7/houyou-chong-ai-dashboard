@@ -1,7 +1,67 @@
 {
-  "updatedAt": "2026-08-18T14:36:34.026Z",
+  "updatedAt": "2026-08-19T14:37:23.435Z",
   "timezone": "America/New_York",
   "stories": [
+    {
+      "id": "5ba9f6284aac3d84d3ea",
+      "category": "ai",
+      "publishedAt": "2026-08-19T14:01:03.000Z",
+      "dateET": "2026-08-19",
+      "source": "The Information",
+      "title": "OpenAI Raises the Safety Bar on Anthropic; Anthropic Expands Its Revenue Lead",
+      "titleZh": "OpenAI提高人性化的安全标准； Anthropic扩大其收入领先优势",
+      "url": "https://www.theinformation.com/articles/openai-raises-safety-bar-anthropic-anthropic-expands-revenue-lead",
+      "score": 57,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "8e0fa04fbc545f8df6b8",
+      "category": "space",
+      "publishedAt": "2026-08-19T14:00:00.000Z",
+      "dateET": "2026-08-19",
+      "source": "Space.com",
+      "title": "On this day in space! Aug. 19, 1997: 1st Filipino satellite launches into orbit",
+      "titleZh": "就在这一天，在太空中！ 1997年8月19日：第一颗菲律宾卫星发射入轨",
+      "url": "https://www.space.com/space-exploration/on-this-day-in-space-aug-19-1997-1st-filipino-satellite-launches-into-orbit",
+      "score": 58,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "0fac871c985e60313066",
+      "category": "space",
+      "publishedAt": "2026-08-19T14:00:00.000Z",
+      "dateET": "2026-08-19",
+      "source": "Space.com",
+      "title": "Perseverance rover watchs alien solar eclipse on Mars | Space photo of the day for Aug. 19, 2026",
+      "titleZh": "毅力漫游者观看火星上的外星日食| 2026年8月19日当天的太空照片",
+      "url": "https://www.space.com/astronomy/mars/perseverance-rover-watchs-alien-solar-eclipse-on-mars-space-photo-of-the-day-for-aug-19-2026",
+      "score": 54,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "a574bb70ac0318649cac",
+      "category": "ai",
+      "publishedAt": "2026-08-19T13:00:48.000Z",
+      "dateET": "2026-08-19",
+      "source": "The Information",
+      "title": "For AI Companies, Unanswered Questions About White House Model Testing Plan",
+      "titleZh": "对于人工智能公司，关于白宫模型测试计划的未解答问题",
+      "url": "https://www.theinformation.com/articles/ai-companies-unanswered-questions-white-house-model-testing-plan",
+      "score": 56,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "314637ccc6de00802c56",
+      "category": "ai",
+      "publishedAt": "2026-08-19T05:34:05.000Z",
+      "dateET": "2026-08-19",
+      "source": "The Information",
+      "title": "Pennsylvania Governor Hikes Requirements For Data Center Permits",
+      "titleZh": "宾夕法尼亚州州长提高数据中心许可要求",
+      "url": "https://www.theinformation.com/briefings/pennsylvania-governor-hikes-requirements-data-center-permits",
+      "score": 45,
+      "translationStatus": "complete"
+    },
     {
       "id": "8337da5c576c7587872b",
       "category": "ai",
