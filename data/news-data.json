@@ -1,7 +1,79 @@
 {
-  "updatedAt": "2026-08-19T14:37:23.435Z",
+  "updatedAt": "2026-08-20T14:39:44.403Z",
   "timezone": "America/New_York",
   "stories": [
+    {
+      "id": "66f72256850093b86073",
+      "category": "ai",
+      "publishedAt": "2026-08-20T14:31:09.172Z",
+      "dateET": "2026-08-20",
+      "source": "Reuters Technology",
+      "title": "Pharma sector doubles down on AI amid hopes of slashing costs, timelines",
+      "titleZh": "制药行业在人工智能方面加倍努力，希望削减成本，时间表",
+      "url": "https://www.reuters.com/business/healthcare-pharmaceuticals/pharma-sector-doubles-down-ai-amid-hopes-slashing-costs-timelines-2026-08-20/",
+      "score": 56,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "69f9ab57778e7dc92571",
+      "category": "space",
+      "publishedAt": "2026-08-20T14:00:00.000Z",
+      "dateET": "2026-08-20",
+      "source": "Space.com",
+      "title": "Try not to be hypnotized by the 'Eye of Africa' | Space photo of the day for Aug. 20, 2026",
+      "titleZh": "尽量不要被“非洲之眼”催眠| 2026年8月20日当天的太空照片",
+      "url": "https://www.space.com/astronomy/earth/try-not-to-be-hypnotized-by-the-eye-of-africa-space-photo-of-the-day-for-aug-20-2026",
+      "score": 50,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "99e6f03fd2bb52e37120",
+      "category": "space",
+      "publishedAt": "2026-08-20T14:00:00.000Z",
+      "dateET": "2026-08-20",
+      "source": "Space.com",
+      "title": "On this day in space! Aug. 20, 1977: Voyager 2 launches to the outer planets",
+      "titleZh": "就在这一天，在太空中！ 1977年8月20日：旅行者2号发射到外行星",
+      "url": "https://www.space.com/space-exploration/missions/on-this-day-in-space-aug-20-1977-voyager-2-launches-to-the-outer-planets",
+      "score": 50,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "8e0cf58adb22c7a8b5c1",
+      "category": "ai",
+      "publishedAt": "2026-08-20T13:54:11.000Z",
+      "dateET": "2026-08-20",
+      "source": "The Information",
+      "title": "Alibaba CEO Expects AI-Related ARR to Reach $10 Billion by September",
+      "titleZh": "阿里巴巴首席执行官预计9月份人工智能相关ARR将达到100亿美元$",
+      "url": "https://www.theinformation.com/briefings/alibaba-ceo-expects-ai-related-arr-reach-10-billion-september",
+      "score": 53,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "a7b039d04bbb7e7a7af7",
+      "category": "ai",
+      "publishedAt": "2026-08-20T13:05:42.000Z",
+      "dateET": "2026-08-20",
+      "source": "The Information",
+      "title": "Exclusive: UBS Hires JP Morgan Banker Su to Ramp Up AI Banking Efforts",
+      "titleZh": "独家：瑞银聘请摩根大通银行家Su加大人工智能银行工作力度",
+      "url": "https://www.theinformation.com/briefings/exclusive-ubs-hires-jp-morgan-banker-su-ramp-ai-banking-efforts",
+      "score": 52,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "8eca9b30095f75ff1e99",
+      "category": "ai",
+      "publishedAt": "2026-08-20T13:00:42.000Z",
+      "dateET": "2026-08-20",
+      "source": "The Information",
+      "title": "Anthropic’s Enterprise AI Venture Buys Consultancy",
+      "titleZh": "Anthropic的Enterprise AI Venture收购咨询公司",
+      "url": "https://www.theinformation.com/articles/anthropics-enterprise-ai-venture-buys-consultancy",
+      "score": 56,
+      "translationStatus": "complete"
+    },
     {
       "id": "5ba9f6284aac3d84d3ea",
       "category": "ai",
