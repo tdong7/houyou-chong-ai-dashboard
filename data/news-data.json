@@ -1,7 +1,31 @@
 {
-  "updatedAt": "2026-08-20T14:39:44.403Z",
+  "updatedAt": "2026-08-21T14:38:47.817Z",
   "timezone": "America/New_York",
   "stories": [
+    {
+      "id": "902649c319d0ebd3b150",
+      "category": "space",
+      "publishedAt": "2026-08-21T14:00:00.000Z",
+      "dateET": "2026-08-21",
+      "source": "Space.com",
+      "title": "Ancient stars dazzle in a celestial chandelier | Space photo of the day for Aug. 21, 2026",
+      "titleZh": "古老的星星在天体吊灯中闪耀| 2026年8月21日当天的太空照片",
+      "url": "https://www.space.com/astronomy/ancient-stars-dazzle-in-a-celestial-chandelier-space-photo-of-the-day-for-aug-21-2026",
+      "score": 50,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "7b7f3354e5e40df62413",
+      "category": "space",
+      "publishedAt": "2026-08-21T14:00:00.000Z",
+      "dateET": "2026-08-21",
+      "source": "Space.com",
+      "title": "On this day in space! Aug. 21, 1914: Total solar eclipse expedition crashed by WWI",
+      "titleZh": "就在这一天，在太空中！ 1914年8月21日：日全食探险队在第一次世界大战中坠毁",
+      "url": "https://www.space.com/stargazing/solar-eclipses/on-this-day-in-space-aug-21-1914-total-solar-eclipse-expedition-crashed-by-wwi",
+      "score": 50,
+      "translationStatus": "complete"
+    },
     {
       "id": "66f72256850093b86073",
       "category": "ai",
