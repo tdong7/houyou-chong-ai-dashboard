@@ -1,7 +1,43 @@
 {
-  "updatedAt": "2026-08-21T14:38:47.817Z",
+  "updatedAt": "2026-08-22T14:25:12.621Z",
   "timezone": "America/New_York",
   "stories": [
+    {
+      "id": "017c23a7444ef87878b4",
+      "category": "ai",
+      "publishedAt": "2026-08-22T14:17:10.000Z",
+      "dateET": "2026-08-22",
+      "source": "The Information",
+      "title": "No, AI Probably Won’t Cure Cancer Anytime Soon, Scientists Say",
+      "titleZh": "不，科学家说，人工智能可能不会很快治愈癌症",
+      "url": "https://www.theinformation.com/articles/ai-probably-cure-cancer-anytime-soon-scientists-say",
+      "score": 54,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "2ad88dab9052acc35416",
+      "category": "space",
+      "publishedAt": "2026-08-22T13:24:12.000Z",
+      "dateET": "2026-08-22",
+      "source": "Space.com",
+      "title": "This Week In Space podcast: Episode 224 — The Science of Artemis",
+      "titleZh": "本周太空播客：第224集—阿尔忒弥斯的科学",
+      "url": "https://www.space.com/entertainment/space-movies-shows/this-week-in-space-podcast-episode-224-the-science-of-artemis",
+      "score": 50,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "1b4000b5829b123437e6",
+      "category": "space",
+      "publishedAt": "2026-08-22T12:23:59.000Z",
+      "dateET": "2026-08-22",
+      "source": "Space.com",
+      "title": "SpaceX sends 27 Starlink satellites to orbit on 100th Falcon rocket launch of the year (photos)",
+      "titleZh": "SpaceX在今年的第100次猎鹰火箭发射中将27颗Starlink卫星送入轨道（照片）",
+      "url": "https://www.space.com/space-exploration/launches-spacecraft/spacex-starlink-satellite-launch-group-15-20",
+      "score": 61,
+      "translationStatus": "complete"
+    },
     {
       "id": "902649c319d0ebd3b150",
       "category": "space",
