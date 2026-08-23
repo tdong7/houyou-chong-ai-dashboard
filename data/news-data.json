@@ -1,7 +1,55 @@
 {
-  "updatedAt": "2026-08-22T14:25:12.621Z",
+  "updatedAt": "2026-08-23T14:26:56.871Z",
   "timezone": "America/New_York",
   "stories": [
+    {
+      "id": "386fd743aadbe755b40a",
+      "category": "space",
+      "publishedAt": "2026-08-23T13:54:11.000Z",
+      "dateET": "2026-08-23",
+      "source": "Space.com",
+      "title": "Bad weather delays launch of China's historic Chang'e 7 mission to moon's south pole",
+      "titleZh": "恶劣的天气推迟了中国历史悠久的嫦娥七号月球南极任务的发射",
+      "url": "https://www.space.com/space-exploration/launches-spacecraft/bad-weather-delays-launch-of-chinas-historic-change-7-mission-to-moons-south-pole",
+      "score": 54,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "ed54e3305d8c4b852921",
+      "category": "ai",
+      "publishedAt": "2026-08-23T13:46:30.036Z",
+      "dateET": "2026-08-23",
+      "source": "Reuters Technology",
+      "title": "Alibaba launches $10 billion Hong Kong share placement to fund AI spending",
+      "titleZh": "阿里巴巴推出100 $十亿港股配售，为人工智能支出提供资金",
+      "url": "https://www.reuters.com/business/retail-consumer/alibaba-proposes-hong-kong-share-placement-worth-10-billion-2026-08-23/",
+      "score": 55,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "6fa9388275462c700f5e",
+      "category": "ai",
+      "publishedAt": "2026-08-23T13:44:00.000Z",
+      "dateET": "2026-08-23",
+      "source": "The Information",
+      "title": "Alibaba Seeks to Raise $10 Billion in Share Sale to Fund AI Investments",
+      "titleZh": "阿里巴巴寻求筹集100亿美元的股票出售，为人工智能投资提供资金",
+      "url": "https://www.theinformation.com/briefings/alibaba-seeks-raise-10-billion-share-sale-fund-ai-investments",
+      "score": 53,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "92082ea6a2aa9ee4ea15",
+      "category": "space",
+      "publishedAt": "2026-08-23T12:00:00.000Z",
+      "dateET": "2026-08-23",
+      "source": "Space.com",
+      "title": "Launching 10,000 tiny 'femtosats' to Saturn? NASA funds 18 futuristic spaceflight ideas",
+      "titleZh": "向土星发射1万颗微型“飞天卫星” ？美国国家航空航天局资助18个未来主义太空飞行创意",
+      "url": "https://www.space.com/technology/launching-10-000-tiny-femtosats-to-saturn-nasa-funds-18-futuristic-spaceflight-ideas",
+      "score": 49,
+      "translationStatus": "complete"
+    },
     {
       "id": "017c23a7444ef87878b4",
       "category": "ai",
