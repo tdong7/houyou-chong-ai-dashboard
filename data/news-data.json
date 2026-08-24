@@ -1,7 +1,67 @@
 {
-  "updatedAt": "2026-08-23T14:26:56.871Z",
+  "updatedAt": "2026-08-24T14:46:37.929Z",
   "timezone": "America/New_York",
   "stories": [
+    {
+      "id": "f4cd44f2bbe57d8e989f",
+      "category": "ai",
+      "publishedAt": "2026-08-24T14:22:04.643Z",
+      "dateET": "2026-08-24",
+      "source": "Data Center World",
+      "title": "Data Centers Can Help Solve Grid Problems, Even As They Fuel Them",
+      "titleZh": "数据中心可以帮助解决电网问题，即使它们为电网问题提供动力",
+      "url": "https://datacenterworld.com/article/data-centers-can-help-solve-grid-problems-even-as-they-fuel-them/",
+      "score": 44,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "7c168171ed3ce0c84467",
+      "category": "space",
+      "publishedAt": "2026-08-24T14:00:00.000Z",
+      "dateET": "2026-08-24",
+      "source": "Space.com",
+      "title": "Satellite sees Greenland's most significant floating ice loss in over a decade | Space photo of the day for Aug. 24, 2026",
+      "titleZh": "卫星观测到格陵兰岛十多年来最严重的浮冰损失| 2026年8月24日当天的太空照片",
+      "url": "https://www.space.com/astronomy/earth/satellite-sees-greenlands-most-significant-floating-ice-loss-in-over-a-decade-space-photo-of-the-day-for-aug-24-2026",
+      "score": 54,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "163e11371b1d65a25aa6",
+      "category": "space",
+      "publishedAt": "2026-08-24T12:00:00.000Z",
+      "dateET": "2026-08-24",
+      "source": "Space.com",
+      "title": "Nancy Grace Roman Telescope live updates: NASA readies Roman for launch",
+      "titleZh": "Nancy Grace Roman望远镜实时更新： NASA为Roman的发射做好准备",
+      "url": "https://www.space.com/news/live/nancy-grace-roman-telescope-live-updates-nasa-readies-roman-for-launch-august-24-2026",
+      "score": 52,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "24229e2b8a142e25b34f",
+      "category": "ai",
+      "publishedAt": "2026-08-24T06:06:02.000Z",
+      "dateET": "2026-08-24",
+      "source": "The Information",
+      "title": "Nvidia to Raise Flagship AI Chip Prices 17%, Server Makers Say",
+      "titleZh": "服务器制造商表示，英伟达将把旗舰AI芯片价格提高17%",
+      "url": "https://www.theinformation.com/briefings/nvidia-raise-flagship-ai-chip-prices-17-server-makers-say",
+      "score": 49,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "b7d8179f7d4f3e833caf",
+      "category": "ai",
+      "publishedAt": "2026-08-24T06:03:06.000Z",
+      "dateET": "2026-08-24",
+      "source": "The Information",
+      "title": "Nvidia Invests in Data Center Power Firm, Preps Multibillion-Dollar Perplexity Deal",
+      "titleZh": "英伟达投资数据中心电力公司，准备数十亿美元的困惑交易",
+      "url": "https://www.theinformation.com/briefings/nvidia-invests-data-center-power-firm-preps-multibillion-dollar-perplexity-deal",
+      "score": 45,
+      "translationStatus": "complete"
+    },
     {
       "id": "386fd743aadbe755b40a",
       "category": "space",
