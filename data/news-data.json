@@ -1,7 +1,91 @@
 {
-  "updatedAt": "2026-08-24T14:46:37.929Z",
+  "updatedAt": "2026-08-25T14:50:15.620Z",
   "timezone": "America/New_York",
   "stories": [
+    {
+      "id": "8c59f0040234b4ed17ab",
+      "category": "ai",
+      "publishedAt": "2026-08-25T14:19:36.399Z",
+      "dateET": "2026-08-25",
+      "source": "Reuters Technology",
+      "title": "Google expands Gemini Enterprise AI platform for law firms, lawyers",
+      "titleZh": "谷歌为律师事务所和律师扩展Gemini Enterprise AI平台",
+      "url": "https://www.reuters.com/business/google-expands-gemini-ai-platform-law-firms-lawyers-2026-08-25/",
+      "score": 55,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "3899a73420c4390a8484",
+      "category": "ai",
+      "publishedAt": "2026-08-25T14:06:11.643Z",
+      "dateET": "2026-08-25",
+      "source": "Reuters Technology",
+      "title": "Emerald AI valued at $1.05 billion after Series A funding round",
+      "titleZh": "Emerald AI在A轮融资后估值10.5亿美元",
+      "url": "https://www.reuters.com/technology/emerald-ai-valued-105-billion-after-series-funding-round-2026-08-25/",
+      "score": 55,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "6be6de7102dc3335dbfe",
+      "category": "ai",
+      "publishedAt": "2026-08-25T14:04:12.829Z",
+      "dateET": "2026-08-25",
+      "source": "Reuters Technology",
+      "title": "Mexico's Primero raises $12 million seed to bring AI to Latin American blue-chips",
+      "titleZh": "墨西哥的Primero筹集了1200万$的种子，将人工智能带到拉丁美洲的蓝筹股",
+      "url": "https://www.reuters.com/world/americas/mexicos-primero-raises-12-million-seed-bring-ai-latin-american-blue-chips-2026-08-25/",
+      "score": 55,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "c5cdc6ebdd5833d1a056",
+      "category": "ai",
+      "publishedAt": "2026-08-25T14:00:36.000Z",
+      "dateET": "2026-08-25",
+      "source": "The Information",
+      "title": "A Video Subscription Site Gets a New Life From Licensing Videos to AI",
+      "titleZh": "视频订阅网站从授权视频到人工智能获得新生命",
+      "url": "https://www.theinformation.com/articles/video-subscription-site-gets-new-life-licensing-videos-ai",
+      "score": 53,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "927d982c0ae2f49d5783",
+      "category": "space",
+      "publishedAt": "2026-08-25T14:00:00.000Z",
+      "dateET": "2026-08-25",
+      "source": "Space.com",
+      "title": "On this day in space! Aug. 25, 1997: NASA launches Advanced Composition Explorer to track solar wind and so much more",
+      "titleZh": "就在这一天，在太空中！ 1997年8月25日：美国宇航局发射高级成分探测器，以跟踪太阳风等",
+      "url": "https://www.space.com/space-exploration/on-this-day-in-space-august-25-2026",
+      "score": 54,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "f2ab76178abf776b0b1a",
+      "category": "ai",
+      "publishedAt": "2026-08-25T13:04:49.000Z",
+      "dateET": "2026-08-25",
+      "source": "The Information",
+      "title": "ClickHouse’s Recurring Revenue Passes $350 Million as OpenAI, Agent Use Jumps",
+      "titleZh": "ClickHouse的经常性收入通过$ 3.5亿作为OpenAI ，代理使用跳跃",
+      "url": "https://www.theinformation.com/articles/clickhouses-annual-recurring-revenue-passes-350-million-ai-agent-demand",
+      "score": 52,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "c70b76425bacff83cb08",
+      "category": "space",
+      "publishedAt": "2026-08-25T12:00:00.000Z",
+      "dateET": "2026-08-25",
+      "source": "Space.com",
+      "title": "NASA satellites ace world's 1st 'lost-in-space' GPS-free navigation experiment",
+      "titleZh": "美国宇航局卫星王牌世界第一个“迷失太空”无GPS导航实验",
+      "url": "https://www.space.com/space-exploration/satellites/nasa-satellites-ace-worlds-1st-lost-in-space-gps-free-navigation-experiment",
+      "score": 52,
+      "translationStatus": "complete"
+    },
     {
       "id": "f4cd44f2bbe57d8e989f",
       "category": "ai",
