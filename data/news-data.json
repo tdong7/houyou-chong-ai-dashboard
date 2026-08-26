@@ -1,7 +1,79 @@
 {
-  "updatedAt": "2026-08-25T14:50:15.620Z",
+  "updatedAt": "2026-08-26T14:48:08.748Z",
   "timezone": "America/New_York",
   "stories": [
+    {
+      "id": "c928fa0616b5667f79a1",
+      "category": "ai",
+      "publishedAt": "2026-08-26T14:05:11.000Z",
+      "dateET": "2026-08-26",
+      "source": "The Information",
+      "title": "Chinese AI Firm MiniMax’s ARR Jumps to $800 Million",
+      "titleZh": "中国人工智能公司MiniMax的ARR跃升至8亿美元（ $ ）",
+      "url": "https://www.theinformation.com/briefings/chinese-ai-firm-minimaxs-arr-jumps-800-million",
+      "score": 53,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "dafde8011b684ee9859b",
+      "category": "ai",
+      "publishedAt": "2026-08-26T14:00:31.000Z",
+      "dateET": "2026-08-26",
+      "source": "The Information",
+      "title": "How Companies Are Using Old-School Software to Grade AI Agents",
+      "titleZh": "公司如何使用老式软件对人工智能代理进行评级",
+      "url": "https://www.theinformation.com/articles/companies-using-old-school-software-grade-ai-agents",
+      "score": 53,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "40277c079208f97e2a4a",
+      "category": "ai",
+      "publishedAt": "2026-08-26T13:58:55.000Z",
+      "dateET": "2026-08-26",
+      "source": "The Information",
+      "title": "Bill Gates Warns that AI Will Cause Mass Unemployment Without Intervention",
+      "titleZh": "比尔·盖茨警告说，人工智能将在没有干预的情况下造成大规模失业",
+      "url": "https://www.theinformation.com/briefings/bill-gates-warns-ai-will-cause-mass-unemployment-without-intervention",
+      "score": 53,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "7aa3dc95aced6b923450",
+      "category": "space",
+      "publishedAt": "2026-08-26T12:00:00.000Z",
+      "dateET": "2026-08-26",
+      "source": "Space.com",
+      "title": "SpaceX's final Falcon 9 Starlink launch from Florida creates gorgeous 'jellyfish' over New York City (video)",
+      "titleZh": "SpaceX最后一次从佛罗里达州发射的猎鹰9 Starlink在纽约市上空创造了华丽的“水母” （视频）",
+      "url": "https://www.space.com/space-exploration/launches-spacecraft/spacexs-final-falcon-9-starlink-launch-from-florida-creates-gorgeous-jellyfish-over-new-york-city-video",
+      "score": 52,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "46b92db6d06a03093b88",
+      "category": "space",
+      "publishedAt": "2026-08-26T11:04:35.000Z",
+      "dateET": "2026-08-26",
+      "source": "Space.com",
+      "title": "SpaceX sends Starlink satellites to orbit on predawn launch from California",
+      "titleZh": "SpaceX在黎明前从加利福尼亚发射时将Starlink卫星送入轨道",
+      "url": "https://www.space.com/space-exploration/launches-spacecraft/spacex-starlink--15-22-b1082-ocisly",
+      "score": 55,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "cf43f849c3e41674df28",
+      "category": "ai",
+      "publishedAt": "2026-08-26T04:29:59.000Z",
+      "dateET": "2026-08-26",
+      "source": "The Information",
+      "title": "OpenAI Says Its Jalapeño AI Chip Is Better Than Nvidia’s Blackwell",
+      "titleZh": "OpenAI称其Jalapeño AI芯片优于英伟达的Blackwell",
+      "url": "https://www.theinformation.com/briefings/openai-says-jalapeno-ai-chip-better-nvidias-blackwell",
+      "score": 52,
+      "translationStatus": "complete"
+    },
     {
       "id": "8c59f0040234b4ed17ab",
       "category": "ai",
