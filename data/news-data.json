@@ -1,7 +1,91 @@
 {
-  "updatedAt": "2026-08-27T23:40:12.753Z",
+  "updatedAt": "2026-08-28T23:28:45.653Z",
   "timezone": "America/New_York",
   "stories": [
+    {
+      "id": "79afba4cb5c951a4a723",
+      "category": "space",
+      "publishedAt": "2026-08-28T22:31:45.000Z",
+      "dateET": "2026-08-28",
+      "source": "Space.com",
+      "title": "What time will SpaceX launch NASA's Roman Space Telscope on Aug. 30? (Full mission timeline)",
+      "titleZh": "SpaceX将在8月30日什么时候发射NASA的罗马太空望远镜？ （完整任务时间表）",
+      "url": "https://www.space.com/space-exploration/launches-spacecraft/spacex-roman-space-telescope-falcon-heavy-launch-what-time",
+      "score": 62,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "66ec400ad5e9ee8a8402",
+      "category": "ai",
+      "publishedAt": "2026-08-28T15:10:14.551Z",
+      "dateET": "2026-08-28",
+      "source": "Data Center World",
+      "title": "2 Very Different Ways Data Center Supply Chains Can Go Wrong",
+      "titleZh": "数据中心供应链出错的2种截然不同的方式",
+      "url": "https://datacenterworld.com/article/2-very-different-ways-data-center-supply-chains-can-go-wrong/",
+      "score": 40,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "87e207158ba1eef08fb4",
+      "category": "space",
+      "publishedAt": "2026-08-28T15:00:00.000Z",
+      "dateET": "2026-08-28",
+      "source": "Space.com",
+      "title": "SpaceX Falcon Heavy rocket launching NASA's Roman Space Telescope on Aug. 30: How to watch it live",
+      "titleZh": "SpaceX猎鹰重型火箭于8月30日发射美国宇航局的罗马太空望远镜：如何观看现场直播",
+      "url": "https://www.space.com/space-exploration/launches-spacecraft/spacex-falcon-heavy-rocket-launching-nasas-roman-space-telescope-on-aug-30-how-to-watch-it-live",
+      "score": 55,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "e6965d4d036fdb8205d1",
+      "category": "ai",
+      "publishedAt": "2026-08-28T14:56:01.000Z",
+      "dateET": "2026-08-28",
+      "source": "The Information",
+      "title": "Notion Plans Hiring Binge as CEO Makes All-In Bet on AI",
+      "titleZh": "Notion计划聘请Binge担任首席执行官，对人工智能进行全押注",
+      "url": "https://www.theinformation.com/articles/notion-plans-hiring-binge-ceo-makes-bet-ai",
+      "score": 45,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "c2251d70799288070587",
+      "category": "ai",
+      "publishedAt": "2026-08-28T13:00:45.000Z",
+      "dateET": "2026-08-28",
+      "source": "The Information",
+      "title": "Trump Administration Working on AI Rule to Curb China’s Remote Access to Chips",
+      "titleZh": "特朗普政府致力于人工智能规则，以遏制中国对芯片的远程访问",
+      "url": "https://www.theinformation.com/articles/trump-administration-working-ai-rule-curb-chinas-remote-access-chips",
+      "score": 44,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "c891ee33717ed2a02fcc",
+      "category": "ai",
+      "publishedAt": "2026-08-28T10:31:41.000Z",
+      "dateET": "2026-08-28",
+      "source": "The Information",
+      "title": "Tencent’s New Flagship AI Model Shows Major Progress",
+      "titleZh": "腾讯新旗舰AI车型呈现重大进展",
+      "url": "https://www.theinformation.com/briefings/tencents-new-flagship-ai-model-shows-major-progress",
+      "score": 45,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "a969c652732b83fd57be",
+      "category": "ai",
+      "publishedAt": "2026-08-28T09:44:54.000Z",
+      "dateET": "2026-08-28",
+      "source": "The Information",
+      "title": "Z.ai’s Latest Model Intensifies Competition for Low-Cost Offerings",
+      "titleZh": "Z.ai的最新车型加剧了对低成本产品的竞争",
+      "url": "https://www.theinformation.com/briefings/z-ais-latest-model-intensifies-competition-low-cost-offerings",
+      "score": 44,
+      "translationStatus": "complete"
+    },
     {
       "id": "0f65cd5068c5a3695f29",
       "category": "ai",
