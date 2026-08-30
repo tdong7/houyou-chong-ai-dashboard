@@ -1,7 +1,55 @@
 {
-  "updatedAt": "2026-08-29T17:35:22.611Z",
+  "updatedAt": "2026-08-30T17:58:59.799Z",
   "timezone": "America/New_York",
   "stories": [
+    {
+      "id": "671e99c70858409ecf9e",
+      "category": "ai",
+      "publishedAt": "2026-08-30T15:00:43.000Z",
+      "dateET": "2026-08-30",
+      "source": "The Information",
+      "title": "How Salesforce Is Overhauling the Way It Charges for AI",
+      "titleZh": "Salesforce如何彻底改变人工智能收费方式",
+      "url": "https://www.theinformation.com/articles/salesforce-overhauling-way-charges-ai",
+      "score": 51,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "f2e6afc92262258d1b97",
+      "category": "space",
+      "publishedAt": "2026-08-30T14:51:12.000Z",
+      "dateET": "2026-08-30",
+      "source": "Space.com",
+      "title": "On this day in space! Aug. 30, 1992: Astronomers discover 1st Kuiper Belt object out beyond Pluto",
+      "titleZh": "就在这一天，在太空中！ 1992年8月30日：天文学家在冥王星之外发现了第一个柯伊伯带物体",
+      "url": "https://www.space.com/space-exploration/on-this-day-in-space-august-30-2026",
+      "score": 48,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "81decceb61718eca7b18",
+      "category": "ai",
+      "publishedAt": "2026-08-30T14:00:42.000Z",
+      "dateET": "2026-08-30",
+      "source": "The Information",
+      "title": "How Apple Stumbled Into AI Hardware Success With the Mac",
+      "titleZh": "苹果如何在Mac上取得人工智能硬件的成功",
+      "url": "https://www.theinformation.com/articles/apple-stumbled-ai-hardware-success-mac",
+      "score": 50,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "434c9b5ef1ee47b5066e",
+      "category": "space",
+      "publishedAt": "2026-08-30T12:56:57.000Z",
+      "dateET": "2026-08-30",
+      "source": "Space.com",
+      "title": "Liftoff! NASA's Roman Space Telescope soars to the stars on a SpaceX Falcon Heavy rocket in spectacular launch (video)",
+      "titleZh": "升空！美国宇航局的罗马太空望远镜在SpaceX猎鹰重型火箭上翱翔，发射壮观（视频）",
+      "url": "https://www.space.com/space-exploration/launches-spacecraft/nasa-roman-space-telescope-launch-success-on-a-spacex-falcon-heavy-rocket-spectacular-launch-video",
+      "score": 62,
+      "translationStatus": "complete"
+    },
     {
       "id": "5df5920023c093752e23",
       "category": "space",
