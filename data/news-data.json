@@ -1,7 +1,91 @@
 {
-  "updatedAt": "2026-08-30T17:58:59.799Z",
+  "updatedAt": "2026-08-31T19:52:46.489Z",
   "timezone": "America/New_York",
   "stories": [
+    {
+      "id": "81f60b94c192b6b2dfb9",
+      "category": "space",
+      "publishedAt": "2026-08-31T19:48:16.000Z",
+      "dateET": "2026-08-31",
+      "source": "Space.com",
+      "title": "'No guts, no glory': How I captured NASA's Roman Space Telescope cross the sun on a picture-perfect SpaceX Falcon Heavy launch",
+      "titleZh": "“没有胆量，就没有荣耀” ：我如何在一次完美的SpaceX猎鹰重型火箭发射中捕捉到美国宇航局的罗马太空望远镜穿越太阳",
+      "url": "https://www.space.com/space-exploration/launches-spacecraft/no-guts-no-glory-how-i-captured-nasas-roman-space-telescope-cross-the-sun-on-a-picture-perfect-spacex-falcon-heavy-launch",
+      "score": 63,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "041b89fac9c00d16348d",
+      "category": "ai",
+      "publishedAt": "2026-08-31T19:46:37.047Z",
+      "dateET": "2026-08-31",
+      "source": "Reuters Technology",
+      "title": "At Jackson Hole, global central bankers glimpse dystopian AI future",
+      "titleZh": "在杰克逊霍尔，全球央行行长们瞥见了反乌托邦的人工智能未来",
+      "url": "https://www.reuters.com/business/finance/jackson-hole-global-central-bankers-glimpse-dystopian-ai-future-2026-08-31/",
+      "score": 56,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "4ba63b8adff6dc97049d",
+      "category": "ai",
+      "publishedAt": "2026-08-31T19:17:44.696Z",
+      "dateET": "2026-08-31",
+      "source": "Reuters Technology",
+      "title": "Mississippi asks appeals court to reassign judge over 'error-plagued' AI-assisted ruling",
+      "titleZh": "密西西比州要求上诉法院就“错误困扰”的人工智能辅助裁决重新分配法官",
+      "url": "https://www.reuters.com/legal/government/mississippi-asks-appeals-court-reassign-judge-over-error-plagued-ai-assisted-2026-08-31/",
+      "score": 55,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "04112aab73f320c0d1c5",
+      "category": "ai",
+      "publishedAt": "2026-08-31T15:21:36.000Z",
+      "dateET": "2026-08-31",
+      "source": "The Information",
+      "title": "OpenAI’s Advertising Business Hits $1 Billion Annualized Revenue Run Rate",
+      "titleZh": "OpenAI的广告业务达到10亿美元的年化收入运行率（ $ 1 Billion Annualized Revenue Run Rate ）",
+      "url": "https://www.theinformation.com/briefings/openais-advertising-business-hits-1-billion-annualized-revenue-run-rate",
+      "score": 49,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "ecaa67cb46057d58d1f4",
+      "category": "space",
+      "publishedAt": "2026-08-31T15:00:00.000Z",
+      "dateET": "2026-08-31",
+      "source": "Space.com",
+      "title": "SpaceX, NASA delay next astronaut launch to ISS due to leak on Dragon spacecraft",
+      "titleZh": "由于Dragon航天器泄漏， SpaceX ， NASA推迟了下一次宇航员发射到国际空间站",
+      "url": "https://www.space.com/space-exploration/launches-spacecraft/spacex-nasa-delay-next-astronaut-launch-to-iss-due-to-leak-on-dragon-spacecraft",
+      "score": 54,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "1664bc7c1c36cca9d023",
+      "category": "ai",
+      "publishedAt": "2026-08-31T14:37:14.440Z",
+      "dateET": "2026-08-31",
+      "source": "Data Center World",
+      "title": "Data Center Digest: Anthropic's $45 Billion Nscale Deal, Nvidia's Record Quarter, and Australia's Buildout",
+      "titleZh": "数据中心文摘： Anthropic 450亿美元的Nscale交易、Nvidia创纪录的季度和澳大利亚的扩建",
+      "url": "https://datacenterworld.com/article/data-center-digest-anthropics-45-billion-nscale-deal-nvidias-record-quarter-and-australias-buildout/",
+      "score": 47,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "67453d0901065ee90813",
+      "category": "ai",
+      "publishedAt": "2026-08-31T04:52:46.000Z",
+      "dateET": "2026-08-31",
+      "source": "The Information",
+      "title": "OpenAI Starts Letting Some Customers Pay Only When the AI Works",
+      "titleZh": "OpenAI开始让一些客户仅在人工智能工作时付款",
+      "url": "https://www.theinformation.com/briefings/openai-starts-letting-customers-pay-ai-works",
+      "score": 43,
+      "translationStatus": "complete"
+    },
     {
       "id": "671e99c70858409ecf9e",
       "category": "ai",
