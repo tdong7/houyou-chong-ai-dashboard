@@ -1,7 +1,91 @@
 {
-  "updatedAt": "2026-08-31T19:52:46.489Z",
+  "updatedAt": "2026-09-01T17:42:56.675Z",
   "timezone": "America/New_York",
   "stories": [
+    {
+      "id": "1b4fc7a29d49aee7fb3c",
+      "category": "space",
+      "publishedAt": "2026-09-01T17:15:03.000Z",
+      "dateET": "2026-09-01",
+      "source": "Space.com",
+      "title": "On this day in space! Sept. 1, 1979: NASA's Pioneer 11 probe becomes 1st spacecraft to visit Saturn",
+      "titleZh": "就在这一天，在太空中！ 1979年9月1日：美国宇航局的先锋11号探测器成为首艘访问土星的航天器",
+      "url": "https://www.space.com/space-exploration/on-this-day-in-space-september-1-2026",
+      "score": 55,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "bb53977a99b0cd778349",
+      "category": "ai",
+      "publishedAt": "2026-09-01T17:00:00.000Z",
+      "dateET": "2026-09-01",
+      "source": "OpenAI News",
+      "title": "How AI-native companies turn workflows into operating capability",
+      "titleZh": "人工智能原生公司如何将工作流程转化为运营能力",
+      "url": "https://openai.com/index/ai-native-company-workflows",
+      "score": 51,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "28745aeb0e2c7250f73b",
+      "category": "space",
+      "publishedAt": "2026-09-01T16:00:00.000Z",
+      "dateET": "2026-09-01",
+      "source": "Space.com",
+      "title": "NASA's Roman Space Telescope is just one of a few missions named after real-life women",
+      "titleZh": "美国宇航局的罗马太空望远镜只是以现实生活中的女性命名的少数任务之一",
+      "url": "https://www.space.com/space-exploration/missions/nasas-roman-space-telescope-is-just-one-of-a-few-missions-named-after-real-life-women",
+      "score": 53,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "bc484e2fb1cfd6d6e386",
+      "category": "ai",
+      "publishedAt": "2026-09-01T14:45:21.000Z",
+      "dateET": "2026-09-01",
+      "source": "The Information",
+      "title": "SpaceX Shakes Up Data Center Leadership After Aggressive Build-Out",
+      "titleZh": "SpaceX在积极扩建后改变了数据中心的领导地位",
+      "url": "https://www.theinformation.com/articles/spacex-shakes-data-center-leadership-aggressive-build",
+      "score": 51,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "265857e8a479204de4b1",
+      "category": "ai",
+      "publishedAt": "2026-09-01T14:01:09.000Z",
+      "dateET": "2026-09-01",
+      "source": "The Information",
+      "title": "Wafer, An Inference Provider That Uses Non-Nvidia Chips, Lands Acquisition Offers and $200 Million-Plus Valuation",
+      "titleZh": "Wafer ，一家使用非Nvidia芯片、土地收购要约和2亿美元估值的推断提供商",
+      "url": "https://www.theinformation.com/articles/wafer-inference-provider-uses-non-nvidia-chips-lands-acquisition-offers-200-million-plus-valuation",
+      "score": 50,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "950488b41b25661b13a0",
+      "category": "ai",
+      "publishedAt": "2026-09-01T12:00:00.000Z",
+      "dateET": "2026-09-01",
+      "source": "OpenAI News",
+      "title": "Healthcare organizations can now connect EHR and additional industry data to ChatGPT",
+      "titleZh": "医疗机构现在可以将EHR和其他行业数据连接到ChatGPT",
+      "url": "https://openai.com/index/chatgpt-connects-health-records-and-healthcare-sources",
+      "score": 42,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "3f65d3f0554f5aea0db7",
+      "category": "ai",
+      "publishedAt": "2026-09-01T07:28:23.000Z",
+      "dateET": "2026-09-01",
+      "source": "The Information",
+      "title": "Chinese AI Model Firm Z.ai’s API Sales Surge in First Half",
+      "titleZh": "中国人工智能模型公司Z.ai上半年API销量激增",
+      "url": "https://www.theinformation.com/briefings/chinese-ai-model-firm-z-ais-api-sales-surge-first-half",
+      "score": 48,
+      "translationStatus": "complete"
+    },
     {
       "id": "81f60b94c192b6b2dfb9",
       "category": "space",
