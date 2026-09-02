@@ -1,7 +1,91 @@
 {
-  "updatedAt": "2026-09-01T17:42:56.675Z",
+  "updatedAt": "2026-09-02T17:45:11.831Z",
   "timezone": "America/New_York",
   "stories": [
+    {
+      "id": "d84ee410b35fc2835a1d",
+      "category": "ai",
+      "publishedAt": "2026-09-02T17:16:53.576Z",
+      "dateET": "2026-09-02",
+      "source": "Reuters Technology",
+      "title": "US government backs OpenAI in New York Times copyright case",
+      "titleZh": "美国政府在《纽约时报》版权案中支持OpenAI",
+      "url": "https://www.reuters.com/legal/litigation/us-government-backs-openai-new-york-times-copyright-case-2026-09-02/",
+      "score": 56,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "a45ad4da43fc65331af9",
+      "category": "ai",
+      "publishedAt": "2026-09-02T17:15:38.972Z",
+      "dateET": "2026-09-02",
+      "source": "Reuters Technology",
+      "title": "US Commerce chief says Anthropic back on 'right side' with Trump, Axios reports",
+      "titleZh": "据Axios报道，美国商务部长表示， Anthropic与特朗普重新站在“右边”",
+      "url": "https://www.reuters.com/world/anthropic-back-right-side-with-trump-administration-us-commerce-secretary-says-2026-09-02/",
+      "score": 56,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "6b5dd7f09940ef32ecd2",
+      "category": "space",
+      "publishedAt": "2026-09-02T17:00:00.000Z",
+      "dateET": "2026-09-02",
+      "source": "Space.com",
+      "title": "Blue Origin wins $700 million contract to build NASA's next Mars orbiter",
+      "titleZh": "蓝色起源赢得7亿美元合同，建造美国宇航局的下一个火星轨道器",
+      "url": "https://www.space.com/space-exploration/missions/blue-origin-wins-usd700-million-contract-to-build-nasas-next-mars-orbiter",
+      "score": 54,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "ab904bd3a503369565bf",
+      "category": "ai",
+      "publishedAt": "2026-09-02T16:45:47.182Z",
+      "dateET": "2026-09-02",
+      "source": "Reuters Technology",
+      "title": "Vertiv to buy Utility Innovation Group for up to $2.6 billion in data center push",
+      "titleZh": "Vertiv以高达26亿美元的价格收购Utility Innovation Group",
+      "url": "https://www.reuters.com/legal/transactional/vertiv-strikes-145-billion-deal-microgrid-firm-utility-innovation-group-2026-09-02/",
+      "score": 55,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "ceaad3e48024aa71fdf7",
+      "category": "ai",
+      "publishedAt": "2026-09-02T14:42:15.000Z",
+      "dateET": "2026-09-02",
+      "source": "The Information",
+      "title": "Anthropic Leader Praises President Trump’s Data Center Stance at G20 Meeting",
+      "titleZh": "人类学领导人在G20会议上赞扬特朗普总统的数据中心立场",
+      "url": "https://www.theinformation.com/briefings/anthropic-leader-praises-president-trumps-data-center-stance-g20-meeting",
+      "score": 55,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "bd7e77c4fd00399c3860",
+      "category": "ai",
+      "publishedAt": "2026-09-02T14:01:01.000Z",
+      "dateET": "2026-09-02",
+      "source": "The Information",
+      "title": "New Reasoning Strategies Sweep Through OpenAI, Other Developers",
+      "titleZh": "新的推理策略席卷OpenAI ，其他开发人员",
+      "url": "https://www.theinformation.com/articles/new-reasoning-strategies-sweep-openai-developers",
+      "score": 50,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "732eb1aab1972c3982ad",
+      "category": "space",
+      "publishedAt": "2026-09-02T11:24:21.000Z",
+      "dateET": "2026-09-02",
+      "source": "Space.com",
+      "title": "SpaceX Falcon 9 rocket launches Starlink satellites to orbit on its 35th flight",
+      "titleZh": "SpaceX猎鹰9号火箭第35次发射Starlink卫星进入轨道",
+      "url": "https://www.space.com/space-exploration/launches-spacecraft/spacex-falcon-9-starlink-group-15-23-launch-ocisly",
+      "score": 53,
+      "translationStatus": "complete"
+    },
     {
       "id": "1b4fc7a29d49aee7fb3c",
       "category": "space",
