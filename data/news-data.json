@@ -1,7 +1,79 @@
 {
-  "updatedAt": "2026-09-02T17:45:11.831Z",
+  "updatedAt": "2026-09-03T17:40:31.414Z",
   "timezone": "America/New_York",
   "stories": [
+    {
+      "id": "5c3e67de92ac3b7d34ca",
+      "category": "ai",
+      "publishedAt": "2026-09-03T17:33:02.997Z",
+      "dateET": "2026-09-03",
+      "source": "Reuters Technology",
+      "title": "Nvidia sets October launch for RTX Spark AI PCs",
+      "titleZh": "英伟达将于10月推出RTX Spark AI PC",
+      "url": "https://www.reuters.com/world/china/nvidia-sets-october-launch-rtx-spark-ai-pcs-2026-09-03/",
+      "score": 56,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "649fe7ea7f9b3686d8e3",
+      "category": "ai",
+      "publishedAt": "2026-09-03T17:28:18.376Z",
+      "dateET": "2026-09-03",
+      "source": "Reuters Technology",
+      "title": "Nvidia bets $13 billion on open AI models with Hugging Face deal",
+      "titleZh": "Nvidia通过Hugging Face交易在开放式人工智能模型上下注130亿美元",
+      "url": "https://www.reuters.com/business/nvidia-buy-hugging-face-nearly-13-billion-big-bet-open-ai-models-2026-09-03/",
+      "score": 56,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "386d1f1c6af306e8cad8",
+      "category": "ai",
+      "publishedAt": "2026-09-03T17:00:49.000Z",
+      "dateET": "2026-09-03",
+      "source": "The Information",
+      "title": "What Anthropic's IPO Investors Want to Know",
+      "titleZh": "Anthropic的IPO投资者想知道什么",
+      "url": "https://www.theinformation.com/articles/anthropics-ipo-investors-want-know",
+      "score": 53,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "88429c22a20d2b753bd4",
+      "category": "space",
+      "publishedAt": "2026-09-03T17:00:00.000Z",
+      "dateET": "2026-09-03",
+      "source": "Space.com",
+      "title": "'Strange New Worlds'' latest episode is a soap opera spoof, but hasn't 'Star Trek' always been a soap opera in space?",
+      "titleZh": "《奇异新世界》的最新一集是肥皂剧恶搞，但《星际迷航》不是一直都是太空中的肥皂剧吗？",
+      "url": "https://www.space.com/entertainment/space-movies-shows/strange-new-worlds-latest-episode-is-a-soap-opera-spoof-but-hasnt-star-trek-always-been-a-soap-opera-in-space-anyway",
+      "score": 50,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "24b1fa9c288e72c2c878",
+      "category": "space",
+      "publishedAt": "2026-09-03T14:00:00.000Z",
+      "dateET": "2026-09-03",
+      "source": "Space.com",
+      "title": "On this day in space! Sept. 3, 2006: Europe's SMART-1 spacecraft crashes into the moon in lunar death dive",
+      "titleZh": "就在这一天，在太空中！ 2006年9月3日：欧洲的SMART-1航天器在月球死亡潜水中坠入月球",
+      "url": "https://www.space.com/space-exploration/on-this-day-in-space-september-3-2026",
+      "score": 51,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "782af49ec78c3050279e",
+      "category": "ai",
+      "publishedAt": "2026-09-03T13:00:52.000Z",
+      "dateET": "2026-09-03",
+      "source": "The Information",
+      "title": "Anthropic Splits From Google, OpenAI Over State AI Safety Bill",
+      "titleZh": "谷歌的人类分裂， OpenAI超过国家人工智能安全法案",
+      "url": "https://www.theinformation.com/articles/anthropic-splits-google-openai-state-ai-safety-bill",
+      "score": 57,
+      "translationStatus": "complete"
+    },
     {
       "id": "d84ee410b35fc2835a1d",
       "category": "ai",
