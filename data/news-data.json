@@ -1,7 +1,91 @@
 {
-  "updatedAt": "2026-09-03T17:40:31.414Z",
+  "updatedAt": "2026-09-04T17:28:38.261Z",
   "timezone": "America/New_York",
   "stories": [
+    {
+      "id": "812c369915f8d65cd43c",
+      "category": "ai",
+      "publishedAt": "2026-09-04T17:16:01.752Z",
+      "dateET": "2026-09-04",
+      "source": "Reuters Technology",
+      "title": "OpenAI agents hijacked German website in previously undisclosed AI breakout this spring",
+      "titleZh": "今年春天， OpenAI特工在以前未公开的人工智能突破中劫持了德国网站",
+      "url": "https://www.reuters.com/world/europe/openai-agents-hijacked-german-website-previously-undisclosed-ai-breakout-this-2026-09-04/",
+      "score": 60,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "9aa3edec690ab8cc3ee6",
+      "category": "ai",
+      "publishedAt": "2026-09-04T17:15:40.000Z",
+      "dateET": "2026-09-04",
+      "source": "The Information",
+      "title": "Abu Dhabi’s G42 Considers US Ownership to Safeguard AI Chip Access",
+      "titleZh": "阿布扎比的G42考虑美国所有权以保护AI芯片访问",
+      "url": "https://www.theinformation.com/briefings/abu-dhabis-g42-considers-ownership-safeguard-ai-chip-access",
+      "score": 58,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "8561d8128b47a194bbbc",
+      "category": "ai",
+      "publishedAt": "2026-09-04T16:59:20.007Z",
+      "dateET": "2026-09-04",
+      "source": "Reuters Technology",
+      "title": "US, China gear up for mid-September AI safety dialogue",
+      "titleZh": "美国和中国为9月中旬的人工智能安全对话做好准备",
+      "url": "https://www.reuters.com/legal/litigation/us-china-gear-up-mid-september-ai-safety-dialogue-2026-09-04/",
+      "score": 56,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "392515e423ebb7c087cc",
+      "category": "ai",
+      "publishedAt": "2026-09-04T16:53:04.415Z",
+      "dateET": "2026-09-04",
+      "source": "Reuters Technology",
+      "title": "Musk’s xAI loses court bid to block Minnesota's AI ‘nudification’ ban",
+      "titleZh": "马斯克的xAI在法庭上失败，无法阻止明尼苏达州的人工智能“裸化”禁令",
+      "url": "https://www.reuters.com/legal/litigation/musks-xai-loses-court-bid-block-minnesotas-ai-nudification-ban-2026-09-04/",
+      "score": 55,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "1800a7aa96e2663d536d",
+      "category": "ai",
+      "publishedAt": "2026-09-04T15:30:12.000Z",
+      "dateET": "2026-09-04",
+      "source": "The Information",
+      "title": "Anthropic’s In-House Payments Tech Push Could Chip Away at Stripe",
+      "titleZh": "Anthropic的内部支付技术推动可能会削弱Stripe",
+      "url": "https://www.theinformation.com/articles/anthropics-house-payments-tech-push-chip-away-stripe",
+      "score": 56,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "8775a45963a1bb6c6e65",
+      "category": "space",
+      "publishedAt": "2026-09-04T14:00:00.000Z",
+      "dateET": "2026-09-04",
+      "source": "Space.com",
+      "title": "On this day in space! Sept. 4, 1962: NASA's Mariner 2 spacecrafts performs the 1st-ever maneuver in deep space so it could reach Venus",
+      "titleZh": "就在这一天，在太空中！ 1962年9月4日：美国宇航局的水手2号航天器在深空进行了有史以来第一次机动，因此它可以到达金星",
+      "url": "https://www.space.com/space-exploration/on-this-day-in-space-sept-4-1962-nasas-mariner-2-spacecrafts-performs-the-1st-ever-maneuver-in-deep-space-so-it-could-reach-venus",
+      "score": 52,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "73a72f3cbcbc67b12775",
+      "category": "space",
+      "publishedAt": "2026-09-04T14:00:00.000Z",
+      "dateET": "2026-09-04",
+      "source": "Space.com",
+      "title": "Hubble Telescope sees spectacular 'superbubble' | Space photo of the day for Sept. 4, 2026",
+      "titleZh": "哈勃望远镜看到壮观的“超级气泡” | 2026年9月4日当天的太空照片",
+      "url": "https://www.space.com/astronomy/hubble-space-telescope/hubble-telescope-sees-spectacular-superbubble-space-photo-of-the-day-for-sept-4-2026",
+      "score": 48,
+      "translationStatus": "complete"
+    },
     {
       "id": "5c3e67de92ac3b7d34ca",
       "category": "ai",
