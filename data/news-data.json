@@ -1,7 +1,43 @@
 {
-  "updatedAt": "2026-09-05T16:39:35.045Z",
+  "updatedAt": "2026-09-06T16:46:51.383Z",
   "timezone": "America/New_York",
   "stories": [
+    {
+      "id": "c9afba627be2acca83b0",
+      "category": "space",
+      "publishedAt": "2026-09-06T16:23:04.000Z",
+      "dateET": "2026-09-06",
+      "source": "Space.com",
+      "title": "On this day in space! Sept. 6, 1947: The US Navy launches 1st V-2 rocket at sea in ballistic missile test",
+      "titleZh": "就在这一天，在太空中！ 1947年9月6日：美国海军在海上发射第一枚V-2火箭进行弹道导弹试验",
+      "url": "https://www.space.com/space-exploration/on-this-day-in-space-september-6-2026",
+      "score": 55,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "047b1cb01e2c57388476",
+      "category": "space",
+      "publishedAt": "2026-09-06T15:54:11.000Z",
+      "dateET": "2026-09-06",
+      "source": "Space.com",
+      "title": "SpaceX Falcon 9 rocket launches 27 Starlink satellites, lands on ship at sea (video)",
+      "titleZh": "SpaceX猎鹰9号火箭发射27颗Starlink卫星，在海上着陆（视频）",
+      "url": "https://www.space.com/space-exploration/launches-spacecraft/spacex-starlink/group-15-24-launch-ocisly",
+      "score": 54,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "95e36f91d5f27f2f6638",
+      "category": "ai",
+      "publishedAt": "2026-09-06T08:00:00.000Z",
+      "dateET": "2026-09-06",
+      "source": "OpenAI News",
+      "title": "Research acceleration: The view inside OpenAI",
+      "titleZh": "研究加速： OpenAI内部视图",
+      "url": "https://openai.com/index/research-acceleration-view-inside-openai",
+      "score": 43,
+      "translationStatus": "complete"
+    },
     {
       "id": "2c2be81d1021da0783fe",
       "category": "ai",
