@@ -1,7 +1,31 @@
 {
-  "updatedAt": "2026-09-06T16:46:51.383Z",
+  "updatedAt": "2026-09-07T18:38:55.696Z",
   "timezone": "America/New_York",
   "stories": [
+    {
+      "id": "3f5eb0b98a9ee9396862",
+      "category": "space",
+      "publishedAt": "2026-09-07T16:00:00.000Z",
+      "dateET": "2026-09-07",
+      "source": "Space.com",
+      "title": "The moon will hide Jupiter in broad daylight on Sept.8 — here's how to see it",
+      "titleZh": "9月8日，月亮将把木星隐藏在光天化日之下—以下是如何看待它",
+      "url": "https://www.space.com/stargazing/the-moon-will-hide-jupiter-in-broad-daylight-on-sept-8-2026-here-is-how-to-see-it",
+      "score": 48,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "67aade37b992dcbc9807",
+      "category": "space",
+      "publishedAt": "2026-09-07T14:47:05.000Z",
+      "dateET": "2026-09-07",
+      "source": "Space.com",
+      "title": "On this day in space! Sept. 7, 1995: NASA launches its 100th astronaut flight on space shuttle Endeavour's STS-69 mission",
+      "titleZh": "就在这一天，在太空中！ 1995年9月7日：美国宇航局利用奋进号航天飞机STS-69执行第100次宇航员飞行任务",
+      "url": "https://www.space.com/space-exploration/on-this-day-in-space-september-7-2026",
+      "score": 51,
+      "translationStatus": "complete"
+    },
     {
       "id": "c9afba627be2acca83b0",
       "category": "space",
