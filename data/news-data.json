@@ -1,7 +1,79 @@
 {
-  "updatedAt": "2026-09-07T18:38:55.696Z",
+  "updatedAt": "2026-09-08T17:50:02.011Z",
   "timezone": "America/New_York",
   "stories": [
+    {
+      "id": "4d8ad710add540d2f7d7",
+      "category": "ai",
+      "publishedAt": "2026-09-08T17:44:35.601Z",
+      "dateET": "2026-09-08",
+      "source": "Reuters Technology",
+      "title": "Goldman expands AI push with new engineering office in Bellevue",
+      "titleZh": "高盛通过在贝尔维尤设立新的工程办公室来扩展人工智能",
+      "url": "https://www.reuters.com/business/finance/goldman-expands-ai-push-with-new-engineering-office-bellevue-2026-09-08/",
+      "score": 56,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "e15c253d1813a53e7115",
+      "category": "ai",
+      "publishedAt": "2026-09-08T17:29:44.019Z",
+      "dateET": "2026-09-08",
+      "source": "Reuters Technology",
+      "title": "Verizon signs optical fiber deal with Corning to expand broadband, support AI growth",
+      "titleZh": "Verizon与康宁签署光纤协议以扩展宽带，支持人工智能的发展",
+      "url": "https://www.reuters.com/business/media-telecom/verizon-signs-optical-fiber-deal-with-corning-expand-broadband-support-ai-growth-2026-09-08/",
+      "score": 56,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "15ad51fccbf8ba7a5393",
+      "category": "space",
+      "publishedAt": "2026-09-08T17:17:42.000Z",
+      "dateET": "2026-09-08",
+      "source": "Space.com",
+      "title": "On this day in space! Sept. 8, 2004: NASA's Genesis spacecraft crashed in the Utah desert, shattering its samples of solar wind particles from the sun",
+      "titleZh": "就在这一天，在太空中！ 2004年9月8日：美国宇航局的Genesis航天器在犹他州沙漠坠毁，打碎了太阳的太阳风粒子样本",
+      "url": "https://www.space.com/space-exploration/on-this-day-in-space-september-8-2026",
+      "score": 54,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "a8ea89a4d44198c48f73",
+      "category": "space",
+      "publishedAt": "2026-09-08T14:00:00.000Z",
+      "dateET": "2026-09-08",
+      "source": "Space.com",
+      "title": "SpaceX rocket taxi returns after Roman Telescope launch | Space photo of the day for Sept. 8, 2026",
+      "titleZh": "SpaceX火箭出租车在罗马望远镜发射后返回| 2026年9月8日当天的太空照片",
+      "url": "https://www.space.com/space-exploration/missions/spacex-rocket-taxi-returns-after-roman-telescope-launch-space-photo-of-the-day-for-sept-8-2026",
+      "score": 59,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "ab5e081e0e9ceec118b0",
+      "category": "ai",
+      "publishedAt": "2026-09-08T13:00:00.000Z",
+      "dateET": "2026-09-08",
+      "source": "OpenAI News",
+      "title": "The Work Now Within Reach",
+      "titleZh": "现在触手可及的工作",
+      "url": "https://openai.com/index/the-work-now-within-reach",
+      "score": 43,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "09d2b0245e9191d7fb03",
+      "category": "ai",
+      "publishedAt": "2026-09-08T09:00:00.000Z",
+      "dateET": "2026-09-08",
+      "source": "OpenAI News",
+      "title": "Funding grants for new research into AI and teen development",
+      "titleZh": "为人工智能和青少年发展的新研究提供资助",
+      "url": "https://openai.com/index/teen-development-research-grants",
+      "score": 55,
+      "translationStatus": "complete"
+    },
     {
       "id": "3f5eb0b98a9ee9396862",
       "category": "space",
