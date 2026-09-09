@@ -1,7 +1,91 @@
 {
-  "updatedAt": "2026-09-08T17:50:02.011Z",
+  "updatedAt": "2026-09-09T17:42:09.860Z",
   "timezone": "America/New_York",
   "stories": [
+    {
+      "id": "f6f99fcb9a90dd33d8c2",
+      "category": "ai",
+      "publishedAt": "2026-09-09T17:32:52.205Z",
+      "dateET": "2026-09-09",
+      "source": "Reuters Technology",
+      "title": "US power use to beat record highs in 2026 and 2027 as AI use surges, EIA says",
+      "titleZh": "EIA表示，随着人工智能的使用激增，美国的电力使用量在2026年和2027年击败了创纪录的高点",
+      "url": "https://www.reuters.com/business/energy/us-power-use-beat-record-highs-2026-2027-ai-use-surges-eia-says-2026-09-09/",
+      "score": 56,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "8a4fccf07ae5b5ef2a23",
+      "category": "ai",
+      "publishedAt": "2026-09-09T17:05:35.243Z",
+      "dateET": "2026-09-09",
+      "source": "Reuters Technology",
+      "title": "OpenAI’s rogue agents used at least 10 more sites for unauthorized comms, researchers say",
+      "titleZh": "研究人员表示， OpenAI的流氓特工至少使用了另外10个未经授权的通信站点",
+      "url": "https://www.reuters.com/world/openais-rogue-agents-used-least-10-more-sites-unauthorized-comms-researchers-say-2026-09-09/",
+      "score": 55,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "ccc4a9b7a1a915929fcb",
+      "category": "ai",
+      "publishedAt": "2026-09-09T17:00:00.000Z",
+      "dateET": "2026-09-09",
+      "source": "OpenAI News",
+      "title": "Paul Christiano joins OpenAI Foundation Board",
+      "titleZh": "Paul Christiano加入OpenAI基金会董事会",
+      "url": "https://openai.com/index/paul-christiano-joins-openai-foundation-board",
+      "score": 51,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "78052e74d05d77c0b160",
+      "category": "ai",
+      "publishedAt": "2026-09-09T16:57:43.837Z",
+      "dateET": "2026-09-09",
+      "source": "Reuters Technology",
+      "title": "Legal AI startup Harvey reaches $15.5 billion valuation in new funding round",
+      "titleZh": "法律AI初创公司Harvey在新一轮融资中估值达到155 $十亿",
+      "url": "https://www.reuters.com/legal/government/legal-ai-startup-harvey-reaches-155-billion-valuation-new-funding-round-2026-09-09/",
+      "score": 55,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "0f58ed21409da8112650",
+      "category": "ai",
+      "publishedAt": "2026-09-09T16:44:43.896Z",
+      "dateET": "2026-09-09",
+      "source": "Reuters Technology",
+      "title": "Clay valued at $7.1 billion in latest funding round as AI agent startups run hot",
+      "titleZh": "Clay在最新一轮融资中价值71亿美元（ $ 7.1 billion ） ，因为人工智能代理初创公司炙手可热",
+      "url": "https://www.reuters.com/legal/transactional/clay-valued-71-billion-latest-funding-round-ai-agent-startups-run-hot-2026-09-09/",
+      "score": 55,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "017392ff479b3d0ee96d",
+      "category": "space",
+      "publishedAt": "2026-09-09T15:00:00.000Z",
+      "dateET": "2026-09-09",
+      "source": "Space.com",
+      "title": "US military practices orbital dogfighting in 1st-ever 'live fly' exercise in space",
+      "titleZh": "美国军方在太空进行有史以来第一次“现场飞行”演习中的轨道斗狗",
+      "url": "https://www.space.com/space-exploration/satellites/us-military-practices-orbital-dogfighting-in-1st-ever-live-fly-exercise-in-space",
+      "score": 48,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "1dfe3c15dd9d70dadc93",
+      "category": "space",
+      "publishedAt": "2026-09-09T14:00:00.000Z",
+      "dateET": "2026-09-09",
+      "source": "Space.com",
+      "title": "On this day in space! Sept. 9, 1982: The 1st private rocket, called Conestoga 1, launches from a Texas cattle ranch",
+      "titleZh": "就在这一天，在太空中！ 1982年9月9日：第一枚名为Conestoga 1的私人火箭从德克萨斯州的一个牧场发射",
+      "url": "https://www.space.com/space-exploration/on-this-day-in-space-september-9-2026",
+      "score": 51,
+      "translationStatus": "complete"
+    },
     {
       "id": "4d8ad710add540d2f7d7",
       "category": "ai",
