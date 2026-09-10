@@ -1,7 +1,91 @@
 {
-  "updatedAt": "2026-09-09T17:42:09.860Z",
+  "updatedAt": "2026-09-10T17:34:46.503Z",
   "timezone": "America/New_York",
   "stories": [
+    {
+      "id": "4411d6c3d62b464cca27",
+      "category": "ai",
+      "publishedAt": "2026-09-10T17:32:27.602Z",
+      "dateET": "2026-09-10",
+      "source": "Reuters Technology",
+      "title": "OpenAI launches ChatGPT for financial services industry",
+      "titleZh": "OpenAI为金融服务行业推出ChatGPT",
+      "url": "https://www.reuters.com/business/openai-launches-chatgpt-financial-services-industry-2026-09-10/",
+      "score": 56,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "68202cd539df3b2318b3",
+      "category": "ai",
+      "publishedAt": "2026-09-10T17:23:26.107Z",
+      "dateET": "2026-09-10",
+      "source": "Reuters Technology",
+      "title": "US lawmakers call for new AI rules after Anthropic researchers' safety warnings",
+      "titleZh": "在人类研究人员发出安全警告后，美国立法者呼吁制定新的人工智能规则",
+      "url": "https://www.reuters.com/business/openai-faces-senate-probe-into-hugging-face-incident-axios-reports-2026-09-10/",
+      "score": 60,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "0a0bf31e9a6420d5a762",
+      "category": "ai",
+      "publishedAt": "2026-09-10T17:20:35.622Z",
+      "dateET": "2026-09-10",
+      "source": "Reuters Technology",
+      "title": "In-house counsel group accuses rival of training AI on its materials",
+      "titleZh": "内部法律顾问小组指责竞争对手在其材料上培训AI",
+      "url": "https://www.reuters.com/legal/litigation/in-house-counsel-group-accuses-rival-training-ai-its-materials-2026-09-10/",
+      "score": 56,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "cde57746a796fb988c1a",
+      "category": "ai",
+      "publishedAt": "2026-09-10T16:10:56.000Z",
+      "dateET": "2026-09-10",
+      "source": "The Information",
+      "title": "Wall Street's New Exit Ramp Into AI",
+      "titleZh": "华尔街进入人工智能的新出口",
+      "url": "https://www.theinformation.com/articles/wall-streets-new-exit-ramp-ai",
+      "score": 53,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "2ad6db05b575a2342430",
+      "category": "space",
+      "publishedAt": "2026-09-10T14:00:00.000Z",
+      "dateET": "2026-09-10",
+      "source": "Space.com",
+      "title": "Iconic Star Trek filming location spotted from space | Space photo of the day for Sept. 10, 2026",
+      "titleZh": "从太空拍摄的标志性《星际迷航》拍摄地点| 2026年9月10日当天的太空照片",
+      "url": "https://www.space.com/astronomy/earth/iconic-star-trek-filming-location-spotted-from-space-space-photo-of-the-day-for-sept-10-2026",
+      "score": 47,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "3b7aa9ee4cf371374227",
+      "category": "ai",
+      "publishedAt": "2026-09-10T13:01:01.000Z",
+      "dateET": "2026-09-10",
+      "source": "The Information",
+      "title": "Nvidia Deepens Partnership With AI Chip Startup D-Matrix",
+      "titleZh": "英伟达深化与AI芯片初创公司D-Matrix的合作",
+      "url": "https://www.theinformation.com/briefings/nvidia-deepens-partnership-ai-chip-startup-d-matrix",
+      "score": 53,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "a4d2dfc9500ee42d2e74",
+      "category": "space",
+      "publishedAt": "2026-09-10T12:00:00.000Z",
+      "dateET": "2026-09-10",
+      "source": "Space.com",
+      "title": "What comes after the moon? Artemis II commander and pilot shift to 'emeritus' status at NASA",
+      "titleZh": "月亮之后会发生什么？ Artemis II指挥官和飞行员在NASA转为“荣誉退休”状态",
+      "url": "https://www.space.com/space-exploration/artemis/what-comes-after-the-moon-artemis-ii-commander-and-pilot-shift-to-emeritus-status-at-nasa",
+      "score": 49,
+      "translationStatus": "complete"
+    },
     {
       "id": "f6f99fcb9a90dd33d8c2",
       "category": "ai",
