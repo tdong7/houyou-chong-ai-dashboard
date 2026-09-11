@@ -1,7 +1,79 @@
 {
-  "updatedAt": "2026-09-10T17:34:46.503Z",
+  "updatedAt": "2026-09-11T17:38:07.104Z",
   "timezone": "America/New_York",
   "stories": [
+    {
+      "id": "ec47edecdb3f41277feb",
+      "category": "ai",
+      "publishedAt": "2026-09-11T17:10:25.500Z",
+      "dateET": "2026-09-11",
+      "source": "Reuters Technology",
+      "title": "It’s time for AI labs to take a drug test",
+      "titleZh": "现在是人工智能实验室进行药物测试的时候了",
+      "url": "https://www.reuters.com/commentary/breakingviews/its-time-ai-labs-take-drug-test-2026-09-11/",
+      "score": 56,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "bc50dee54e9e1774efe5",
+      "category": "ai",
+      "publishedAt": "2026-09-11T16:51:32.504Z",
+      "dateET": "2026-09-11",
+      "source": "Reuters Technology",
+      "title": "China AI developer Z.AI launches $5 billion Hong Kong share, convertible bond sales, term sheet shows",
+      "titleZh": "中国人工智能开发商Z.AI推出50 $十亿港股，可转换债券销售，条款表显示",
+      "url": "https://www.reuters.com/world/asia-pacific/china-ai-developer-zai-launches-5-billion-hong-kong-share-convertible-bond-sales-2026-09-11/",
+      "score": 55,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "bda29f8d65604b672ea9",
+      "category": "space",
+      "publishedAt": "2026-09-11T14:00:00.000Z",
+      "dateET": "2026-09-11",
+      "source": "Space.com",
+      "title": "On this day in space! Sept. 11, 1985: The International Cometary Explorer makes 1st comet flyby in history for NASA and Europe",
+      "titleZh": "就在这一天，在太空中！ 1985年9月11日：国际彗星探测器首次飞越美国宇航局和欧洲的彗星",
+      "url": "https://www.space.com/space-exploration/on-this-day-in-space-sept-11-1985-the-international-cometary-explorer-makes-1st-comet-flyby-in-history-for-nasa-and-europe",
+      "score": 51,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "ec98851ad19ec0831442",
+      "category": "space",
+      "publishedAt": "2026-09-11T14:00:00.000Z",
+      "dateET": "2026-09-11",
+      "source": "Space.com",
+      "title": "Wavy alien dune fields stretch across Mars | Space photo of the day for Sept. 11, 2026",
+      "titleZh": "波浪状外星沙丘场横跨火星| 2026年9月11日当天的太空照片",
+      "url": "https://www.space.com/astronomy/mars/wavy-alien-dune-fields-stretch-across-mars-space-photo-of-the-day-for-sept-11-2026",
+      "score": 51,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "86073161c54d6c5d3816",
+      "category": "ai",
+      "publishedAt": "2026-09-11T10:00:00.000Z",
+      "dateET": "2026-09-11",
+      "source": "OpenAI News",
+      "title": "Rapidly scaling online storage to serve over 1 billion ChatGPT users",
+      "titleZh": "快速扩展在线存储，为超过10亿ChatGPT用户提供服务",
+      "url": "https://openai.com/index/scaling-storage-one-billion-users-part-one",
+      "score": 40,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "8ce4943d2b72cd6a961f",
+      "category": "ai",
+      "publishedAt": "2026-09-11T09:22:16.000Z",
+      "dateET": "2026-09-11",
+      "source": "The Information",
+      "title": "Tencent-backed Enflame Triples on Debut as China Pushes for Chip Self-sufficiency",
+      "titleZh": "随着中国推动芯片自给自足，腾讯支持的Enflame首次亮相",
+      "url": "https://www.theinformation.com/briefings/tencent-backed-enflame-triples-debut-china-pushes-chip-self-sufficiency",
+      "score": 46,
+      "translationStatus": "complete"
+    },
     {
       "id": "4411d6c3d62b464cca27",
       "category": "ai",
