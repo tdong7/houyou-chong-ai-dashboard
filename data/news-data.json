@@ -1,7 +1,91 @@
 {
-  "updatedAt": "2026-09-11T17:38:07.104Z",
+  "updatedAt": "2026-09-12T16:51:38.670Z",
   "timezone": "America/New_York",
   "stories": [
+    {
+      "id": "64a8826e6c3148b87a1f",
+      "category": "ai",
+      "publishedAt": "2026-09-12T16:39:26.325Z",
+      "dateET": "2026-09-12",
+      "source": "Reuters Technology",
+      "title": "Reuters and CuttingRoom partner to provide newsrooms with AI-assisted video editing of Reuters trusted news coverage",
+      "titleZh": "路透社与CuttingRoom合作，为新闻编辑室提供路透社可信赖的新闻报道的人工智能辅助视频编辑",
+      "url": "https://www.reuters.com/media-center/reuters-cuttingroom-partner-provide-newsrooms-with-ai-assisted-video-editing-2026-09-12/",
+      "score": 56,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "f73956e96f1763878cb2",
+      "category": "ai",
+      "publishedAt": "2026-09-12T16:14:30.000Z",
+      "dateET": "2026-09-12",
+      "source": "The Information",
+      "title": "Amodei Calls on AI Companies to Coordinate on Safety",
+      "titleZh": "Amodei呼吁人工智能公司在安全方面进行协调",
+      "url": "https://www.theinformation.com/briefings/amodei-calls-ai-companies-coordinate-safety",
+      "score": 53,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "e85c42fd7213a09bcd24",
+      "category": "ai",
+      "publishedAt": "2026-09-12T15:33:34.875Z",
+      "dateET": "2026-09-12",
+      "source": "Reuters Technology",
+      "title": "Nvidia in talks to invest in Anthropic’s mega IPO, sources say",
+      "titleZh": "消息人士称，英伟达正在就投资Anthropic的大型IPO进行谈判",
+      "url": "https://www.reuters.com/legal/transactional/nvidia-talks-invest-anthropics-mega-ipo-sources-say-2026-09-11/",
+      "score": 55,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "e0dd2ffdd2a2ac1bf205",
+      "category": "ai",
+      "publishedAt": "2026-09-12T15:32:35.571Z",
+      "dateET": "2026-09-12",
+      "source": "Reuters Technology",
+      "title": "Anthropic CEO urges AI companies to slow model development amid fears over misuse",
+      "titleZh": "Anthropic首席执行官敦促人工智能公司在担心滥用的情况下放慢模型开发速度",
+      "url": "https://www.reuters.com/business/anthropic-ceo-urges-ai-companies-slow-model-development-2026-09-12/",
+      "score": 63,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "a85e58399dd7468346a8",
+      "category": "space",
+      "publishedAt": "2026-09-12T14:00:00.000Z",
+      "dateET": "2026-09-12",
+      "source": "Space.com",
+      "title": "Trump is proposing a US Space Academy — if created, it could blur the lines between NASA and the military (op-ed)",
+      "titleZh": "特朗普提议成立美国太空学院—如果成立，它可能会模糊美国宇航局和军方之间的界限（专栏）",
+      "url": "https://www.space.com/space-exploration/trump-is-proposing-a-us-space-academy-if-created-it-could-blur-the-lines-between-nasa-and-the-military-op-ed",
+      "score": 52,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "b8e226a2fbe1c0b1f759",
+      "category": "space",
+      "publishedAt": "2026-09-12T14:00:00.000Z",
+      "dateET": "2026-09-12",
+      "source": "Space.com",
+      "title": "On this day in space! NASA astronaut Mae Jemison makes history as the 1st Black woman in space",
+      "titleZh": "就在这一天，在太空中！美国宇航局宇航员Mae Jemison作为第一位进入太空的黑人女性创造历史",
+      "url": "https://www.space.com/space-exploration/on-this-day-in-space-september-12-2026",
+      "score": 52,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "38db32740fd036655d89",
+      "category": "ai",
+      "publishedAt": "2026-09-12T13:16:34.000Z",
+      "dateET": "2026-09-12",
+      "source": "The Information",
+      "title": "Early Anthropic Investor Seeks VC Glory With Cash and Compute",
+      "titleZh": "早期人类投资者通过现金和计算寻求风险投资荣耀",
+      "url": "https://www.theinformation.com/articles/early-anthropic-investor-seeks-vc-glory-cash-compute",
+      "score": 50,
+      "translationStatus": "complete"
+    },
     {
       "id": "ec47edecdb3f41277feb",
       "category": "ai",
