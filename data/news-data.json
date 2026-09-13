@@ -1,7 +1,79 @@
 {
-  "updatedAt": "2026-09-12T16:51:38.670Z",
+  "updatedAt": "2026-09-13T17:20:30.451Z",
   "timezone": "America/New_York",
   "stories": [
+    {
+      "id": "d7a90a6bfb5065fcf286",
+      "category": "ai",
+      "publishedAt": "2026-09-14T00:00:00.000Z",
+      "dateET": "2026-09-13",
+      "source": "OpenAI News",
+      "title": "Perplexity trusts GPT-6 Astra with end-to-end systems",
+      "titleZh": "Perplexity信任GPT-6 Astra的端到端系统",
+      "url": "https://openai.com/index/perplexity-improving-accuracy-with-astra",
+      "score": 48,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "e0dd2ffdd2a2ac1bf205",
+      "category": "ai",
+      "publishedAt": "2026-09-13T17:01:47.854Z",
+      "dateET": "2026-09-13",
+      "source": "Reuters Technology",
+      "title": "Anthropic CEO urges AI companies to slow model development amid fears over misuse",
+      "titleZh": "Anthropic首席执行官敦促人工智能公司在担心滥用的情况下放慢模型开发速度",
+      "url": "https://www.reuters.com/business/anthropic-ceo-urges-ai-companies-slow-model-development-2026-09-12/",
+      "score": 64,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "33da2c4d0825b96508b6",
+      "category": "ai",
+      "publishedAt": "2026-09-13T16:58:17.348Z",
+      "dateET": "2026-09-13",
+      "source": "Reuters Technology",
+      "title": "Trump says 'very negative forces' raising exaggerated concerns over AI",
+      "titleZh": "特朗普表示“非常消极的力量”夸大了人们对人工智能的担忧",
+      "url": "https://www.reuters.com/world/europe/trump-says-very-negative-forces-raising-exaggerated-concerns-over-ai-2026-09-13/",
+      "score": 56,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "4f5b547bdb4e18ffb631",
+      "category": "ai",
+      "publishedAt": "2026-09-13T16:23:46.777Z",
+      "dateET": "2026-09-13",
+      "source": "Reuters Technology",
+      "title": "Anthropic selects Nasdaq for IPO, Business Insider reports",
+      "titleZh": "Anthropic选择纳斯达克进行IPO ， Business Insider报道",
+      "url": "https://www.reuters.com/business/anthropic-selects-nasdaq-ipo-business-insider-reports-2026-09-13/",
+      "score": 55,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "ee2cfaae9a1c61bd11f2",
+      "category": "space",
+      "publishedAt": "2026-09-13T14:00:00.000Z",
+      "dateET": "2026-09-13",
+      "source": "Space.com",
+      "title": "NASA astronaut Jessica Meir shares zero-G curly hair tips from the ISS (video)",
+      "titleZh": "美国宇航局宇航员杰西卡·梅尔分享国际空间站的零G卷发尖（视频）",
+      "url": "https://www.space.com/space-exploration/international-space-station/nasa-astronaut-jessica-meir-shares-zero-g-curly-hair-tips-from-the-iss-video",
+      "score": 48,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "58ac18c159f525eb8bc7",
+      "category": "space",
+      "publishedAt": "2026-09-13T13:00:00.000Z",
+      "dateET": "2026-09-13",
+      "source": "Space.com",
+      "title": "James Webb Space Telescope discovers the rings of tiny solar system body Chariklo are changing",
+      "titleZh": "詹姆斯·韦伯太空望远镜发现小太阳系体Chariklo的光环正在发生变化",
+      "url": "https://www.space.com/astronomy/james-webb-space-telescope/james-webb-space-telescope-discovers-the-rings-of-tiny-solar-system-body-chariklo-are-changing",
+      "score": 47,
+      "translationStatus": "complete"
+    },
     {
       "id": "64a8826e6c3148b87a1f",
       "category": "ai",
@@ -36,18 +108,6 @@
       "titleZh": "消息人士称，英伟达正在就投资Anthropic的大型IPO进行谈判",
       "url": "https://www.reuters.com/legal/transactional/nvidia-talks-invest-anthropics-mega-ipo-sources-say-2026-09-11/",
       "score": 55,
-      "translationStatus": "complete"
-    },
-    {
-      "id": "e0dd2ffdd2a2ac1bf205",
-      "category": "ai",
-      "publishedAt": "2026-09-12T15:32:35.571Z",
-      "dateET": "2026-09-12",
-      "source": "Reuters Technology",
-      "title": "Anthropic CEO urges AI companies to slow model development amid fears over misuse",
-      "titleZh": "Anthropic首席执行官敦促人工智能公司在担心滥用的情况下放慢模型开发速度",
-      "url": "https://www.reuters.com/business/anthropic-ceo-urges-ai-companies-slow-model-development-2026-09-12/",
-      "score": 63,
       "translationStatus": "complete"
     },
     {
