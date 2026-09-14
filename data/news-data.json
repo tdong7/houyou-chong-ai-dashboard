@@ -1,7 +1,91 @@
 {
-  "updatedAt": "2026-09-13T17:20:30.451Z",
+  "updatedAt": "2026-09-14T19:07:07.920Z",
   "timezone": "America/New_York",
   "stories": [
+    {
+      "id": "2043991d544505d4ffbb",
+      "category": "ai",
+      "publishedAt": "2026-09-14T19:04:13.740Z",
+      "dateET": "2026-09-14",
+      "source": "Reuters Technology",
+      "title": "Global AI stocks fall as industry chiefs call for slowing development",
+      "titleZh": "随着行业领袖呼吁放缓发展，全球人工智能股下跌",
+      "url": "https://www.reuters.com/world/china/ai-linked-asian-stocks-slump-after-top-lab-ceos-call-slowing-down-technologys-2026-09-14/",
+      "score": 56,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "2a4e9140e13aaddc5ee0",
+      "category": "ai",
+      "publishedAt": "2026-09-14T19:02:38.166Z",
+      "dateET": "2026-09-14",
+      "source": "Reuters Technology",
+      "title": "How China is preparing for the risk of AI escaping human control",
+      "titleZh": "中国如何为人工智能逃脱人类控制的风险做好准备",
+      "url": "https://www.reuters.com/legal/litigation/how-china-is-preparing-risk-ai-escaping-human-control-2026-09-14/",
+      "score": 56,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "8e7854011c145d6d8f84",
+      "category": "ai",
+      "publishedAt": "2026-09-14T19:01:12.082Z",
+      "dateET": "2026-09-14",
+      "source": "Reuters Technology",
+      "title": "China state newspaper blasts Anthropic's calls to slow AI as 'Cold War' tactic",
+      "titleZh": "中国官方报纸抨击Anthropic呼吁将减缓人工智能作为“冷战”策略",
+      "url": "https://www.reuters.com/world/china/china-state-newspaper-blasts-anthropics-calls-slow-ai-cold-war-tactic-2026-09-14/",
+      "score": 60,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "e7f9d32cf44c786c2470",
+      "category": "ai",
+      "publishedAt": "2026-09-14T18:40:20.439Z",
+      "dateET": "2026-09-14",
+      "source": "Reuters Technology",
+      "title": "Financiers are set to turn Nvidia into an AI baron",
+      "titleZh": "金融家将把英伟达变成人工智能巨头",
+      "url": "https://www.reuters.com/commentary/breakingviews/financiers-are-set-turn-nvidia-into-an-ai-baron-2026-09-02/",
+      "score": 56,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "b5031429db71eb3c7e66",
+      "category": "ai",
+      "publishedAt": "2026-09-14T18:25:14.359Z",
+      "dateET": "2026-09-14",
+      "source": "Reuters Technology",
+      "title": "EU is set to propose ban on social media and AI chatbots for under-15s",
+      "titleZh": "欧盟将提议禁止15岁以下儿童使用社交媒体和人工智能聊天机器人",
+      "url": "https://www.reuters.com/legal/litigation/eu-is-set-propose-ban-social-media-ai-chatbots-under-15s-2026-09-14/",
+      "score": 55,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "90991039f02e71d5aea5",
+      "category": "space",
+      "publishedAt": "2026-09-14T18:00:00.000Z",
+      "dateET": "2026-09-14",
+      "source": "Space.com",
+      "title": "2 European Earth-observing satellites launching to orbit from South America tonight: Watch it live",
+      "titleZh": "2颗欧洲地球观测卫星今晚从南美洲发射到轨道：观看现场直播",
+      "url": "https://www.space.com/space-exploration/launches-spacecraft/vega-rocket-launch-europe-flex-sentinel-3c-earth-observation-satellites",
+      "score": 50,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "52faf418ed057977c556",
+      "category": "space",
+      "publishedAt": "2026-09-14T14:55:27.000Z",
+      "dateET": "2026-09-14",
+      "source": "Space.com",
+      "title": "On this day in space! Sept. 14, 1966: NASA's Gemini 11 astronauts set altitude record for Earth orbit that went unbroken for 58 years",
+      "titleZh": "就在这一天，在太空中！ 1966年9月14日：美国宇航局的双子座11号宇航员创造了58年未中断的地球轨道的高度记录",
+      "url": "https://www.space.com/space-exploration/on-this-day-in-space-september-14-2026",
+      "score": 55,
+      "translationStatus": "complete"
+    },
     {
       "id": "d7a90a6bfb5065fcf286",
       "category": "ai",
