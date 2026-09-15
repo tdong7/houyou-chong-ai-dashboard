@@ -1,7 +1,91 @@
 {
-  "updatedAt": "2026-09-14T19:07:07.920Z",
+  "updatedAt": "2026-09-15T18:02:13.766Z",
   "timezone": "America/New_York",
   "stories": [
+    {
+      "id": "1647b6de2d7912e0b116",
+      "category": "ai",
+      "publishedAt": "2026-09-15T17:55:08.590Z",
+      "dateET": "2026-09-15",
+      "source": "Reuters Technology",
+      "title": "Sanders and Bannon call for AI limits as public unease grows",
+      "titleZh": "随着公众的不安情绪加剧，桑德斯和班农呼吁限制人工智能",
+      "url": "https://www.reuters.com/legal/legalindustry/us-senator-sanders-podcaster-bannon-longtime-foes-urge-ai-restrictions-2026-09-14/",
+      "score": 56,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "5772018196fcbc95ae21",
+      "category": "ai",
+      "publishedAt": "2026-09-15T17:47:00.424Z",
+      "dateET": "2026-09-15",
+      "source": "Reuters Technology",
+      "title": "Wall Street’s AI party is an exclusive affair",
+      "titleZh": "华尔街的人工智能派对是独家活动",
+      "url": "https://www.reuters.com/commentary/breakingviews/wall-streets-ai-party-is-an-exclusive-affair-2026-09-15/",
+      "score": 56,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "ca4cfc633ea309a76b72",
+      "category": "ai",
+      "publishedAt": "2026-09-15T17:35:07.578Z",
+      "dateET": "2026-09-15",
+      "source": "Reuters Technology",
+      "title": "From hallucinating AI chatbots to wiping out humanity: How did we get here?",
+      "titleZh": "从产生幻觉的人工智能聊天机器人到消灭人类：我们是如何到达这里的？",
+      "url": "https://www.reuters.com/business/retail-consumer/hallucinating-ai-chatbots-wiping-out-humanity-how-did-we-get-here-2026-09-15/",
+      "score": 56,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "39dc0d53465240be0da0",
+      "category": "space",
+      "publishedAt": "2026-09-15T16:00:00.000Z",
+      "dateET": "2026-09-15",
+      "source": "Space.com",
+      "title": "Making rocket fuel out of Mars' thin air: New breakthrough could make it happen",
+      "titleZh": "利用火星稀薄的空气制造火箭燃料：新的突破可能会使它发生",
+      "url": "https://www.space.com/astronomy/mars/making-rocket-fuel-out-of-mars-thin-air-new-breakthrough-could-make-it-happen",
+      "score": 53,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "f94fe7144f9d8ed58ebe",
+      "category": "ai",
+      "publishedAt": "2026-09-15T14:00:35.000Z",
+      "dateET": "2026-09-15",
+      "source": "The Information",
+      "title": "Developers Find Ways to Use Claude Code Without Anthropic Models",
+      "titleZh": "开发人员找到在不使用人择模型的情况下使用Claude代码的方法",
+      "url": "https://www.theinformation.com/articles/developers-find-ways-use-claude-code-without-anthropic-models",
+      "score": 50,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "a8f65907ab9990fea14a",
+      "category": "space",
+      "publishedAt": "2026-09-15T14:00:00.000Z",
+      "dateET": "2026-09-15",
+      "source": "Space.com",
+      "title": "On this day in space! Sept. 15, 1968: Russian tortoises (& other critters) launch around the moon on Zond 5 spacecraft in wild first circumlunar flight",
+      "titleZh": "就在这一天，在太空中！ 1968年9月15日：俄罗斯乌龟（和其他生物）在Zond 5号宇宙飞船上首次绕月飞行",
+      "url": "https://www.space.com/space-exploration/on-this-day-in-space-september-15-2026",
+      "score": 55,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "7145bd1c1354f43c090e",
+      "category": "ai",
+      "publishedAt": "2026-09-15T08:48:11.000Z",
+      "dateET": "2026-09-15",
+      "source": "The Information",
+      "title": "Chinese AI Chip Firm Biren Plans $1 Billion Fundraising",
+      "titleZh": "中国人工智能芯片公司Biren计划筹集$ 10亿资金",
+      "url": "https://www.theinformation.com/briefings/chinese-ai-chip-firm-biren-plans-1-billion-fundraising",
+      "score": 49,
+      "translationStatus": "complete"
+    },
     {
       "id": "2043991d544505d4ffbb",
       "category": "ai",
