@@ -1,7 +1,91 @@
 {
-  "updatedAt": "2026-09-15T18:02:13.766Z",
+  "updatedAt": "2026-09-16T18:00:49.912Z",
   "timezone": "America/New_York",
   "stories": [
+    {
+      "id": "f9ab3330693f749ef778",
+      "category": "space",
+      "publishedAt": "2026-09-16T18:00:00.000Z",
+      "dateET": "2026-09-16",
+      "source": "Space.com",
+      "title": "Roman Space Telescope starts waking up as NASA powers on instruments for the 1st time",
+      "titleZh": "罗马太空望远镜开始醒来，美国宇航局首次为仪器供电",
+      "url": "https://www.space.com/space-exploration/missions/roman-space-telescope-starts-waking-up-as-nasa-powers-on-instruments-for-the-1st-time",
+      "score": 55,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "1d2d2f866e2c4562a1ca",
+      "category": "ai",
+      "publishedAt": "2026-09-16T17:54:03.382Z",
+      "dateET": "2026-09-16",
+      "source": "Reuters Technology",
+      "title": "Bessent says US open to discussing shared AI risks with China, Axios reports",
+      "titleZh": "Axios报道， Bessent表示美国愿意与中国讨论共同的人工智能风险",
+      "url": "https://www.reuters.com/world/china/bessent-says-us-open-discussing-shared-ai-risks-with-china-axios-reports-2026-09-16/",
+      "score": 56,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "b57e4e470c346fe1ad25",
+      "category": "ai",
+      "publishedAt": "2026-09-16T17:49:37.126Z",
+      "dateET": "2026-09-16",
+      "source": "Reuters Technology",
+      "title": "OpenAI's rogue agents probed Hugging Face for weaknesses two months before major hack",
+      "titleZh": "OpenAI的流氓特工在重大黑客攻击前两个月调查了Hugging Face的弱点",
+      "url": "https://www.reuters.com/legal/litigation/openais-rogue-agents-probed-hugging-face-weaknesses-two-months-before-major-hack-2026-09-16/",
+      "score": 56,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "86d5df853a442b38fb9c",
+      "category": "ai",
+      "publishedAt": "2026-09-16T17:10:48.363Z",
+      "dateET": "2026-09-16",
+      "source": "Reuters Technology",
+      "title": "OpenAI plays $1.5 trln chicken with chatbot frenzy",
+      "titleZh": "OpenAI用聊天机器人疯狂玩$ 1.5万亿美元的鸡肉",
+      "url": "https://www.reuters.com/commentary/breakingviews/openai-plays-15-trln-chicken-with-chatbot-frenzy-2026-09-16/",
+      "score": 55,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "0179febdfc80ff77cee9",
+      "category": "ai",
+      "publishedAt": "2026-09-16T17:05:20.774Z",
+      "dateET": "2026-09-16",
+      "source": "Reuters Technology",
+      "title": "UN chief sounds alarm on AI risk after Trump plays it down",
+      "titleZh": "在特朗普轻描淡写后，联合国秘书长对人工智能风险发出警报",
+      "url": "https://www.reuters.com/world/un-chief-sounds-alarm-ai-risk-after-trump-plays-it-down-2026-09-16/",
+      "score": 55,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "81ad6d8e473fa7affe08",
+      "category": "ai",
+      "publishedAt": "2026-09-16T16:00:00.000Z",
+      "dateET": "2026-09-16",
+      "source": "OpenAI News",
+      "title": "Helping older adults use AI in everyday life",
+      "titleZh": "帮助老年人在日常生活中使用人工智能",
+      "url": "https://openai.com/index/helping-older-adults-use-ai-in-everyday-life",
+      "score": 50,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "a93e9ae7646835b42acb",
+      "category": "space",
+      "publishedAt": "2026-09-16T15:00:00.000Z",
+      "dateET": "2026-09-16",
+      "source": "Space.com",
+      "title": "On this day in space! Sept. 16, 1949: A US launch of a V-2 rocket explodes, killing its monkey passenger Albert III",
+      "titleZh": "就在这一天，在太空中！ 1949年9月16日：美国发射的V-2火箭爆炸，炸死其猴子乘客阿尔伯特三世",
+      "url": "https://www.space.com/space-exploration/on-this-day-in-space-september-16-2026",
+      "score": 56,
+      "translationStatus": "complete"
+    },
     {
       "id": "1647b6de2d7912e0b116",
       "category": "ai",
