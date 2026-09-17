@@ -1,7 +1,67 @@
 {
-  "updatedAt": "2026-09-16T18:00:49.912Z",
+  "updatedAt": "2026-09-17T18:02:23.080Z",
   "timezone": "America/New_York",
   "stories": [
+    {
+      "id": "b6cd84687bc2d036b076",
+      "category": "ai",
+      "publishedAt": "2026-09-17T17:56:19.999Z",
+      "dateET": "2026-09-17",
+      "source": "Reuters Technology",
+      "title": "DOJ antitrust official says AI safety coordination does not appear anticompetitive",
+      "titleZh": "美国司法部反垄断官员表示，人工智能安全协调似乎没有反竞争",
+      "url": "https://www.reuters.com/world/doj-official-says-frontier-ai-labs-have-not-sought-meeting-antitrust-2026-09-17/",
+      "score": 56,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "9e42069225095e208813",
+      "category": "ai",
+      "publishedAt": "2026-09-17T17:40:59.987Z",
+      "dateET": "2026-09-17",
+      "source": "Reuters Technology",
+      "title": "King Charles warns tech leaders of 'existential dangers' from AI",
+      "titleZh": "查尔斯国王警告科技领袖注意人工智能的“生存危险”",
+      "url": "https://www.reuters.com/world/uk/king-charles-urge-ai-leaders-protect-humanity-scottish-meeting-2026-09-17/",
+      "score": 56,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "b158f74fed2a8e7fac8b",
+      "category": "ai",
+      "publishedAt": "2026-09-17T17:20:00.546Z",
+      "dateET": "2026-09-17",
+      "source": "Reuters Technology",
+      "title": "Will AI fears reach the ballot box?",
+      "titleZh": "人工智能恐惧会到达投票箱吗？",
+      "url": "https://www.reuters.com/world/us/will-ai-fears-reach-ballot-box-2026-09-17/",
+      "score": 55,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "900d48acf59c97565363",
+      "category": "ai",
+      "publishedAt": "2026-09-17T16:58:45.000Z",
+      "dateET": "2026-09-17",
+      "source": "The Information",
+      "title": "Bridgewater’s Greg Jensen Calls for Regulating AI Firms Like Systemically Important Banks",
+      "titleZh": "Bridgewater的Greg Jensen呼吁监管像系统重要性银行这样的人工智能公司",
+      "url": "https://www.theinformation.com/articles/bridgewaters-greg-jensen-calls-regulating-ai-firms-like-systemically-important-banks",
+      "score": 53,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "676b8ab14471f9e36aa0",
+      "category": "ai",
+      "publishedAt": "2026-09-17T16:55:38.521Z",
+      "dateET": "2026-09-17",
+      "source": "Reuters Technology",
+      "title": "Holtec Nuclear shelves US IPO as AI trade turbulence rattles markets",
+      "titleZh": "随着人工智能贸易动荡扰乱市场， Holtec Nuclear搁置了美国IPO",
+      "url": "https://www.reuters.com/business/holtec-nuclear-suspends-us-ipo-plan-bloomberg-news-reports-2026-09-16/",
+      "score": 55,
+      "translationStatus": "complete"
+    },
     {
       "id": "f9ab3330693f749ef778",
       "category": "space",
