@@ -1,7 +1,55 @@
 {
-  "updatedAt": "2026-09-17T18:02:23.080Z",
+  "updatedAt": "2026-09-18T17:35:16.982Z",
   "timezone": "America/New_York",
   "stories": [
+    {
+      "id": "0970030ba3f65cc5742d",
+      "category": "ai",
+      "publishedAt": "2026-09-18T17:29:45.129Z",
+      "dateET": "2026-09-18",
+      "source": "Reuters Technology",
+      "title": "US judge denies OpenAI bid to review X Corp’s settlement with Apple",
+      "titleZh": "美国法官驳回OpenAI申请审查X Corp与苹果的和解协议",
+      "url": "https://www.reuters.com/legal/litigation/us-judge-denies-openai-bid-review-x-corps-settlement-with-apple-2026-09-18/",
+      "score": 56,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "b27d70e480d01f63c016",
+      "category": "ai",
+      "publishedAt": "2026-09-18T17:18:30.474Z",
+      "dateET": "2026-09-18",
+      "source": "Reuters Technology",
+      "title": "Anthropic quietly sets up biology lab as it ramps AI drug program",
+      "titleZh": "Anthropic悄悄地建立了生物实验室，因为它增加了人工智能药物计划",
+      "url": "https://www.reuters.com/world/anthropic-quietly-sets-up-biology-lab-it-ramps-ai-drug-program-2026-09-18/",
+      "score": 60,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "8eba5cd43a5219c819d1",
+      "category": "ai",
+      "publishedAt": "2026-09-18T16:51:30.148Z",
+      "dateET": "2026-09-18",
+      "source": "Reuters Technology",
+      "title": "SK Hynix's Solidigm unit is weighing NAND memory chip factory in US, sources say",
+      "titleZh": "消息人士称， SK海力士的Solidigm部门正在权衡美国的NAND内存芯片工厂",
+      "url": "https://www.reuters.com/world/asia-pacific/sk-hynixs-solidigm-unit-is-weighing-nand-memory-chip-factory-us-sources-say-2026-09-18/",
+      "score": 55,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "319136a6ed57d03a14b3",
+      "category": "ai",
+      "publishedAt": "2026-09-18T13:00:41.000Z",
+      "dateET": "2026-09-18",
+      "source": "The Information",
+      "title": "AI Safety Push Sparks Demand for Watchdog Groups. Critics Doubt Their Independence.",
+      "titleZh": "人工智能安全推动引发了对看门狗组的需求。批评者怀疑他们的独立性。",
+      "url": "https://www.theinformation.com/articles/ai-safety-push-sparks-demand-watchdog-groups-critics-doubt-independence",
+      "score": 49,
+      "translationStatus": "complete"
+    },
     {
       "id": "b6cd84687bc2d036b076",
       "category": "ai",
