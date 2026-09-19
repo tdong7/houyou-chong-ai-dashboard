@@ -1,7 +1,19 @@
 {
-  "updatedAt": "2026-09-18T17:35:16.982Z",
+  "updatedAt": "2026-09-19T17:04:58.685Z",
   "timezone": "America/New_York",
   "stories": [
+    {
+      "id": "b0275f469c532e4a0e13",
+      "category": "ai",
+      "publishedAt": "2026-09-19T15:22:10.551Z",
+      "dateET": "2026-09-19",
+      "source": "Reuters Technology",
+      "title": "Google AI hack, Greenland, Germany’s leader and Mbappe",
+      "titleZh": "谷歌人工智能黑客，格陵兰岛，德国的领导者和Mbappe",
+      "url": "https://www.reuters.com/podcasts/google-ai-hack-greenland-germanys-leader-mbappe-2026-09-19/",
+      "score": 54,
+      "translationStatus": "complete"
+    },
     {
       "id": "0970030ba3f65cc5742d",
       "category": "ai",
