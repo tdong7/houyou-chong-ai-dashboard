@@ -1,7 +1,55 @@
 {
-  "updatedAt": "2026-09-19T17:04:58.685Z",
+  "updatedAt": "2026-09-20T17:20:49.055Z",
   "timezone": "America/New_York",
   "stories": [
+    {
+      "id": "fdcd1114a2079d25c606",
+      "category": "ai",
+      "publishedAt": "2026-09-20T16:05:53.215Z",
+      "dateET": "2026-09-20",
+      "source": "Reuters Technology",
+      "title": "US Treasury's Bessent and China's He launch talks on AI, trade and critical minerals",
+      "titleZh": "美国财政部的贝森特和中国的贺建奎发起关于人工智能、贸易和关键矿产的会谈",
+      "url": "https://www.reuters.com/business/finance/us-treasurys-bessent-chinas-he-launch-talks-ai-trade-critical-minerals-2026-09-20/",
+      "score": 55,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "bc6e4c8bbbb09579c5d2",
+      "category": "ai",
+      "publishedAt": "2026-09-20T16:01:03.000Z",
+      "dateET": "2026-09-20",
+      "source": "The Information",
+      "title": "How Nvidia Is Trying to Solve the Data Center Power Bottleneck",
+      "titleZh": "英伟达如何解决数据中心电源瓶颈",
+      "url": "https://www.theinformation.com/articles/nvidia-trying-solve-data-center-power-bottleneck",
+      "score": 53,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "d2bd40540e0639eb7191",
+      "category": "ai",
+      "publishedAt": "2026-09-20T15:40:51.364Z",
+      "dateET": "2026-09-20",
+      "source": "Reuters Technology",
+      "title": "OpenAI's Sam Altman to brief UN Security Council next week",
+      "titleZh": "OpenAI的Sam Altman将于下周向联合国安理会通报情况",
+      "url": "https://www.reuters.com/business/openais-sam-altman-to-brief-un-security-council-next-week-during-2026-09-18/",
+      "score": 54,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "d5a69b619fd628ed635a",
+      "category": "ai",
+      "publishedAt": "2026-09-20T14:01:00.000Z",
+      "dateET": "2026-09-20",
+      "source": "The Information",
+      "title": "Jane Street-Linked Data Center Debt Sours",
+      "titleZh": "Jane Street-Linked Data Center Debt Sours",
+      "url": "https://www.theinformation.com/articles/jane-street-linked-data-center-debt-sours",
+      "score": 51,
+      "translationStatus": "complete"
+    },
     {
       "id": "b0275f469c532e4a0e13",
       "category": "ai",
