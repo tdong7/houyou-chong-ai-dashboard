@@ -1,7 +1,67 @@
 {
-  "updatedAt": "2026-09-20T17:20:49.055Z",
+  "updatedAt": "2026-09-21T19:09:27.979Z",
   "timezone": "America/New_York",
   "stories": [
+    {
+      "id": "ca1290bf5c9fe3498348",
+      "category": "ai",
+      "publishedAt": "2026-09-21T18:58:57.471Z",
+      "dateET": "2026-09-21",
+      "source": "Reuters Technology",
+      "title": "FAA begins use of AI tool in bid to reduce flight delays",
+      "titleZh": "美国联邦航空局开始使用人工智能工具来减少航班延误",
+      "url": "https://www.reuters.com/technology/faa-begins-use-ai-tool-bid-reduce-flight-delays-2026-09-21/",
+      "score": 56,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "f16fad40a81f178a3817",
+      "category": "ai",
+      "publishedAt": "2026-09-21T18:48:37.418Z",
+      "dateET": "2026-09-21",
+      "source": "Reuters Technology",
+      "title": "California governor signs broad data center oversight bill package",
+      "titleZh": "加利福尼亚州州长签署广泛的数据中心监督法案",
+      "url": "https://www.reuters.com/legal/litigation/california-governor-signs-broad-data-center-oversight-bill-package-2026-09-21/",
+      "score": 56,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "ee6ba3a6880fb7daf0fb",
+      "category": "ai",
+      "publishedAt": "2026-09-21T18:27:56.633Z",
+      "dateET": "2026-09-21",
+      "source": "Reuters Technology",
+      "title": "Wall Street rallies as AI optimism reignites and Treasury yields retreat",
+      "titleZh": "随着人工智能乐观情绪重燃，美国国债收益率回落，华尔街反弹",
+      "url": "https://www.reuters.com/business/wall-st-futures-rise-ai-stocks-gain-oil-prices-slide-2026-09-21/",
+      "score": 55,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "3abae2baf78e9a36ce9e",
+      "category": "ai",
+      "publishedAt": "2026-09-21T18:11:04.000Z",
+      "dateET": "2026-09-21",
+      "source": "The Information",
+      "title": "OpenAI Releases Proposal for International AI Safety Coordination",
+      "titleZh": "OpenAI发布国际AI安全协调提案",
+      "url": "https://www.theinformation.com/briefings/openai-releases-proposal-international-ai-safety-coordination",
+      "score": 57,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "1d3f61c63243f22ad2ce",
+      "category": "ai",
+      "publishedAt": "2026-09-21T13:55:09.000Z",
+      "dateET": "2026-09-21",
+      "source": "The Information",
+      "title": "OpenAI and Anthropic Neared Deal to Stress-Test Each Other’s AI",
+      "titleZh": "OpenAI和人类接近达成协议，对彼此的人工智能进行压力测试",
+      "url": "https://www.theinformation.com/articles/openai-anthropic-neared-deal-stress-test-others-ai",
+      "score": 57,
+      "translationStatus": "complete"
+    },
     {
       "id": "fdcd1114a2079d25c606",
       "category": "ai",
