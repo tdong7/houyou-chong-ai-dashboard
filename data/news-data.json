@@ -1,7 +1,67 @@
 {
-  "updatedAt": "2026-09-21T19:09:27.979Z",
+  "updatedAt": "2026-09-22T18:00:01.912Z",
   "timezone": "America/New_York",
   "stories": [
+    {
+      "id": "b38e6751349bc4b0009d",
+      "category": "ai",
+      "publishedAt": "2026-09-22T17:38:28.000Z",
+      "dateET": "2026-09-22",
+      "source": "The Information",
+      "title": "New Data Show Anthropic, OpenAI and Other Upstarts Are Eating into Software Budgets",
+      "titleZh": "新数据显示， Anthropic、OpenAI和其他新贵正在蚕食软件预算",
+      "url": "https://www.theinformation.com/articles/new-data-show-anthropic-openai-upstarts-eating-software-budgets",
+      "score": 58,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "ec4e9a6695c5d64fa1d7",
+      "category": "ai",
+      "publishedAt": "2026-09-22T17:33:59.013Z",
+      "dateET": "2026-09-22",
+      "source": "Reuters Technology",
+      "title": "Ex-Google safety chief warns AI could harm children more than social media did",
+      "titleZh": "前谷歌安全主管警告说，人工智能可能比社交媒体对儿童造成的伤害更大",
+      "url": "https://www.reuters.com/legal/litigation/ex-google-safety-chief-warns-ai-could-harm-children-more-than-social-media-did-2026-09-22/",
+      "score": 56,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "fee9ca9c5511d9d9e723",
+      "category": "ai",
+      "publishedAt": "2026-09-22T17:33:18.000Z",
+      "dateET": "2026-09-22",
+      "source": "The Information",
+      "title": "Why America’s AI Dream Is Failing to Launch",
+      "titleZh": "为什么美国的人工智能梦想未能启动",
+      "url": "https://www.theinformation.com/articles/americas-ai-dream-failing-launch",
+      "score": 54,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "6c6d425758d1b51a2c54",
+      "category": "ai",
+      "publishedAt": "2026-09-22T17:22:37.164Z",
+      "dateET": "2026-09-22",
+      "source": "Reuters Technology",
+      "title": "Anthropic unveils Claude Opus 5.5",
+      "titleZh": "Anthropic揭开Claude Opus 5.5的面纱",
+      "url": "https://www.reuters.com/business/anthropic-unveils-claude-opus-55-2026-09-22/",
+      "score": 55,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "bb002c9fda9899a7e592",
+      "category": "ai",
+      "publishedAt": "2026-09-22T13:01:01.000Z",
+      "dateET": "2026-09-22",
+      "source": "The Information",
+      "title": "Software Firms Discount AI to Keep Customers From Anthropic, OpenAI",
+      "titleZh": "软件公司为人工智能提供折扣，让客户远离人性化的OpenAI",
+      "url": "https://www.theinformation.com/articles/software-firms-discount-ai-keep-customers-anthropic-openai",
+      "score": 57,
+      "translationStatus": "complete"
+    },
     {
       "id": "ca1290bf5c9fe3498348",
       "category": "ai",
