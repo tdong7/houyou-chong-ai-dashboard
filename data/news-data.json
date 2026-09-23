@@ -1,7 +1,67 @@
 {
-  "updatedAt": "2026-09-22T18:00:01.912Z",
+  "updatedAt": "2026-09-23T18:18:59.768Z",
   "timezone": "America/New_York",
   "stories": [
+    {
+      "id": "cf02ce2b9569e0dc6ef3",
+      "category": "ai",
+      "publishedAt": "2026-09-23T17:37:19.000Z",
+      "dateET": "2026-09-23",
+      "source": "The Information",
+      "title": "Amazon Gives Sellers 12 Months of AI Software Quick Plus For Free",
+      "titleZh": "亚马逊向卖家免费提供12个月的人工智能软件Quick Plus",
+      "url": "https://www.theinformation.com/briefings/amazon-gives-sellers-12-months-ai-software-quick-free",
+      "score": 53,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "f27380d51b3efe0207ec",
+      "category": "ai",
+      "publishedAt": "2026-09-23T17:15:08.406Z",
+      "dateET": "2026-09-23",
+      "source": "Reuters Technology",
+      "title": "Live: Ukraine and Iran wars in focus at UN General Assembly, AI leaders to brief security council",
+      "titleZh": "现场：联合国大会重点关注乌克兰和伊朗战争，人工智能领导人向安理会通报情况",
+      "url": "https://www.reuters.com/live/live-ukraine-iran-wars-focus-un-general-assembly-ai-leaders-brief-security-2026-09-23/",
+      "score": 55,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "53a44bddaabadb090f83",
+      "category": "ai",
+      "publishedAt": "2026-09-23T17:13:57.004Z",
+      "dateET": "2026-09-23",
+      "source": "Reuters Technology",
+      "title": "Meta's Muse rekindles fears over winners and losers as personal AI agent emerges",
+      "titleZh": "随着个人人工智能代理的出现， Meta的Muse重新点燃了对赢家和输家的恐惧",
+      "url": "https://www.reuters.com/business/finance/metas-muse-rekindles-fears-over-winners-losers-personal-ai-agent-emerges-2026-09-23/",
+      "score": 55,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "80a7a17accf15846e821",
+      "category": "ai",
+      "publishedAt": "2026-09-23T16:00:00.000Z",
+      "dateET": "2026-09-23",
+      "source": "OpenAI News",
+      "title": "Two years of OpenAI Academy",
+      "titleZh": "两年的OpenAI学院",
+      "url": "https://openai.com/index/two-years-of-openai-academy",
+      "score": 50,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "873013c91081f6c74ca0",
+      "category": "ai",
+      "publishedAt": "2026-09-23T14:01:30.000Z",
+      "dateET": "2026-09-23",
+      "source": "The Information",
+      "title": "What To Expect at AI Agenda Live; Crusoe and Thinking Machines Labs Strike a Compute Deal",
+      "titleZh": "人工智能议程直播： Crusoe和思考机器实验室达成计算协议",
+      "url": "https://www.theinformation.com/articles/expect-ai-agenda-live-crusoe-thinking-machines-labs-strike-compute-deal",
+      "score": 50,
+      "translationStatus": "complete"
+    },
     {
       "id": "b38e6751349bc4b0009d",
       "category": "ai",
