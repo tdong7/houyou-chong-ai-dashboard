@@ -1,7 +1,67 @@
 {
-  "updatedAt": "2026-09-23T18:18:59.768Z",
+  "updatedAt": "2026-09-24T18:19:55.407Z",
   "timezone": "America/New_York",
   "stories": [
+    {
+      "id": "736079f420f46e62fe85",
+      "category": "ai",
+      "publishedAt": "2026-09-24T18:10:10.419Z",
+      "dateET": "2026-09-24",
+      "source": "Reuters Technology",
+      "title": "White House asks OpenAI, Anthropic to hold models from British testers, Politico reports",
+      "titleZh": "白宫要求OpenAI ， Anthropic持有英国测试人员的模型， Politico报道",
+      "url": "https://www.reuters.com/world/white-house-asks-openai-anthropic-hold-models-british-testers-politico-reports-2026-09-24/",
+      "score": 60,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "a6e94a4b610f51a38e7e",
+      "category": "ai",
+      "publishedAt": "2026-09-24T18:05:16.032Z",
+      "dateET": "2026-09-24",
+      "source": "Reuters Technology",
+      "title": "Live: Trump-Xi summit to take place amid race for AI dominance; Netanyahu to deliver UN speech",
+      "titleZh": "现场：特朗普-习近平峰会将在人工智能主导地位的竞赛中举行；内塔尼亚胡将发表联合国演讲",
+      "url": "https://www.reuters.com/live/live-trump-xi-summit-take-place-amid-race-ai-dominance-netanyahu-deliver-un-2026-09-24/",
+      "score": 56,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "bf3c4bd06c269ea3e775",
+      "category": "ai",
+      "publishedAt": "2026-09-24T17:53:46.064Z",
+      "dateET": "2026-09-24",
+      "source": "Reuters Technology",
+      "title": "Rogue AI bots expose deep cyberlaw flaws",
+      "titleZh": "流氓人工智能机器人揭露深层网络法律漏洞",
+      "url": "https://www.reuters.com/commentary/breakingviews/rogue-ai-bots-expose-deep-cyberlaw-flaws-2026-09-24/",
+      "score": 56,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "1088c84819eacebdfe7a",
+      "category": "ai",
+      "publishedAt": "2026-09-24T17:44:00.000Z",
+      "dateET": "2026-09-24",
+      "source": "The Information",
+      "title": "Former OpenAI Data Center Chief Is Now At Nvidia",
+      "titleZh": "前OpenAI数据中心负责人现就职于英伟达",
+      "url": "https://www.theinformation.com/briefings/former-openai-data-center-chief-now-nvidia",
+      "score": 57,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "01e3f171801bae86f541",
+      "category": "ai",
+      "publishedAt": "2026-09-24T13:00:44.000Z",
+      "dateET": "2026-09-24",
+      "source": "The Information",
+      "title": "Google, OpenAI and Anthropic AI Safety Group Takes Shape",
+      "titleZh": "谷歌、OpenAI和Anthropic AI安全小组正在成形",
+      "url": "https://www.theinformation.com/articles/google-openai-anthropic-ai-safety-group-takes-shape",
+      "score": 57,
+      "translationStatus": "complete"
+    },
     {
       "id": "cf02ce2b9569e0dc6ef3",
       "category": "ai",
