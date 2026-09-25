@@ -1,7 +1,67 @@
 {
-  "updatedAt": "2026-09-24T18:19:55.407Z",
+  "updatedAt": "2026-09-25T18:21:02.008Z",
   "timezone": "America/New_York",
   "stories": [
+    {
+      "id": "24e2e302cae80996f617",
+      "category": "ai",
+      "publishedAt": "2026-09-25T18:04:42.675Z",
+      "dateET": "2026-09-25",
+      "source": "Reuters Technology",
+      "title": "Oracle freakout exposes fragile data center boom",
+      "titleZh": "甲骨文暴露脆弱的数据中心热潮",
+      "url": "https://www.reuters.com/commentary/breakingviews/oracle-freakout-exposes-fragile-data-center-boom-2026-09-25/",
+      "score": 56,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "31ba44f193f19b581584",
+      "category": "ai",
+      "publishedAt": "2026-09-25T17:55:00.630Z",
+      "dateET": "2026-09-25",
+      "source": "Reuters Technology",
+      "title": "US appeals court upholds Pentagon's blacklisting of Anthropic",
+      "titleZh": "美国上诉法院支持五角大楼将人类列入黑名单",
+      "url": "https://www.reuters.com/world/us-appeals-court-declines-block-pentagons-blacklisting-anthropic-2026-09-25/",
+      "score": 56,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "9d20c524cfdeb76d6a2b",
+      "category": "ai",
+      "publishedAt": "2026-09-25T17:53:51.209Z",
+      "dateET": "2026-09-25",
+      "source": "Reuters Technology",
+      "title": "Trump says Treasury's Bessent will not be his AI czar",
+      "titleZh": "特朗普表示，财政部的贝森特不会成为他的人工智能沙皇",
+      "url": "https://www.reuters.com/technology/trump-says-treasurys-bessent-will-not-be-his-ai-czar-2026-09-25/",
+      "score": 56,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "db6e3144d05f5dafb274",
+      "category": "ai",
+      "publishedAt": "2026-09-25T17:00:19.000Z",
+      "dateET": "2026-09-25",
+      "source": "The Information",
+      "title": "Inside the Drama Behind a Biology Contest That Pits OpenAI Agents Against Humans",
+      "titleZh": "OpenAI智能体与人类对抗的生物学竞赛背后的戏剧",
+      "url": "https://www.theinformation.com/articles/inside-drama-behind-biology-contest-pits-openai-agents-humans",
+      "score": 53,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "871a755e157c0f819316",
+      "category": "ai",
+      "publishedAt": "2026-09-25T15:37:44.000Z",
+      "dateET": "2026-09-25",
+      "source": "The Information",
+      "title": "Exclusive: Figma Exec Joins AI Inference Startup Baseten",
+      "titleZh": "独家： Figma Exec加入人工智能推理初创公司Baseten",
+      "url": "https://www.theinformation.com/briefings/exclusive-figma-exec-joins-ai-inference-startup-baseten",
+      "score": 55,
+      "translationStatus": "complete"
+    },
     {
       "id": "736079f420f46e62fe85",
       "category": "ai",
