@@ -1,7 +1,43 @@
 {
-  "updatedAt": "2026-09-25T18:21:02.008Z",
+  "updatedAt": "2026-09-26T17:40:05.064Z",
   "timezone": "America/New_York",
   "stories": [
+    {
+      "id": "9cc4b62d8a595192e59c",
+      "category": "ai",
+      "publishedAt": "2026-09-26T16:24:54.029Z",
+      "dateET": "2026-09-26",
+      "source": "Reuters Technology",
+      "title": "Gen Z is betting on AI skills to boost earning power",
+      "titleZh": "Z世代正在押注人工智能技能，以提高盈利能力",
+      "url": "https://www.reuters.com/markets/on-the-money/gen-z-is-betting-ai-skills-boost-earning-power-2026-09-25/",
+      "score": 55,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "81ac9ff0c044a29a4562",
+      "category": "ai",
+      "publishedAt": "2026-09-26T15:20:39.059Z",
+      "dateET": "2026-09-26",
+      "source": "Reuters Technology",
+      "title": "China, US agree to $30 billion tariff cut, AI dialogue during Xi visit, Beijing says",
+      "titleZh": "中国，美国同意削减300亿美元的关税，习近平访问期间的人工智能对话，北京说",
+      "url": "https://www.reuters.com/world/china/china-us-agree-30-billion-tariff-cut-ai-dialogue-during-xi-visit-2026-09-26/",
+      "score": 54,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "7ce168055aa3004007ce",
+      "category": "ai",
+      "publishedAt": "2026-09-26T13:11:40.000Z",
+      "dateET": "2026-09-26",
+      "source": "The Information",
+      "title": "Why Wall Street’s Big, Bad Bears Aren’t Ready to Bet Against AI Yet",
+      "titleZh": "为什么华尔街的大坏熊还没有准备好与人工智能对抗",
+      "url": "https://www.theinformation.com/articles/wall-streets-big-bad-bears-ready-bet-ai-yet",
+      "score": 50,
+      "translationStatus": "complete"
+    },
     {
       "id": "24e2e302cae80996f617",
       "category": "ai",
