@@ -1,7 +1,31 @@
 {
-  "updatedAt": "2026-09-26T17:40:05.064Z",
+  "updatedAt": "2026-09-27T18:09:16.571Z",
   "timezone": "America/New_York",
   "stories": [
+    {
+      "id": "6f4a347e5a1302d32feb",
+      "category": "ai",
+      "publishedAt": "2026-09-27T17:23:37.137Z",
+      "dateET": "2026-09-27",
+      "source": "Reuters Technology",
+      "title": "AI challenges fuel trading's old guard",
+      "titleZh": "人工智能挑战燃油交易的老牌",
+      "url": "https://www.reuters.com/commentary/reuters-open-interest/ai-challenges-fuel-tradings-old-guard-2026-09-25/",
+      "score": 55,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "1dc8637086164a14920d",
+      "category": "ai",
+      "publishedAt": "2026-09-27T16:39:23.584Z",
+      "dateET": "2026-09-27",
+      "source": "Reuters Technology",
+      "title": "Bill Gates joins calls for AI safeguards, including legislation",
+      "titleZh": "比尔·盖茨呼吁采取人工智能保障措施，包括立法",
+      "url": "https://www.reuters.com/legal/litigation/bill-gates-joins-calls-ai-safeguards-including-legislation-2026-09-27/",
+      "score": 55,
+      "translationStatus": "complete"
+    },
     {
       "id": "9cc4b62d8a595192e59c",
       "category": "ai",
