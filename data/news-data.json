@@ -1,7 +1,67 @@
 {
-  "updatedAt": "2026-09-27T18:09:16.571Z",
+  "updatedAt": "2026-09-28T20:26:03.910Z",
   "timezone": "America/New_York",
   "stories": [
+    {
+      "id": "b2c67bd08c08623b4d46",
+      "category": "ai",
+      "publishedAt": "2026-09-28T20:07:49.486Z",
+      "dateET": "2026-09-28",
+      "source": "Reuters Technology",
+      "title": "Pope Leo says concerns about AI doom are not 'fake news'",
+      "titleZh": "教皇利奥说，对人工智能厄运的担忧不是“假新闻”",
+      "url": "https://www.reuters.com/world/europe/pope-leo-says-concerns-about-ai-doom-are-not-fake-news-2026-09-28/",
+      "score": 56,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "6a9b63eb77e26d07c52e",
+      "category": "ai",
+      "publishedAt": "2026-09-28T19:53:55.844Z",
+      "dateET": "2026-09-28",
+      "source": "Reuters Technology",
+      "title": "Nvidia sets biggest-ever buyback plan as AI chip competition weighs on stock performance",
+      "titleZh": "英伟达制定有史以来最大规模的回购计划，因为人工智能芯片竞争对股票表现造成压力",
+      "url": "https://www.reuters.com/business/nvidia-adds-150-billion-existing-share-repurchase-plan-2026-09-28/",
+      "score": 59,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "e7ee6a3b38e3aa9fc4ad",
+      "category": "ai",
+      "publishedAt": "2026-09-28T19:48:05.691Z",
+      "dateET": "2026-09-28",
+      "source": "Reuters Technology",
+      "title": "Trump's AI meeting with tech CEOs to focus on finding balance, US House speaker says",
+      "titleZh": "美国众议院议长说，特朗普与科技首席执行官的人工智能会议专注于寻找平衡",
+      "url": "https://www.reuters.com/legal/government/trumps-ai-meeting-with-tech-ceos-focus-finding-balance-us-house-speaker-says-2026-09-28/",
+      "score": 55,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "9488e64a6706b3fc681e",
+      "category": "ai",
+      "publishedAt": "2026-09-28T18:49:00.000Z",
+      "dateET": "2026-09-28",
+      "source": "The Information",
+      "title": "Florida AG Seeks to Bar OpenAI from Developing New Models Without Guardrails",
+      "titleZh": "佛罗里达股份公司寻求阻止OpenAI开发没有护栏的新型号",
+      "url": "https://www.theinformation.com/briefings/florida-ag-seeks-bar-openai-developing-new-models-without-guardrails",
+      "score": 52,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "a01b89c763b1b97f173b",
+      "category": "ai",
+      "publishedAt": "2026-09-28T15:01:17.000Z",
+      "dateET": "2026-09-28",
+      "source": "The Information",
+      "title": "Why AI's $15 Trillion Buildout Is Rewriting the Rules of Data Center Financing",
+      "titleZh": "为什么人工智能$ 15万亿美元的构建正在重写数据中心融资的规则",
+      "url": "https://www.theinformation.com/articles/ais-15-trillion-buildout-rewriting-rules-data-center-financing",
+      "score": 53,
+      "translationStatus": "complete"
+    },
     {
       "id": "6f4a347e5a1302d32feb",
       "category": "ai",
