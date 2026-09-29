@@ -1,7 +1,67 @@
 {
-  "updatedAt": "2026-09-28T20:26:03.910Z",
+  "updatedAt": "2026-09-29T19:12:41.156Z",
   "timezone": "America/New_York",
   "stories": [
+    {
+      "id": "b074c902e6ee59a7da7c",
+      "category": "ai",
+      "publishedAt": "2026-09-29T19:08:01.930Z",
+      "dateET": "2026-09-29",
+      "source": "Reuters Technology",
+      "title": "Anthropic’s $2 trln goal is AI’s biggest moonshot",
+      "titleZh": "Anthropic的$ 2万亿美元目标是AI最大的登月计划",
+      "url": "https://www.reuters.com/commentary/breakingviews/anthropics-2-trln-goal-is-ais-biggest-moonshot-2026-09-29/",
+      "score": 60,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "eba1ce32d4e4c7635b9a",
+      "category": "ai",
+      "publishedAt": "2026-09-29T19:01:45.582Z",
+      "dateET": "2026-09-29",
+      "source": "Reuters Technology",
+      "title": "Australian regulator to review banking sector AI use and customer impacts",
+      "titleZh": "澳大利亚监管机构将审查银行业人工智能的使用和对客户的影响",
+      "url": "https://www.reuters.com/business/finance/australian-regulator-review-banking-sector-ai-use-customer-impacts-2026-09-29/",
+      "score": 56,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "4aa6986f55bb59c9d652",
+      "category": "ai",
+      "publishedAt": "2026-09-29T18:53:27.384Z",
+      "dateET": "2026-09-29",
+      "source": "Reuters Technology",
+      "title": "US appeals court upholds Thomson Reuters' landmark win in AI training lawsuit",
+      "titleZh": "美国上诉法院维持汤森路透在人工智能培训诉讼中的里程碑式胜诉",
+      "url": "https://www.reuters.com/business/media-telecom/us-appeals-court-upholds-thomson-reuters-landmark-win-ai-training-lawsuit-2026-09-29/",
+      "score": 56,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "3478272810a1e114b582",
+      "category": "ai",
+      "publishedAt": "2026-09-29T18:40:45.419Z",
+      "dateET": "2026-09-29",
+      "source": "Reuters Technology",
+      "title": "At UN, developing nations call for bigger say in shaping AI future",
+      "titleZh": "在联合国，发展中国家呼吁在塑造人工智能未来方面有更大的发言权",
+      "url": "https://www.reuters.com/sustainability/cop/un-developing-nations-call-bigger-say-shaping-ai-future-2026-09-29/",
+      "score": 55,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "220a442ccde37b9cb5e0",
+      "category": "ai",
+      "publishedAt": "2026-09-29T18:27:06.766Z",
+      "dateET": "2026-09-29",
+      "source": "Reuters Technology",
+      "title": "OpenAI targets $30 billion funding at $1.4 trillion valuation, Bloomberg News reports",
+      "titleZh": "彭博新闻报道， OpenAI的目标是以1.4万亿美元的估值获得300亿美元的资金",
+      "url": "https://www.reuters.com/legal/transactional/openai-targets-30-billion-funding-14-trillion-valuation-bloomberg-news-reports-2026-09-29/",
+      "score": 55,
+      "translationStatus": "complete"
+    },
     {
       "id": "b2c67bd08c08623b4d46",
       "category": "ai",
