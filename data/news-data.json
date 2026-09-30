@@ -1,7 +1,67 @@
 {
-  "updatedAt": "2026-09-29T19:12:41.156Z",
+  "updatedAt": "2026-09-30T18:56:56.782Z",
   "timezone": "America/New_York",
   "stories": [
+    {
+      "id": "45253ded2472b53a3ad9",
+      "category": "ai",
+      "publishedAt": "2026-09-30T18:53:55.000Z",
+      "dateET": "2026-09-30",
+      "source": "The Information",
+      "title": "How New Data Center Debt Concessions Could Stall AI Build-Outs",
+      "titleZh": "新的数据中心债务减免如何阻止人工智能构建",
+      "url": "https://www.theinformation.com/articles/new-data-center-debt-concessions-stall-ai-build-outs",
+      "score": 58,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "85eb2a69f5e85e31072c",
+      "category": "ai",
+      "publishedAt": "2026-09-30T18:48:40.996Z",
+      "dateET": "2026-09-30",
+      "source": "Reuters Technology",
+      "title": "FERC asks grid operator PJM to revise plan to shield homes from data center costs",
+      "titleZh": "FERC要求电网运营商PJM修改计划，以保护家庭免受数据中心成本的影响",
+      "url": "https://www.reuters.com/business/energy/ferc-asks-grid-operator-pjm-revise-plan-shield-homes-data-center-costs-2026-09-30/",
+      "score": 56,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "69d4b4015afb64b3faff",
+      "category": "ai",
+      "publishedAt": "2026-09-30T18:17:19.440Z",
+      "dateET": "2026-09-30",
+      "source": "Reuters Technology",
+      "title": "FTC opens probe into AI giants including Anthropic and OpenAI",
+      "titleZh": "FTC对包括人类和OpenAI在内的人工智能巨头展开调查",
+      "url": "https://www.reuters.com/business/ftc-opens-probe-into-ai-giants-including-anthropic-openai-new-york-post-reports-2026-09-30/",
+      "score": 63,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "5e348e84a791c0c9a0e0",
+      "category": "ai",
+      "publishedAt": "2026-09-30T18:14:41.497Z",
+      "dateET": "2026-09-30",
+      "source": "Reuters Technology",
+      "title": "AI infra firm Accelevation's shares fall in tepid Nasdaq debut",
+      "titleZh": "人工智能基础设施公司Accelevation的股票在纳斯达克温和的首次亮相中下跌",
+      "url": "https://www.reuters.com/technology/ai-infra-firm-accelevation-valued-39-billion-shares-fall-nasdaq-debut-2026-09-30/",
+      "score": 55,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "948251b8c826f4e21cef",
+      "category": "ai",
+      "publishedAt": "2026-09-30T17:57:44.038Z",
+      "dateET": "2026-09-30",
+      "source": "Reuters Technology",
+      "title": "UK accuses China of using academics to spy on AI and other tech research",
+      "titleZh": "英国指责中国利用学者监视人工智能和其他技术研究",
+      "url": "https://www.reuters.com/world/uk/uk-accuses-china-using-academics-spy-ai-other-tech-research-2026-09-30/",
+      "score": 55,
+      "translationStatus": "complete"
+    },
     {
       "id": "b074c902e6ee59a7da7c",
       "category": "ai",
