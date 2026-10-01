@@ -1,7 +1,91 @@
 {
-  "updatedAt": "2026-09-30T18:56:56.782Z",
+  "updatedAt": "2026-10-01T19:20:33.816Z",
   "timezone": "America/New_York",
   "stories": [
+    {
+      "id": "c7fd2a3228407b01640d",
+      "category": "ai",
+      "publishedAt": "2026-10-01T19:11:30.543Z",
+      "dateET": "2026-10-01",
+      "source": "Reuters Technology",
+      "title": "SoftBank completes final phase of $30 billion investment in OpenAI",
+      "titleZh": "软银完成对OpenAI 300亿美元投资的最后阶段",
+      "url": "https://www.reuters.com/legal/transactional/softbank-completes-final-phase-30-billion-investment-openai-2026-10-01/",
+      "score": 56,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "c01642d1b66c7a3156e7",
+      "category": "ai",
+      "publishedAt": "2026-10-01T18:41:47.437Z",
+      "dateET": "2026-10-01",
+      "source": "Reuters Technology",
+      "title": "California AG Bonta issues subpoena to OpenAI over AI cybersecurity risks",
+      "titleZh": "California AG Bonta就AI网络安全风险向OpenAI发出传票",
+      "url": "https://www.reuters.com/legal/litigation/california-attorney-general-issues-investigative-subpoena-openai-2026-10-01/",
+      "score": 59,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "9da27f035cf098fc26bb",
+      "category": "ai",
+      "publishedAt": "2026-10-01T18:41:43.878Z",
+      "dateET": "2026-10-01",
+      "source": "Reuters Technology",
+      "title": "Trump Medicare drug pricing model may apply to only four companies after exemptions",
+      "titleZh": "特朗普Medicare药品定价模式在豁免后仅适用于四家公司",
+      "url": "https://www.reuters.com/legal/litigation/trump-medicare-drug-pricing-model-may-apply-only-four-companies-after-exemptions-2026-10-01/",
+      "score": 55,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "a9f095248b2f1e43fd05",
+      "category": "ai",
+      "publishedAt": "2026-10-01T18:41:30.454Z",
+      "dateET": "2026-10-01",
+      "source": "Reuters Technology",
+      "title": "Temasek comfortable with current AI spending levels, executive says",
+      "titleZh": "高管表示，淡马锡对当前的人工智能支出水平感到满意",
+      "url": "https://www.reuters.com/world/asia-pacific/temasek-comfortable-with-current-ai-spending-levels-executive-says-2026-10-01/",
+      "score": 55,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "03bd09193098aeb72eb6",
+      "category": "ai",
+      "publishedAt": "2026-10-01T18:37:44.998Z",
+      "dateET": "2026-10-01",
+      "source": "Reuters Technology",
+      "title": "California sets guardrails on lawyers' AI use",
+      "titleZh": "加利福尼亚州为律师使用人工智能设置护栏",
+      "url": "https://www.reuters.com/legal/government/california-sets-guardrails-lawyers-ai-use-2026-10-01/",
+      "score": 55,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "845c5a8dcfd7c0488713",
+      "category": "neuroscience",
+      "publishedAt": "2026-10-01T07:00:00.000Z",
+      "dateET": "2026-10-01",
+      "source": "Science",
+      "title": "Mitochondrial carrier SLC25A34 links clock, diet, and temperature control of adipocyte lipid cycling",
+      "titleZh": "线粒体载体SLC25A34连接脂肪细胞脂质循环的时钟、饮食和温度控制",
+      "url": "https://www.science.org/doi/abs/10.1126/science.adz4797?af=R",
+      "score": 36,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "4fa87d0673c425e9fb9a",
+      "category": "neuroscience",
+      "publishedAt": "2026-10-01T07:00:00.000Z",
+      "dateET": "2026-10-01",
+      "source": "Science",
+      "title": "Loss of the tumor suppressor p53 generates a signaling gradient that drives epithelial clonal expansion",
+      "titleZh": "肿瘤抑制因子p53的丢失产生信号梯度，驱动上皮克隆扩增",
+      "url": "https://www.science.org/doi/abs/10.1126/science.aed3065?af=R",
+      "score": 36,
+      "translationStatus": "complete"
+    },
     {
       "id": "45253ded2472b53a3ad9",
       "category": "ai",
