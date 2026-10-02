@@ -1,7 +1,67 @@
 {
-  "updatedAt": "2026-10-01T19:20:33.816Z",
+  "updatedAt": "2026-10-02T19:03:36.453Z",
   "timezone": "America/New_York",
   "stories": [
+    {
+      "id": "be6f568c471899c157e1",
+      "category": "ai",
+      "publishedAt": "2026-10-02T19:00:48.000Z",
+      "dateET": "2026-10-02",
+      "source": "The Information",
+      "title": "OpenAI Hires Top Trump AI Official to Work on National Security",
+      "titleZh": "",
+      "url": "https://www.theinformation.com/articles/openai-hires-top-trump-ai-official-work-national-security",
+      "score": 58,
+      "translationStatus": "pending"
+    },
+    {
+      "id": "5a513b65eeb1cae85336",
+      "category": "ai",
+      "publishedAt": "2026-10-02T18:21:16.453Z",
+      "dateET": "2026-10-02",
+      "source": "Reuters Technology",
+      "title": "Judge warns AI could stunt lawyers' training and harm their clients",
+      "titleZh": "",
+      "url": "https://www.reuters.com/legal/litigation/judge-warns-ai-could-stunt-lawyers-training-harm-their-clients-2026-10-02/",
+      "score": 55,
+      "translationStatus": "pending"
+    },
+    {
+      "id": "5fc3dd1c0f6acf109645",
+      "category": "ai",
+      "publishedAt": "2026-10-02T17:17:07.000Z",
+      "dateET": "2026-10-02",
+      "source": "The Information",
+      "title": "Lambda Secures $1 Billion GPU Loan",
+      "titleZh": "",
+      "url": "https://www.theinformation.com/briefings/lambda-secures-1-billion-gpu-loan",
+      "score": 52,
+      "translationStatus": "pending"
+    },
+    {
+      "id": "740c24efc3c04db34010",
+      "category": "ai",
+      "publishedAt": "2026-10-02T16:54:12.000Z",
+      "dateET": "2026-10-02",
+      "source": "The Information",
+      "title": "Sean Parker Spreads the Gospel of AI Music",
+      "titleZh": "",
+      "url": "https://www.theinformation.com/articles/sean-parker-spreads-gospel-ai-music",
+      "score": 52,
+      "translationStatus": "pending"
+    },
+    {
+      "id": "cc6b00171b7e41704e66",
+      "category": "ai",
+      "publishedAt": "2026-10-02T16:33:00.000Z",
+      "dateET": "2026-10-02",
+      "source": "The Information",
+      "title": "AI Data Center Debt Is Showing Up Everywhere",
+      "titleZh": "",
+      "url": "https://www.theinformation.com/articles/ai-data-center-debt-showing-everywhere",
+      "score": 55,
+      "translationStatus": "pending"
+    },
     {
       "id": "c7fd2a3228407b01640d",
       "category": "ai",
