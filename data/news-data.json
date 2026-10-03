@@ -1,7 +1,31 @@
 {
-  "updatedAt": "2026-10-02T19:03:36.453Z",
+  "updatedAt": "2026-10-03T17:50:28.827Z",
   "timezone": "America/New_York",
   "stories": [
+    {
+      "id": "a809861a07a8ae5e0df2",
+      "category": "ai",
+      "publishedAt": "2026-10-03T15:01:07.000Z",
+      "dateET": "2026-10-03",
+      "source": "The Information",
+      "title": "Who Had Power At That Trump AI Summit?",
+      "titleZh": "谁在特朗普人工智能峰会上拥有权力？",
+      "url": "https://www.theinformation.com/articles/power-trump-ai-summit",
+      "score": 51,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "bdd8621489ae6aa1b90b",
+      "category": "ai",
+      "publishedAt": "2026-10-03T14:51:41.000Z",
+      "dateET": "2026-10-03",
+      "source": "The Information",
+      "title": "AI Agents Are Going Rogue. Novel Legal Battles Are Next",
+      "titleZh": "人工智能特工正在流氓。接下来是新颖的法律斗争",
+      "url": "https://www.theinformation.com/articles/ai-agents-going-rogue-novel-legal-battles-next",
+      "score": 51,
+      "translationStatus": "complete"
+    },
     {
       "id": "be6f568c471899c157e1",
       "category": "ai",
@@ -9,10 +33,10 @@
       "dateET": "2026-10-02",
       "source": "The Information",
       "title": "OpenAI Hires Top Trump AI Official to Work on National Security",
-      "titleZh": "",
+      "titleZh": "OpenAI聘请特朗普人工智能高级官员从事国家安全工作",
       "url": "https://www.theinformation.com/articles/openai-hires-top-trump-ai-official-work-national-security",
       "score": 58,
-      "translationStatus": "pending"
+      "translationStatus": "complete"
     },
     {
       "id": "5a513b65eeb1cae85336",
@@ -21,10 +45,10 @@
       "dateET": "2026-10-02",
       "source": "Reuters Technology",
       "title": "Judge warns AI could stunt lawyers' training and harm their clients",
-      "titleZh": "",
+      "titleZh": "法官警告说，人工智能可能会阻碍律师的培训并伤害他们的客户",
       "url": "https://www.reuters.com/legal/litigation/judge-warns-ai-could-stunt-lawyers-training-harm-their-clients-2026-10-02/",
       "score": 55,
-      "translationStatus": "pending"
+      "translationStatus": "complete"
     },
     {
       "id": "5fc3dd1c0f6acf109645",
@@ -33,10 +57,10 @@
       "dateET": "2026-10-02",
       "source": "The Information",
       "title": "Lambda Secures $1 Billion GPU Loan",
-      "titleZh": "",
+      "titleZh": "Lambda获得$ 10亿GPU贷款",
       "url": "https://www.theinformation.com/briefings/lambda-secures-1-billion-gpu-loan",
       "score": 52,
-      "translationStatus": "pending"
+      "translationStatus": "complete"
     },
     {
       "id": "740c24efc3c04db34010",
@@ -45,10 +69,10 @@
       "dateET": "2026-10-02",
       "source": "The Information",
       "title": "Sean Parker Spreads the Gospel of AI Music",
-      "titleZh": "",
+      "titleZh": "肖恩·帕克传播人工智能音乐的福音",
       "url": "https://www.theinformation.com/articles/sean-parker-spreads-gospel-ai-music",
       "score": 52,
-      "translationStatus": "pending"
+      "translationStatus": "complete"
     },
     {
       "id": "cc6b00171b7e41704e66",
@@ -57,10 +81,10 @@
       "dateET": "2026-10-02",
       "source": "The Information",
       "title": "AI Data Center Debt Is Showing Up Everywhere",
-      "titleZh": "",
+      "titleZh": "人工智能数据中心债务无处不在",
       "url": "https://www.theinformation.com/articles/ai-data-center-debt-showing-everywhere",
       "score": 55,
-      "translationStatus": "pending"
+      "translationStatus": "complete"
     },
     {
       "id": "c7fd2a3228407b01640d",
