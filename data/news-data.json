@@ -1,7 +1,31 @@
 {
-  "updatedAt": "2026-10-03T17:50:28.827Z",
+  "updatedAt": "2026-10-04T18:02:52.040Z",
   "timezone": "America/New_York",
   "stories": [
+    {
+      "id": "6e4e3b4286b3a549074e",
+      "category": "ai",
+      "publishedAt": "2026-10-04T15:00:35.000Z",
+      "dateET": "2026-10-04",
+      "source": "The Information",
+      "title": "Anthropic’s Big Charity Bill for Shareholders",
+      "titleZh": "Anthropic的股东大慈善法案",
+      "url": "https://www.theinformation.com/articles/anthropics-big-charity-bill-shareholders",
+      "score": 51,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "fc3a8a2b25ad55b266b1",
+      "category": "ai",
+      "publishedAt": "2026-10-04T12:34:02.000Z",
+      "dateET": "2026-10-04",
+      "source": "The Information",
+      "title": "National Intelligence Director Jay Clayton Will Lead AI Task Force",
+      "titleZh": "美国国家情报总监杰伊·克莱顿（ Jay Clayton ）将领导人工智能",
+      "url": "https://www.theinformation.com/briefings/national-intelligence-director-jay-clayton-will-lead-ai-task-force",
+      "score": 49,
+      "translationStatus": "complete"
+    },
     {
       "id": "a809861a07a8ae5e0df2",
       "category": "ai",
