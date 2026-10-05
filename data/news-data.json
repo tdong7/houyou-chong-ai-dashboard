@@ -1,7 +1,67 @@
 {
-  "updatedAt": "2026-10-04T18:02:52.040Z",
+  "updatedAt": "2026-10-05T21:24:33.959Z",
   "timezone": "America/New_York",
   "stories": [
+    {
+      "id": "a017874811c6bc9450cb",
+      "category": "ai",
+      "publishedAt": "2026-10-05T21:22:36.000Z",
+      "dateET": "2026-10-05",
+      "source": "The Information",
+      "title": "Reflection AI Announces First Open Source Model, Beam",
+      "titleZh": "Reflection AI宣布推出首款开源模型Beam",
+      "url": "https://www.theinformation.com/briefings/reflection-ai-announces-first-open-source-model-beam",
+      "score": 58,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "23171c0e23605f0e8c26",
+      "category": "ai",
+      "publishedAt": "2026-10-05T21:15:39.114Z",
+      "dateET": "2026-10-05",
+      "source": "Reuters Technology",
+      "title": "Tate brothers used 'lover boy' model to exploit women, Britain says",
+      "titleZh": "英国称泰特兄弟利用“情人男孩”模式剥削女性",
+      "url": "https://www.reuters.com/world/uk/tate-brothers-used-lover-boy-model-exploit-women-britain-says-2026-10-05/",
+      "score": 56,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "0e468f4e811bbbe0e395",
+      "category": "ai",
+      "publishedAt": "2026-10-05T21:09:43.923Z",
+      "dateET": "2026-10-05",
+      "source": "Reuters Technology",
+      "title": "Italy PM Meloni seeks EU trademark for her voice amid AI deepfake risks",
+      "titleZh": "意大利总理梅洛尼在人工智能deepfake风险中为她的声音寻求欧盟商标",
+      "url": "https://www.reuters.com/technology/italy-pm-meloni-seeks-eu-trademark-her-voice-amid-ai-deepfake-risks-2026-10-05/",
+      "score": 56,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "6b31b38926517c845deb",
+      "category": "ai",
+      "publishedAt": "2026-10-05T20:54:09.507Z",
+      "dateET": "2026-10-05",
+      "source": "Reuters Technology",
+      "title": "Nvidia-backed Reflection unveils first AI model to take on Chinese open models",
+      "titleZh": "英伟达支持的Reflection推出首款采用中国开放模式的人工智能模型",
+      "url": "https://www.reuters.com/technology/nvidia-backed-reflection-unveils-first-ai-model-take-chinese-open-models-2026-10-05/",
+      "score": 59,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "30ac0019d82acce729c8",
+      "category": "ai",
+      "publishedAt": "2026-10-05T20:45:24.342Z",
+      "dateET": "2026-10-05",
+      "source": "Reuters Technology",
+      "title": "Conservation group calls for moratorium on AI data centers on US public lands",
+      "titleZh": "保护组织呼吁暂停美国公共土地上的人工智能数据中心",
+      "url": "https://www.reuters.com/legal/litigation/conservation-group-calls-moratorium-ai-data-centers-us-public-lands-2026-10-05/",
+      "score": 55,
+      "translationStatus": "complete"
+    },
     {
       "id": "6e4e3b4286b3a549074e",
       "category": "ai",
