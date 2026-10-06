@@ -21,7 +21,7 @@ const stocks = [
   { rank: 20, symbol: "CRWD", exchange: "NASDAQ", company: "CrowdStrike Holdings, Inc. Class A", price: 272.67, performance: {"1D":0.97,"5D":3.18,"1M":28.32,"3M":35.87,"6M":147.89,"YTD":130.1,"1Y":118.21,"5Y":354.28,"10Y":1617.61,"ALL":1617.61}, ytd: 130.1, cap: "279.2B", theme: "AI platform", score: 79 },
 ];
 
-let stockListUpdatedAt = "2026-10-05T21:11:52.083Z";
+let stockListUpdatedAt = "2026-10-06T00:55:10.607Z";
 
 const grid = document.querySelector("#stock-grid");
 const search = document.querySelector("#stock-search");
