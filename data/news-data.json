@@ -1,7 +1,67 @@
 {
-  "updatedAt": "2026-10-05T21:24:33.959Z",
+  "updatedAt": "2026-10-06T19:21:02.395Z",
   "timezone": "America/New_York",
   "stories": [
+    {
+      "id": "5baa4ffcfc7d26a34152",
+      "category": "ai",
+      "publishedAt": "2026-10-06T19:06:20.000Z",
+      "dateET": "2026-10-06",
+      "source": "The Information",
+      "title": "Anthropic Expands Cyberdefenders’ Access to Top Models",
+      "titleZh": "Anthropic扩大了网络防御者接触顶级模特的机会",
+      "url": "https://www.theinformation.com/briefings/anthropic-expands-cyberdefenders-access-top-models",
+      "score": 54,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "82460e597ba14794e87f",
+      "category": "ai",
+      "publishedAt": "2026-10-06T19:03:49.972Z",
+      "dateET": "2026-10-06",
+      "source": "Reuters Technology",
+      "title": "Anthropic opens its most powerful AI models to more security teams",
+      "titleZh": "Anthropic向更多安全团队开放其最强大的人工智能模型",
+      "url": "https://www.reuters.com/legal/litigation/anthropic-opens-its-most-powerful-ai-models-more-security-teams-2026-10-06/",
+      "score": 60,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "7de741519ab1a43e31c3",
+      "category": "ai",
+      "publishedAt": "2026-10-06T16:00:00.000Z",
+      "dateET": "2026-10-06",
+      "source": "OpenAI News",
+      "title": "Atlassian and OpenAI expand partnership to turn enterprise knowledge into action",
+      "titleZh": "Atlassian和OpenAI扩大合作伙伴关系，将企业知识转化为行动",
+      "url": "https://openai.com/index/atlassian-partnership",
+      "score": 49,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "133d0638bffa23ce4efe",
+      "category": "ai",
+      "publishedAt": "2026-10-06T14:00:41.000Z",
+      "dateET": "2026-10-06",
+      "source": "The Information",
+      "title": "AI Whistleblowers Say Researchers Are Checking AI Less Frequently",
+      "titleZh": "人工智能告密者表示，研究人员检查人工智能的频率较低",
+      "url": "https://www.theinformation.com/articles/ai-whistleblowers-say-researchers-checking-ai-less-frequently",
+      "score": 49,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "3798fcabdb7a0e39a945",
+      "category": "ai",
+      "publishedAt": "2026-10-06T10:00:00.000Z",
+      "dateET": "2026-10-06",
+      "source": "OpenAI News",
+      "title": "Advancing computer use with Ironclad",
+      "titleZh": "使用Ironclad推进计算机使用",
+      "url": "https://openai.com/index/advancing-computer-use-with-ironclad",
+      "score": 39,
+      "translationStatus": "complete"
+    },
     {
       "id": "a017874811c6bc9450cb",
       "category": "ai",
