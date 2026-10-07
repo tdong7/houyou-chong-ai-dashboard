@@ -1,7 +1,67 @@
 {
-  "updatedAt": "2026-10-06T19:21:02.395Z",
+  "updatedAt": "2026-10-07T19:48:56.783Z",
   "timezone": "America/New_York",
   "stories": [
+    {
+      "id": "3729a6c71c33b56a47c2",
+      "category": "ai",
+      "publishedAt": "2026-10-07T19:21:44.164Z",
+      "dateET": "2026-10-07",
+      "source": "Reuters Technology",
+      "title": "Microsoft brings more AI to PCs as it challenges Apple",
+      "titleZh": "微软在挑战苹果时为个人电脑带来更多人工智能",
+      "url": "https://www.reuters.com/business/microsoft-nvidia-ceos-unveil-new-ai-laptop-san-francisco-event-2026-10-07/",
+      "score": 56,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "0ff1e4b9e8415610bbf4",
+      "category": "ai",
+      "publishedAt": "2026-10-07T19:08:44.000Z",
+      "dateET": "2026-10-07",
+      "source": "The Information",
+      "title": "Ex-Trump AI Adviser Sriram Krishnan Targets Raising a $500 Million Venture Fund",
+      "titleZh": "前特朗普人工智能顾问Sriram Krishnan计划筹集5亿美元的风险投资基金",
+      "url": "https://www.theinformation.com/articles/ex-trump-ai-adviser-sriram-krishnan-targets-raising-500-million-venture-fund",
+      "score": 53,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "80afd66a393024b72674",
+      "category": "ai",
+      "publishedAt": "2026-10-07T18:21:24.000Z",
+      "dateET": "2026-10-07",
+      "source": "The Information",
+      "title": "Microsoft Debuts Nvidia-Powered PCs with On-Device AI, Following Apple’s Breakout Hit",
+      "titleZh": "微软推出搭载Nvidia和On-Device AI的PC ，紧随苹果的突破热潮",
+      "url": "https://www.theinformation.com/briefings/microsoft-debuts-new-windows-pcs-features-powered-on-device-ai",
+      "score": 53,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "0030cbc6de152e864745",
+      "category": "ai",
+      "publishedAt": "2026-10-07T15:34:03.000Z",
+      "dateET": "2026-10-07",
+      "source": "The Information",
+      "title": "AI Agenda Live: From Token Maxing to Value maxing: Getting More From Every Unit of Compute",
+      "titleZh": "AI议程直播：从代币最大化到价值最大化：从每个计算单元获得更多",
+      "url": "https://www.theinformation.com/articles/ai-agenda-live-token-maxing-value-maxing-getting-every-unit-compute",
+      "score": 50,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "58be49b6ad397e853ddc",
+      "category": "ai",
+      "publishedAt": "2026-10-07T12:00:40.000Z",
+      "dateET": "2026-10-07",
+      "source": "The Information",
+      "title": "Former Google, Nvidia Execs Launch Company to Ease GPU Crunch",
+      "titleZh": "前谷歌、英伟达高管推出公司，以缓解GPU紧缩",
+      "url": "https://www.theinformation.com/briefings/former-google-nvidia-execs-launch-company-ease-gpu-crunch",
+      "score": 46,
+      "translationStatus": "complete"
+    },
     {
       "id": "5baa4ffcfc7d26a34152",
       "category": "ai",
