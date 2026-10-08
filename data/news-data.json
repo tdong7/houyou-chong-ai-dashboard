@@ -1,7 +1,91 @@
 {
-  "updatedAt": "2026-10-07T19:48:56.783Z",
+  "updatedAt": "2026-10-08T19:43:39.670Z",
   "timezone": "America/New_York",
   "stories": [
+    {
+      "id": "ba59a26d4202762a7fcf",
+      "category": "ai",
+      "publishedAt": "2026-10-08T19:01:20.453Z",
+      "dateET": "2026-10-08",
+      "source": "Reuters Technology",
+      "title": "Anthropic launches dashboard, animation tools for Claude",
+      "titleZh": "Anthropic为Claude推出仪表板和动画工具",
+      "url": "https://www.reuters.com/technology/anthropic-launches-dashboard-animation-tools-claude-2026-10-08/",
+      "score": 55,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "bc594d9a0304966e894b",
+      "category": "ai",
+      "publishedAt": "2026-10-08T15:42:06.112Z",
+      "dateET": "2026-10-08",
+      "source": "Reuters Technology",
+      "title": "AI pricing lawsuit against McDonald's raises new antitrust questions",
+      "titleZh": "针对麦当劳的人工智能定价诉讼引发了新的反垄断问题",
+      "url": "https://www.reuters.com/business/ai-pricing-lawsuit-against-mcdonalds-raises-new-antitrust-questions-2026-10-08/",
+      "score": 52,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "8ee6f272f3d662d06a4e",
+      "category": "ai",
+      "publishedAt": "2026-10-08T15:00:50.000Z",
+      "dateET": "2026-10-08",
+      "source": "The Information",
+      "title": "How OpenAI Beat Math",
+      "titleZh": "OpenAI如何击败数学",
+      "url": "https://www.theinformation.com/articles/openai-beat-math",
+      "score": 49,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "17bdef1cd7ce7ea7abd2",
+      "category": "ai",
+      "publishedAt": "2026-10-08T12:00:00.000Z",
+      "dateET": "2026-10-08",
+      "source": "OpenAI News",
+      "title": "Pollo AI turns creative ideas into campaigns with OpenAI",
+      "titleZh": "Pollo AI借助OpenAI将创意转化为活动",
+      "url": "https://openai.com/index/pollo-ai",
+      "score": 48,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "ca0eaad28a222fb23d77",
+      "category": "ai",
+      "publishedAt": "2026-10-08T10:50:42.000Z",
+      "dateET": "2026-10-08",
+      "source": "The Information",
+      "title": "Exclusive: Former Omidyar CEO Founds AI Investor Network",
+      "titleZh": "独家：前Omidyar首席执行官创立AI投资者网络",
+      "url": "https://www.theinformation.com/briefings/exclusive-former-omidyar-ceo-founds-ai-investor-network",
+      "score": 45,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "a3aef8574c20f5dd6521",
+      "category": "neuroscience",
+      "publishedAt": "2026-10-08T07:00:00.000Z",
+      "dateET": "2026-10-08",
+      "source": "Science",
+      "title": "Golgi-derived vesicles containing PI(3,4)P2 drive mitochondrial fusion",
+      "titleZh": "含有PI (3,4) P2驱动线粒体融合的Golgi衍生囊泡",
+      "url": "https://www.science.org/doi/abs/10.1126/science.adx9628?af=R",
+      "score": 35,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "e705f89179fd2db6c4eb",
+      "category": "neuroscience",
+      "publishedAt": "2026-10-08T06:00:09.000Z",
+      "dateET": "2026-10-08",
+      "source": "Science",
+      "title": "New studies probe how menopause puts brain at risk",
+      "titleZh": "新的研究探索更年期如何使大脑处于危险之中",
+      "url": "https://www.science.org/doi/abs/10.1126/science.aen0166?af=R",
+      "score": 38,
+      "translationStatus": "complete"
+    },
     {
       "id": "3729a6c71c33b56a47c2",
       "category": "ai",
