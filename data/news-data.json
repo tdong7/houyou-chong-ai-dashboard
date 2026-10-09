@@ -1,7 +1,67 @@
 {
-  "updatedAt": "2026-10-08T19:43:39.670Z",
+  "updatedAt": "2026-10-09T19:20:51.326Z",
   "timezone": "America/New_York",
   "stories": [
+    {
+      "id": "bf7a60a1e48868ae5acb",
+      "category": "ai",
+      "publishedAt": "2026-10-09T18:23:11.724Z",
+      "dateET": "2026-10-09",
+      "source": "Reuters Technology",
+      "title": "Moroccan king says migration cooperation model with Spain hit limit",
+      "titleZh": "摩洛哥国王称与西班牙的移民合作模式达到极限",
+      "url": "https://www.reuters.com/world/europe/moroccan-king-says-migration-cooperation-model-with-spain-hit-limit-2026-10-09/",
+      "score": 55,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "9c1bd5f4c8416c9908c5",
+      "category": "ai",
+      "publishedAt": "2026-10-09T13:01:00.000Z",
+      "dateET": "2026-10-09",
+      "source": "The Information",
+      "title": "China’s AI Model Race Is Just Getting More Crowded",
+      "titleZh": "中国的人工智能模型竞赛正变得越来越拥挤",
+      "url": "https://www.theinformation.com/articles/chinas-ai-model-race-just-getting-crowded",
+      "score": 52,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "33411717fc804ab0a185",
+      "category": "ai",
+      "publishedAt": "2026-10-09T09:26:51.000Z",
+      "dateET": "2026-10-09",
+      "source": "The Information",
+      "title": "SoftBank’s Son Seeks $100 Billion From Gulf Investors for AI Bets",
+      "titleZh": "软银的儿子从海湾投资者那里寻求1000 $十亿的人工智能赌注",
+      "url": "https://www.theinformation.com/briefings/softbanks-son-seeks-100-billion-gulf-investors-ai-bets",
+      "score": 44,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "e16768c6e1626d338234",
+      "category": "ai",
+      "publishedAt": "2026-10-09T07:00:00.000Z",
+      "dateET": "2026-10-09",
+      "source": "OpenAI News",
+      "title": "Sophos cuts threat investigation time by 96% with OpenAI Daybreak",
+      "titleZh": "Sophos借助OpenAI Daybreak将威胁调查时间缩短96%",
+      "url": "https://openai.com/index/sophos",
+      "score": 40,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "410843e3d5263ab7000d",
+      "category": "ai",
+      "publishedAt": "2026-10-09T07:00:00.000Z",
+      "dateET": "2026-10-09",
+      "source": "OpenAI News",
+      "title": "Asana cuts model costs 76x in browser tests with GPT-6.1 Sol",
+      "titleZh": "Asana使用GPT-6.1 Sol将浏览器测试中的模型成本降低了76倍",
+      "url": "https://openai.com/index/asana-browser-agent",
+      "score": 40,
+      "translationStatus": "complete"
+    },
     {
       "id": "ba59a26d4202762a7fcf",
       "category": "ai",
