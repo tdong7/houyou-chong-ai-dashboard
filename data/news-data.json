@@ -1,7 +1,31 @@
 {
-  "updatedAt": "2026-10-09T19:20:51.326Z",
+  "updatedAt": "2026-10-10T18:19:55.788Z",
   "timezone": "America/New_York",
   "stories": [
+    {
+      "id": "20bf8f84d5328cc92dce",
+      "category": "ai",
+      "publishedAt": "2026-10-10T14:00:38.000Z",
+      "dateET": "2026-10-10",
+      "source": "The Information",
+      "title": "GPUs in the Wine Cellar: Why Techies Are Hoarding AI Compute in Their Homes",
+      "titleZh": "葡萄酒窖中的GPU ：为什么技术人员将人工智能计算囤积在家中",
+      "url": "https://www.theinformation.com/articles/gpus-wine-cellar-techies-hoarding-ai-compute-homes",
+      "score": 50,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "61ebca7c063fe745d905",
+      "category": "ai",
+      "publishedAt": "2026-10-10T06:00:31.000Z",
+      "dateET": "2026-10-10",
+      "source": "The Information",
+      "title": "Anthropic’s Rogue AI Filled Out U.S. Visa Forms, Gave False Homicide Tip to Police",
+      "titleZh": "Anthropic的Rogue AI填写了美国签证表格，向警方提供了虚假的凶杀案线索",
+      "url": "https://www.theinformation.com/briefings/anthropics-rogue-ai-filled-u-s-visa-forms-gave-false-homicide-tip-police",
+      "score": 46,
+      "translationStatus": "complete"
+    },
     {
       "id": "bf7a60a1e48868ae5acb",
       "category": "ai",
