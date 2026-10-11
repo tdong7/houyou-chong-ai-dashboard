@@ -1,7 +1,19 @@
 {
-  "updatedAt": "2026-10-10T18:19:55.788Z",
+  "updatedAt": "2026-10-11T18:42:31.353Z",
   "timezone": "America/New_York",
   "stories": [
+    {
+      "id": "9d0a661625e61a6a0996",
+      "category": "ai",
+      "publishedAt": "2026-10-11T15:01:22.000Z",
+      "dateET": "2026-10-11",
+      "source": "The Information",
+      "title": "The Attractive Economics Behind Anthropic Data Center Sprint",
+      "titleZh": "",
+      "url": "https://www.theinformation.com/articles/attractive-economics-behind-anthropic-data-center-sprint",
+      "score": 54,
+      "translationStatus": "pending"
+    },
     {
       "id": "20bf8f84d5328cc92dce",
       "category": "ai",
