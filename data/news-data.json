@@ -1,7 +1,91 @@
 {
-  "updatedAt": "2026-10-11T18:42:31.353Z",
+  "updatedAt": "2026-10-12T22:00:33.476Z",
   "timezone": "America/New_York",
   "stories": [
+    {
+      "id": "d3a1ab405ebafa901157",
+      "category": "space",
+      "publishedAt": "2026-10-12T21:00:00.000Z",
+      "dateET": "2026-10-12",
+      "source": "Space.com",
+      "title": "SpaceX launching 6,300 pounds of cargo to the ISS on Oct. 13: Watch it live",
+      "titleZh": "SpaceX于10月13日向国际空间站发射6,300磅货物：观看直播",
+      "url": "https://www.space.com/space-exploration/international-space-station/spacex-crs-35-cargo-launch-international-space-station",
+      "score": 50,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "6167cf080494e35b439a",
+      "category": "ai",
+      "publishedAt": "2026-10-12T20:45:51.980Z",
+      "dateET": "2026-10-12",
+      "source": "Reuters Technology",
+      "title": "Kroger plans to eliminate 3,000 corporate roles, memo shows, as it expands AI use",
+      "titleZh": "备忘录显示， Kroger计划裁减3,000个企业角色，因为它扩大了人工智能的使用",
+      "url": "https://www.reuters.com/business/kroger-plans-cut-about-third-corporate-roles-over-next-three-years-bloomberg-2026-10-12/",
+      "score": 55,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "16c1c84c89e54a14fb55",
+      "category": "ai",
+      "publishedAt": "2026-10-12T19:01:11.974Z",
+      "dateET": "2026-10-12",
+      "source": "Reuters Technology",
+      "title": "US AI testing agency officials to move to White House, The Information reports",
+      "titleZh": "据The Information报道，美国人工智能测试机构官员将前往白宫",
+      "url": "https://www.reuters.com/world/us/trump-administration-plans-move-ai-testing-agency-officials-white-house-2026-10-12/",
+      "score": 53,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "30323f5e44bf45ed8771",
+      "category": "ai",
+      "publishedAt": "2026-10-12T18:36:42.000Z",
+      "dateET": "2026-10-12",
+      "source": "The Information",
+      "title": "Trump Administration Plans to Move AI Testing Agency Officials to White House",
+      "titleZh": "特朗普政府计划将人工智能测试机构官员调往白宫",
+      "url": "https://www.theinformation.com/articles/trump-administration-plans-move-ai-testing-agency-officials-white-house",
+      "score": 51,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "26087350f0c6d82c98bb",
+      "category": "space",
+      "publishedAt": "2026-10-12T18:00:00.000Z",
+      "dateET": "2026-10-12",
+      "source": "Space.com",
+      "title": "The moon could turn astronauts into 'walking, high voltage capacitors' that accidentally zap spacecraft",
+      "titleZh": "月球可能会将宇航员变成“行走的高压电容器” ，意外撞击航天器",
+      "url": "https://www.space.com/astronomy/moon/the-moon-could-turn-astronauts-into-walking-high-voltage-capacitors-that-accidentally-zap-spacecraft",
+      "score": 47,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "3d359c4328ef5e4e5c63",
+      "category": "ai",
+      "publishedAt": "2026-10-12T17:31:53.000Z",
+      "dateET": "2026-10-12",
+      "source": "The Information",
+      "title": "Meta Unveils New AI Models to Challenge OpenAI and Anthropic",
+      "titleZh": "Meta推出挑战OpenAI和Anthropic的新AI模型",
+      "url": "https://www.theinformation.com/briefings/meta-unveils-new-ai-models-challenge-openai-anthropic",
+      "score": 58,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "ca8234408a728d8c6a69",
+      "category": "ai",
+      "publishedAt": "2026-10-12T13:47:07.000Z",
+      "dateET": "2026-10-12",
+      "source": "The Information",
+      "title": "Microsoft Debuts New Homegrown AI Chip, Plans to Deploy Multiple Gigawatts Next Year",
+      "titleZh": "微软推出全新国产AI芯片，计划明年部署数千兆瓦",
+      "url": "https://www.theinformation.com/briefings/microsoft-debuts-new-homegrown-ai-chip-plans-deploy-multiple-gigawatts-next-year",
+      "score": 50,
+      "translationStatus": "complete"
+    },
     {
       "id": "9d0a661625e61a6a0996",
       "category": "ai",
@@ -9,10 +93,10 @@
       "dateET": "2026-10-11",
       "source": "The Information",
       "title": "The Attractive Economics Behind Anthropic Data Center Sprint",
-      "titleZh": "",
+      "titleZh": "人类数据中心冲刺背后的吸引力经济学",
       "url": "https://www.theinformation.com/articles/attractive-economics-behind-anthropic-data-center-sprint",
       "score": 54,
-      "translationStatus": "pending"
+      "translationStatus": "complete"
     },
     {
       "id": "20bf8f84d5328cc92dce",
