@@ -21,7 +21,7 @@ const stocks = [
   { rank: 20, symbol: "BNAI", exchange: "NASDAQ", company: "Brand Engagement Network Inc.", price: 5.28, performance: {"1D":1.73,"5D":-6.05,"1M":-37.66,"3M":-58.49,"6M":-90.37,"YTD":111.2,"1Y":-4.45,"5Y":-94.56,"10Y":-94.58,"ALL":-94.58}, ytd: 111.2, cap: "39.5M", theme: "AI platform", score: 79 },
 ];
 
-let stockListUpdatedAt = "2026-10-12T21:49:06.115Z";
+let stockListUpdatedAt = "2026-10-13T01:34:37.605Z";
 
 const grid = document.querySelector("#stock-grid");
 const search = document.querySelector("#stock-search");
