@@ -1,7 +1,91 @@
 {
-  "updatedAt": "2026-10-12T22:00:33.476Z",
+  "updatedAt": "2026-10-13T20:07:42.156Z",
   "timezone": "America/New_York",
   "stories": [
+    {
+      "id": "860a640aab42c668b51d",
+      "category": "space",
+      "publishedAt": "2026-10-13T20:00:00.000Z",
+      "dateET": "2026-10-13",
+      "source": "Space.com",
+      "title": "'We basically did Top Gun in space': 'Star Trek Starfleet Academy' warps back into action in March 2027 for sophomore year in the final frontier",
+      "titleZh": "“我们基本上在太空中做了Top Gun” ： “星际迷航星际舰队学院”在2027年3月回到行动中，在最后一个边疆的第二年",
+      "url": "https://www.space.com/entertainment/space-movies-shows/we-basically-did-top-gun-in-space-star-trek-starfleet-academy-warps-back-into-action-in-march-2027-for-sophomore-year-in-the-final-frontier",
+      "score": 51,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "8483e63f12886bd1e61d",
+      "category": "ai",
+      "publishedAt": "2026-10-13T19:59:23.450Z",
+      "dateET": "2026-10-13",
+      "source": "Reuters Technology",
+      "title": "FBI arrests former OpenAI employee for planting listening device",
+      "titleZh": "联邦调查局逮捕前OpenAI员工，罪名是放置监听设备",
+      "url": "https://www.reuters.com/world/us/fbi-arrests-former-openai-employee-planting-listening-device-2026-10-13/",
+      "score": 56,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "372eb01f2816d06e9493",
+      "category": "ai",
+      "publishedAt": "2026-10-13T19:51:54.000Z",
+      "dateET": "2026-10-13",
+      "source": "The Information",
+      "title": "OpenAI Scrambles to Fix Safety Issues Before Shipping Its Next Flagship Model",
+      "titleZh": "OpenAI在出货下一款旗舰机型前争先恐后地解决安全问题",
+      "url": "https://www.theinformation.com/articles/openai-scrambles-fix-safety-issues-shipping-next-flagship-model",
+      "score": 58,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "64cfbbe65902a7f55634",
+      "category": "ai",
+      "publishedAt": "2026-10-13T18:21:31.204Z",
+      "dateET": "2026-10-13",
+      "source": "Reuters Technology",
+      "title": "Grok cases highlight risks for AI companies under Illinois privacy law",
+      "titleZh": "Grok案例凸显了伊利诺伊州隐私法下人工智能公司的风险",
+      "url": "https://www.reuters.com/legal/government/grok-cases-highlight-risks-ai-companies-under-illinois-privacy-law-2026-10-13/",
+      "score": 54,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "477844552538a0bad2d9",
+      "category": "ai",
+      "publishedAt": "2026-10-13T18:16:20.000Z",
+      "dateET": "2026-10-13",
+      "source": "The Information",
+      "title": "Why Companies Can't Prove Their AI Spending Pays Off",
+      "titleZh": "为什么公司无法证明他们的人工智能支出是有回报的",
+      "url": "https://www.theinformation.com/articles/companies-prove-ai-spending-pays",
+      "score": 52,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "6cf3dae3aceb32bd5ceb",
+      "category": "ai",
+      "publishedAt": "2026-10-13T18:01:01.515Z",
+      "dateET": "2026-10-13",
+      "source": "Reuters Technology",
+      "title": "Lawmakers ask FAA to pause use of new AI tool in DC-area flight management",
+      "titleZh": "立法者要求美国联邦航空局暂停在华盛顿特区航班管理中使用新的人工智能工具",
+      "url": "https://www.reuters.com/legal/government/lawmakers-ask-faa-pause-use-new-ai-tool-dc-area-flight-management-2026-10-13/",
+      "score": 54,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "795a5518d31ea4346dab",
+      "category": "space",
+      "publishedAt": "2026-10-13T17:02:48.000Z",
+      "dateET": "2026-10-13",
+      "source": "Space.com",
+      "title": "SpaceX rocket launch creates incredible 'space jellyfish' visible throughout US East Coast (photos)",
+      "titleZh": "SpaceX火箭发射在美国东海岸创造了令人难以置信的“太空水母” （照片）",
+      "url": "https://www.space.com/space-exploration/launches-spacecraft/spacex-rocket-launch-creates-incredible-space-jellyfish-visible-throughout-us-east-coast-photos",
+      "score": 60,
+      "translationStatus": "complete"
+    },
     {
       "id": "d3a1ab405ebafa901157",
       "category": "space",
