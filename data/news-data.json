@@ -1,7 +1,91 @@
 {
-  "updatedAt": "2026-10-13T20:07:42.156Z",
+  "updatedAt": "2026-10-14T18:23:37.277Z",
   "timezone": "America/New_York",
   "stories": [
+    {
+      "id": "cfb9ad4ceac670cb8049",
+      "category": "ai",
+      "publishedAt": "2026-10-14T18:13:21.000Z",
+      "dateET": "2026-10-14",
+      "source": "The Information",
+      "title": "OpenAI Accuses Former Employee of Taking Confidential Information to Apple",
+      "titleZh": "OpenAI指责前员工将机密信息带给苹果",
+      "url": "https://www.theinformation.com/briefings/openai-accuses-former-employee-taking-confidential-information-apple",
+      "score": 54,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "17f92de0d172c96562c6",
+      "category": "ai",
+      "publishedAt": "2026-10-14T18:12:35.911Z",
+      "dateET": "2026-10-14",
+      "source": "Reuters Technology",
+      "title": "AI-powered stock funds bet bots can pick stocks faster and better than humans",
+      "titleZh": "人工智能驱动的股票基金投注机器人可以比人类更快、更好地选择股票",
+      "url": "https://www.reuters.com/legal/government/ai-powered-stock-funds-bet-bots-can-pick-stocks-faster-better-than-humans-2026-10-14/",
+      "score": 56,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "b6cd7a26ca3d6898b61b",
+      "category": "space",
+      "publishedAt": "2026-10-14T18:00:00.000Z",
+      "dateET": "2026-10-14",
+      "source": "Space.com",
+      "title": "SpaceX's Starship just turned 10 years old. When will it go to Mars?",
+      "titleZh": "SpaceX的星际飞船刚刚年满10岁。它什么时候会去火星？",
+      "url": "https://www.space.com/space-exploration/launches-spacecraft/spacexs-starship-just-turned-10-years-old-when-will-it-go-to-mars",
+      "score": 59,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "fefba84e9d9aed9ed9e8",
+      "category": "ai",
+      "publishedAt": "2026-10-14T16:45:50.785Z",
+      "dateET": "2026-10-14",
+      "source": "Reuters Technology",
+      "title": "As Wall Street banks finance and adopt AI, risks mount on both fronts",
+      "titleZh": "随着华尔街银行融资和采用人工智能，两方面的风险都在增加",
+      "url": "https://www.reuters.com/legal/legalindustry/wall-street-banks-finance-adopt-ai-risks-mount-both-fronts-2026-10-14/",
+      "score": 54,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "f4e87792b781924c7ac1",
+      "category": "ai",
+      "publishedAt": "2026-10-14T15:10:46.000Z",
+      "dateET": "2026-10-14",
+      "source": "The Information",
+      "title": "Exclusive: Nvidia and ChipAgents Launch Evaluation For AI-Powered Chip Design",
+      "titleZh": "独家： Nvidia和ChipAgents推出人工智能芯片设计评估",
+      "url": "https://www.theinformation.com/briefings/exclusive-nvidia-chipagents-launch-evaluation-ai-powered-chip-design",
+      "score": 55,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "d63eb0f1434ce1983489",
+      "category": "ai",
+      "publishedAt": "2026-10-14T14:00:59.000Z",
+      "dateET": "2026-10-14",
+      "source": "The Information",
+      "title": "OpenAI’s Math Breakthroughs Rattle Cryptography Leaders",
+      "titleZh": "OpenAI的数学突破摇铃密码学领导者",
+      "url": "https://www.theinformation.com/articles/openais-math-breakthroughs-rattle-cryptography-leaders",
+      "score": 50,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "9a8c561af2521b40a449",
+      "category": "space",
+      "publishedAt": "2026-10-14T13:00:00.000Z",
+      "dateET": "2026-10-14",
+      "source": "Space.com",
+      "title": "The 1st SpaceX Starship to survive a launch to space just came home to its launch site",
+      "titleZh": "第一艘在太空发射中幸存下来的SpaceX星际飞船刚刚返回其发射场",
+      "url": "https://www.space.com/space-exploration/launches-spacecraft/the-1st-spacex-starship-to-survive-a-launch-to-space-just-came-home-to-its-launch-site",
+      "score": 58,
+      "translationStatus": "complete"
+    },
     {
       "id": "860a640aab42c668b51d",
       "category": "space",
