@@ -1,7 +1,91 @@
 {
-  "updatedAt": "2026-10-14T18:23:37.277Z",
+  "updatedAt": "2026-10-15T18:06:00.532Z",
   "timezone": "America/New_York",
   "stories": [
+    {
+      "id": "876c164b34240090cbd6",
+      "category": "ai",
+      "publishedAt": "2026-10-15T18:03:41.869Z",
+      "dateET": "2026-10-15",
+      "source": "Reuters Technology",
+      "title": "Anthropic's $2 trln dream faces deflation trap",
+      "titleZh": "Anthropic的$ 2万亿美元梦想面临通缩陷阱",
+      "url": "https://www.reuters.com/columns/breaking-view/anthropics-2-trln-dream-faces-deflation-trap-2026-10-15/",
+      "score": 56,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "28a0f7d4712617b34752",
+      "category": "space",
+      "publishedAt": "2026-10-15T18:00:00.000Z",
+      "dateET": "2026-10-15",
+      "source": "Space.com",
+      "title": "Watch SpaceX launch classified mission for the US Space Force today",
+      "titleZh": "立即观看SpaceX为美国太空部队发射机密任务",
+      "url": "https://www.space.com/space-exploration/launches-spacecraft/spacex-space-force-launch-ussf-481-vandenberg",
+      "score": 59,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "06b6aee021588d97cda1",
+      "category": "ai",
+      "publishedAt": "2026-10-15T17:47:37.399Z",
+      "dateET": "2026-10-15",
+      "source": "Reuters Technology",
+      "title": "CoreWeave's AI contracts and the lenders financing its build-out",
+      "titleZh": "CoreWeave的人工智能合同和为其扩建提供资金的贷款人",
+      "url": "https://www.reuters.com/legal/transactional/coreweaves-ai-contracts-lenders-financing-its-build-out-2026-10-15/",
+      "score": 56,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "1233bd805852cca0991b",
+      "category": "ai",
+      "publishedAt": "2026-10-15T17:43:52.255Z",
+      "dateET": "2026-10-15",
+      "source": "Reuters Technology",
+      "title": "Amazon launches two new portable AI listening devices",
+      "titleZh": "亚马逊推出两款新的便携式人工智能监听设备",
+      "url": "https://www.reuters.com/technology/amazon-launches-two-new-portable-ai-listening-devices-2026-10-15/",
+      "score": 56,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "7047744b7bf457e9b2b8",
+      "category": "ai",
+      "publishedAt": "2026-10-15T17:35:31.481Z",
+      "dateET": "2026-10-15",
+      "source": "Reuters Technology",
+      "title": "Anthropic grants AI evaluator METR employee-level access to its models",
+      "titleZh": "Anthropic授予人工智能评估员METR员工级别对其模型的访问权限",
+      "url": "https://www.reuters.com/business/anthropic-grants-ai-evaluator-metr-employee-level-access-its-models-2026-10-15/",
+      "score": 59,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "505333a1f98a5d70e942",
+      "category": "ai",
+      "publishedAt": "2026-10-15T17:06:13.005Z",
+      "dateET": "2026-10-15",
+      "source": "Reuters Technology",
+      "title": "CNN signs multi-year AI partnership with Google",
+      "titleZh": "CNN与谷歌签署多年人工智能合作伙伴关系",
+      "url": "https://www.reuters.com/business/media-telecom/cnn-signs-multi-year-ai-partnership-with-google-2026-10-15/",
+      "score": 55,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "6a6930327471d2c550b1",
+      "category": "space",
+      "publishedAt": "2026-10-15T16:00:00.000Z",
+      "dateET": "2026-10-15",
+      "source": "Space.com",
+      "title": "NASA's SkyFall helicopters will 'show us parts of Mars we've never seen before', scientists say",
+      "titleZh": "科学家说，美国宇航局的SkyFall直升机将“向我们展示我们以前从未见过的火星部分”",
+      "url": "https://www.space.com/astronomy/mars/nasas-skyfall-helicopters-will-show-us-parts-of-mars-weve-never-seen-before-scientists-say",
+      "score": 53,
+      "translationStatus": "complete"
+    },
     {
       "id": "cfb9ad4ceac670cb8049",
       "category": "ai",
