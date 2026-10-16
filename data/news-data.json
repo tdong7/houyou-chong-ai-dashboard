@@ -1,7 +1,91 @@
 {
-  "updatedAt": "2026-10-15T18:06:00.532Z",
+  "updatedAt": "2026-10-16T17:52:33.661Z",
   "timezone": "America/New_York",
   "stories": [
+    {
+      "id": "935c75e3f8da075da327",
+      "category": "space",
+      "publishedAt": "2026-10-16T17:38:34.000Z",
+      "dateET": "2026-10-16",
+      "source": "Space.com",
+      "title": "SpaceX thrusters just made a Tesla Roadster 'fly' (and Elon Musk's car is still out there in space)",
+      "titleZh": "SpaceX推进器刚刚让特斯拉敞篷跑车“飞行” （而埃隆·马斯克的汽车仍在太空中）",
+      "url": "https://www.space.com/technology/spacex-thrusters-just-made-a-tesla-roadster-fly-and-elon-musks-car-is-still-out-there-in-space",
+      "score": 55,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "a80cedcfb499e936903c",
+      "category": "space",
+      "publishedAt": "2026-10-16T17:19:02.000Z",
+      "dateET": "2026-10-16",
+      "source": "Space.com",
+      "title": "On this day in space! Oct. 16, 1975: NASA launches the 1st-ever GOES weather satellite to watch Earth from space",
+      "titleZh": "就在这一天，在太空中！ 1975年10月16日：美国宇航局发射有史以来第一颗从太空观测地球的气象卫星",
+      "url": "https://www.space.com/space-exploration/on-this-day-in-space-october-16-2026",
+      "score": 58,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "f352684fc497eca21c5a",
+      "category": "ai",
+      "publishedAt": "2026-10-16T16:00:41.000Z",
+      "dateET": "2026-10-16",
+      "source": "The Information",
+      "title": "Singapore’s DayOne Pushes Ahead With Data Center IPO Tied to TikTok",
+      "titleZh": "新加坡DayOne推动数据中心IPO与TikTok挂钩",
+      "url": "https://www.theinformation.com/articles/singapores-dayone-pushes-ahead-data-center-ipo-tied-tiktok",
+      "score": 52,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "e5af2bb86f9c4611b08f",
+      "category": "ai",
+      "publishedAt": "2026-10-16T13:28:33.155Z",
+      "dateET": "2026-10-16",
+      "source": "Reuters Technology",
+      "title": "Central bankers eye higher rates as AI boom fuels scramble for cash",
+      "titleZh": "央行官员关注更高的利率，因为人工智能繁荣推动了现金争夺",
+      "url": "https://www.reuters.com/business/finance/central-bankers-eye-higher-rates-ai-boom-fuels-scramble-cash-2026-10-16/",
+      "score": 52,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "86913f09940eab32f9e7",
+      "category": "ai",
+      "publishedAt": "2026-10-16T11:51:26.000Z",
+      "dateET": "2026-10-16",
+      "source": "The Information",
+      "title": "China Proposes Export Controls on AI Technology",
+      "titleZh": "中国提出人工智能技术出口管制",
+      "url": "https://www.theinformation.com/briefings/china-proposes-export-controls-ai-technology",
+      "score": 48,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "ac06c3dd05136928d44d",
+      "category": "ai",
+      "publishedAt": "2026-10-16T11:01:57.622Z",
+      "dateET": "2026-10-16",
+      "source": "Reuters Technology",
+      "title": "S&P 500, Nasdaq set for steep weekly losses as AI jitters rattle investors",
+      "titleZh": "标准普尔500指数、纳斯达克每周大幅亏损，因人工智能令投资者紧张不安",
+      "url": "https://www.reuters.com/business/wall-st-futures-mixed-tech-wobbles-again-tesla-gains-2026-10-16/",
+      "score": 49,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "d9631eff517f1997ff29",
+      "category": "ai",
+      "publishedAt": "2026-10-16T10:11:01.312Z",
+      "dateET": "2026-10-16",
+      "source": "Reuters Technology",
+      "title": "CoreWeave stock, bond set for weekly plunge as rate-hike fears hit AI bet",
+      "titleZh": "CoreWeave股票，债券每周暴跌，因加息担忧冲击AI押注",
+      "url": "https://www.reuters.com/business/coreweave-shares-bonds-headed-steep-weekly-losses-ai-borrowing-concerns-mount-2026-10-16/",
+      "score": 48,
+      "translationStatus": "complete"
+    },
     {
       "id": "876c164b34240090cbd6",
       "category": "ai",
