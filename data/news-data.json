@@ -1,7 +1,31 @@
 {
-  "updatedAt": "2026-10-16T17:52:33.661Z",
+  "updatedAt": "2026-10-17T16:55:02.806Z",
   "timezone": "America/New_York",
   "stories": [
+    {
+      "id": "481fb1272e87be094926",
+      "category": "space",
+      "publishedAt": "2026-10-17T14:49:01.000Z",
+      "dateET": "2026-10-17",
+      "source": "Space.com",
+      "title": "On this day in space! Oct. 17, 2016: Private Antares rocket returns to flight after catastrophic launch explosion",
+      "titleZh": "就在这一天，在太空中！ 2016年10月17日：私人Antares火箭在灾难性的发射爆炸后恢复飞行",
+      "url": "https://www.space.com/space-exploration/on-this-day-in-space-october-17-2026",
+      "score": 57,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "839a50291339baaeb8f2",
+      "category": "space",
+      "publishedAt": "2026-10-17T14:17:38.000Z",
+      "dateET": "2026-10-17",
+      "source": "Space.com",
+      "title": "This Week In Space podcast: Episode 232 — The Lunar Dump",
+      "titleZh": "本周太空播客：第232集—月球垃圾场",
+      "url": "https://www.space.com/entertainment/space-movies-shows/this-week-in-space-podcast-episode-232-the-lunar-dump",
+      "score": 48,
+      "translationStatus": "complete"
+    },
     {
       "id": "935c75e3f8da075da327",
       "category": "space",
