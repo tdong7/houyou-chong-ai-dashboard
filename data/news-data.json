@@ -1,7 +1,43 @@
 {
-  "updatedAt": "2026-10-17T16:55:02.806Z",
+  "updatedAt": "2026-10-18T17:09:44.585Z",
   "timezone": "America/New_York",
   "stories": [
+    {
+      "id": "7133011f706d4b108a5d",
+      "category": "space",
+      "publishedAt": "2026-10-18T16:00:00.000Z",
+      "dateET": "2026-10-18",
+      "source": "Space.com",
+      "title": "Computer scientist Margaret Hamilton was a problem-solver for the ages (op-ed)",
+      "titleZh": "计算机科学家玛格丽特·汉密尔顿（ Margaret Hamilton ）多年来一直是问题解决者（专栏）",
+      "url": "https://www.space.com/space-exploration/apollo/computer-scientist-margaret-hamilton-was-a-problem-solver-for-the-ages-op-ed",
+      "score": 46,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "189d6c6a2c98305b4b91",
+      "category": "space",
+      "publishedAt": "2026-10-18T13:52:32.000Z",
+      "dateET": "2026-10-18",
+      "source": "Space.com",
+      "title": "On this day in space! Oct. 18, 1963: France's Félicette Becomes the 1st Cat in Space! >^..^<",
+      "titleZh": "就在这一天，在太空中！ 1963年10月18日：法国的Félicette成为第一只进入太空的猫！ >^..^<",
+      "url": "https://www.space.com/space-exploration/on-this-day-in-space-october-18-2026",
+      "score": 48,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "dd4a2c60b9bc3b66cac9",
+      "category": "ai",
+      "publishedAt": "2026-10-18T10:01:25.939Z",
+      "dateET": "2026-10-18",
+      "source": "Reuters Technology",
+      "title": "Microsoft pulls out of UK data center deal with Nscale, Telegraph reports",
+      "titleZh": "据《每日电讯报》报道，微软退出与Nscale的英国数据中心交易",
+      "url": "https://www.reuters.com/business/media-telecom/microsoft-pulls-out-uk-data-center-deal-with-nscale-telegraph-reports-2026-10-18/",
+      "score": 49,
+      "translationStatus": "complete"
+    },
     {
       "id": "481fb1272e87be094926",
       "category": "space",
