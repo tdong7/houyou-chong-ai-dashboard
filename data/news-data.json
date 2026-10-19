@@ -1,7 +1,91 @@
 {
-  "updatedAt": "2026-10-18T17:09:44.585Z",
+  "updatedAt": "2026-10-19T19:43:13.635Z",
   "timezone": "America/New_York",
   "stories": [
+    {
+      "id": "e2db68fbe56bfa9abc47",
+      "category": "ai",
+      "publishedAt": "2026-10-19T19:38:03.241Z",
+      "dateET": "2026-10-19",
+      "source": "Reuters Technology",
+      "title": "Nscale, Anthropic in talks for $45 billion cloud computing deal, Bloomberg News reports",
+      "titleZh": "彭博社报道， Nscale、Anthropic正在就450亿美元的云计算交易进行谈判",
+      "url": "https://www.reuters.com/technology/nscale-anthropic-talks-45-billion-cloud-computing-deal-bloomberg-news-reports-2026-10-19/",
+      "score": 56,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "9f115149b65cbed61385",
+      "category": "space",
+      "publishedAt": "2026-10-19T19:00:00.000Z",
+      "dateET": "2026-10-19",
+      "source": "Space.com",
+      "title": "The moon is shrinking. 10,000 cracks on the lunar surface reveal by how much",
+      "titleZh": "月球正在萎缩，月球表面的一万道裂缝揭示了",
+      "url": "https://www.space.com/astronomy/moon/the-moon-is-shrinking-10-000-cracks-on-the-lunar-surface-reveal-by-how-much",
+      "score": 50,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "336164ab3f0dcddbe69a",
+      "category": "ai",
+      "publishedAt": "2026-10-19T18:27:48.000Z",
+      "dateET": "2026-10-19",
+      "source": "The Information",
+      "title": "Employee Who Bugged OpenAI Had Saudi Royal Ties, U.S. Prosecutors Say",
+      "titleZh": "美国检察官称，窃听OpenAI的员工与沙特有皇室关系",
+      "url": "https://www.theinformation.com/briefings/employee-bugged-openai-saudi-royal-ties-u-s-prosecutors-say",
+      "score": 53,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "20b00a4716c2fad084c7",
+      "category": "ai",
+      "publishedAt": "2026-10-19T17:33:52.000Z",
+      "dateET": "2026-10-19",
+      "source": "The Information",
+      "title": "The Information Announces New OpenAI, Google, Finance and Asia Reporters",
+      "titleZh": "该信息宣布新的OpenAI、谷歌、财经和亚洲记者",
+      "url": "https://www.theinformation.com/articles/information-announces-new-openai-google-finance-asia-reporters",
+      "score": 52,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "c91c6de975355f0356d9",
+      "category": "ai",
+      "publishedAt": "2026-10-19T16:00:47.000Z",
+      "dateET": "2026-10-19",
+      "source": "The Information",
+      "title": "How DeepSeek Is Shaping Huawei’s AI Chips in a Growing Challenge to Nvidia",
+      "titleZh": "DeepSeek如何在英伟达面临的日益严峻的挑战中塑造华为的人工智能芯片",
+      "url": "https://www.theinformation.com/articles/deepseek-shaping-huaweis-ai-chips-growing-challenge-nvidia",
+      "score": 50,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "cad0d263dd8623ab82a6",
+      "category": "ai",
+      "publishedAt": "2026-10-19T14:00:42.000Z",
+      "dateET": "2026-10-19",
+      "source": "The Information",
+      "title": "Anthropic Readies Model That Reads Users' Intentions Better",
+      "titleZh": "更好地解读用户意图的Anthropic Readies模型",
+      "url": "https://www.theinformation.com/articles/anthropic-readies-model-reads-users-intentions-better",
+      "score": 52,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "1318cd23feafcafb141f",
+      "category": "space",
+      "publishedAt": "2026-10-19T14:00:00.000Z",
+      "dateET": "2026-10-19",
+      "source": "Space.com",
+      "title": "Elephant Island is an icy sight from orbit | Space photo of the day for Oct. 19, 2026",
+      "titleZh": "大象岛是轨道上冰冷的景象| 2026年10月19日当天的太空照片",
+      "url": "https://www.space.com/astronomy/earth/elephant-island-is-an-icy-sight-from-orbit-space-photo-of-the-day-for-oct-19-2026",
+      "score": 49,
+      "translationStatus": "complete"
+    },
     {
       "id": "7133011f706d4b108a5d",
       "category": "space",
