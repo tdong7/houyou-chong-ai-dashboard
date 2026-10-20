@@ -1,7 +1,79 @@
 {
-  "updatedAt": "2026-10-19T19:43:13.635Z",
+  "updatedAt": "2026-10-20T18:23:35.225Z",
   "timezone": "America/New_York",
   "stories": [
+    {
+      "id": "582ffb5a649e61037ba1",
+      "category": "space",
+      "publishedAt": "2026-10-20T17:42:41.000Z",
+      "dateET": "2026-10-20",
+      "source": "Space.com",
+      "title": "A supercomputer is about to launch to the moon for the 1st time, aboard a rover named FLIP",
+      "titleZh": "一台超级计算机即将首次登上月球，登上名为FLIP的火星车",
+      "url": "https://www.space.com/space-exploration/a-supercomputer-is-about-to-launch-to-the-moon-for-the-1st-time-aboard-a-rover-named-flip",
+      "score": 54,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "d9aab5850062af7e3efa",
+      "category": "ai",
+      "publishedAt": "2026-10-20T14:01:28.000Z",
+      "dateET": "2026-10-20",
+      "source": "The Information",
+      "title": "OpenAI’s ‘Pacing 2.0’ Problem: How Smart Is Too Smart?",
+      "titleZh": "OpenAI的“起搏2.0”问题：太聪明有多聪明？",
+      "url": "https://www.theinformation.com/articles/openais-pacing-2-0-problem-smart-smart",
+      "score": 50,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "8084ad6bd79fa8907d00",
+      "category": "ai",
+      "publishedAt": "2026-10-20T12:08:07.430Z",
+      "dateET": "2026-10-20",
+      "source": "Reuters Technology",
+      "title": "Salesforce deepens AI bets with $5.66 billion Braze deal",
+      "titleZh": "Salesforce以56.6亿美元的Braze交易深化人工智能押注",
+      "url": "https://www.reuters.com/business/salesforce-acquire-braze-566-billion-deal-2026-10-20/",
+      "score": 50,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "a2bb24e86ab33a8475fb",
+      "category": "space",
+      "publishedAt": "2026-10-20T12:00:00.000Z",
+      "dateET": "2026-10-20",
+      "source": "Space.com",
+      "title": "Could a $200K bond for satellites paid before launch prevent a space junk disaster in orbit? Here's why some scientists think so",
+      "titleZh": "在发射前支付$ 20万的卫星债券可以防止轨道上的太空垃圾灾难吗？这就是一些科学家这么认为的原因",
+      "url": "https://www.space.com/space-exploration/satellites/could-satellite-deorbit-deposits-prevent-a-space-debris-disaster",
+      "score": 53,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "e857190d5f5c18e0f025",
+      "category": "ai",
+      "publishedAt": "2026-10-20T10:00:00.000Z",
+      "dateET": "2026-10-20",
+      "source": "OpenAI News",
+      "title": "Franchisee reconciles cash in 94% less time with ChatGPT Work",
+      "titleZh": "加盟商使用ChatGPT Work调节现金的时间缩短了94%",
+      "url": "https://openai.com/index/ted-taylor-restaurant",
+      "score": 40,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "975c493310daf6cbeeac",
+      "category": "ai",
+      "publishedAt": "2026-10-20T05:59:34.000Z",
+      "dateET": "2026-10-20",
+      "source": "The Information",
+      "title": "U.S. Sanctions Five Chinese Entities Linked to Google AI Trade Secret Theft",
+      "titleZh": "美国制裁五家与谷歌AI商业秘密盗窃有关的中国实体",
+      "url": "https://www.theinformation.com/briefings/u-s-sanctions-five-chinese-entities-linked-google-ai-trade-secret-theft",
+      "score": 42,
+      "translationStatus": "complete"
+    },
     {
       "id": "e2db68fbe56bfa9abc47",
       "category": "ai",
