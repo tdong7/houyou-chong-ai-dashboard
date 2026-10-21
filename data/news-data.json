@@ -1,7 +1,91 @@
 {
-  "updatedAt": "2026-10-20T18:23:35.225Z",
+  "updatedAt": "2026-10-21T18:29:41.414Z",
   "timezone": "America/New_York",
   "stories": [
+    {
+      "id": "66717e77bbbb772b06c8",
+      "category": "ai",
+      "publishedAt": "2026-10-21T18:16:49.370Z",
+      "dateET": "2026-10-21",
+      "source": "Reuters Technology",
+      "title": "BlackRock adds robotics ETF to growing ranks of AI-themed products",
+      "titleZh": "贝莱德将机器人ETF加入不断增长的人工智能主题产品行列",
+      "url": "https://www.reuters.com/legal/transactional/blackrock-adds-robotics-etf-growing-ranks-ai-themed-products-2026-10-21/",
+      "score": 56,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "45475e2309407fafe3f8",
+      "category": "ai",
+      "publishedAt": "2026-10-21T17:49:21.863Z",
+      "dateET": "2026-10-21",
+      "source": "Reuters Technology",
+      "title": "Anthropic adds former Harvard science dean to oversight body",
+      "titleZh": "Anthropic将前哈佛科学院院长加入监督机构",
+      "url": "https://www.reuters.com/business/anthropic-adds-former-harvard-science-dean-oversight-body-2026-10-21/",
+      "score": 55,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "5c344b5216354e40fbde",
+      "category": "ai",
+      "publishedAt": "2026-10-21T17:42:14.912Z",
+      "dateET": "2026-10-21",
+      "source": "Reuters Technology",
+      "title": "Florida lawyer referred for possible discipline over filing that judges called 'AI slop'",
+      "titleZh": "佛罗里达州的律师提到了法官称之为“AI SLOP”的申请可能受到的纪律处分",
+      "url": "https://www.reuters.com/legal/litigation/florida-lawyer-referred-possible-discipline-over-filing-that-judges-called-ai-2026-10-21/",
+      "score": 55,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "ef05160c7b84d2c0dcaa",
+      "category": "ai",
+      "publishedAt": "2026-10-21T17:41:51.491Z",
+      "dateET": "2026-10-21",
+      "source": "Reuters Technology",
+      "title": "Canadian publisher says Thelyson Orelien used AI to write award-winning book, ends relationship",
+      "titleZh": "加拿大出版商称Thelyson Orelien使用人工智能撰写获奖书籍，结束关系",
+      "url": "https://www.reuters.com/world/americas/canadian-publisher-says-thelyson-orelien-used-ai-write-award-winning-book-ends-2026-10-21/",
+      "score": 55,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "58736a491079819b0c3f",
+      "category": "ai",
+      "publishedAt": "2026-10-21T14:00:51.000Z",
+      "dateET": "2026-10-21",
+      "source": "The Information",
+      "title": "OpenAI, Anthropic Should Cap Compute for R&D, Say AI Safety Advocates",
+      "titleZh": "OpenAI、Anthropic应该限制研发计算， AI安全倡导者说",
+      "url": "https://www.theinformation.com/articles/openai-anthropic-cap-compute-r-d-say-ai-safety-advocates",
+      "score": 58,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "08fcea197656852d78c3",
+      "category": "space",
+      "publishedAt": "2026-10-21T14:00:00.000Z",
+      "dateET": "2026-10-21",
+      "source": "Space.com",
+      "title": "Space botanist conducts plant experiments in orbit | Space photo of the day for Oct. 21, 2026",
+      "titleZh": "太空植物学家在轨道上进行植物实验| 2026年10月21日当天的太空照片",
+      "url": "https://www.space.com/space-exploration/human-spaceflight/space-botanist-conducts-plant-experiments-in-orbit-space-photo-of-the-day-for-oct-21-2026",
+      "score": 51,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "d5c4c93c38607624782e",
+      "category": "space",
+      "publishedAt": "2026-10-21T13:00:00.000Z",
+      "dateET": "2026-10-21",
+      "source": "Space.com",
+      "title": "When will SpaceX and Blue Origin fly to the moon? NASA reveals lunar lander timelines (and an Artemis III update)",
+      "titleZh": "SpaceX和Blue Origin什么时候能飞上月球？ NASA揭示月球着陆器时间表（以及Artemis III更新）",
+      "url": "https://www.space.com/space-exploration/artemis/when-will-spacex-and-blue-origin-fly-to-the-moon-nasa-reveals-lunar-lander-timelines-and-an-artemis-iii-update",
+      "score": 54,
+      "translationStatus": "complete"
+    },
     {
       "id": "582ffb5a649e61037ba1",
       "category": "space",
