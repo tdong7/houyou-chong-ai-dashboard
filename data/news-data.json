@@ -1,7 +1,91 @@
 {
-  "updatedAt": "2026-10-21T18:29:41.414Z",
+  "updatedAt": "2026-10-22T18:24:49.903Z",
   "timezone": "America/New_York",
   "stories": [
+    {
+      "id": "460e8c9d0557f063b2d8",
+      "category": "ai",
+      "publishedAt": "2026-10-22T17:52:55.071Z",
+      "dateET": "2026-10-22",
+      "source": "Reuters Technology",
+      "title": "Why Anthropic is turning away some users",
+      "titleZh": "为什么Anthropic拒绝了一些用户",
+      "url": "https://www.reuters.com/technology/artificial-intelligence/why-anthropic-is-turning-away-some-users-2026-10-22/",
+      "score": 55,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "aa9a51c3d2ae50357c95",
+      "category": "space",
+      "publishedAt": "2026-10-22T16:14:56.000Z",
+      "dateET": "2026-10-22",
+      "source": "Space.com",
+      "title": "'Cabin leak suspected': Artemis II astronaut reveals how a warning nearly derailed NASA's epic moon mission",
+      "titleZh": "“怀疑机舱泄漏” ：阿尔忒弥斯二号宇航员揭示了警告如何几乎使美国宇航局史诗般的月球任务脱轨",
+      "url": "https://www.space.com/space-exploration/artemis/cabin-leak-suspected-artemis-ii-astronaut-reveals-how-a-warning-nearly-derailed-moon-mission",
+      "score": 53,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "6d325bd3c1ad17682fd9",
+      "category": "ai",
+      "publishedAt": "2026-10-22T16:02:57.909Z",
+      "dateET": "2026-10-22",
+      "source": "Reuters Technology",
+      "title": "External evaluators find flaws in OpenAI's AI monitoring system in pilot review",
+      "titleZh": "外部评估人员在试点审查中发现OpenAI人工智能监控系统的缺陷",
+      "url": "https://www.reuters.com/business/ai-safety-group-metr-finds-flaws-openais-internal-monitoring-system-2026-10-22/",
+      "score": 58,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "4ef955b5bdf388e9ec69",
+      "category": "ai",
+      "publishedAt": "2026-10-22T16:00:47.000Z",
+      "dateET": "2026-10-22",
+      "source": "The Information",
+      "title": "Exclusive: Physical AI Startup Tractian Becomes a Unicorn",
+      "titleZh": "独家：物理AI初创公司Tractian成为独角兽",
+      "url": "https://www.theinformation.com/briefings/exclusive-physical-ai-startup-tractian-becomes-unicorn",
+      "score": 52,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "c2c5d0f394bf7e020500",
+      "category": "ai",
+      "publishedAt": "2026-10-22T15:00:53.000Z",
+      "dateET": "2026-10-22",
+      "source": "The Information",
+      "title": "OpenAI Had Numerous Vulnerabilities Its AI Could Exploit, Evaluators Find",
+      "titleZh": "评估人员发现， OpenAI有许多漏洞，其AI可以利用",
+      "url": "https://www.theinformation.com/briefings/openai-numerous-vulnerabilities-ai-exploit-evaluators-find",
+      "score": 55,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "5594bc143c7ac2b46fdc",
+      "category": "ai",
+      "publishedAt": "2026-10-22T14:01:22.000Z",
+      "dateET": "2026-10-22",
+      "source": "The Information",
+      "title": "Utopai Becomes a Unicorn as Video AI Takes Off",
+      "titleZh": "随着视频人工智能的起飞，乌托邦成为独角兽",
+      "url": "https://www.theinformation.com/articles/utopai-becomes-unicorn-video-ai-takes",
+      "score": 50,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "aa81691df3afa8604356",
+      "category": "space",
+      "publishedAt": "2026-10-22T14:00:00.000Z",
+      "dateET": "2026-10-22",
+      "source": "Space.com",
+      "title": "Australia's bizarre 'Spider Crater' seen from orbit | Space photo of the day for Oct. 22, 2026",
+      "titleZh": "从轨道上看到的澳大利亚奇怪的“蜘蛛坑” | 2026年10月22日的当天太空照片",
+      "url": "https://www.space.com/astronomy/earth/australias-bizarre-spider-crater-seen-from-orbit-space-photo-of-the-day-for-oct-22-2026",
+      "score": 51,
+      "translationStatus": "complete"
+    },
     {
       "id": "66717e77bbbb772b06c8",
       "category": "ai",
