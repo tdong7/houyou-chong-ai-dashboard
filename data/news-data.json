@@ -1,7 +1,79 @@
 {
-  "updatedAt": "2026-10-22T18:24:49.903Z",
+  "updatedAt": "2026-10-23T18:10:59.634Z",
   "timezone": "America/New_York",
   "stories": [
+    {
+      "id": "13681a366b42cca6fa86",
+      "category": "ai",
+      "publishedAt": "2026-10-23T17:35:17.050Z",
+      "dateET": "2026-10-23",
+      "source": "Data Center World",
+      "title": "Data Center Digest: Anthropic’s $45B Nscale Talks, Google Cloud’s UK Outage, and 35 US Public-Land Bids",
+      "titleZh": "数据中心摘要： Anthropic的$ 450亿Nscale Talks、Google Cloud的英国停电和35个美国公共土地投标",
+      "url": "https://datacenterworld.com/article/data-center-digest-anthropics-45b-nscale-talks-google-clouds-uk-outage-and-35-us-public-land-bids/",
+      "score": 51,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "54a294859cc530405cc1",
+      "category": "ai",
+      "publishedAt": "2026-10-23T17:30:05.372Z",
+      "dateET": "2026-10-23",
+      "source": "Data Center World",
+      "title": "Skyscrapers and Prettier Buildings: Data Centers Are Learning New Design Tricks",
+      "titleZh": "摩天大楼和漂亮的建筑：数据中心正在学习新的设计技巧",
+      "url": "https://datacenterworld.com/article/skyscrapers-and-prettier-buildings-data-centers-are-learning-new-design-tricks/",
+      "score": 43,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "708ffe31a6844217d293",
+      "category": "ai",
+      "publishedAt": "2026-10-23T17:00:00.000Z",
+      "dateET": "2026-10-23",
+      "source": "OpenAI News",
+      "title": "Rapidly scaling online storage to serve over 1 billion ChatGPT users (Part II)",
+      "titleZh": "快速扩展在线存储，为超过10亿ChatGPT用户提供服务（第二部分）",
+      "url": "https://openai.com/index/scaling-storage-one-billion-users-part-two",
+      "score": 59,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "dfb62a82e0353efbbd94",
+      "category": "ai",
+      "publishedAt": "2026-10-23T14:00:57.000Z",
+      "dateET": "2026-10-23",
+      "source": "The Information",
+      "title": "VC Firms Tap LP Pools, Warehouse Loans for Speedy AI Cash",
+      "titleZh": "风险投资公司利用有限合伙企业池，仓库贷款获得快速人工智能现金",
+      "url": "https://www.theinformation.com/articles/vc-firms-tap-lp-pools-warehouse-loans-speedy-ai-cash",
+      "score": 50,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "adc7a8f184c8d0624127",
+      "category": "space",
+      "publishedAt": "2026-10-23T14:00:00.000Z",
+      "dateET": "2026-10-23",
+      "source": "Space.com",
+      "title": "Private Griffin moon lander gets put to the test | Space photo of the day for Oct. 23, 2026",
+      "titleZh": "私人格里芬月球着陆器接受测试| 2026年10月23日当天的太空照片",
+      "url": "https://www.space.com/space-exploration/private-griffin-moon-lander-gets-put-to-the-test-space-photo-of-the-day-for-oct-23-2026",
+      "score": 51,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "8ff71ca11c8ea968b0c3",
+      "category": "space",
+      "publishedAt": "2026-10-23T10:57:51.000Z",
+      "dateET": "2026-10-23",
+      "source": "Space.com",
+      "title": "Rocket Lab launches 3 'Hawk' satellites to orbit to gather signals intelligence",
+      "titleZh": "火箭实验室向轨道发射3颗“鹰”卫星以收集信号情报",
+      "url": "https://www.space.com/space-exploration/launches-spacecraft/rocket-lab-launches-3-hawk-satellites-to-orbit-to-gather-signals-intelligence",
+      "score": 48,
+      "translationStatus": "complete"
+    },
     {
       "id": "460e8c9d0557f063b2d8",
       "category": "ai",
