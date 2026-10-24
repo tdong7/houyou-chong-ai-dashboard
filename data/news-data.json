@@ -1,7 +1,43 @@
 {
-  "updatedAt": "2026-10-23T18:10:59.634Z",
+  "updatedAt": "2026-10-24T17:15:56.229Z",
   "timezone": "America/New_York",
   "stories": [
+    {
+      "id": "db63cda79941290468c2",
+      "category": "space",
+      "publishedAt": "2026-10-24T15:53:21.000Z",
+      "dateET": "2026-10-24",
+      "source": "Space.com",
+      "title": "This Week In Space podcast: Episode 233 — The Artemis Generation",
+      "titleZh": "本周太空播客：第233集—阿尔忒弥斯一代",
+      "url": "https://www.space.com/entertainment/space-movies-shows/this-week-in-space-podcast-episode-233-the-artemis-generation",
+      "score": 50,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "686365528424ce2105c8",
+      "category": "space",
+      "publishedAt": "2026-10-24T15:33:08.000Z",
+      "dateET": "2026-10-24",
+      "source": "Space.com",
+      "title": "On this day in space! Oct. 24, 1946: V-2 rocket takes 1st photos of Earth from space",
+      "titleZh": "就在这一天，在太空中！ 1946年10月24日： V-2火箭从太空拍摄第一张地球照片",
+      "url": "https://www.space.com/space-exploration/on-this-day-in-space-october-24-2026",
+      "score": 53,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "7455ef01e0a0650ef998",
+      "category": "ai",
+      "publishedAt": "2026-10-24T14:00:49.000Z",
+      "dateET": "2026-10-24",
+      "source": "The Information",
+      "title": "Anthropic’s Margin is OpenAI’s Opportunity",
+      "titleZh": "Anthropic的利润率是OpenAI的机会",
+      "url": "https://www.theinformation.com/articles/anthropics-margin-openais-opportunity",
+      "score": 55,
+      "translationStatus": "complete"
+    },
     {
       "id": "13681a366b42cca6fa86",
       "category": "ai",
