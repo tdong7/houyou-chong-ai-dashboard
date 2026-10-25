@@ -1,7 +1,43 @@
 {
-  "updatedAt": "2026-10-24T17:15:56.229Z",
+  "updatedAt": "2026-10-25T17:30:25.278Z",
   "timezone": "America/New_York",
   "stories": [
+    {
+      "id": "da887350af6537a9533e",
+      "category": "ai",
+      "publishedAt": "2026-10-25T15:31:13.000Z",
+      "dateET": "2026-10-25",
+      "source": "The Information",
+      "title": "Data Center Late Fees Hit $5 Million or More Per Day, Spawning New Insurance",
+      "titleZh": "数据中心滞纳金达到每天500万美元或更多，催生了新的保险",
+      "url": "https://www.theinformation.com/articles/data-center-late-fees-hit-5-million-per-day-spawning-new-insurance",
+      "score": 52,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "06b560d12a0984e5f9e9",
+      "category": "space",
+      "publishedAt": "2026-10-25T13:17:54.000Z",
+      "dateET": "2026-10-25",
+      "source": "Space.com",
+      "title": "On this day in space! Oct. 25, 1671: Astronomer Giovanni Cassini discovers Iapetus, Saturn's 'yin-yang' moon",
+      "titleZh": "就在这一天，在太空中！ 1671年10月25日：天文学家Giovanni Cassini发现土星的“阴阳”卫星Iapetus",
+      "url": "https://www.space.com/space-exploration/on-this-day-in-space-oct-25-1671-astronomer-giovanni-cassini-discovers-iapetus-saturns-yin-yang-moon",
+      "score": 51,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "48c43b3a396b3708bd6f",
+      "category": "space",
+      "publishedAt": "2026-10-25T10:00:00.000Z",
+      "dateET": "2026-10-25",
+      "source": "Space.com",
+      "title": "October's 'Hunter's Moon' stalks into the autumn sky tonight: Here's what you need to know",
+      "titleZh": "10月份的“猎人月亮”今晚将掠过秋天的天空：以下是您需要了解的信息",
+      "url": "https://www.space.com/stargazing/octobers-hunters-moon-stalks-into-the-autumn-sky-tonight-heres-what-you-need-to-know",
+      "score": 43,
+      "translationStatus": "complete"
+    },
     {
       "id": "db63cda79941290468c2",
       "category": "space",
