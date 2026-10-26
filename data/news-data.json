@@ -1,7 +1,91 @@
 {
-  "updatedAt": "2026-10-25T17:30:25.278Z",
+  "updatedAt": "2026-10-26T19:47:32.801Z",
   "timezone": "America/New_York",
   "stories": [
+    {
+      "id": "316d411bbd383aaa3eb4",
+      "category": "ai",
+      "publishedAt": "2026-10-26T19:39:37.000Z",
+      "dateET": "2026-10-26",
+      "source": "The Information",
+      "title": "OpenAI Unveils Cheaper Terra Model Amid Anthropic Pricing Battle",
+      "titleZh": "OpenAI在人类价格战中推出更便宜的Terra模型",
+      "url": "https://www.theinformation.com/briefings/openai-unveils-cheaper-terra-model-amid-anthropic-pricing-battle",
+      "score": 62,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "a3520e98eb191657d7b6",
+      "category": "space",
+      "publishedAt": "2026-10-26T18:43:21.000Z",
+      "dateET": "2026-10-26",
+      "source": "Space.com",
+      "title": "NASA ends Swift space telescope mission after failed rescue attempt",
+      "titleZh": "美国宇航局在救援失败后结束Swift太空望远镜任务",
+      "url": "https://www.space.com/space-exploration/missions/nasa-ends-swift-space-telescope-mission-after-failed-rescue-attempt",
+      "score": 54,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "918de2c05412fd87e644",
+      "category": "ai",
+      "publishedAt": "2026-10-26T18:10:04.000Z",
+      "dateET": "2026-10-26",
+      "source": "The Information",
+      "title": "Anthropic’s S-1 Takeaways: From Giant Compute Commitments to Complex Lock-Ups",
+      "titleZh": "Anthropic的S-1总结：从巨型计算承诺到复杂的锁定",
+      "url": "https://www.theinformation.com/articles/anthropics-s-1-takeaways-giant-compute-commitments-complex-lock-ups",
+      "score": 52,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "2d69bdaf6cf1fdf590f0",
+      "category": "space",
+      "publishedAt": "2026-10-26T16:00:00.000Z",
+      "dateET": "2026-10-26",
+      "source": "Space.com",
+      "title": "SpaceX ignites giant Super Heavy booster engines ahead of daring Starship launch (video)",
+      "titleZh": "SpaceX在大胆的星际飞船发射前点燃巨型超重型助推器发动机（视频）",
+      "url": "https://www.space.com/space-exploration/launches-spacecraft/spacex-ignites-giant-super-heavy-booster-engines-ahead-of-daring-starship-launch-video",
+      "score": 55,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "37231828fc6cac233697",
+      "category": "ai",
+      "publishedAt": "2026-10-26T14:22:35.000Z",
+      "dateET": "2026-10-26",
+      "source": "The Information",
+      "title": "Goldman Sachs to Lead Anthropic IPO",
+      "titleZh": "高盛将领导Anthropic IPO",
+      "url": "https://www.theinformation.com/briefings/goldman-sachs-lead-anthropic-ipo",
+      "score": 49,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "4d98de6d42d76c82aa44",
+      "category": "ai",
+      "publishedAt": "2026-10-26T13:40:09.000Z",
+      "dateET": "2026-10-26",
+      "source": "The Information",
+      "title": "Anthropic Publicly Files S-1 for Its Planned IPO",
+      "titleZh": "Anthropic为其计划的IPO公开提交S-1文件",
+      "url": "https://www.theinformation.com/briefings/anthropic-publicly-files-s-1-planned-ipo",
+      "score": 48,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "01da4c55b58082f14bc4",
+      "category": "ai",
+      "publishedAt": "2026-10-26T13:13:09.000Z",
+      "dateET": "2026-10-26",
+      "source": "The Information",
+      "title": "Meta Plans to Raise Up To $95 Billion for AI Through Equity Sales",
+      "titleZh": "Meta计划通过股权销售为人工智能筹集高达950亿美元的资金",
+      "url": "https://www.theinformation.com/briefings/meta-plans-raise-95-billion-ai-equity-sales",
+      "score": 47,
+      "translationStatus": "complete"
+    },
     {
       "id": "da887350af6537a9533e",
       "category": "ai",
