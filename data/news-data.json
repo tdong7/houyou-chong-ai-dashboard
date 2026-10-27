@@ -1,7 +1,91 @@
 {
-  "updatedAt": "2026-10-26T19:47:32.801Z",
+  "updatedAt": "2026-10-27T19:17:06.195Z",
   "timezone": "America/New_York",
   "stories": [
+    {
+      "id": "6f01a276418cdcfb7c42",
+      "category": "ai",
+      "publishedAt": "2026-10-27T18:33:50.000Z",
+      "dateET": "2026-10-27",
+      "source": "The Information",
+      "title": "Why Cheaper Models Won't Win OpenAI the Enterprise",
+      "titleZh": "为什么更便宜的型号无法赢得OpenAI和企业",
+      "url": "https://www.theinformation.com/articles/cheaper-models-win-openai-enterprise",
+      "score": 53,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "5b8d235192705c4c3ffd",
+      "category": "space",
+      "publishedAt": "2026-10-27T18:00:00.000Z",
+      "dateET": "2026-10-27",
+      "source": "Space.com",
+      "title": "Cowboy Space unveils 'Big Iron' rocket to launch 20,000 AI data centers",
+      "titleZh": "Cowboy Space推出“Big Iron”火箭，发射2万个人工智能数据中心",
+      "url": "https://www.space.com/space-exploration/launches-spacecraft/cowboy-space-unveils-big-iron-rocket-to-launch-20-000-ai-data-centers",
+      "score": 58,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "76d893108eda540150ac",
+      "category": "ai",
+      "publishedAt": "2026-10-27T14:01:06.000Z",
+      "dateET": "2026-10-27",
+      "source": "The Information",
+      "title": "How Is Anthropic So Efficient?",
+      "titleZh": "人类是如何如此高效的？",
+      "url": "https://www.theinformation.com/articles/anthropics-85-margin-reality-check-skeptics",
+      "score": 49,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "6ce65c6453b8e34544be",
+      "category": "space",
+      "publishedAt": "2026-10-27T14:00:00.000Z",
+      "dateET": "2026-10-27",
+      "source": "Space.com",
+      "title": "On this day in space! Oct. 27, 1961: NASA launches Saturn I rocket on 1st test flight from Florida to set stage for the mighty Saturn V moon rocket",
+      "titleZh": "就在这一天，在太空中！ 1961年10月27日：美国宇航局从佛罗里达州首次试飞发射土星I号火箭，为强大的土星V号月球火箭搭建舞台",
+      "url": "https://www.space.com/space-exploration/on-this-day-in-space-october-27-2026",
+      "score": 58,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "b22e5b87184ad1a44f1c",
+      "category": "ai",
+      "publishedAt": "2026-10-27T13:01:41.000Z",
+      "dateET": "2026-10-27",
+      "source": "The Information",
+      "title": "Can AI Help Ray Kurzweil Cheat Death?",
+      "titleZh": "人工智能可以帮助Ray Kurzweil欺骗死亡吗？",
+      "url": "https://www.theinformation.com/articles/can-ai-help-ray-kurzweil-cheat-death",
+      "score": 48,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "cf8e3e45d82467512f26",
+      "category": "ai",
+      "publishedAt": "2026-10-27T08:58:26.000Z",
+      "dateET": "2026-10-27",
+      "source": "The Information",
+      "title": "Nvidia Invests $3 Billion in Meta in Deeper AI Partnership",
+      "titleZh": "英伟达在更深层次的人工智能合作伙伴关系中投资30亿美元$ Meta",
+      "url": "https://www.theinformation.com/briefings/nvidia-invests-3-billion-meta-deeper-ai-partnership",
+      "score": 44,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "eaa7af31b4911d62fc37",
+      "category": "ai",
+      "publishedAt": "2026-10-27T07:00:00.000Z",
+      "dateET": "2026-10-27",
+      "source": "OpenAI News",
+      "title": "OpenAI expands partnership with Oracle to bring its apps to ChatGPT",
+      "titleZh": "OpenAI扩大与甲骨文的合作伙伴关系，将其应用程序引入ChatGPT",
+      "url": "https://openai.com/index/oracle-apps-in-chatgpt",
+      "score": 40,
+      "translationStatus": "complete"
+    },
     {
       "id": "316d411bbd383aaa3eb4",
       "category": "ai",
