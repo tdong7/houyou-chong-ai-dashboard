@@ -1,7 +1,91 @@
 {
-  "updatedAt": "2026-10-27T19:17:06.195Z",
+  "updatedAt": "2026-10-28T19:23:27.253Z",
   "timezone": "America/New_York",
   "stories": [
+    {
+      "id": "d5d1f35bbf60e407466b",
+      "category": "ai",
+      "publishedAt": "2026-10-28T18:36:07.000Z",
+      "dateET": "2026-10-28",
+      "source": "The Information",
+      "title": "IPO Pipeline Held Back by Anthropic Listing, Says NYSE’s Martin",
+      "titleZh": "纽约证券交易所的Martin表示， Anthropic Listing阻止了IPO管道",
+      "url": "https://www.theinformation.com/briefings/ipo-pipeline-held-back-anthropic-listing-says-nyses-martin",
+      "score": 53,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "d625750065058bb270d2",
+      "category": "ai",
+      "publishedAt": "2026-10-28T17:43:40.000Z",
+      "dateET": "2026-10-28",
+      "source": "The Information",
+      "title": "Google Launches Gemini 4 Carbon, Its Second Major AI Model in a Month",
+      "titleZh": "谷歌推出Gemini 4 Carbon ，这是其一个月内的第二个主要AI模型",
+      "url": "https://www.theinformation.com/briefings/google-launches-gemini-4-carbon-second-major-ai-model-month",
+      "score": 56,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "591586412dd3bf10891f",
+      "category": "ai",
+      "publishedAt": "2026-10-28T15:59:54.000Z",
+      "dateET": "2026-10-28",
+      "source": "The Information",
+      "title": "‘Nobody’s Ready’: AI-Found Bugs Spark a Corporate Security Spending Spree",
+      "titleZh": "“没人准备好” ：人工智能发现的漏洞引发了企业安全支出狂潮",
+      "url": "https://www.theinformation.com/articles/nobodys-ready-ai-found-bugs-spark-corporate-security-spending-spree",
+      "score": 51,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "1bc6a42ad0782ecda97c",
+      "category": "space",
+      "publishedAt": "2026-10-28T15:50:04.000Z",
+      "dateET": "2026-10-28",
+      "source": "Space.com",
+      "title": "China's secretive space plane caught on camera in incredible new photo released by US military",
+      "titleZh": "中国的秘密太空飞机在美国军方发布的令人难以置信的新照片中被相机捕捉到",
+      "url": "https://www.space.com/space-exploration/launches-spacecraft/chinas-secretive-space-plane-caught-on-camera-in-incredible-new-photo-released-by-us-military",
+      "score": 47,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "86abd182baa4ff170ca6",
+      "category": "space",
+      "publishedAt": "2026-10-28T14:00:00.000Z",
+      "dateET": "2026-10-28",
+      "source": "Space.com",
+      "title": "Satellites watch an escaping Antarctic iceberg | Space photo of the day for Oct. 28, 2026",
+      "titleZh": "卫星观看逃离的南极冰山| 2026年10月28日当天的太空照片",
+      "url": "https://www.space.com/astronomy/earth/satellites-watch-an-escaping-antarctic-iceberg-space-photo-of-the-day-for-oct-28-2026",
+      "score": 46,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "672313ac29fe07e75aa0",
+      "category": "ai",
+      "publishedAt": "2026-10-28T13:00:46.000Z",
+      "dateET": "2026-10-28",
+      "source": "The Information",
+      "title": "Amazon Hedges Against AI Shopping Agents With 250 Million Outside Listings",
+      "titleZh": "亚马逊对冲拥有2.5亿户外房源的人工智能购物代理",
+      "url": "https://www.theinformation.com/articles/amazon-lists-250-million-products-rival-sites-effort-battle-agents",
+      "score": 48,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "827a6ae71ff4e597f854",
+      "category": "ai",
+      "publishedAt": "2026-10-28T10:04:15.000Z",
+      "dateET": "2026-10-28",
+      "source": "The Information",
+      "title": "Malaysian Authorities Seize $12 Million Worth of AI Chips in Smuggling Crackdown",
+      "titleZh": "马来西亚当局在打击走私中查获价值$ 1200万的人工智能芯片",
+      "url": "https://www.theinformation.com/briefings/malaysian-authorities-seize-12-million-worth-ai-chips-smuggling-crackdown",
+      "score": 45,
+      "translationStatus": "complete"
+    },
     {
       "id": "6f01a276418cdcfb7c42",
       "category": "ai",
