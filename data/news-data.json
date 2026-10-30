@@ -1,7 +1,67 @@
 {
-  "updatedAt": "2026-10-29T19:27:26.371Z",
+  "updatedAt": "2026-10-30T19:03:27.826Z",
   "timezone": "America/New_York",
   "stories": [
+    {
+      "id": "8719b0e99181dda23162",
+      "category": "space",
+      "publishedAt": "2026-10-30T19:00:00.000Z",
+      "dateET": "2026-10-30",
+      "source": "Space.com",
+      "title": "5 horror franchises that went to space... and one that absolutely should have but didn't",
+      "titleZh": "5个进入太空的恐怖特许经营权......和一个绝对应该有，但没有",
+      "url": "https://www.space.com/entertainment/space-movies-shows/5-horror-franchises-that-went-to-space-and-one-that-absolutely-should-have-but-didnt",
+      "score": 51,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "c60d7607239cb3267f4e",
+      "category": "space",
+      "publishedAt": "2026-10-30T14:46:35.000Z",
+      "dateET": "2026-10-30",
+      "source": "Space.com",
+      "title": "On this day in space! Oct. 30, 1964: NASA's weird Lunar Landing Research Vehicle takes 1st test flight to help Apollo astronauts land on the moon",
+      "titleZh": "就在这一天，在太空中！ 1964年10月30日：美国宇航局奇怪的月球着陆研究飞行器进行首次试飞，帮助阿波罗宇航员登陆月球",
+      "url": "https://www.space.com/space-exploration/on-this-day-in-space-october-30-2026",
+      "score": 55,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "cbaf41d722698e3aecdb",
+      "category": "ai",
+      "publishedAt": "2026-10-30T13:00:46.000Z",
+      "dateET": "2026-10-30",
+      "source": "The Information",
+      "title": "An Anthropic Windfall Could Await State Pension Funds",
+      "titleZh": "人类意外收获可能等待国家养老基金",
+      "url": "https://www.theinformation.com/articles/anthropic-windfall-await-state-pension-funds",
+      "score": 48,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "84e22b3334ba296f07e6",
+      "category": "ai",
+      "publishedAt": "2026-10-30T09:30:00.000Z",
+      "dateET": "2026-10-30",
+      "source": "OpenAI News",
+      "title": "Making it easier for websites to express AI training preferences",
+      "titleZh": "让网站更容易表达人工智能培训偏好",
+      "url": "https://openai.com/index/helping-websites-express-ai-training-preferences",
+      "score": 42,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "49c70a4c1abfb04ef0c0",
+      "category": "ai",
+      "publishedAt": "2026-10-30T09:00:00.000Z",
+      "dateET": "2026-10-30",
+      "source": "OpenAI News",
+      "title": "Community safety report and new protections for teens",
+      "titleZh": "社区安全报告和针对青少年的新保护措施",
+      "url": "https://openai.com/index/community-safety-report-and-new-protections-for-teens",
+      "score": 38,
+      "translationStatus": "complete"
+    },
     {
       "id": "850c0345149d3ece6e04",
       "category": "space",
