@@ -1,7 +1,31 @@
 {
-  "updatedAt": "2026-10-30T19:03:27.826Z",
+  "updatedAt": "2026-10-31T18:22:01.407Z",
   "timezone": "America/New_York",
   "stories": [
+    {
+      "id": "5cc9a4e7ac2e4ece47e4",
+      "category": "space",
+      "publishedAt": "2026-10-31T13:26:33.000Z",
+      "dateET": "2026-10-31",
+      "source": "Space.com",
+      "title": "On this day in space! Oct. 31, 2015: Creepy skull-shaped Halloween asteroid flies by Earth, NASA names it the 'Great Pumpkin'",
+      "titleZh": "就在这一天，在太空中！ 2015年10月31日：令人毛骨悚然的骷髅形万圣节小行星飞过地球，美国宇航局将其命名为“大南瓜”",
+      "url": "https://www.space.com/space-exploration/on-this-day-in-space-october-31-2026",
+      "score": 50,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "64283c21fb55001be030",
+      "category": "space",
+      "publishedAt": "2026-10-31T13:00:00.000Z",
+      "dateET": "2026-10-31",
+      "source": "Space.com",
+      "title": "The moon, Mars, and Jupiter shine in the heart of the Lion overnight on Nov. 1-2",
+      "titleZh": "11月1日至2日夜间，月亮、火星和木星在狮子的心脏闪耀",
+      "url": "https://www.space.com/stargazing/the-moon-mars-and-jupiter-shine-in-the-heart-of-the-lion-overnight-on-nov-1-2",
+      "score": 50,
+      "translationStatus": "complete"
+    },
     {
       "id": "8719b0e99181dda23162",
       "category": "space",
