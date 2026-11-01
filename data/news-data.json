@@ -1,7 +1,43 @@
 {
-  "updatedAt": "2026-10-31T18:22:01.407Z",
+  "updatedAt": "2026-11-01T19:16:33.596Z",
   "timezone": "America/New_York",
   "stories": [
+    {
+      "id": "9364ac03d1aadeab42d8",
+      "category": "ai",
+      "publishedAt": "2026-11-01T16:00:41.000Z",
+      "dateET": "2026-11-01",
+      "source": "The Information",
+      "title": "Candidates Backing Data Center Pauses Could Win in Up to 15 Governor’s Races",
+      "titleZh": "支持数据中心暂停的候选人最多可以赢得15场州长竞选",
+      "url": "https://www.theinformation.com/articles/candidates-backing-data-center-pauses-win-15-governors-races",
+      "score": 51,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "ff1b1e640b000dd7eaae",
+      "category": "space",
+      "publishedAt": "2026-11-01T14:50:15.000Z",
+      "dateET": "2026-11-01",
+      "source": "Space.com",
+      "title": "On this day in space! Nov. 1, 1962: The Soviet Union Launches Mars 1 spacecraft to Red Planet during the Space Race",
+      "titleZh": "就在这一天，在太空中！ 1962年11月1日：苏联在太空竞赛期间向红色星球发射火星1号航天器",
+      "url": "https://www.space.com/space-exploration/on-this-day-in-space-november-1-2026",
+      "score": 51,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "f561f5698051db2d12f5",
+      "category": "space",
+      "publishedAt": "2026-11-01T13:00:00.000Z",
+      "dateET": "2026-11-01",
+      "source": "Space.com",
+      "title": "NASA's Swift space telescope is about to crash to Earth. Where will it fall?",
+      "titleZh": "美国宇航局的斯威夫特太空望远镜即将坠毁在地球上。它会落在哪里？",
+      "url": "https://www.space.com/space-exploration/missions/nasas-swift-space-telescope-is-about-to-crash-to-earth-where-will-it-fall",
+      "score": 49,
+      "translationStatus": "complete"
+    },
     {
       "id": "5cc9a4e7ac2e4ece47e4",
       "category": "space",
