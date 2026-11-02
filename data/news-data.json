@@ -1,7 +1,79 @@
 {
-  "updatedAt": "2026-11-01T19:16:33.596Z",
+  "updatedAt": "2026-11-02T22:56:37.417Z",
   "timezone": "America/New_York",
   "stories": [
+    {
+      "id": "a4b0da592b35c42b8d33",
+      "category": "space",
+      "publishedAt": "2026-11-02T17:00:00.000Z",
+      "dateET": "2026-11-02",
+      "source": "Space.com",
+      "title": "James Webb Space Telescope uncovers new clues about the origins of 'interstellar invader' comet 3I/ATLAS",
+      "titleZh": "詹姆斯·韦伯太空望远镜揭示“星际入侵者”彗星3I/ATLAS起源的新线索",
+      "url": "https://www.space.com/astronomy/asteroids/james-webb-space-telescope-uncovers-new-clues-about-the-origins-of-interstellar-invader-comet-3i-atlas",
+      "score": 45,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "1693551bf4458afe1617",
+      "category": "ai",
+      "publishedAt": "2026-11-02T15:12:33.000Z",
+      "dateET": "2026-11-02",
+      "source": "The Information",
+      "title": "Anthropic’s Revenue Surged to $17 Billion in Q3, Swung Back to Operating Loss",
+      "titleZh": "Anthropic第三季度收入飙升至170亿美元，重返运营亏损",
+      "url": "https://www.theinformation.com/briefings/anthropics-revenue-surged-17-billion-q3-swung-back-operating-loss",
+      "score": 46,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "67062c90a50f9fa0cb28",
+      "category": "ai",
+      "publishedAt": "2026-11-02T15:00:48.000Z",
+      "dateET": "2026-11-02",
+      "source": "The Information",
+      "title": "Exclusive: OpenAI Sign Deals With Magnite, PubMatic to Fill Unused ChatGPT Ad Space",
+      "titleZh": "独家： OpenAI与Magnite签约， PubMatic填补未使用的ChatGPT广告空间",
+      "url": "https://www.theinformation.com/briefings/exclusive-openai-sign-deals-magnite-pubmatic-fill-unused-chatgpt-ad-space",
+      "score": 46,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "bce8cfb8863e46c089ce",
+      "category": "ai",
+      "publishedAt": "2026-11-02T15:00:00.000Z",
+      "dateET": "2026-11-02",
+      "source": "OpenAI News",
+      "title": "Introducing the Grid Protectors Program",
+      "titleZh": "电网保护器计划简介",
+      "url": "https://openai.com/index/grid-protectors-program",
+      "score": 40,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "657b621f554020cc00ad",
+      "category": "space",
+      "publishedAt": "2026-11-02T15:00:00.000Z",
+      "dateET": "2026-11-02",
+      "source": "Space.com",
+      "title": "A rainbow of ancient rocks on Mars | Space photo of the day for Nov. 2, 2026",
+      "titleZh": "火星上古老岩石的彩虹| 2026年11月2日当天的太空照片",
+      "url": "https://www.space.com/astronomy/mars/a-rainbow-of-ancient-rocks-on-mars-space-photo-of-the-day-for-nov-2-2026",
+      "score": 47,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "f855492d211ba20878c4",
+      "category": "ai",
+      "publishedAt": "2026-11-02T09:00:00.000Z",
+      "dateET": "2026-11-02",
+      "source": "OpenAI News",
+      "title": "LifeVal",
+      "titleZh": "LifeVal",
+      "url": "https://openai.com/index/lifeval",
+      "score": 34,
+      "translationStatus": "complete"
+    },
     {
       "id": "9364ac03d1aadeab42d8",
       "category": "ai",
