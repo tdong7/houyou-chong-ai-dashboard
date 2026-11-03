@@ -1,7 +1,91 @@
 {
-  "updatedAt": "2026-11-02T22:56:37.417Z",
+  "updatedAt": "2026-11-03T20:42:27.944Z",
   "timezone": "America/New_York",
   "stories": [
+    {
+      "id": "6ccd190a827ff4abc931",
+      "category": "ai",
+      "publishedAt": "2026-11-03T20:24:58.000Z",
+      "dateET": "2026-11-03",
+      "source": "The Information",
+      "title": "Shopify Stock Falls 7.6% After Company Discloses Profit Margin Drop Due to AI",
+      "titleZh": "公司披露利润率因人工智能而下降后， Shopify股价下跌7.6%",
+      "url": "https://www.theinformation.com/briefings/shopify-stock-falls-7-6-company-discloses-profit-margin-drop-due-ai",
+      "score": 54,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "25fa5dc551d511a7198b",
+      "category": "ai",
+      "publishedAt": "2026-11-03T19:20:56.000Z",
+      "dateET": "2026-11-03",
+      "source": "The Information",
+      "title": "Uber’s Jill Hazelbaker to Join OpenAI as Chief Corporate Affairs Officer",
+      "titleZh": "优步的Jill Hazelbaker将加入OpenAI担任首席企业事务官",
+      "url": "https://www.theinformation.com/articles/ubers-jill-hazelbaker-join-openai-chief-corporate-affairs-officer",
+      "score": 53,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "a434f6265d1cfa6bf56e",
+      "category": "space",
+      "publishedAt": "2026-11-03T19:00:00.000Z",
+      "dateET": "2026-11-03",
+      "source": "Space.com",
+      "title": "Dimorphos in sight: Europe's Hera probe gets its 1st look at battered space rock (photo)",
+      "titleZh": "二形态在视线中：欧洲的HERA探测器首次看到破碎的太空岩石（照片）",
+      "url": "https://www.space.com/space-exploration/asteroid-comet-missions/dimorphos-in-sight-europes-hera-probe-gets-its-1st-look-at-battered-space-rock-photo",
+      "score": 49,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "808a31a06bc6adcb9156",
+      "category": "ai",
+      "publishedAt": "2026-11-03T18:31:27.000Z",
+      "dateET": "2026-11-03",
+      "source": "The Information",
+      "title": "LinkedIn Swapped Out Some OpenAI Models to Keep Its Server Costs Flat",
+      "titleZh": "LinkedIn更换了一些OpenAI模型，以保持其服务器成本不变",
+      "url": "https://www.theinformation.com/articles/linkedin-swapped-openai-models-keep-server-costs-flat",
+      "score": 52,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "3d8e89f312baccc47f94",
+      "category": "ai",
+      "publishedAt": "2026-11-03T18:17:26.000Z",
+      "dateET": "2026-11-03",
+      "source": "The Information",
+      "title": "Binance Says Hackers Used Bogus Job Interview and AI Tool",
+      "titleZh": "币安称黑客使用虚假的工作面试和人工智能工具",
+      "url": "https://www.theinformation.com/briefings/binance-says-hackers-used-bogus-job-interview-ai-tool",
+      "score": 52,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "a60b2cd435cbe88cb456",
+      "category": "ai",
+      "publishedAt": "2026-11-03T14:00:31.000Z",
+      "dateET": "2026-11-03",
+      "source": "The Information",
+      "title": "Anthropic Touts Claude’s Chip Design Skills to IPO Investors",
+      "titleZh": "Anthropic向IPO投资者宣传Claude的芯片设计技巧",
+      "url": "https://www.theinformation.com/articles/anthropic-touts-claudes-chip-design-skills-ipo-investors",
+      "score": 51,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "66b0efba63a1fdf45178",
+      "category": "space",
+      "publishedAt": "2026-11-03T13:00:00.000Z",
+      "dateET": "2026-11-03",
+      "source": "Space.com",
+      "title": "Do we know how many Starship launches SpaceX will need to get NASA astronauts to the moon? No. Will its refuelling plan be simple? Also no.",
+      "titleZh": "我们知道SpaceX需要多少次星际飞船发射才能将NASA宇航员送上月球吗？不。它的加油计划会简单吗？也不会。",
+      "url": "https://www.space.com/space-exploration/artemis/do-we-know-how-many-starship-launches-spacex-will-need-to-get-nasa-astronauts-to-the-moon-no-will-its-refuelling-plan-be-simple-also-no",
+      "score": 55,
+      "translationStatus": "complete"
+    },
     {
       "id": "a4b0da592b35c42b8d33",
       "category": "space",
