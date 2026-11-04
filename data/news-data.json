@@ -1,7 +1,91 @@
 {
-  "updatedAt": "2026-11-03T20:42:27.944Z",
+  "updatedAt": "2026-11-04T20:58:58.944Z",
   "timezone": "America/New_York",
   "stories": [
+    {
+      "id": "96057b5100dc608d65a1",
+      "category": "ai",
+      "publishedAt": "2026-11-04T19:51:17.000Z",
+      "dateET": "2026-11-04",
+      "source": "The Information",
+      "title": "Cerebras’ Lockups Hold a Lesson for Anthropic Employees",
+      "titleZh": "Cerebras的拘留所为Anthropic员工上课",
+      "url": "https://www.theinformation.com/articles/cerebras-lockups-hold-lesson-anthropic-employees",
+      "score": 53,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "f19a07dc5a3895808976",
+      "category": "space",
+      "publishedAt": "2026-11-04T19:06:08.000Z",
+      "dateET": "2026-11-04",
+      "source": "Space.com",
+      "title": "NASA's Swift space telescope crashes back to Earth after failed rescue attempt",
+      "titleZh": "美国宇航局的SWIFT太空望远镜在救援失败后坠回地球",
+      "url": "https://www.space.com/space-exploration/missions/nasa-swift-space-telescope-crashes-to-earth",
+      "score": 53,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "20a857c9e5bb0f8d4de4",
+      "category": "ai",
+      "publishedAt": "2026-11-04T17:56:42.000Z",
+      "dateET": "2026-11-04",
+      "source": "The Information",
+      "title": "OpenAI Agrees to Buy Software Startup Pierre to Bolster Codex",
+      "titleZh": "OpenAI同意收购软件初创公司Pierre以支持Codex",
+      "url": "https://www.theinformation.com/briefings/openai-agrees-buy-software-startup-pierre-bolster-codex",
+      "score": 51,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "462df1d6711630a7c8e2",
+      "category": "ai",
+      "publishedAt": "2026-11-04T17:09:44.000Z",
+      "dateET": "2026-11-04",
+      "source": "The Information",
+      "title": "Blue Wave Could Engulf Data Center Industry",
+      "titleZh": "蓝色浪潮可能吞噬数据中心行业",
+      "url": "https://www.theinformation.com/articles/blue-wave-engulf-data-center-industry",
+      "score": 50,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "c8734262666b24537397",
+      "category": "space",
+      "publishedAt": "2026-11-04T17:00:00.000Z",
+      "dateET": "2026-11-04",
+      "source": "Space.com",
+      "title": "NASA's Artemis II moon launch tore a hole in Earth's upper atmosphere so huge it disrupted GPS signals",
+      "titleZh": "美国宇航局的阿尔忒弥斯二号月球发射在地球高层大气中撕裂了一个巨大的洞，扰乱了GPS信号",
+      "url": "https://www.space.com/space-exploration/launches-spacecraft/nasas-artemis-ii-moon-launch-tore-a-hole-in-earths-upper-atmosphere-so-huge-it-disrupted-gps-signals",
+      "score": 55,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "20d357b1ba3645a10c37",
+      "category": "ai",
+      "publishedAt": "2026-11-04T15:28:02.000Z",
+      "dateET": "2026-11-04",
+      "source": "The Information",
+      "title": "Chip Stocks and Neoclouds Sell Off on Election Results",
+      "titleZh": "芯片股和新云在选举结果中抛售",
+      "url": "https://www.theinformation.com/briefings/chip-stocks-neoclouds-sell-election-results",
+      "score": 48,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "b28c5565bc422ea87bc7",
+      "category": "ai",
+      "publishedAt": "2026-11-04T15:02:46.000Z",
+      "dateET": "2026-11-04",
+      "source": "The Information",
+      "title": "The Security Companies Trying to Get AI Agents Under Control",
+      "titleZh": "试图控制人工智能代理的安全公司",
+      "url": "https://www.theinformation.com/articles/security-companies-trying-get-ai-agents-control",
+      "score": 48,
+      "translationStatus": "complete"
+    },
     {
       "id": "6ccd190a827ff4abc931",
       "category": "ai",
