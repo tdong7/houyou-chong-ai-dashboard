@@ -1,7 +1,79 @@
 {
-  "updatedAt": "2026-11-05T21:16:20.922Z",
+  "updatedAt": "2026-11-06T20:39:04.742Z",
   "timezone": "America/New_York",
   "stories": [
+    {
+      "id": "18d4b0cc1f1b93a2ccf2",
+      "category": "space",
+      "publishedAt": "2026-11-06T19:00:00.000Z",
+      "dateET": "2026-11-06",
+      "source": "Space.com",
+      "title": "See the space race like you’ve never seen it before in PBS’s new living documentary, ‘We Chose to Go to the Moon’",
+      "titleZh": "在PBS的新纪录片《我们选择登月》（ We Chose to Go to the Moon ）中，观看前所未有的太空竞赛",
+      "url": "https://www.space.com/entertainment/space-movies-shows/see-the-space-race-like-youve-never-seen-it-before-in-pbss-new-living-documentary-we-chose-to-go-to-the-moon",
+      "score": 53,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "9d54fbd63e147ae0d837",
+      "category": "ai",
+      "publishedAt": "2026-11-06T15:47:23.000Z",
+      "dateET": "2026-11-06",
+      "source": "The Information",
+      "title": "GPU Futures Hopes Hit Another Roadblock as CME Delays Launch for Second Time",
+      "titleZh": "随着芝加哥商品交易所第二次推迟上市， GPU期货希望遇到另一个障碍",
+      "url": "https://www.theinformation.com/briefings/gpu-futures-hopes-hit-another-roadblock-cme-delays-launch-second-time",
+      "score": 49,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "3b0c486cd525f0814f76",
+      "category": "ai",
+      "publishedAt": "2026-11-06T15:31:38.000Z",
+      "dateET": "2026-11-06",
+      "source": "The Information",
+      "title": "Amazon Says Shoppers Can Now Text With AI Shopping Assistant Alexa For Shopping",
+      "titleZh": "亚马逊表示，购物者现在可以使用人工智能购物助手Alexa进行购物",
+      "url": "https://www.theinformation.com/briefings/amazon-says-shoppers-can-now-text-ai-shopping-assistant-alexa-shopping",
+      "score": 49,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "aaa44c08d90aa6f9fcfa",
+      "category": "space",
+      "publishedAt": "2026-11-06T15:00:00.000Z",
+      "dateET": "2026-11-06",
+      "source": "Space.com",
+      "title": "Hera probe gets 1st good look at asteroid system clobbered by NASA's DART mission | Space photo of the day for Nov. 6, 2026",
+      "titleZh": "HERA探测器首次被NASA的DART任务击中小行星系统| 2026年11月6日当天的太空照片",
+      "url": "https://www.space.com/space-exploration/asteroid-comet-missions/hera-probe-gets-1st-good-luck-at-asteroid-system-clobbered-by-nasas-dart-mission-space-photo-of-the-day-for-nov-6-2026",
+      "score": 49,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "3fb2c6a30ab814aa8231",
+      "category": "ai",
+      "publishedAt": "2026-11-06T14:01:18.000Z",
+      "dateET": "2026-11-06",
+      "source": "The Information",
+      "title": "TSMC Weighs Making Advanced Memory Chips to Capture More AI Spending",
+      "titleZh": "台积电称重制造先进内存芯片以获取更多人工智能支出",
+      "url": "https://www.theinformation.com/articles/tsmc-weighs-making-advanced-memory-chips-capture-ai-spending",
+      "score": 47,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "e7ad992bf2d9f1773477",
+      "category": "ai",
+      "publishedAt": "2026-11-06T08:00:00.000Z",
+      "dateET": "2026-11-06",
+      "source": "OpenAI News",
+      "title": "Partnering with Hacktron to find vulnerabilities in OpenAI’s systems",
+      "titleZh": "与Hacktron合作，发现OpenAI系统中的漏洞",
+      "url": "https://openai.com/index/partnering-with-hacktron",
+      "score": 39,
+      "translationStatus": "complete"
+    },
     {
       "id": "b33eb1e14dcf564d593a",
       "category": "space",
