@@ -1,7 +1,43 @@
 {
-  "updatedAt": "2026-11-06T20:39:04.742Z",
+  "updatedAt": "2026-11-07T19:12:04.634Z",
   "timezone": "America/New_York",
   "stories": [
+    {
+      "id": "15eefd1a2cc4a5f29136",
+      "category": "space",
+      "publishedAt": "2026-11-07T16:31:11.000Z",
+      "dateET": "2026-11-07",
+      "source": "Space.com",
+      "title": "On this day in space! Nov. 7, 1992: NASA launches Mars Global Surveyor, its 1st Mars mission in 20 years at the time, to map the Red Planet like never before",
+      "titleZh": "就在这一天，在太空中！ 1992年11月7日：美国宇航局发射了火星全球探测器，这是当时20年来的第一次火星任务，以史无前例的方式绘制红色星球地图",
+      "url": "https://www.space.com/space-exploration/on-this-day-in-space-november-7-2026",
+      "score": 56,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "d3f2433b35ac0b4eeb53",
+      "category": "ai",
+      "publishedAt": "2026-11-07T15:01:25.000Z",
+      "dateET": "2026-11-07",
+      "source": "The Information",
+      "title": "The Blue Wave May Not Stop Musk’s Texas Data Center Ambitions",
+      "titleZh": "蓝色浪潮可能无法阻止马斯克的德克萨斯州数据中心雄心",
+      "url": "https://www.theinformation.com/articles/blue-wave-may-stop-musks-texas-data-center-ambitions",
+      "score": 50,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "17757260740b4a995785",
+      "category": "space",
+      "publishedAt": "2026-11-07T15:00:00.000Z",
+      "dateET": "2026-11-07",
+      "source": "Space.com",
+      "title": "Send your name to Saturn's moon Titan with NASA's upcoming Dragonfly mission",
+      "titleZh": "通过NASA即将到来的蜻蜓任务，将您的名字发送给土星的月亮泰坦",
+      "url": "https://www.space.com/space-exploration/launches-spacecraft/send-your-name-to-saturns-moon-titan-with-nasas-upcoming-dragonfly-mission",
+      "score": 51,
+      "translationStatus": "complete"
+    },
     {
       "id": "18d4b0cc1f1b93a2ccf2",
       "category": "space",
