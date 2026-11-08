@@ -1,7 +1,43 @@
 {
-  "updatedAt": "2026-11-07T19:12:04.634Z",
+  "updatedAt": "2026-11-08T19:14:17.261Z",
   "timezone": "America/New_York",
   "stories": [
+    {
+      "id": "20d897c920523c5130c0",
+      "category": "ai",
+      "publishedAt": "2026-11-08T16:00:51.000Z",
+      "dateET": "2026-11-08",
+      "source": "The Information",
+      "title": "How Much More AI Stock Can the Market Absorb?",
+      "titleZh": "市场能吸收多少人工智能股票？",
+      "url": "https://www.theinformation.com/articles/ai-stock-can-market-absorb",
+      "score": 51,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "8f2d8df87f8370de5f6e",
+      "category": "space",
+      "publishedAt": "2026-11-08T16:00:00.000Z",
+      "dateET": "2026-11-08",
+      "source": "Space.com",
+      "title": "Legendary sci-fi magazine 'Starlog' returns as a yearly release, just in time for its 50th anniversary",
+      "titleZh": "传奇科幻杂志《星际日志》每年发行一期，刚好赶上50周年",
+      "url": "https://www.space.com/entertainment/legendary-sci-fi-magazine-starlog-returns-as-a-yearly-release-just-in-time-for-its-50th-anniversary",
+      "score": 44,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "40be6bd592b56480f7ea",
+      "category": "space",
+      "publishedAt": "2026-11-08T15:25:42.000Z",
+      "dateET": "2026-11-08",
+      "source": "Space.com",
+      "title": "On this day in space! Nov. 8, 2005: Europe launches Venus Express, its first mission to Venus",
+      "titleZh": "就在这一天，在太空中！ 2005年11月8日：欧洲推出金星快车，这是其首次前往金星的任务",
+      "url": "https://www.space.com/space-exploration/on-this-day-in-space-november-8-2026",
+      "score": 47,
+      "translationStatus": "complete"
+    },
     {
       "id": "15eefd1a2cc4a5f29136",
       "category": "space",
