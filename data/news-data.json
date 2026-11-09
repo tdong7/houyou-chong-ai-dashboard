@@ -1,7 +1,91 @@
 {
-  "updatedAt": "2026-11-08T19:14:17.261Z",
+  "updatedAt": "2026-11-09T23:38:23.980Z",
   "timezone": "America/New_York",
   "stories": [
+    {
+      "id": "8a79b60645e3110b8175",
+      "category": "space",
+      "publishedAt": "2026-11-09T22:11:05.000Z",
+      "dateET": "2026-11-09",
+      "source": "Space.com",
+      "title": "On this day in space! Nov. 9, 1967: NASA launches the Saturn V moon rocket for the first time on Apollo 4, but no astronauts were aboard",
+      "titleZh": "就在这一天，在太空中！ 1967年11月9日：美国宇航局在阿波罗4号上首次发射土星5号月球火箭，但没有宇航员登上",
+      "url": "https://www.space.com/space-exploration/on-this-day-in-space-november-9-2026",
+      "score": 62,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "c8846375f0baaa09a7ed",
+      "category": "ai",
+      "publishedAt": "2026-11-09T21:55:16.000Z",
+      "dateET": "2026-11-09",
+      "source": "The Information",
+      "title": "How agentic AI raises the bar for law firms",
+      "titleZh": "代理人工智能如何提高律师事务所的门槛",
+      "url": "https://www.theinformation.com/articles/agentic-ai-raises-bar-law-firms",
+      "score": 52,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "1f6ec6ff327828b58373",
+      "category": "ai",
+      "publishedAt": "2026-11-09T21:22:50.000Z",
+      "dateET": "2026-11-09",
+      "source": "The Information",
+      "title": "Anthropic Releases New Frontier Models as IPO Nears",
+      "titleZh": "Anthropic作为IPO Nears发布新的前沿模型",
+      "url": "https://www.theinformation.com/briefings/anthropic-releases-new-frontier-models-ipo-nears",
+      "score": 52,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "daa368cc12faf4faf4fe",
+      "category": "ai",
+      "publishedAt": "2026-11-09T19:00:00.000Z",
+      "dateET": "2026-11-09",
+      "source": "OpenAI News",
+      "title": "ChatGPT Enterprise now available in AWS Marketplace",
+      "titleZh": "ChatGPT Enterprise现已在AWS Marketplace中提供",
+      "url": "https://openai.com/index/chatgpt-enterprise-aws-marketplace",
+      "score": 43,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "333e4f9b9b145a72d166",
+      "category": "ai",
+      "publishedAt": "2026-11-09T15:01:34.000Z",
+      "dateET": "2026-11-09",
+      "source": "The Information",
+      "title": "Nvidia Drama Explodes; The Startup Tricking Scammers by Using AI Agents",
+      "titleZh": "Nvidia Drama爆炸：初创公司通过使用人工智能代理欺骗诈骗者",
+      "url": "https://www.theinformation.com/articles/nvidia-drama-explodes-startup-tricking-scammers-using-ai-agents",
+      "score": 45,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "5e6a1ce861e3a387caaf",
+      "category": "space",
+      "publishedAt": "2026-11-09T14:30:00.000Z",
+      "dateET": "2026-11-09",
+      "source": "Space.com",
+      "title": "SpaceX will launch epic double-catch Starship Flight 15 test mission on Nov. 13",
+      "titleZh": "SpaceX将于11月13日发射史诗级双捕星际飞船Flight 15测试任务",
+      "url": "https://www.space.com/space-exploration/launches-spacecraft/spacex-will-launch-epic-double-catch-starship-flight-15-test-mission-on-nov-13",
+      "score": 50,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "201c733d07339865da54",
+      "category": "ai",
+      "publishedAt": "2026-11-09T13:00:00.000Z",
+      "dateET": "2026-11-09",
+      "source": "OpenAI News",
+      "title": "Control Room: A central system to track and stop model workloads across our research infrastructure",
+      "titleZh": "控制室：一个中央系统，用于跟踪和停止整个研究基础设施的模型工作负载",
+      "url": "https://openai.com/index/control-room",
+      "score": 41,
+      "translationStatus": "complete"
+    },
     {
       "id": "20d897c920523c5130c0",
       "category": "ai",
