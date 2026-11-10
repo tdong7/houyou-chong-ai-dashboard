@@ -1,7 +1,91 @@
 {
-  "updatedAt": "2026-11-09T23:38:23.980Z",
+  "updatedAt": "2026-11-10T21:05:46.087Z",
   "timezone": "America/New_York",
   "stories": [
+    {
+      "id": "a4d5ee6c66fbf8947814",
+      "category": "space",
+      "publishedAt": "2026-11-10T20:00:00.000Z",
+      "dateET": "2026-11-10",
+      "source": "Space.com",
+      "title": "How to watch 'We Chose to Go to the Moon' online — stream space race stage show from anywhere",
+      "titleZh": "如何在线观看“我们选择登月” —从任何地方观看太空竞赛舞台节目",
+      "url": "https://www.space.com/entertainment/space-movies-shows/how-to-watch-we-chose-to-go-to-the-moon-online-stream-space-race-stage-show-from-anywhere",
+      "score": 54,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "74df19c912fe52ffbd50",
+      "category": "space",
+      "publishedAt": "2026-11-10T19:46:21.000Z",
+      "dateET": "2026-11-10",
+      "source": "Space.com",
+      "title": "SpaceX Starship Flight 15 live updates: Super Heavy rocket moved to launch pad for 1st Starship double landing test",
+      "titleZh": "SpaceX Starship Flight 15实时更新：超重型火箭移动到发射台进行第一艘星舰双着陆测试",
+      "url": "https://www.space.com/news/live/spacex-starship-flight-15-live-updates-nov-10-2026-starship-first-double-landing-attempt",
+      "score": 62,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "bdecda5f0d1d256814d4",
+      "category": "ai",
+      "publishedAt": "2026-11-10T19:16:38.000Z",
+      "dateET": "2026-11-10",
+      "source": "The Information",
+      "title": "Why HubSpot, Snowflake and Others Are Avoiding AI Spending Caps",
+      "titleZh": "为什么HubSpot、Snowflake和其他公司避免使用人工智能支出上限",
+      "url": "https://www.theinformation.com/articles/hubspot-snowflake-others-avoiding-ai-spending-caps",
+      "score": 52,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "54558f09e6ef1d0d0829",
+      "category": "ai",
+      "publishedAt": "2026-11-10T18:39:07.000Z",
+      "dateET": "2026-11-10",
+      "source": "The Information",
+      "title": "OpenAI Acquires AI Travel Agent Odessia",
+      "titleZh": "OpenAI收购AI旅行社Odessia",
+      "url": "https://www.theinformation.com/briefings/openai-acquires-ai-travel-agent-odessia",
+      "score": 56,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "a4ec7c95f5e52e90d2a5",
+      "category": "ai",
+      "publishedAt": "2026-11-10T18:26:51.000Z",
+      "dateET": "2026-11-10",
+      "source": "The Information",
+      "title": "Anthropic Launches New Workplace Software, Sending Microsoft Shares Tanking",
+      "titleZh": "Anthropic推出新的工作场所软件，发送微软股票储罐",
+      "url": "https://www.theinformation.com/briefings/anthropic-launches-new-workplace-software-sending-microsoft-shares-tanking",
+      "score": 51,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "a6162ff226cc7a5bd233",
+      "category": "ai",
+      "publishedAt": "2026-11-10T17:39:39.000Z",
+      "dateET": "2026-11-10",
+      "source": "The Information",
+      "title": "Anthropic Discloses Over $10 Billion in New Deals with Microsoft, Google; Says Lambda Deal May Be Cancelled",
+      "titleZh": "Anthropic披露与微软、谷歌达成的逾100亿美元新交易； Lambda交易可能被取消",
+      "url": "https://www.theinformation.com/briefings/anthropic-discloses-10-billion-new-deals-microsoft-google-says-lambda-deal-may-cancelled",
+      "score": 51,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "378633c03bb36ba6f65c",
+      "category": "ai",
+      "publishedAt": "2026-11-10T15:11:41.000Z",
+      "dateET": "2026-11-10",
+      "source": "The Information",
+      "title": "SoftBank Writes Off $3.7 Billion on Advance Payments for Data Center Projects",
+      "titleZh": "软银注销37亿美元数据中心项目预付款",
+      "url": "https://www.theinformation.com/briefings/softbank-writes-3-7-billion-advance-payments-data-center-projects",
+      "score": 48,
+      "translationStatus": "complete"
+    },
     {
       "id": "8a79b60645e3110b8175",
       "category": "space",
