@@ -1,7 +1,31 @@
 {
-  "updatedAt": "2026-11-13T21:05:06.731Z",
+  "updatedAt": "2026-11-14T19:36:14.306Z",
   "timezone": "America/New_York",
   "stories": [
+    {
+      "id": "21a24d62bf5c0534d027",
+      "category": "space",
+      "publishedAt": "2026-11-14T14:51:27.000Z",
+      "dateET": "2026-11-14",
+      "source": "Space.com",
+      "title": "On this day in space! Nov. 14, 1969: NASA's Apollo 12 astronauts launch to the moon on a 'pinpoint landing' lunar mission",
+      "titleZh": "太空中的这一天！1969年11月14日：美国宇航局阿波罗12号的宇航员踏上“精准着陆”的月球任务，飞往月球",
+      "url": "https://www.space.com/space-exploration/on-this-day-in-space-november-14-2026",
+      "score": 58,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "3c0573ca1f569f64951b",
+      "category": "space",
+      "publishedAt": "2026-11-14T13:00:00.000Z",
+      "dateET": "2026-11-14",
+      "source": "Space.com",
+      "title": "Watch SpaceX will attempt its 1st-ever 'chopsticks' Starship landing catch of a rocket from orbit today (livestream)",
+      "titleZh": "观看SpaceX今天将尝试有史以来第一次用“筷子”方式在轨道上捕捉星际飞船火箭（直播）",
+      "url": "https://www.space.com/space-exploration/launches-spacecraft/spacex-chopsticks-catch-starship-upper-stage-flight-14",
+      "score": 56,
+      "translationStatus": "complete"
+    },
     {
       "id": "c844ab63f63b18885d27",
       "category": "ai",
