@@ -1,7 +1,43 @@
 {
-  "updatedAt": "2026-11-14T19:36:14.306Z",
+  "updatedAt": "2026-11-15T20:01:48.188Z",
   "timezone": "America/New_York",
   "stories": [
+    {
+      "id": "cd3e4815fc93fda435b3",
+      "category": "space",
+      "publishedAt": "2026-11-15T17:00:00.000Z",
+      "dateET": "2026-11-15",
+      "source": "Space.com",
+      "title": "30 years ago, 'Space Jam' proposed the best way to resolve interplanetary disputes",
+      "titleZh": "30年前，《空中大灌篮》提出了解决星际争端的最佳方式",
+      "url": "https://www.space.com/entertainment/space-movies-shows/30-years-ago-space-jam-proposed-the-best-way-to-resolve-interplanetary-disputes",
+      "score": 48,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "74789498b6b848166d71",
+      "category": "ai",
+      "publishedAt": "2026-11-15T16:30:59.000Z",
+      "dateET": "2026-11-15",
+      "source": "The Information",
+      "title": "How a Chinese Energy Company Is Outpacing the U.S. on AI Power Technology",
+      "titleZh": "一家中国能源公司如何在人工智能电力技术方面超越美国",
+      "url": "https://www.theinformation.com/articles/chinese-energy-company-outpacing-u-s-ai-power-technology",
+      "score": 50,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "5ed173bd25c5570eada1",
+      "category": "space",
+      "publishedAt": "2026-11-15T15:34:00.000Z",
+      "dateET": "2026-11-15",
+      "source": "Space.com",
+      "title": "On this day in space! Nov. 15, 1988: The 300-foot Green Bank Telescope collapses suddenly, leaving a huge pile of wreckage in West Virginia",
+      "titleZh": "太空中的今天！1988年11月15日：300英尺高的格林班克望远镜突然坍塌，在西弗吉尼亚州留下了一大堆残骸。",
+      "url": "https://www.space.com/space-exploration/on-this-day-in-space-november-15-2026",
+      "score": 47,
+      "translationStatus": "complete"
+    },
     {
       "id": "21a24d62bf5c0534d027",
       "category": "space",
