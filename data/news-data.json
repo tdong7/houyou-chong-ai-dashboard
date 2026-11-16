@@ -1,7 +1,91 @@
 {
-  "updatedAt": "2026-11-15T20:01:48.188Z",
+  "updatedAt": "2026-11-16T23:35:09.261Z",
   "timezone": "America/New_York",
   "stories": [
+    {
+      "id": "ef1595f8594818b8ee28",
+      "category": "ai",
+      "publishedAt": "2026-11-16T23:34:04.000Z",
+      "dateET": "2026-11-16",
+      "source": "The Information",
+      "title": "Google DeepMind Strategy Chief Jasjeet Sekhon Departs for Anthropic",
+      "titleZh": "Google DeepMind战略总监Jasjeet Sekhon离职加入Anthropic",
+      "url": "https://www.theinformation.com/briefings/google-deepmind-strategy-chief-jasjeet-sekhon-departs-anthropic",
+      "score": 58,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "6af37455e4baa341d734",
+      "category": "ai",
+      "publishedAt": "2026-11-16T22:13:24.000Z",
+      "dateET": "2026-11-16",
+      "source": "The Information",
+      "title": "OpenAI Signs Agreements to Embed AI Evaluators",
+      "titleZh": "OpenAI 签署协议，嵌入人工智能评估工具",
+      "url": "https://www.theinformation.com/briefings/openai-signs-agreements-embed-ai-evaluators",
+      "score": 57,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "175c1d64b0ed384d99e1",
+      "category": "ai",
+      "publishedAt": "2026-11-16T21:27:07.000Z",
+      "dateET": "2026-11-16",
+      "source": "The Information",
+      "title": "Bill Gates Backs Push to Advance Alzheimer’s Research With AI",
+      "titleZh": "比尔·盖茨支持利用人工智能推进阿尔茨海默病研究",
+      "url": "https://www.theinformation.com/briefings/bill-gates-backs-push-advance-alzheimers-research-ai",
+      "score": 52,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "c37ec754efc82c4914ae",
+      "category": "space",
+      "publishedAt": "2026-11-16T21:26:29.000Z",
+      "dateET": "2026-11-16",
+      "source": "Space.com",
+      "title": "Relive Starship’s historic Flight 15 with our best photos from launch and ‘Mechazilla’ tower catch",
+      "titleZh": "通过我们拍摄的发射和“Mechazilla”塔架回收的最佳照片，重温星舰的历史性第15次飞行。",
+      "url": "https://www.space.com/space-exploration/launches-spacecraft/relive-starships-historic-flight-15-with-our-best-photos-from-launch-and-mechazilla-tower-catch",
+      "score": 53,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "8d3b0f031ed8f97e880e",
+      "category": "space",
+      "publishedAt": "2026-11-16T20:04:22.000Z",
+      "dateET": "2026-11-16",
+      "source": "Space.com",
+      "title": "Elon Musk says SpaceX’s Starship, already the largest rocket on Earth, will get even bigger with next-gen V4 model",
+      "titleZh": "埃隆·马斯克表示，SpaceX的星际飞船已经是地球上最大的火箭，而下一代V4型号将变得更大。",
+      "url": "https://www.space.com/space-exploration/launches-spacecraft/elon-musk-says-spacexs-starship-already-the-largest-rocket-on-earth-will-get-even-bigger-with-next-gen-v4-model",
+      "score": 55,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "b43bbf9a0b42dc498cac",
+      "category": "ai",
+      "publishedAt": "2026-11-16T19:25:24.000Z",
+      "dateET": "2026-11-16",
+      "source": "The Information",
+      "title": "California Sues OpenAI Over Hugging Face Attack, Other Cybersecurity Incidents",
+      "titleZh": "加州就Hugging Face攻击事件及其他网络安全事件起诉OpenAI",
+      "url": "https://www.theinformation.com/briefings/california-sues-openai-hugging-face-attack-cybersecurity-incidents",
+      "score": 50,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "c3ae10f088fde1b74694",
+      "category": "ai",
+      "publishedAt": "2026-11-16T19:10:57.000Z",
+      "dateET": "2026-11-16",
+      "source": "The Information",
+      "title": "PwC on where AI can help drive revenue",
+      "titleZh": "普华永道：人工智能可以在哪些方面帮助推动收入增长",
+      "url": "https://www.theinformation.com/articles/pwc-ai-can-help-drive-revenue",
+      "score": 50,
+      "translationStatus": "complete"
+    },
     {
       "id": "cd3e4815fc93fda435b3",
       "category": "space",
