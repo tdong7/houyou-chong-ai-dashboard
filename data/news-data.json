@@ -1,7 +1,91 @@
 {
-  "updatedAt": "2026-11-16T23:35:09.261Z",
+  "updatedAt": "2026-11-17T22:43:17.115Z",
   "timezone": "America/New_York",
   "stories": [
+    {
+      "id": "eaee9c9910dcdaa89457",
+      "category": "ai",
+      "publishedAt": "2026-11-17T21:36:36.000Z",
+      "dateET": "2026-11-17",
+      "source": "The Information",
+      "title": "Salesforce Memo Details Caps on Employees’ AI Spending",
+      "titleZh": "Salesforce备忘录详细说明了员工AI支出的上限",
+      "url": "https://www.theinformation.com/briefings/salesforce-memo-details-caps-employees-ai-spending",
+      "score": 53,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "80da33a4eb9467ecd963",
+      "category": "ai",
+      "publishedAt": "2026-11-17T21:32:45.000Z",
+      "dateET": "2026-11-17",
+      "source": "The Information",
+      "title": "How JPMorgan, Citi Missed Megaspeed Risks in a $2.8 Billion Data Center Loan",
+      "titleZh": "摩根大通、花旗银行如何在28亿美元的数据中心贷款中忽视了Megaspeed的风险",
+      "url": "https://www.theinformation.com/articles/jpmorgan-citi-missed-megaspeed-risks-2-8-billion-data-center-loan",
+      "score": 53,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "c87a6dd816f9a620a96f",
+      "category": "ai",
+      "publishedAt": "2026-11-17T21:01:11.000Z",
+      "dateET": "2026-11-17",
+      "source": "The Information",
+      "title": "Anthropic’s VC Investors Hit 10X Returns in IPO",
+      "titleZh": "Anthropic的风险投资人通过IPO获得10倍回报",
+      "url": "https://www.theinformation.com/articles/anthropics-vc-investors-hit-10x-returns-ipo",
+      "score": 52,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "46e9eaf61b1084316f05",
+      "category": "ai",
+      "publishedAt": "2026-11-17T20:49:14.000Z",
+      "dateET": "2026-11-17",
+      "source": "The Information",
+      "title": "How Google’s New AI Chip Software Helps It Battle Nvidia",
+      "titleZh": "谷歌的新款AI芯片软件如何帮助其与英伟达竞争",
+      "url": "https://www.theinformation.com/articles/googles-new-ai-chip-software-helps-battle-nvidia",
+      "score": 56,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "37010451ce93cd610c9d",
+      "category": "ai",
+      "publishedAt": "2026-11-17T19:55:09.000Z",
+      "dateET": "2026-11-17",
+      "source": "The Information",
+      "title": "OpenAI Director Says ‘Reasonable’ Chance of an AI Disaster Within a Year",
+      "titleZh": "OpenAI董事表示，人工智能灾难在一年内发生的可能性“相当大”",
+      "url": "https://www.theinformation.com/briefings/openai-director-says-reasonable-chance-ai-disaster-within-year",
+      "score": 55,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "7da6dee982680229c742",
+      "category": "space",
+      "publishedAt": "2026-11-17T18:48:18.000Z",
+      "dateET": "2026-11-17",
+      "source": "Space.com",
+      "title": "ULA lost a Vulcan Centaur rocket carrying 40 Amazon satellites 10 minutes after launch — but the failure began just after liftoff",
+      "titleZh": "ULA的一枚搭载40颗亚马逊卫星的Vulcan Centaur火箭在发射10分钟后失事——但故障始于升空后不久。",
+      "url": "https://www.space.com/space-exploration/launches-spacecraft/ula-lost-a-vulcan-centaur-rocket-carrying-40-amazon-satellites-10-minutes-after-launch-but-the-failure-began-just-after-liftoff",
+      "score": 51,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "98c6eaf81ded962391ad",
+      "category": "space",
+      "publishedAt": "2026-11-17T18:19:03.000Z",
+      "dateET": "2026-11-17",
+      "source": "Space.com",
+      "title": "On this day in space! Nov. 17, 1967: NASA's Surveyor 6 moon probe makes 1st-ever successful launch and hop from the lunar surface",
+      "titleZh": "太空中的历史这一天！1967年11月17日：美国宇航局的“测量员6号”月球探测器首次成功发射并从月球表面起跳",
+      "url": "https://www.space.com/space-exploration/on-this-day-in-space-november-17-2026",
+      "score": 59,
+      "translationStatus": "complete"
+    },
     {
       "id": "ef1595f8594818b8ee28",
       "category": "ai",
