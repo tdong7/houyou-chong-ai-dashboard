@@ -1,7 +1,91 @@
 {
-  "updatedAt": "2026-11-17T22:43:17.115Z",
+  "updatedAt": "2026-11-18T22:25:05.266Z",
   "timezone": "America/New_York",
   "stories": [
+    {
+      "id": "020e0225ef6a7aef25e3",
+      "category": "ai",
+      "publishedAt": "2026-11-18T22:05:31.000Z",
+      "dateET": "2026-11-18",
+      "source": "The Information",
+      "title": "OpenAI Says Its Models Accelerated Chip Design For AMD, Jalapeño",
+      "titleZh": "OpenAI表示，其模型加速了AMD的芯片设计——Jalapeño",
+      "url": "https://www.theinformation.com/briefings/openai-says-models-accelerated-chip-design-amd-jalapeno",
+      "score": 58,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "a1778b259bfc544bdbb5",
+      "category": "ai",
+      "publishedAt": "2026-11-18T21:51:21.000Z",
+      "dateET": "2026-11-18",
+      "source": "The Information",
+      "title": "Anthropic Prices IPO at $83 a Share",
+      "titleZh": "Anthropic的IPO定价为每股83美元",
+      "url": "https://www.theinformation.com/briefings/anthropic-prices-ipo-83-share",
+      "score": 53,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "2fa9004d5ed4af3f3d4b",
+      "category": "ai",
+      "publishedAt": "2026-11-18T21:25:07.000Z",
+      "dateET": "2026-11-18",
+      "source": "The Information",
+      "title": "Palo Alto Networks to Acquire AI Firm Applied Compute for $4.5 Billion",
+      "titleZh": "Palo Alto Networks将以45亿美元收购人工智能公司Applied Compute",
+      "url": "https://www.theinformation.com/briefings/palo-alto-networks-acquire-ai-firm-applied-compute-4-5-billion",
+      "score": 53,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "92601675a834b5a196eb",
+      "category": "space",
+      "publishedAt": "2026-11-18T21:10:52.000Z",
+      "dateET": "2026-11-18",
+      "source": "Space.com",
+      "title": "On this day in space! Nov. 18, 2013: NASA launches MAVEN spacecraft to Mars to find out how the Red Planet lost its water",
+      "titleZh": "太空中的历史这一天！2013年11月18日：美国宇航局向火星发射MAVEN（火星大气与挥发演化）探测器，以探究这颗红色星球是如何失去水的。",
+      "url": "https://www.space.com/space-exploration/on-this-day-in-space-november-18-2026",
+      "score": 58,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "0cfd6e2dd238985cfd26",
+      "category": "space",
+      "publishedAt": "2026-11-18T17:00:00.000Z",
+      "dateET": "2026-11-18",
+      "source": "Space.com",
+      "title": "'A shotgun marriage': Why are NASA's SkyFall Mars helicopters riding on a nuclear rocket?",
+      "titleZh": "“奉子成婚”：为什么NASA的SkyFall火星直升机要搭乘核动力火箭？",
+      "url": "https://www.space.com/astronomy/mars/a-shotgun-marriage-why-are-nasas-skyfall-mars-helicopters-riding-on-a-nuclear-rocket",
+      "score": 54,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "c5999914a0d2c441c5c4",
+      "category": "ai",
+      "publishedAt": "2026-11-18T15:12:47.000Z",
+      "dateET": "2026-11-18",
+      "source": "The Information",
+      "title": "U.S. Banks Seek Loan Protections Against Chip Smuggling with Southeast Asian Data Center Operator",
+      "titleZh": "美国银行寻求针对东南亚数据中心运营商芯片走私的贷款保护",
+      "url": "https://www.theinformation.com/briefings/u-s-banks-seek-loan-protections-chip-smuggling-southeast-asian-data-center-operator",
+      "score": 51,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "4a09c8a683bf294fe399",
+      "category": "ai",
+      "publishedAt": "2026-11-18T15:01:15.000Z",
+      "dateET": "2026-11-18",
+      "source": "The Information",
+      "title": "Why Anthropic’s IPO Is Making Philanthropist Craig Newmark Hold Back on AI Safety Donations",
+      "titleZh": "为什么Anthropic的IPO让慈善家克雷格·纽马克（Craig Newmark）对人工智能安全捐款持观望态度？",
+      "url": "https://www.theinformation.com/articles/anthropics-ipo-making-philanthropist-craig-newmark-hold-back-ai-safety-donations",
+      "score": 51,
+      "translationStatus": "complete"
+    },
     {
       "id": "eaee9c9910dcdaa89457",
       "category": "ai",
