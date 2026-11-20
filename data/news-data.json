@@ -1,7 +1,79 @@
 {
-  "updatedAt": "2026-11-19T22:30:09.435Z",
+  "updatedAt": "2026-11-20T22:02:58.769Z",
   "timezone": "America/New_York",
   "stories": [
+    {
+      "id": "fec04edb5e00472cb903",
+      "category": "space",
+      "publishedAt": "2026-11-20T21:19:33.000Z",
+      "dateET": "2026-11-20",
+      "source": "Space.com",
+      "title": "On this day in space! Nov. 20, 1998: Russia launches 1st module of International Space Station as construction begins on the largest human-built structure in orbit",
+      "titleZh": "太空中的这一天！1998年11月20日：俄罗斯发射了国际空间站的第一个舱段，标志着人类在轨道上建造的最大型人造结构的施工正式开始。",
+      "url": "https://www.space.com/space-exploration/on-this-day-in-space-november-20-2026",
+      "score": 54,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "ddd905dfc5fa6b455a90",
+      "category": "ai",
+      "publishedAt": "2026-11-20T20:54:26.000Z",
+      "dateET": "2026-11-20",
+      "source": "The Information",
+      "title": "Anthropic Shares Slide After Banks Exercise ‘Greenshoe’",
+      "titleZh": "银行行使“绿鞋机制”后，Anthropic股价下跌",
+      "url": "https://www.theinformation.com/briefings/anthropic-shares-slide-banks-exercise-greenshoe",
+      "score": 53,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "7b8dfa80747e2b32c02b",
+      "category": "space",
+      "publishedAt": "2026-11-20T19:50:15.000Z",
+      "dateET": "2026-11-20",
+      "source": "Space.com",
+      "title": "Trouble at Mars: NASA's Perseverance rover, Odyssey orbiter halt science work due to glitches",
+      "titleZh": "火星上的麻烦：美国宇航局的“毅力”号火星车和“奥德赛”号轨道飞行器因故障而暂停科学工作",
+      "url": "https://www.space.com/astronomy/mars/trouble-at-mars-nasas-perseverance-rover-odyssey-orbiter-halt-science-work-due-to-glitches",
+      "score": 53,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "40706320bdb3fc664f17",
+      "category": "ai",
+      "publishedAt": "2026-11-20T18:00:44.000Z",
+      "dateET": "2026-11-20",
+      "source": "The Information",
+      "title": "AIs Can Now Outperform Humans at Week-Length Tasks, AI Nonprofit Finds",
+      "titleZh": "人工智能非营利组织发现，人工智能现在可以在一周的任务中超越人类",
+      "url": "https://www.theinformation.com/briefings/ais-can-now-outperform-humans-week-length-tasks-ai-nonprofit-finds",
+      "score": 50,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "d90f7ad4c1e92c6bbb8d",
+      "category": "ai",
+      "publishedAt": "2026-11-20T14:18:33.000Z",
+      "dateET": "2026-11-20",
+      "source": "The Information",
+      "title": "How Anthropic Upstaged OpenAI on Road to Blockbuster IPO",
+      "titleZh": "Anthropic如何在通往轰动性IPO的道路上抢了OpenAI的风头",
+      "url": "https://www.theinformation.com/articles/anthropic-upstaged-openai-road-blockbuster-ipo",
+      "score": 50,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "5c9bb5652c6421f5aa05",
+      "category": "ai",
+      "publishedAt": "2026-11-20T10:00:00.000Z",
+      "dateET": "2026-11-20",
+      "source": "OpenAI News",
+      "title": "Combatting adversarial distillation",
+      "titleZh": "对抗对抗性蒸馏",
+      "url": "https://openai.com/index/combatting-adversarial-distillation",
+      "score": 36,
+      "translationStatus": "complete"
+    },
     {
       "id": "4705d762a125e944b519",
       "category": "space",
