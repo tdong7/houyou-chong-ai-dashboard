@@ -1,7 +1,43 @@
 {
-  "updatedAt": "2026-11-20T22:02:58.769Z",
+  "updatedAt": "2026-11-21T20:42:17.187Z",
   "timezone": "America/New_York",
   "stories": [
+    {
+      "id": "e3f177dc27b14c2a8983",
+      "category": "space",
+      "publishedAt": "2026-11-21T16:20:37.000Z",
+      "dateET": "2026-11-21",
+      "source": "Space.com",
+      "title": "On this day in space! Nov. 21, 1676: Danish astronomer discovers speed of light — by accident — while observing Jupiter's moon Io",
+      "titleZh": "太空中的今天！1676年11月21日：丹麦天文学家在观察木星的卫星木卫一时，意外发现了光速。",
+      "url": "https://www.space.com/space-exploration/on-this-day-in-space-november-21-2026",
+      "score": 51,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "f85a8a0a4f76cdc4d578",
+      "category": "ai",
+      "publishedAt": "2026-11-21T16:09:18.000Z",
+      "dateET": "2026-11-21",
+      "source": "The Information",
+      "title": "Oracle Says It Has Completed Funding to Fulfil OpenAI Deal",
+      "titleZh": "甲骨文表示已完成融资，以履行与OpenAI的交易",
+      "url": "https://www.theinformation.com/briefings/oracle-says-completed-funding-fulfil-openai-deal",
+      "score": 49,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "69843bb95ffb4370e80f",
+      "category": "space",
+      "publishedAt": "2026-11-21T13:00:00.000Z",
+      "dateET": "2026-11-21",
+      "source": "Space.com",
+      "title": "SpaceX will retire 1st Starship upper stage ever caught by 'chopsticks,' Elon Musk says",
+      "titleZh": "埃隆·马斯克表示，SpaceX将退役首个被“筷子”捕捉到的星际飞船二级火箭",
+      "url": "https://www.space.com/space-exploration/launches-spacecraft/spacex-will-retire-1st-starship-upper-stage-ever-caught-by-chopsticks-elon-musk-says",
+      "score": 47,
+      "translationStatus": "complete"
+    },
     {
       "id": "fec04edb5e00472cb903",
       "category": "space",
