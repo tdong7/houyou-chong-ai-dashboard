@@ -1,7 +1,43 @@
 {
-  "updatedAt": "2026-11-21T20:42:17.187Z",
+  "updatedAt": "2026-11-22T20:52:40.387Z",
   "timezone": "America/New_York",
   "stories": [
+    {
+      "id": "fb06fd74e1d9bdb9d60b",
+      "category": "ai",
+      "publishedAt": "2026-11-22T18:18:39.000Z",
+      "dateET": "2026-11-22",
+      "source": "The Information",
+      "title": "How Amazon Plays the Long, Expensive Data Center Game That Neoclouds Can’t",
+      "titleZh": "亚马逊如何玩转新云无法企及的长期高成本数据中心游戏",
+      "url": "https://www.theinformation.com/articles/amazon-plays-long-expensive-data-center-game-neoclouds",
+      "score": 51,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "18b2878be737412bcf86",
+      "category": "space",
+      "publishedAt": "2026-11-22T16:05:33.000Z",
+      "dateET": "2026-11-22",
+      "source": "Space.com",
+      "title": "SpaceX sends classified US spy satellites to orbit in early-morning launch from California coast (video)",
+      "titleZh": "SpaceX在清晨从加利福尼亚州海岸发射，将美国机密间谍卫星送入轨道（视频）",
+      "url": "https://www.space.com/space-exploration/launches-spacecraft/spacex-spy-satellite-launch-nrol-136-proliferated-architecture",
+      "score": 54,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "702d252f5f9a0abc06aa",
+      "category": "space",
+      "publishedAt": "2026-11-22T14:18:35.000Z",
+      "dateET": "2026-11-22",
+      "source": "Space.com",
+      "title": "On this day in space! Nov.22, 1989: NASA launches space shuttle Discovery on classified STS-33 mission for the US military",
+      "titleZh": "太空中的这一天！1989年11月22日：美国宇航局为美国军方发射了执行机密STS-33任务的“发现号”航天飞机",
+      "url": "https://www.space.com/on-this-day-in-space-november-22-2026",
+      "score": 48,
+      "translationStatus": "complete"
+    },
     {
       "id": "e3f177dc27b14c2a8983",
       "category": "space",
