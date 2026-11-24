@@ -1,7 +1,91 @@
 {
-  "updatedAt": "2026-11-22T20:52:40.387Z",
+  "updatedAt": "2026-11-24T01:57:07.536Z",
   "timezone": "America/New_York",
   "stories": [
+    {
+      "id": "1dec0207b1ec61c7f02a",
+      "category": "ai",
+      "publishedAt": "2026-11-23T23:55:26.000Z",
+      "dateET": "2026-11-23",
+      "source": "The Information",
+      "title": "AI Is ‘Probably Not’ Conscious but Could Be Soon, Says Philosopher Rob Long",
+      "titleZh": "哲学家罗伯·朗（Rob Long）表示，人工智能“可能没有”意识，但很快就可能会有",
+      "url": "https://www.theinformation.com/articles/ai-probably-not-conscious-soon-says-philosopher-rob-long",
+      "score": 52,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "a8f52adf0d8015c0c0d3",
+      "category": "space",
+      "publishedAt": "2026-11-23T22:00:00.000Z",
+      "dateET": "2026-11-23",
+      "source": "Space.com",
+      "title": "Will astronauts farm on the moon? Scientists successfully grow potatoes in simulated lunar dust",
+      "titleZh": "宇航员会在月球上耕种吗？科学家在模拟月球尘埃中成功种植马铃薯",
+      "url": "https://www.space.com/astronomy/moon/will-astronauts-farm-on-the-moon-scientists-successfully-grow-potatoes-in-simulated-lunar-dust",
+      "score": 47,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "01f047cd44dddcf30259",
+      "category": "ai",
+      "publishedAt": "2026-11-23T21:20:00.000Z",
+      "dateET": "2026-11-23",
+      "source": "OpenAI News",
+      "title": "OpenAI and Cisco introduce Shirudo",
+      "titleZh": "OpenAI 和思科推出 Shirudo",
+      "url": "https://openai.com/index/introducing-shirudo",
+      "score": 47,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "0deffb0c03f8073cbf4a",
+      "category": "ai",
+      "publishedAt": "2026-11-23T20:09:44.000Z",
+      "dateET": "2026-11-23",
+      "source": "The Information",
+      "title": "AI’s Power Crunch Is Reviving a Long-Stalled Energy Source",
+      "titleZh": "人工智能的电力危机正在使一种长期停滞的能源重获新生",
+      "url": "https://www.theinformation.com/articles/ais-power-crunch-reviving-long-stalled-energy-source",
+      "score": 48,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "d036493bc53f2252d0b6",
+      "category": "space",
+      "publishedAt": "2026-11-23T18:10:48.000Z",
+      "dateET": "2026-11-23",
+      "source": "Space.com",
+      "title": "On this day in space! Nov. 23, 2015: Blue Origin sticks 1st-ever rocket landing from space with its suborbital New Shepard rocket",
+      "titleZh": "太空历史上的今天！2015年11月23日：蓝色起源公司使用其亚轨道新谢泼德火箭实现了有史以来首次从太空返回的火箭着陆",
+      "url": "https://www.space.com/space-exploration/on-this-day-in-space-november-23-2026",
+      "score": 47,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "e44cd45dd313c272fec1",
+      "category": "ai",
+      "publishedAt": "2026-11-23T16:11:22.000Z",
+      "dateET": "2026-11-23",
+      "source": "The Information",
+      "title": "Amazon Acquires Chip Software Business from AI Startup Decart",
+      "titleZh": "亚马逊从人工智能初创公司Decart收购芯片软件业务",
+      "url": "https://www.theinformation.com/briefings/amazon-acquires-chip-software-business-ai-startup-decart",
+      "score": 48,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "77f51c660a8abec04c65",
+      "category": "ai",
+      "publishedAt": "2026-11-23T15:01:01.000Z",
+      "dateET": "2026-11-23",
+      "source": "The Information",
+      "title": "Why Anthropic’s Math Breakthrough Matters; Why Palo Alto Networks Bought Applied Compute",
+      "titleZh": "为什么Anthropic的数学突破至关重要；为什么Palo Alto Networks收购了Applied Compute",
+      "url": "https://www.theinformation.com/articles/anthropics-math-breakthrough-matters-palo-alto-networks-bought-applied-compute",
+      "score": 43,
+      "translationStatus": "complete"
+    },
     {
       "id": "fb06fd74e1d9bdb9d60b",
       "category": "ai",
