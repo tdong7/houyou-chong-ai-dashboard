@@ -1,7 +1,91 @@
 {
-  "updatedAt": "2026-11-24T01:57:07.536Z",
+  "updatedAt": "2026-11-24T23:41:08.443Z",
   "timezone": "America/New_York",
   "stories": [
+    {
+      "id": "0cd0b4e40ddd48758d10",
+      "category": "space",
+      "publishedAt": "2026-11-24T22:37:19.000Z",
+      "dateET": "2026-11-24",
+      "source": "Space.com",
+      "title": "SpaceX launches secretive spy satellites from California for US Space Force (video)",
+      "titleZh": "SpaceX从加利福尼亚州为美国太空军发射秘密间谍卫星（视频）",
+      "url": "https://www.space.com/space-exploration/launches-spacecraft/spacex-launches-secretive-spy-satellites-from-california-for-us-space-force-video",
+      "score": 54,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "ab2b57116a58b9eef001",
+      "category": "space",
+      "publishedAt": "2026-11-24T21:47:34.000Z",
+      "dateET": "2026-11-24",
+      "source": "Space.com",
+      "title": "On this day in space! Nov. 24, 1947: The US Navy launches the 1st Aerobee sounding rocket, but it didn't reach space",
+      "titleZh": "太空中的历史上的今天！1947 年 11 月 24 日：美国海军发射了第一枚 Aerobee 探空火箭，但它没有进入太空",
+      "url": "https://www.space.com/space-exploration/on-this-day-in-space-november-24-2026",
+      "score": 53,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "e032f772fb7f82c14da7",
+      "category": "ai",
+      "publishedAt": "2026-11-24T21:26:01.000Z",
+      "dateET": "2026-11-24",
+      "source": "The Information",
+      "title": "OpenAI Preps ‘Athena’ Data Tool to Make its Agents More Accurate",
+      "titleZh": "OpenAI 正在准备“Athena”数据工具，以提高其代理的准确性",
+      "url": "https://www.theinformation.com/articles/openai-preps-athena-data-tool-make-agents-accurate",
+      "score": 52,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "a144c4c9c2ca9f8b6114",
+      "category": "ai",
+      "publishedAt": "2026-11-24T15:30:47.000Z",
+      "dateET": "2026-11-24",
+      "source": "The Information",
+      "title": "Anthropic Falls Below IPO Price Amid Broader Tech Slump",
+      "titleZh": "在科技股普遍低迷的背景下，Anthropic股价跌破IPO发行价",
+      "url": "https://www.theinformation.com/briefings/anthropic-falls-ipo-price-amid-broader-tech-slump",
+      "score": 46,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "a07b2a4cdcd41851c52f",
+      "category": "ai",
+      "publishedAt": "2026-11-24T15:01:30.000Z",
+      "dateET": "2026-11-24",
+      "source": "The Information",
+      "title": "OpenAI’s Roadmap To Making Cyber Bigger Than Coding Remains Blurry",
+      "titleZh": "OpenAI 让网络比编程更重要的路线图仍不清晰",
+      "url": "https://www.theinformation.com/articles/openais-roadmap-making-cyber-bigger-coding-remains-blurry",
+      "score": 45,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "6ffacafda9ca54b501fc",
+      "category": "ai",
+      "publishedAt": "2026-11-24T13:00:00.000Z",
+      "dateET": "2026-11-24",
+      "source": "OpenAI News",
+      "title": "GPT-6 models demonstrate intrinsic protein-design capabilities",
+      "titleZh": "GPT-6模型展现出内在的蛋白质设计能力",
+      "url": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities",
+      "score": 37,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "246392c350b5b4ceea6d",
+      "category": "ai",
+      "publishedAt": "2026-11-24T11:00:00.000Z",
+      "dateET": "2026-11-24",
+      "source": "OpenAI News",
+      "title": "Searching for distant planets with Astra",
+      "titleZh": "使用 Astra 搜索遥远的行星",
+      "url": "https://openai.com/index/searching-for-distant-planets-with-astra",
+      "score": 35,
+      "translationStatus": "complete"
+    },
     {
       "id": "1dec0207b1ec61c7f02a",
       "category": "ai",
