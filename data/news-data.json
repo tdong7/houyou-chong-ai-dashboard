@@ -1,7 +1,55 @@
 {
-  "updatedAt": "2026-11-24T23:41:08.443Z",
+  "updatedAt": "2026-11-25T23:24:46.623Z",
   "timezone": "America/New_York",
   "stories": [
+    {
+      "id": "338c02c46a9dafe8d691",
+      "category": "space",
+      "publishedAt": "2026-11-25T21:22:27.000Z",
+      "dateET": "2026-11-25",
+      "source": "Space.com",
+      "title": "On this day in space! Nov. 25, 1970: NASA's 'wingless' M2-F3 'lifting body' aircraft makes its 1st powered flight ahead of supersonic tests",
+      "titleZh": "太空中的历史这一天！1970年11月25日：NASA的“无翼”M2-F3“升力体”飞行器在超音速试验前进行了首次动力飞行",
+      "url": "https://www.space.com/space-exploration/on-this-day-in-space-november-25-2026",
+      "score": 53,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "e3f6eb323dbed231d2a3",
+      "category": "space",
+      "publishedAt": "2026-11-25T19:00:00.000Z",
+      "dateET": "2026-11-25",
+      "source": "Space.com",
+      "title": "SpaceX Starship debris becomes art in Ashley Zelinskie's 'The Weight of Space' (video, photos)",
+      "titleZh": "SpaceX星际飞船的碎片在阿什莉·泽林斯基的《太空的重量》中化为艺术（视频、照片）",
+      "url": "https://www.space.com/entertainment/spacex-starship-debris-becomes-art-in-ashley-zelinskies-the-weight-of-space-video-photos",
+      "score": 55,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "27423c7706a003927ea6",
+      "category": "ai",
+      "publishedAt": "2026-11-25T15:00:51.000Z",
+      "dateET": "2026-11-25",
+      "source": "The Information",
+      "title": "AI Safety Advocates Sour on Anthropic",
+      "titleZh": "人工智能安全倡导者对Anthropic感到失望",
+      "url": "https://www.theinformation.com/articles/ai-safety-advocates-sour-anthropic",
+      "score": 50,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "6c0db688e500922d5e02",
+      "category": "ai",
+      "publishedAt": "2026-11-25T14:00:49.000Z",
+      "dateET": "2026-11-25",
+      "source": "The Information",
+      "title": "Chinese AI Firms Confront Dire Future as U.S. Tightens Access to Chips and Tokens",
+      "titleZh": "随着美国收紧芯片和代币的供应，中国人工智能公司面临严峻的未来",
+      "url": "https://www.theinformation.com/articles/chinese-ai-firms-confront-dire-future-u-s-tightens-access-chips-tokens",
+      "score": 45,
+      "translationStatus": "complete"
+    },
     {
       "id": "0cd0b4e40ddd48758d10",
       "category": "space",
