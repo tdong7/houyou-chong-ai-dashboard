@@ -1,7 +1,55 @@
 {
-  "updatedAt": "2026-11-25T23:24:46.623Z",
+  "updatedAt": "2026-11-26T23:24:30.606Z",
   "timezone": "America/New_York",
   "stories": [
+    {
+      "id": "6370b81c3cca04cbd16f",
+      "category": "space",
+      "publishedAt": "2026-11-26T16:55:48.000Z",
+      "dateET": "2026-11-26",
+      "source": "Space.com",
+      "title": "On this day in space! Nov. 26, 2011: NASA's 2-ton nuclear-powered Curiosity rover launches to Mars",
+      "titleZh": "太空中的历史这一天！2011年11月26日：美国宇航局的2吨重核动力“好奇”号火星车发射升空，奔赴火星",
+      "url": "https://www.space.com/space-exploration/on-this-day-in-space-november-26-2026",
+      "score": 53,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "5fd5092175a648a6cc49",
+      "category": "space",
+      "publishedAt": "2026-11-26T16:00:00.000Z",
+      "dateET": "2026-11-26",
+      "source": "Space.com",
+      "title": "Rocket Lab sending Japanese satellite to orbit on Thanksgiving Day launch: Watch it live",
+      "titleZh": "Rocket Lab将在感恩节发射日本卫星送入轨道：观看直播",
+      "url": "https://www.space.com/space-exploration/launches-spacecraft/rocket-lab-sending-japanese-satellite-to-orbit-on-thanksgiving-day-launch-watch-it-live",
+      "score": 56,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "a95b1d07962a0c8b9729",
+      "category": "neuroscience",
+      "publishedAt": "2026-11-26T08:00:00.000Z",
+      "dateET": "2026-11-26",
+      "source": "Science",
+      "title": "Priming of AGO2 by type I interferons balances inflammation and antiviral immunity",
+      "titleZh": "I型干扰素对AGO2的启动平衡了炎症和抗病毒免疫",
+      "url": "https://www.science.org/doi/abs/10.1126/science.adx9551?af=R",
+      "score": 33,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "abef15467418dd983c25",
+      "category": "neuroscience",
+      "publishedAt": "2026-11-26T07:00:01.000Z",
+      "dateET": "2026-11-26",
+      "source": "Science",
+      "title": "Fruit fly brain map gets a body",
+      "titleZh": "果蝇大脑图谱有了躯体",
+      "url": "https://www.science.org/doi/abs/10.1126/science.aeo3730?af=R",
+      "score": 36,
+      "translationStatus": "complete"
+    },
     {
       "id": "338c02c46a9dafe8d691",
       "category": "space",
