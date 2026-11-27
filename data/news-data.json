@@ -1,7 +1,55 @@
 {
-  "updatedAt": "2026-11-26T23:24:30.606Z",
+  "updatedAt": "2026-11-27T23:04:27.962Z",
   "timezone": "America/New_York",
   "stories": [
+    {
+      "id": "eb549b3865d181fe14b4",
+      "category": "space",
+      "publishedAt": "2026-11-27T20:29:57.000Z",
+      "dateET": "2026-11-27",
+      "source": "Space.com",
+      "title": "Love Star Wars, Andy Weir or Ryan Gosling? These Lego Star Wars and Project Hail Mary sets are my favorites",
+      "titleZh": "喜欢《星球大战》、安迪·威尔还是瑞恩·高斯林？这些乐高星球大战和《圣母颂计划》套装是我最喜欢的",
+      "url": "https://www.space.com/entertainment/space-toys-lego/love-star-wars-andy-weir-or-ryan-gosling-these-lego-star-wars-and-project-hail-mary-sets-are-my-favorites",
+      "score": 44,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "37b93e9078be47787c71",
+      "category": "ai",
+      "publishedAt": "2026-11-27T19:06:04.000Z",
+      "dateET": "2026-11-27",
+      "source": "The Information",
+      "title": "OpenAI Countersues Apple In Trade Secrets Battle",
+      "titleZh": "OpenAI 在商业秘密之争中对苹果公司提起反诉",
+      "url": "https://www.theinformation.com/briefings/openai-countersues-apple-trade-secrets-battle",
+      "score": 50,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "952eb0e87c97719b557d",
+      "category": "space",
+      "publishedAt": "2026-11-27T19:00:00.000Z",
+      "dateET": "2026-11-27",
+      "source": "Space.com",
+      "title": "Dropping missiles from orbit? 2 European companies sign agreement to study the idea",
+      "titleZh": "从轨道上投射导弹？两家欧洲公司签署协议，研究这一构想",
+      "url": "https://www.space.com/technology/dropping-missiles-from-orbit-2-european-companies-sign-agreement-to-study-the-idea",
+      "score": 47,
+      "translationStatus": "complete"
+    },
+    {
+      "id": "30b545b1559df1ab0ebd",
+      "category": "ai",
+      "publishedAt": "2026-11-27T10:23:12.000Z",
+      "dateET": "2026-11-27",
+      "source": "The Information",
+      "title": "Singapore in Talks With U.S. to Keep AI Chip Access",
+      "titleZh": "新加坡正与美国商谈以保持人工智能芯片的供应",
+      "url": "https://www.theinformation.com/briefings/singapore-talks-u-s-keep-ai-chip-access",
+      "score": 45,
+      "translationStatus": "complete"
+    },
     {
       "id": "6370b81c3cca04cbd16f",
       "category": "space",
